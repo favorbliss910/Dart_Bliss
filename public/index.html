@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+    <title>Dart_Bliss</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="img/all.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div id="main">
+
+        <!--Navigation-->
+            <div class="nav_box">
+                <div class="logo">
+                    <img src="img/logo.png" alt="eniola">
+                    <h3><span>Da</span>rt</h3>
+                </div>
+
+                <input type="checkbox" id="check">
+
+                <label for="check">
+                    <div class="nav_btn">
+                        <div class="btn_line"></div>
+                        <div class="btn_line"></div>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://favorbliss910.github.io/Pixabliss">Pixabliss</a></li>
+                    <li><a href="http://favorbliss910.github.io/ennysmile">Enny Smiles</a></li>
+                    <li><a href="http://favorbliss910.github.io/bliss">Bliss Foods</a></li>
+                </ul>
+            </div>
+        <!-x-Navigation-->
+
+        <!--Showcase-->
+        <div class="showcase">
+            <div class="showcase_box">
+                <div class="show_img">
+                    <img src="img/one.png" alt="showcase Img">
+                </div>
+
+                <div class="show_text">
+                    <h1>Welcome to <span>Dart</span>..</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quos fugit qui doloremque nostrum optio molestiae ab commodi, dignissimos tempore!</p>
+                    <p><span>Your awesome Messaging Engine.</span></p>
+                </div>
+
+                <div class="show_form">
+                    <form action="">
+                        <h1><span>Join Us Now</span></h1>
+                        <h3>Sign <span>|</span> Log in</h3>
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Email">
+                        <button type="submit">Send</button>
+
+                        <div class="form_auth">
+                            <a href="https://web.facebook.com/eniola.johnson.376">
+                                <div class="auth_box">
+                                <i class="fab fa-facebook"></i>
+                                </div>
+                            </a>
+
+                            <a href="https://wa.me/message/4VNSABGIMTVN1">
+                                <div class="auth_box">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                            </a>
+
+                            <a href="https://www.instagram.com/eniola.favor">
+                            <div class="auth_box">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-x-Showcase-->
+
+        <p class="h1">Write your <span>Message</span> Below</p>
+        <!--Chat-->
+        <div class="lets_chat">
+            <div class="mario_chat">
+                <div class="chat_window">
+                    <div id="output"></div>
+                    <div id="feedback"></div>
+                </div>
+    
+                <div class="input_window">
+                    <input type="text" id="handle" placeholder="Your name"/>
+                    <textarea id="message" placeholder="message"></textarea>
+                    <button id="btn" type="submit">Send</button>
+                </div>
+            </div>
+
+            <div class="chat_info">
+                <h1>This is <span>Dart</span> Messaging Engine..</h1>
+                <p>Tell any or more of your <span>Friends</span> to Log on to <span>Dart</span> so you can have an amazing chatting time.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet molestiae natus saepe quo. Itaque, quisquam dignissimos nihil ea consectetur illo sequi atque vitae labore!</p>
+                <p>Hint: <span>Just Enter your Handle the you can go ahead with your message.</span></p>
+            </div>
+        </div>
+        <!-x-Chat-->
+
+        <!--Footer-->
+        <div id="footer">
+            <div class="foot_wrap">
+                <div class="footbox">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="eniola">
+                        <h3><span>Da</span>rt</h3>
+                    </div>
+                    <p>Dartink.info</p>
+                    <p>This is a Messaging <span>web app</span></p>
+                </div>
+
+                <div class="footbox">
+                    <p><span>Explore</span></p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="http://favorbliss910.github.io/Pixabliss">Pixabliss</a></li>
+                    <li><a href="http://favorbliss910.github.io/ennysmile">Enny Smiles</a></li>
+                    <li><a href="http://favorbliss910.github.io/bliss">Bliss Foods</a></li>
+                </div>
+
+                <div class="footbox">
+                    <p>Location</p>
+                    <p><span>7, Otigba Street, Computer Village, Ikeja Lagos</span></p>
+                    <p><em>Call Me: 08139601456, 08140724710</em></p>
+                </div>
+            </div>
+            <p><span>This website is Made by Johnson Bliss Eniola</span>
+
+                <div class="form_auth">
+                    <a href="https://web.facebook.com/eniola.johnson.376">
+                        <div class="auth_box">
+                        <i class="fab fa-facebook"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/message/4VNSABGIMTVN1">
+                        <div class="auth_box">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/eniola.favor">
+                    <div class="auth_box">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    </a>
+                </div>
+            </p>
+        </div>
+        <!-x-Footer-->
+    </div>
+</body>
+<script src="chat.js"></script>
+</html>

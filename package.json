@@ -1,0 +1,19 @@
+{
+  "name": "dart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "enny",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "git": "^0.1.5",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
