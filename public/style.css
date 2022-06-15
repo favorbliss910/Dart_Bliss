@@ -61,7 +61,7 @@ img{
     object-fit: cover;
 }
 html{
-    background: url("img/logo.png");
+    background: url("img/back.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
