@@ -72,7 +72,7 @@ def chunk_words(words: list[dict], emphasis: set[str], per_chunk: int) -> list[l
 
 def build_ass(timeline: dict, style: dict | None = None) -> str:
     st = {**STYLE, **(style or {})}
-    W, H = config.WIDTH, config.HEIGHT
+    W, H = 1080, 1920   # layout space; libass scales it to the real video size
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -99,7 +99,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             if ci + 1 < len(chunks):
                 end = chunks[ci + 1][0]["start"]
             else:
-                end = min(ch[-1]["end"] + 0.35, beat["end"] + 0.05)
+                end = min(ch[-1]["end"] + 0.35, beat["end"] - 0.02)
             end = max(end, start + 0.12)
             parts = []
             for w in ch:

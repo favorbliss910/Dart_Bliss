@@ -9,6 +9,7 @@ before generating any art.
 """
 from __future__ import annotations
 
+import math
 import subprocess
 import textwrap
 from pathlib import Path
@@ -119,8 +120,8 @@ def render(timeline: dict, assets: Path, ass_path: Path, audio_path: Path, out_p
         s = max(0.0, b["start"] - t_in / 2)
         e = (beats[i + 1]["start"] + t_out / 2) if i + 1 < len(beats) else total
         clip_spans.append((s, e))
-        L = e - s
-        frames = max(2, round(L * FPS))
+        L = e - s + 0.12          # pad: xfade needs the outgoing clip to outlast the transition;
+        frames = max(2, math.ceil(L * FPS))   # the extra frames are discarded by xfade
         vis = find_visual(assets, i + 1) or placeholder(work / f"placeholder_{i + 1:02d}.png", i + 1, b)
         idx = len(inputs) // 2   # ffmpeg input number (inputs holds "-i", path pairs)
         if vis.suffix.lower() in VID_EXT:

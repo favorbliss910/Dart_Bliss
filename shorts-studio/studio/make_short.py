@@ -134,9 +134,12 @@ def main(argv=None):
     ap.add_argument("--out", help="output folder (default output/<slug>)")
     ap.add_argument("--audio-only", action="store_true")
     ap.add_argument("--preview", action="store_true", help="faster, lower-quality video render")
+    ap.add_argument("--res", type=int, default=1080, choices=(720, 1080, 1440),
+                    help="output width: 720 (720x1280 test), 1080 (1080x1920), 1440 (2K, 1440x2560)")
     ap.add_argument("--seed", type=int, default=None, help="music seed (same seed = same music)")
     a = ap.parse_args(argv)
 
+    config.WIDTH, config.HEIGHT = a.res, a.res * 16 // 9
     spec = json.loads(Path(a.spec).read_text())
     slug = spec.get("slug") or slugify(spec.get("title", Path(a.spec).stem))
     out = Path(a.out) if a.out else config.OUTPUT / slug
