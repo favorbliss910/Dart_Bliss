@@ -1,0 +1,88 @@
+{
+  "title": "The Lighthouse Nobody Lives In",
+  "slug": "lighthouse",
+  "format": "mystery_loop",
+  "voice": "am_michael",
+  "speed": 1.18,
+  "mood": "mystery",
+  "auto_sfx": true,
+  "characters": {
+    "THEO": "stickman fisherman, round white head, dot eyes, short black beanie, bright yellow raincoat, red scarf, thin black limbs"
+  },
+  "beats": [
+    {
+      "vo": "There's a lighthouse on an island where no ship has ever crashed.",
+      "visual": "Lonely white-and-red lighthouse on a tiny rocky island at dusk, stormy teal sea, ships passing safely in the distance, cinematic wide shot",
+      "motion": "push_in", "transition": "cut", "emphasis": ["crashed"]
+    },
+    {
+      "vo": "Not one, in two hundred years.",
+      "visual": "Same lighthouse through the seasons, waves crashing on rocks below while a ship sails by untouched",
+      "motion": "pull_out", "transition": "whip", "overlay": "200 YEARS"
+    },
+    {
+      "vo": "The strange part? Nobody lives there.",
+      "visual": "Close-up of the lighthouse door, faded paint, seagull on the railing, empty windows",
+      "motion": "push_in", "transition": "cut", "emphasis": ["Nobody"], "music": "drop"
+    },
+    {
+      "vo": "No keeper. No power lines. No boat has docked there since 1987.",
+      "visual": "Rotting empty wooden dock on the island, broken rope, a rusty sign reading 1987",
+      "motion": "pan_right", "transition": "whip"
+    },
+    {
+      "vo": "But every night at exactly 8:14, the light turns on.",
+      "visual": "Night. The lighthouse beam suddenly blazes on, cutting across the dark sea, townspeople on the mainland pointing",
+      "motion": "push_in", "transition": "flash",
+      "sfx": [{"name": "impact", "on_word": "light", "gain_db": -10}]
+    },
+    {
+      "vo": "So a fisherman named Theo rows out to see who's doing it.",
+      "visual": "THEO rowing a small red wooden boat toward the glowing lighthouse, determined face, choppy waves",
+      "motion": "pan_left", "transition": "whip",
+      "sfx": [{"name": "splash", "at": 0.3, "gain_db": -20}]
+    },
+    {
+      "vo": "The door is unlocked. He climbs all 312 steps.",
+      "visual": "Looking up a dizzying spiral staircase inside the lighthouse, THEO tiny at the bottom holding a lantern",
+      "motion": "pan_up", "transition": "cut", "overlay": "312 STEPS",
+      "sfx": [{"name": "thud", "on_word": "door"}]
+    },
+    {
+      "vo": "At the top, the lamp is already burning. Still warm.",
+      "visual": "Lamp room at the top: a huge glowing brass lamp and lens, warm golden light, THEO squinting with a hand up",
+      "motion": "push_in", "transition": "zoom", "emphasis": ["warm"], "music": "lift"
+    },
+    {
+      "vo": "And there's one wooden chair, facing the sea.",
+      "visual": "A single old wooden chair in the lamp room, facing the window and the dark ocean, eerie rim light",
+      "motion": "push_in", "transition": "cut", "emphasis": ["chair"], "music": "drop",
+      "sfx": [{"name": "braam", "on_word": "chair", "gain_db": -12}]
+    },
+    {
+      "vo": "Next to it, the floor is covered in tiny scratches. Thousands of them.",
+      "visual": "Top-down close-up of wooden floorboards completely covered in carved tally marks, THEO's boots at the edge",
+      "motion": "pan_down", "transition": "cut", "emphasis": ["Thousands"],
+      "sfx": [{"name": "heartbeat", "at": 0.1, "gain_db": -14}]
+    },
+    {
+      "vo": "Tally marks. One for every night.",
+      "visual": "Extreme close-up of tally marks in groups of five, a few freshly carved with pale wood showing",
+      "motion": "push_in", "transition": "cut", "emphasis": ["Tally"]
+    },
+    {
+      "vo": "And the last one was carved today.",
+      "visual": "THEO kneeling, touching the newest pale tally mark, wide terrified eyes, sweat drop",
+      "motion": "shake", "transition": "cut", "emphasis": ["today"], "music": "drop",
+      "sfx": [{"name": "boom", "on_word": "today", "gain_db": -8}]
+    },
+    {
+      "vo": "Then Theo hears footsteps, coming up the stairs.",
+      "visual": "View from the top of the spiral staircase looking down into darkness, a long shadow climbing, THEO frozen in the foreground",
+      "motion": "pull_out", "transition": "dip",
+      "sfx": [{"name": "thud", "on_word": "footsteps", "offset": 0.35, "gain_db": -10},
+              {"name": "thud", "on_word": "footsteps", "offset": 0.85, "gain_db": -9},
+              {"name": "thud", "on_word": "stairs", "offset": 0.35, "gain_db": -8}]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Shorts Studio - Python 3.10+, plus ffmpeg on PATH (with libass)
+kokoro-onnx>=0.4      # Kokoro TTS (am_michael voice), ONNX runtime, espeak-ng bundled
+soundfile
+numpy
+scipy
+pillow
+faster-whisper        # word timings for captions/SFX (optional: falls back to estimates)
+anthropic             # optional: python -m studio.ideas (Claude API)

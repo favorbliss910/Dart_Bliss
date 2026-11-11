@@ -1,0 +1,9 @@
+models/
+output/
+analysis/
+assets/*/
+!assets/README.md
+sfx_library/*.wav
+ideas/
+__pycache__/
+*.pyc
