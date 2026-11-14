@@ -39,3 +39,14 @@ No other text anywhere in the image. No realism, no anime proportions, no photog
 
 ### 9:16 Shorts version
 Same prompt, but "YouTube Shorts cover, 9:16, 1080x1920": the captain fills the lower two-thirds holding the contract, the ship and sunset behind him, and the text block centred in the top third.
+
+## Shorts cover v2: NO TEXT (house rule: thumbnail prompts never include text)
+YouTube Shorts cover, vertical 9:16, 1080x1920. Hand-drawn cartoon illustration in a warm toon-shaded 3D world: thick near-black ink outlines, soft painted 3-tone shading, soft violet drop shadows, ultra-saturated colours, very high contrast, dramatic cinematic lighting, the polish of a top animated storytelling channel. One clear focal point, readable instantly at phone size.
+
+Composition: the frame is split down the middle by a single glowing golden line of light, like a crack running from top to bottom. LEFT HALF: a stormy midnight ocean, black-purple sky, lightning, a tall wooden sailing ship pitching in huge dark waves, a row of four ship lanterns where one has just gone out with a thin curl of smoke, and a cold blue-green tint. RIGHT HALF: the SAME ship, identical in every detail, on a calm turquoise sea at golden sunrise, sails glowing, rays of sunlight, tiny cheerful grey-tunic prisoners waving from the deck, and a warm orange-gold tint. The two halves must clearly be the same ship, so the viewer asks "what changed?"
+
+Character: in the foreground, big and close to the camera, filling the lower half and straddling the glowing split line, a greedy 1790s sea captain drawn as a simple stickman cartoon: a big perfectly round off-white head, big glossy cartoon eyes, tapered black brows, a tiny hooked nose, pink blush, a dark curled moustache, a black tricorn hat with a gold trim band, a navy-blue trapezoid tunic with gold trim, a red sash, and thin black stick-figure arms with small round off-white hands. His face is lit half cold blue from the storm side and half warm gold from the sunrise side. He is frozen mid-reaction: eyes huge with tiny pinprick pupils, brows shot up, mouth a big round O, a blue sweat drop flying off his forehead. In his left hand, a heavy gold coin glints. With his right hand he holds up a huge old parchment contract covered only in illegible ink squiggles (no letters), with one single line on it blazing bright glowing gold, as if it just burned itself into the page. A few glowing embers drift up from that line.
+
+Details that add intrigue: a big drop of golden light falling from the contract onto the split line, motion lines around the captain's head, a slight Dutch tilt to the whole frame, a dark vignette pulling the eye to the captain's face and the glowing line.
+
+Absolutely no text, letters, numbers, words, logos or captions anywhere in the image, including on the contract, flags, sails or the ship's hull. No realism, no anime proportions, no photographic texture.
