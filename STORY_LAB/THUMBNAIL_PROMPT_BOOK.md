@@ -37,11 +37,13 @@ Work through these steps silently, then write.
 **Step 2: Turn the hook into ONE picture.** Choose the visual pattern from the library (Section 5) that shows the hook *without words*. The viewer must be able to notice that something is wrong or impossible.
 
 **Step 3: Decide the mascot's role.** He is the viewer's stand-in, the person experiencing the hook. Pick:
+
 - **Action:** what he's doing with his hands. He always holds or touches the key object.
 - **Expression:** from the Expression Bank (Section 3.2).
 - **Why he's there:** he's in the scene, not posing in front of it.
 
 **Step 4: Plant the twist.** Add 1 or 2 details that reward a second look and make people tap, such as:
+
 - something behind him he hasn't noticed
 - a guard who saw him but looks away
 - a shadow with the wrong shape
@@ -97,6 +99,7 @@ YouTube Shorts cover, vertical 9:16, 1080x1920. Stylised low-poly 3D cartoon ren
 ```
 
 **Mood line examples:**
+
 - "Fun and dramatic, not gory."
 - "Cute, bright and funny."
 - "Eerie and suspenseful, respectful, no bodies, no gore."
@@ -166,6 +169,7 @@ Pick the pattern that best shows the hook. **Rotate them**, and don't use the sa
 **If no pattern fits:** invent a new one that keeps the core rule: *the image must contain a visible contradiction, impossibility or secret that only the video explains.*
 
 ### Twist details (add 1 or 2 to every prompt, under "Extra intrigue")
+
 - something behind him he hasn't noticed (a cobra wearing a coin like a crown)
 - a witness looking away on purpose
 - faint planets or objects hinting at the ending (Mars and Europa in the sky)
@@ -206,6 +210,7 @@ Lighting: [warm source] (main light), contrasting with [cool source]. His orange
 ## 7. Fact-check pass (before the title and description)
 
 For every claim in the user's description, check:
+
 1. **Legend vs fact.** If it's a legend (cobra bounty, potato-king guards), say "legend says" or "the story goes" and, if possible, add the real documented parallel (the Hanoi rat bounty) or the names it's attributed to (Parmentier, Frederick the Great).
 2. **Absolutes.** Soften "can never happen again", "everyone", "instantly" or "some stay that way for years" to what's true.
 3. **Precise wording that experts will attack:**
@@ -224,19 +229,20 @@ Put corrections in a short **"Fact notes"** block after the description, saying 
 ## 8. Title, description and tag rules
 
 ### Title
+
 - **Recommended pick plus 4 alternatives.**
 - **Aim for 45 characters or fewer** (50 max) so it isn't cut off. Show the character count for the recommended one.
 - **Lead with the paradox or the most surprising true fact:**
-  - "1 in 4 Died. Then They Changed One Line."
-  - "In 2038, Some Computers Will Think It's 1901"
+    - "1 in 4 Died. Then They Changed One Line."
+    - "In 2038, Some Computers Will Think It's 1901"
 - **No hashtags in the title.** Move them to the description.
 - **No clickbait lies.** Words like "some", "legend" or "nearly" keep it honest.
 - **Good alternative shapes:**
-  - "Why [surprising thing]"
-  - "The [noun] That [did impossible thing]"
-  - "[Shocking number] [consequence]"
-  - "[Paradox statement]. [Twist]."
-  - "How Do You [impossible task]?"
+    - "Why [surprising thing]"
+    - "The [noun] That [did impossible thing]"
+    - "[Shocking number] [consequence]"
+    - "[Paradox statement]. [Twist]."
+    - "How Do You [impossible task]?"
 - If the user's own title is already strong, **keep it** and say so.
 
 ### Description (structure)
@@ -255,18 +261,20 @@ Put corrections in a short **"Fact notes"** block after the description, saying 
 
 [5-7 hashtags, ending with #shorts]
 ```
+
 - **Loop it if the script loops:** the last line echoes the first.
 - Use short paragraphs, and keep the whole description under about 1,200 characters.
 - **The comment question invites a personal answer:** "Would you have survived the night?", "Would you dig?", "What colour would YOU be?"
 
 ### Tags
+
 - **20–25 tags in one comma-separated line.** Use this mix:
-  - topic names and alternate spellings (krakatoa, krakatau)
-  - the core concept (limnic eruption, reverse psychology)
-  - "why/what" search phrases (why are flamingos pink)
-  - people, places and dates
-  - category words (history facts, science facts, did you know)
-  - always end with "animated history" or "animated science", plus "shorts"
+    - topic names and alternate spellings (krakatoa, krakatau)
+    - the core concept (limnic eruption, reverse psychology)
+    - "why/what" search phrases (why are flamingos pink)
+    - people, places and dates
+    - category words (history facts, science facts, did you know)
+    - always end with "animated history" or "animated science", plus "shorts"
 - Add "3d animation" **only** if the video really is 3D.
 
 ---
@@ -319,6 +327,7 @@ Put corrections in a short **"Fact notes"** block after the description, saying 
 ## 11. Keep the channel looking unique (variety checklist)
 
 Before finalising, check against the last few episodes:
+
 - [ ] **Different pattern** (Section 5) from the previous episode.
 - [ ] **Different dominant palette:** rotate between night-blue + gold, sunset orange + teal, neon cyan + black, blood-red + navy, pink + turquoise, icy white + red, sepia + neon.
 - [ ] **Different mascot expression** from the previous episode (don't use "shock" three times in a row).
@@ -351,6 +360,7 @@ Episode log (add new episodes here to keep track):
 **Input:** "The Lake That Killed 1,700 People Overnight. On August 21, 1986, Lake Nyos in Cameroon released a CO2 cloud that suffocated about 1,700 people in their sleep… pipes now release the gas so it can never happen again."
 
 **Thinking:**
+
 - **Hook:** a lake exploded silently, and the killer was invisible.
 - **Pattern:** I (the moment before impact).
 - **Mascot:** on the path between the lake and the village, hand over his mouth, holding a lantern whose flame dies as the gas reaches it. That's a true detail: CO2 puts out flames.
@@ -358,7 +368,7 @@ Episode log (add new episodes here to keep track):
 - **Light:** moon blue + red lake + the last warm lantern flicker.
 - **Tone:** respectful, so no bodies are shown.
 - **Fact fixes:**
-  - "can never happen again" → "greatly lowering the risk"
-  - move `#scarystories` out of the title
+    - "can never happen again" → "greatly lowering the risk"
+    - move `#scarystories` out of the title
 
 **Output:** a full kit in the Section 9 format, with the prompt following Section 6. The finished prompt is in `stories/lake_nyos/publish.md`.
