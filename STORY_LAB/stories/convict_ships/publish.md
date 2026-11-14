@@ -23,3 +23,19 @@ Same ships. Same captains. Same ocean. The only thing that changed was what they
 What does *your* job pay for? 👇
 
 #history #economics #incentives #australia #shorts
+
+## Gemini thumbnail prompt (16:9, 1280x720, standalone, no reference image)
+YouTube thumbnail, 16:9, 1280x720. Hand-drawn cartoon illustration in a warm toon-shaded 3D world: thick near-black ink outlines on everything, soft painted 3-tone shading, light from the upper-left, soft violet drop shadows under characters, dramatic cinematic lighting, in the style of a high-quality animated history storytelling channel.
+
+Scene: the deck of a tall wooden 18th-century sailing ship at golden-hour sunset, cream sails glowing, a stylised toon ocean with chunky blue waves behind. On the left, slightly out of focus in the background, a small group of grey-tunic prisoners stepping out of a dark cargo hatch into the sunlight.
+
+Character: on the right, large and close to the camera (head and chest filling the right third), a greedy sea captain from the 1790s, drawn as a simple stickman cartoon: a big perfectly round off-white head with a soft violet shadow on the lower-right, big glossy cartoon eyes, tapered black brows, a tiny hooked nose, pink blush cheeks, and a dark curled moustache. He wears a black tricorn hat with a gold trim band, a navy-blue trapezoid tunic with gold trim and a gold belt buckle, and a red sash across his chest. Thin black stick-figure arms with small round off-white hands. He is holding up a huge parchment contract with both hands and staring at it in total shock: eyes wide with tiny pupils, brows shot up, mouth a big round O, with a blue sweat drop on his forehead. The contract is big and clearly readable: the line "ON THE SHIP" is crossed out with a thick red stroke, and below it a big green rubber stamp reads "ALIVE".
+
+Lighting: warm orange-gold sunset light from the upper-left, contrasting with cool deep-blue shadow on the ocean and the right side of the captain.
+
+Text in the top-left corner, heavy bold sans-serif font with a thick black outline and slight drop shadow: a small red rounded badge with white text "1790", then "1 IN 4 DIED" in big white letters, and "THEN ONE LINE..." in even bigger bright yellow letters. Perfectly spelled. Keep the text clear of the captain's face.
+
+No other text anywhere in the image. No realism, no anime proportions, no photographic texture.
+
+### 9:16 Shorts version
+Same prompt, but "YouTube Shorts cover, 9:16, 1080x1920": the captain fills the lower two-thirds holding the contract, the ship and sunset behind him, and the text block centred in the top third.
