@@ -1,0 +1,15 @@
+hook | A king put soldiers around his own field... and secretly ordered them to let the thieves in.
+
+normal | You see, his kingdom was starving. And he had the perfect food. Potatoes. They grew almost anywhere.
+normal | But nobody would eat them. Ugly. Dirty. Food for pigs.
+normal | He ordered them to eat potatoes. They refused. He gave them away for free. They fed them to the pigs.
+
+turn | So with winter coming, the king tried something strange.
+normal | He planted potatoes right next to the palace, and put soldiers around the field. Day and night.
+normal | And the farmers started whispering. If the king guards it like gold... maybe it is gold.
+
+dread | One night, a farmer crept past the guards. They didn't move. He came back with a sack. Then his neighbor came. Then the whole village.
+turn | The soldiers saw everything. Their orders were simple. Look the other way.
+
+normal | By spring, potatoes were growing in secret gardens all over the kingdom. And by winter, nobody was starving.
+final | Because the fastest way to make people want something... is to tell them they can't have it.

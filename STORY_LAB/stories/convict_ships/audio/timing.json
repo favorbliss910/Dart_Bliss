@@ -1,0 +1,1118 @@
+{
+ "voice": "kokoro/am_michael",
+ "duration": 62.09,
+ "speech_end": 60.49,
+ "chunks": [
+  {
+   "i": 0,
+   "mood": "hook",
+   "text": "One in four people died on these ships. Then the government changed one line in a contract... and almost all of them lived.",
+   "s": 0.25,
+   "e": 7.739
+  },
+  {
+   "i": 1,
+   "mood": "normal",
+   "text": "In seventeen ninety, Britain was shipping prisoners to Australia. Eight months across the ocean.",
+   "s": 8.139,
+   "e": 13.653
+  },
+  {
+   "i": 2,
+   "mood": "normal",
+   "text": "The captains were paid for every prisoner who walked onto the ship.",
+   "s": 13.873,
+   "e": 17.05
+  },
+  {
+   "i": 3,
+   "mood": "turn",
+   "text": "So the captains did the math. A prisoner who eats less costs less. A prisoner who dies... costs nothing.",
+   "s": 17.27,
+   "e": 23.706
+  },
+  {
+   "i": 4,
+   "mood": "dread",
+   "text": "They packed them below deck. In chains. In the dark. And sold their food at every port.",
+   "s": 23.926,
+   "e": 29.152
+  },
+  {
+   "i": 5,
+   "mood": "dread",
+   "text": "On one fleet, more than one in four never made it.",
+   "s": 29.372,
+   "e": 32.124
+  },
+  {
+   "i": 6,
+   "mood": "normal",
+   "text": "People were horrified. Captains were told to be kind. Nothing changed.",
+   "s": 32.344,
+   "e": 36.256
+  },
+  {
+   "i": 7,
+   "mood": "turn",
+   "text": "Then someone changed one line. Captains wouldn't be paid for every prisoner who got on the ship. They'd be paid for every prisoner who got off it. Alive.",
+   "s": 36.656,
+   "e": 46.007
+  },
+  {
+   "i": 8,
+   "mood": "normal",
+   "text": "Suddenly, captains hired doctors. Bought fresh food. Let the prisoners up into the sunlight.",
+   "s": 46.227,
+   "e": 51.494
+  },
+  {
+   "i": 9,
+   "mood": "normal",
+   "text": "And almost every prisoner arrived alive.",
+   "s": 51.714,
+   "e": 53.811
+  },
+  {
+   "i": 10,
+   "mood": "final",
+   "text": "Same ships. Same captains. Same ocean. The only thing that changed... was what they got paid for.",
+   "s": 54.031,
+   "e": 60.49
+  }
+ ],
+ "words": [
+  {
+   "w": "One",
+   "s": 0.25,
+   "e": 0.504,
+   "chunk": 0
+  },
+  {
+   "w": "in",
+   "s": 0.504,
+   "e": 0.708,
+   "chunk": 0
+  },
+  {
+   "w": "four",
+   "s": 0.708,
+   "e": 1.013,
+   "chunk": 0
+  },
+  {
+   "w": "people",
+   "s": 1.013,
+   "e": 1.42,
+   "chunk": 0
+  },
+  {
+   "w": "died",
+   "s": 1.42,
+   "e": 1.726,
+   "chunk": 0
+  },
+  {
+   "w": "on",
+   "s": 1.726,
+   "e": 1.929,
+   "chunk": 0
+  },
+  {
+   "w": "these",
+   "s": 1.929,
+   "e": 2.235,
+   "chunk": 0
+  },
+  {
+   "w": "ships.",
+   "s": 2.235,
+   "e": 2.54,
+   "chunk": 0
+  },
+  {
+   "w": "Then",
+   "s": 2.96,
+   "e": 3.17,
+   "chunk": 0
+  },
+  {
+   "w": "the",
+   "s": 3.17,
+   "e": 3.296,
+   "chunk": 0
+  },
+  {
+   "w": "government",
+   "s": 3.296,
+   "e": 3.759,
+   "chunk": 0
+  },
+  {
+   "w": "changed",
+   "s": 3.759,
+   "e": 4.179,
+   "chunk": 0
+  },
+  {
+   "w": "one",
+   "s": 4.179,
+   "e": 4.389,
+   "chunk": 0
+  },
+  {
+   "w": "line",
+   "s": 4.389,
+   "e": 4.641,
+   "chunk": 0
+  },
+  {
+   "w": "in",
+   "s": 4.641,
+   "e": 4.809,
+   "chunk": 0
+  },
+  {
+   "w": "a",
+   "s": 4.809,
+   "e": 4.978,
+   "chunk": 0
+  },
+  {
+   "w": "contract...",
+   "s": 4.978,
+   "e": 5.44,
+   "chunk": 0
+  },
+  {
+   "w": "and",
+   "s": 6.06,
+   "e": 6.264,
+   "chunk": 0
+  },
+  {
+   "w": "almost",
+   "s": 6.264,
+   "e": 6.772,
+   "chunk": 0
+  },
+  {
+   "w": "all",
+   "s": 6.772,
+   "e": 7.027,
+   "chunk": 0
+  },
+  {
+   "w": "of",
+   "s": 7.027,
+   "e": 7.179,
+   "chunk": 0
+  },
+  {
+   "w": "them",
+   "s": 7.179,
+   "e": 7.434,
+   "chunk": 0
+  },
+  {
+   "w": "lived.",
+   "s": 7.434,
+   "e": 7.739,
+   "chunk": 0
+  },
+  {
+   "w": "In",
+   "s": 8.139,
+   "e": 8.324,
+   "chunk": 1
+  },
+  {
+   "w": "seventeen",
+   "s": 8.324,
+   "e": 8.879,
+   "chunk": 1
+  },
+  {
+   "w": "ninety,",
+   "s": 8.879,
+   "e": 9.249,
+   "chunk": 1
+  },
+  {
+   "w": "Britain",
+   "s": 9.569,
+   "e": 9.958,
+   "chunk": 1
+  },
+  {
+   "w": "was",
+   "s": 9.958,
+   "e": 10.153,
+   "chunk": 1
+  },
+  {
+   "w": "shipping",
+   "s": 10.153,
+   "e": 10.494,
+   "chunk": 1
+  },
+  {
+   "w": "prisoners",
+   "s": 10.494,
+   "e": 10.98,
+   "chunk": 1
+  },
+  {
+   "w": "to",
+   "s": 10.98,
+   "e": 11.175,
+   "chunk": 1
+  },
+  {
+   "w": "Australia.",
+   "s": 11.175,
+   "e": 11.759,
+   "chunk": 1
+  },
+  {
+   "w": "Eight",
+   "s": 12.219,
+   "e": 12.458,
+   "chunk": 1
+  },
+  {
+   "w": "months",
+   "s": 12.458,
+   "e": 12.793,
+   "chunk": 1
+  },
+  {
+   "w": "across",
+   "s": 12.793,
+   "e": 13.175,
+   "chunk": 1
+  },
+  {
+   "w": "the",
+   "s": 13.175,
+   "e": 13.318,
+   "chunk": 1
+  },
+  {
+   "w": "ocean.",
+   "s": 13.318,
+   "e": 13.653,
+   "chunk": 1
+  },
+  {
+   "w": "The",
+   "s": 13.873,
+   "e": 14.011,
+   "chunk": 2
+  },
+  {
+   "w": "captains",
+   "s": 14.011,
+   "e": 14.425,
+   "chunk": 2
+  },
+  {
+   "w": "were",
+   "s": 14.425,
+   "e": 14.61,
+   "chunk": 2
+  },
+  {
+   "w": "paid",
+   "s": 14.61,
+   "e": 14.886,
+   "chunk": 2
+  },
+  {
+   "w": "for",
+   "s": 14.886,
+   "e": 15.116,
+   "chunk": 2
+  },
+  {
+   "w": "every",
+   "s": 15.116,
+   "e": 15.392,
+   "chunk": 2
+  },
+  {
+   "w": "prisoner",
+   "s": 15.392,
+   "e": 15.807,
+   "chunk": 2
+  },
+  {
+   "w": "who",
+   "s": 15.807,
+   "e": 16.037,
+   "chunk": 2
+  },
+  {
+   "w": "walked",
+   "s": 16.037,
+   "e": 16.359,
+   "chunk": 2
+  },
+  {
+   "w": "onto",
+   "s": 16.359,
+   "e": 16.681,
+   "chunk": 2
+  },
+  {
+   "w": "the",
+   "s": 16.681,
+   "e": 16.82,
+   "chunk": 2
+  },
+  {
+   "w": "ship.",
+   "s": 16.82,
+   "e": 17.05,
+   "chunk": 2
+  },
+  {
+   "w": "So",
+   "s": 17.27,
+   "e": 17.468,
+   "chunk": 3
+  },
+  {
+   "w": "the",
+   "s": 17.468,
+   "e": 17.587,
+   "chunk": 3
+  },
+  {
+   "w": "captains",
+   "s": 17.587,
+   "e": 17.944,
+   "chunk": 3
+  },
+  {
+   "w": "did",
+   "s": 17.944,
+   "e": 18.142,
+   "chunk": 3
+  },
+  {
+   "w": "the",
+   "s": 18.142,
+   "e": 18.261,
+   "chunk": 3
+  },
+  {
+   "w": "math.",
+   "s": 18.261,
+   "e": 18.46,
+   "chunk": 3
+  },
+  {
+   "w": "A",
+   "s": 19.02,
+   "e": 19.224,
+   "chunk": 3
+  },
+  {
+   "w": "prisoner",
+   "s": 19.224,
+   "e": 19.682,
+   "chunk": 3
+  },
+  {
+   "w": "who",
+   "s": 19.682,
+   "e": 19.937,
+   "chunk": 3
+  },
+  {
+   "w": "eats",
+   "s": 19.937,
+   "e": 20.243,
+   "chunk": 3
+  },
+  {
+   "w": "less",
+   "s": 20.243,
+   "e": 20.498,
+   "chunk": 3
+  },
+  {
+   "w": "costs",
+   "s": 20.498,
+   "e": 20.855,
+   "chunk": 3
+  },
+  {
+   "w": "less.",
+   "s": 20.855,
+   "e": 21.11,
+   "chunk": 3
+  },
+  {
+   "w": "A",
+   "s": 21.4,
+   "e": 21.611,
+   "chunk": 3
+  },
+  {
+   "w": "prisoner",
+   "s": 21.611,
+   "e": 22.088,
+   "chunk": 3
+  },
+  {
+   "w": "who",
+   "s": 22.088,
+   "e": 22.352,
+   "chunk": 3
+  },
+  {
+   "w": "dies...",
+   "s": 22.352,
+   "e": 22.67,
+   "chunk": 3
+  },
+  {
+   "w": "costs",
+   "s": 22.87,
+   "e": 23.288,
+   "chunk": 3
+  },
+  {
+   "w": "nothing.",
+   "s": 23.288,
+   "e": 23.706,
+   "chunk": 3
+  },
+  {
+   "w": "They",
+   "s": 23.926,
+   "e": 24.104,
+   "chunk": 4
+  },
+  {
+   "w": "packed",
+   "s": 24.104,
+   "e": 24.371,
+   "chunk": 4
+  },
+  {
+   "w": "them",
+   "s": 24.371,
+   "e": 24.593,
+   "chunk": 4
+  },
+  {
+   "w": "below",
+   "s": 24.593,
+   "e": 24.904,
+   "chunk": 4
+  },
+  {
+   "w": "deck.",
+   "s": 24.904,
+   "e": 25.126,
+   "chunk": 4
+  },
+  {
+   "w": "In",
+   "s": 25.656,
+   "e": 25.835,
+   "chunk": 4
+  },
+  {
+   "w": "chains.",
+   "s": 25.835,
+   "e": 26.191,
+   "chunk": 4
+  },
+  {
+   "w": "In",
+   "s": 26.191,
+   "e": 26.435,
+   "chunk": 4
+  },
+  {
+   "w": "the",
+   "s": 26.435,
+   "e": 26.619,
+   "chunk": 4
+  },
+  {
+   "w": "dark.",
+   "s": 26.619,
+   "e": 27.046,
+   "chunk": 4
+  },
+  {
+   "w": "And",
+   "s": 27.496,
+   "e": 27.675,
+   "chunk": 4
+  },
+  {
+   "w": "sold",
+   "s": 27.675,
+   "e": 27.989,
+   "chunk": 4
+  },
+  {
+   "w": "their",
+   "s": 27.989,
+   "e": 28.168,
+   "chunk": 4
+  },
+  {
+   "w": "food",
+   "s": 28.168,
+   "e": 28.436,
+   "chunk": 4
+  },
+  {
+   "w": "at",
+   "s": 28.436,
+   "e": 28.571,
+   "chunk": 4
+  },
+  {
+   "w": "every",
+   "s": 28.571,
+   "e": 28.839,
+   "chunk": 4
+  },
+  {
+   "w": "port.",
+   "s": 28.839,
+   "e": 29.152,
+   "chunk": 4
+  },
+  {
+   "w": "On",
+   "s": 29.372,
+   "e": 29.542,
+   "chunk": 5
+  },
+  {
+   "w": "one",
+   "s": 29.542,
+   "e": 29.755,
+   "chunk": 5
+  },
+  {
+   "w": "fleet,",
+   "s": 29.755,
+   "e": 30.052,
+   "chunk": 5
+  },
+  {
+   "w": "more",
+   "s": 30.412,
+   "e": 30.669,
+   "chunk": 5
+  },
+  {
+   "w": "than",
+   "s": 30.669,
+   "e": 30.84,
+   "chunk": 5
+  },
+  {
+   "w": "one",
+   "s": 30.84,
+   "e": 31.054,
+   "chunk": 5
+  },
+  {
+   "w": "in",
+   "s": 31.054,
+   "e": 31.226,
+   "chunk": 5
+  },
+  {
+   "w": "four",
+   "s": 31.226,
+   "e": 31.482,
+   "chunk": 5
+  },
+  {
+   "w": "never",
+   "s": 31.482,
+   "e": 31.739,
+   "chunk": 5
+  },
+  {
+   "w": "made",
+   "s": 31.739,
+   "e": 31.996,
+   "chunk": 5
+  },
+  {
+   "w": "it.",
+   "s": 31.996,
+   "e": 32.124,
+   "chunk": 5
+  },
+  {
+   "w": "People",
+   "s": 32.344,
+   "e": 32.661,
+   "chunk": 6
+  },
+  {
+   "w": "were",
+   "s": 32.661,
+   "e": 32.819,
+   "chunk": 6
+  },
+  {
+   "w": "horrified.",
+   "s": 32.819,
+   "e": 33.294,
+   "chunk": 6
+  },
+  {
+   "w": "Captains",
+   "s": 33.774,
+   "e": 34.179,
+   "chunk": 6
+  },
+  {
+   "w": "were",
+   "s": 34.179,
+   "e": 34.358,
+   "chunk": 6
+  },
+  {
+   "w": "told",
+   "s": 34.358,
+   "e": 34.673,
+   "chunk": 6
+  },
+  {
+   "w": "to",
+   "s": 34.673,
+   "e": 34.853,
+   "chunk": 6
+  },
+  {
+   "w": "be",
+   "s": 34.853,
+   "e": 35.078,
+   "chunk": 6
+  },
+  {
+   "w": "kind.",
+   "s": 35.078,
+   "e": 35.392,
+   "chunk": 6
+  },
+  {
+   "w": "Nothing",
+   "s": 35.392,
+   "e": 35.748,
+   "chunk": 6
+  },
+  {
+   "w": "changed.",
+   "s": 35.748,
+   "e": 36.256,
+   "chunk": 6
+  },
+  {
+   "w": "Then",
+   "s": 36.656,
+   "e": 36.907,
+   "chunk": 7
+  },
+  {
+   "w": "someone",
+   "s": 36.907,
+   "e": 37.31,
+   "chunk": 7
+  },
+  {
+   "w": "changed",
+   "s": 37.31,
+   "e": 37.813,
+   "chunk": 7
+  },
+  {
+   "w": "one",
+   "s": 37.813,
+   "e": 38.064,
+   "chunk": 7
+  },
+  {
+   "w": "line.",
+   "s": 38.064,
+   "e": 38.366,
+   "chunk": 7
+  },
+  {
+   "w": "Captains",
+   "s": 38.966,
+   "e": 39.357,
+   "chunk": 7
+  },
+  {
+   "w": "wouldn't",
+   "s": 39.357,
+   "e": 39.706,
+   "chunk": 7
+  },
+  {
+   "w": "be",
+   "s": 39.706,
+   "e": 39.923,
+   "chunk": 7
+  },
+  {
+   "w": "paid",
+   "s": 39.923,
+   "e": 40.184,
+   "chunk": 7
+  },
+  {
+   "w": "for",
+   "s": 40.184,
+   "e": 40.402,
+   "chunk": 7
+  },
+  {
+   "w": "every",
+   "s": 40.402,
+   "e": 40.663,
+   "chunk": 7
+  },
+  {
+   "w": "prisoner",
+   "s": 40.663,
+   "e": 41.055,
+   "chunk": 7
+  },
+  {
+   "w": "who",
+   "s": 41.055,
+   "e": 41.272,
+   "chunk": 7
+  },
+  {
+   "w": "got",
+   "s": 41.272,
+   "e": 41.533,
+   "chunk": 7
+  },
+  {
+   "w": "on",
+   "s": 41.533,
+   "e": 41.708,
+   "chunk": 7
+  },
+  {
+   "w": "the",
+   "s": 41.708,
+   "e": 41.838,
+   "chunk": 7
+  },
+  {
+   "w": "ship.",
+   "s": 41.838,
+   "e": 42.056,
+   "chunk": 7
+  },
+  {
+   "w": "They'd",
+   "s": 42.626,
+   "e": 42.836,
+   "chunk": 7
+  },
+  {
+   "w": "be",
+   "s": 42.836,
+   "e": 43.046,
+   "chunk": 7
+  },
+  {
+   "w": "paid",
+   "s": 43.046,
+   "e": 43.298,
+   "chunk": 7
+  },
+  {
+   "w": "for",
+   "s": 43.298,
+   "e": 43.509,
+   "chunk": 7
+  },
+  {
+   "w": "every",
+   "s": 43.509,
+   "e": 43.761,
+   "chunk": 7
+  },
+  {
+   "w": "prisoner",
+   "s": 43.761,
+   "e": 44.139,
+   "chunk": 7
+  },
+  {
+   "w": "who",
+   "s": 44.139,
+   "e": 44.349,
+   "chunk": 7
+  },
+  {
+   "w": "got",
+   "s": 44.349,
+   "e": 44.601,
+   "chunk": 7
+  },
+  {
+   "w": "off",
+   "s": 44.601,
+   "e": 44.77,
+   "chunk": 7
+  },
+  {
+   "w": "it.",
+   "s": 44.77,
+   "e": 44.896,
+   "chunk": 7
+  },
+  {
+   "w": "Alive.",
+   "s": 45.356,
+   "e": 46.007,
+   "chunk": 7
+  },
+  {
+   "w": "Suddenly,",
+   "s": 46.227,
+   "e": 46.742,
+   "chunk": 8
+  },
+  {
+   "w": "captains",
+   "s": 46.742,
+   "e": 47.223,
+   "chunk": 8
+  },
+  {
+   "w": "hired",
+   "s": 47.223,
+   "e": 47.596,
+   "chunk": 8
+  },
+  {
+   "w": "doctors.",
+   "s": 47.596,
+   "e": 48.077,
+   "chunk": 8
+  },
+  {
+   "w": "Bought",
+   "s": 48.427,
+   "e": 48.727,
+   "chunk": 8
+  },
+  {
+   "w": "fresh",
+   "s": 48.727,
+   "e": 49.027,
+   "chunk": 8
+  },
+  {
+   "w": "food.",
+   "s": 49.027,
+   "e": 49.327,
+   "chunk": 8
+  },
+  {
+   "w": "Let",
+   "s": 49.787,
+   "e": 50.0,
+   "chunk": 8
+  },
+  {
+   "w": "the",
+   "s": 50.0,
+   "e": 50.128,
+   "chunk": 8
+  },
+  {
+   "w": "prisoners",
+   "s": 50.128,
+   "e": 50.555,
+   "chunk": 8
+  },
+  {
+   "w": "up",
+   "s": 50.555,
+   "e": 50.726,
+   "chunk": 8
+  },
+  {
+   "w": "into",
+   "s": 50.726,
+   "e": 50.982,
+   "chunk": 8
+  },
+  {
+   "w": "the",
+   "s": 50.982,
+   "e": 51.11,
+   "chunk": 8
+  },
+  {
+   "w": "sunlight.",
+   "s": 51.11,
+   "e": 51.494,
+   "chunk": 8
+  },
+  {
+   "w": "And",
+   "s": 51.714,
+   "e": 51.904,
+   "chunk": 9
+  },
+  {
+   "w": "almost",
+   "s": 51.904,
+   "e": 52.381,
+   "chunk": 9
+  },
+  {
+   "w": "every",
+   "s": 52.381,
+   "e": 52.667,
+   "chunk": 9
+  },
+  {
+   "w": "prisoner",
+   "s": 52.667,
+   "e": 53.096,
+   "chunk": 9
+  },
+  {
+   "w": "arrived",
+   "s": 53.096,
+   "e": 53.477,
+   "chunk": 9
+  },
+  {
+   "w": "alive.",
+   "s": 53.477,
+   "e": 53.811,
+   "chunk": 9
+  },
+  {
+   "w": "Same",
+   "s": 54.031,
+   "e": 54.426,
+   "chunk": 10
+  },
+  {
+   "w": "ships.",
+   "s": 54.426,
+   "e": 54.821,
+   "chunk": 10
+  },
+  {
+   "w": "Same",
+   "s": 55.121,
+   "e": 55.329,
+   "chunk": 10
+  },
+  {
+   "w": "captains.",
+   "s": 55.329,
+   "e": 55.641,
+   "chunk": 10
+  },
+  {
+   "w": "Same",
+   "s": 55.731,
+   "e": 56.275,
+   "chunk": 10
+  },
+  {
+   "w": "ocean.",
+   "s": 56.275,
+   "e": 56.911,
+   "chunk": 10
+  },
+  {
+   "w": "The",
+   "s": 57.101,
+   "e": 57.25,
+   "chunk": 10
+  },
+  {
+   "w": "only",
+   "s": 57.25,
+   "e": 57.597,
+   "chunk": 10
+  },
+  {
+   "w": "thing",
+   "s": 57.597,
+   "e": 57.846,
+   "chunk": 10
+  },
+  {
+   "w": "that",
+   "s": 57.846,
+   "e": 58.094,
+   "chunk": 10
+  },
+  {
+   "w": "changed...",
+   "s": 58.094,
+   "e": 58.591,
+   "chunk": 10
+  },
+  {
+   "w": "was",
+   "s": 59.061,
+   "e": 59.251,
+   "chunk": 10
+  },
+  {
+   "w": "what",
+   "s": 59.251,
+   "e": 59.489,
+   "chunk": 10
+  },
+  {
+   "w": "they",
+   "s": 59.489,
+   "e": 59.68,
+   "chunk": 10
+  },
+  {
+   "w": "got",
+   "s": 59.68,
+   "e": 59.966,
+   "chunk": 10
+  },
+  {
+   "w": "paid",
+   "s": 59.966,
+   "e": 60.252,
+   "chunk": 10
+  },
+  {
+   "w": "for.",
+   "s": 60.252,
+   "e": 60.49,
+   "chunk": 10
+  }
+ ]
+}

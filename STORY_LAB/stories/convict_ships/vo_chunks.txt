@@ -1,0 +1,13 @@
+hook | One in four people died on these ships. Then the government changed one line in a contract... and almost all of them lived.
+
+normal | In seventeen ninety, Britain was shipping prisoners to Australia. Eight months across the ocean.
+normal | The captains were paid for every prisoner who walked onto the ship.
+turn | So the captains did the math. A prisoner who eats less costs less. A prisoner who dies... costs nothing.
+dread | They packed them below deck. In chains. In the dark. And sold their food at every port.
+dread | On one fleet, more than one in four never made it.
+normal | People were horrified. Captains were told to be kind. Nothing changed.
+
+turn | Then someone changed one line. Captains wouldn't be paid for every prisoner who got on the ship. They'd be paid for every prisoner who got off it. Alive.
+normal | Suddenly, captains hired doctors. Bought fresh food. Let the prisoners up into the sunlight.
+normal | And almost every prisoner arrived alive.
+final | Same ships. Same captains. Same ocean. The only thing that changed... was what they got paid for.

@@ -1,0 +1,1117 @@
+{
+ "voice": "kokoro/am_michael",
+ "duration": 61.637,
+ "speech_end": 60.037,
+ "chunks": [
+  {
+   "i": 0,
+   "mood": "hook",
+   "text": "The ridges on the edge of your coins exist because of one greedy man... and a pair of scissors.",
+   "s": 0.25,
+   "e": 5.729
+  },
+  {
+   "i": 1,
+   "mood": "normal",
+   "text": "You see, hundreds of years ago, coins were made of real silver. A coin was worth the metal inside it.",
+   "s": 6.129,
+   "e": 12.175
+  },
+  {
+   "i": 2,
+   "mood": "normal",
+   "text": "So a merchant tried something. From every coin that passed through his hands, he trimmed a tiny sliver off the edge. Too small to notice.",
+   "s": 12.395,
+   "e": 20.366
+  },
+  {
+   "i": 3,
+   "mood": "turn",
+   "text": "One sliver is nothing. A thousand slivers? He melted them into a bar of solid silver.",
+   "s": 20.586,
+   "e": 26.28
+  },
+  {
+   "i": 4,
+   "mood": "dread",
+   "text": "Soon, everyone was doing it. Coins shrank. Shopkeepers weighed every single one. Nobody trusted money anymore, and the whole kingdom started to choke.",
+   "s": 26.5,
+   "e": 35.844
+  },
+  {
+   "i": 5,
+   "mood": "normal",
+   "text": "So the mint changed one thing. Every new coin got tiny ridges pressed into its edge.",
+   "s": 36.244,
+   "e": 41.3
+  },
+  {
+   "i": 6,
+   "mood": "normal",
+   "text": "Shave a coin now, and the ridges disappear. Everyone can see it.",
+   "s": 41.52,
+   "e": 45.106
+  },
+  {
+   "i": 7,
+   "mood": "turn",
+   "text": "And the man put in charge of the mint, who went undercover in taverns to hunt the clippers down? Isaac Newton.",
+   "s": 45.506,
+   "e": 51.996
+  },
+  {
+   "i": 8,
+   "mood": "normal",
+   "text": "Yes. That Isaac Newton.",
+   "s": 52.216,
+   "e": 53.538
+  },
+  {
+   "i": 9,
+   "mood": "final",
+   "text": "Three hundred years later, coins aren't even made of silver anymore. But they still have the ridges.",
+   "s": 53.758,
+   "e": 60.037
+  }
+ ],
+ "words": [
+  {
+   "w": "The",
+   "s": 0.25,
+   "e": 0.403,
+   "chunk": 0
+  },
+  {
+   "w": "ridges",
+   "s": 0.403,
+   "e": 0.811,
+   "chunk": 0
+  },
+  {
+   "w": "on",
+   "s": 0.811,
+   "e": 1.014,
+   "chunk": 0
+  },
+  {
+   "w": "the",
+   "s": 1.014,
+   "e": 1.167,
+   "chunk": 0
+  },
+  {
+   "w": "edge",
+   "s": 1.167,
+   "e": 1.422,
+   "chunk": 0
+  },
+  {
+   "w": "of",
+   "s": 1.422,
+   "e": 1.575,
+   "chunk": 0
+  },
+  {
+   "w": "your",
+   "s": 1.575,
+   "e": 1.779,
+   "chunk": 0
+  },
+  {
+   "w": "coins",
+   "s": 1.779,
+   "e": 2.135,
+   "chunk": 0
+  },
+  {
+   "w": "exist",
+   "s": 2.135,
+   "e": 2.543,
+   "chunk": 0
+  },
+  {
+   "w": "because",
+   "s": 2.543,
+   "e": 2.9,
+   "chunk": 0
+  },
+  {
+   "w": "of",
+   "s": 2.9,
+   "e": 3.053,
+   "chunk": 0
+  },
+  {
+   "w": "one",
+   "s": 3.053,
+   "e": 3.308,
+   "chunk": 0
+  },
+  {
+   "w": "greedy",
+   "s": 3.308,
+   "e": 3.715,
+   "chunk": 0
+  },
+  {
+   "w": "man...",
+   "s": 3.715,
+   "e": 3.97,
+   "chunk": 0
+  },
+  {
+   "w": "and",
+   "s": 4.58,
+   "e": 4.78,
+   "chunk": 0
+  },
+  {
+   "w": "a",
+   "s": 4.78,
+   "e": 4.98,
+   "chunk": 0
+  },
+  {
+   "w": "pair",
+   "s": 4.98,
+   "e": 5.229,
+   "chunk": 0
+  },
+  {
+   "w": "of",
+   "s": 5.229,
+   "e": 5.379,
+   "chunk": 0
+  },
+  {
+   "w": "scissors.",
+   "s": 5.379,
+   "e": 5.729,
+   "chunk": 0
+  },
+  {
+   "w": "You",
+   "s": 6.129,
+   "e": 6.351,
+   "chunk": 1
+  },
+  {
+   "w": "see,",
+   "s": 6.351,
+   "e": 6.628,
+   "chunk": 1
+  },
+  {
+   "w": "hundreds",
+   "s": 6.628,
+   "e": 7.025,
+   "chunk": 1
+  },
+  {
+   "w": "of",
+   "s": 7.025,
+   "e": 7.143,
+   "chunk": 1
+  },
+  {
+   "w": "years",
+   "s": 7.143,
+   "e": 7.381,
+   "chunk": 1
+  },
+  {
+   "w": "ago,",
+   "s": 7.381,
+   "e": 7.619,
+   "chunk": 1
+  },
+  {
+   "w": "coins",
+   "s": 7.919,
+   "e": 8.281,
+   "chunk": 1
+  },
+  {
+   "w": "were",
+   "s": 8.281,
+   "e": 8.488,
+   "chunk": 1
+  },
+  {
+   "w": "made",
+   "s": 8.488,
+   "e": 8.799,
+   "chunk": 1
+  },
+  {
+   "w": "of",
+   "s": 8.799,
+   "e": 8.954,
+   "chunk": 1
+  },
+  {
+   "w": "real",
+   "s": 8.954,
+   "e": 9.317,
+   "chunk": 1
+  },
+  {
+   "w": "silver.",
+   "s": 9.317,
+   "e": 9.679,
+   "chunk": 1
+  },
+  {
+   "w": "A",
+   "s": 10.169,
+   "e": 10.365,
+   "chunk": 1
+  },
+  {
+   "w": "coin",
+   "s": 10.365,
+   "e": 10.658,
+   "chunk": 1
+  },
+  {
+   "w": "was",
+   "s": 10.658,
+   "e": 10.854,
+   "chunk": 1
+  },
+  {
+   "w": "worth",
+   "s": 10.854,
+   "e": 11.148,
+   "chunk": 1
+  },
+  {
+   "w": "the",
+   "s": 11.148,
+   "e": 11.294,
+   "chunk": 1
+  },
+  {
+   "w": "metal",
+   "s": 11.294,
+   "e": 11.637,
+   "chunk": 1
+  },
+  {
+   "w": "inside",
+   "s": 11.637,
+   "e": 12.028,
+   "chunk": 1
+  },
+  {
+   "w": "it.",
+   "s": 12.028,
+   "e": 12.175,
+   "chunk": 1
+  },
+  {
+   "w": "So",
+   "s": 12.395,
+   "e": 12.585,
+   "chunk": 2
+  },
+  {
+   "w": "a",
+   "s": 12.585,
+   "e": 12.737,
+   "chunk": 2
+  },
+  {
+   "w": "merchant",
+   "s": 12.737,
+   "e": 13.116,
+   "chunk": 2
+  },
+  {
+   "w": "tried",
+   "s": 13.116,
+   "e": 13.382,
+   "chunk": 2
+  },
+  {
+   "w": "something.",
+   "s": 13.382,
+   "e": 13.685,
+   "chunk": 2
+  },
+  {
+   "w": "From",
+   "s": 14.205,
+   "e": 14.434,
+   "chunk": 2
+  },
+  {
+   "w": "every",
+   "s": 14.434,
+   "e": 14.707,
+   "chunk": 2
+  },
+  {
+   "w": "coin",
+   "s": 14.707,
+   "e": 14.981,
+   "chunk": 2
+  },
+  {
+   "w": "that",
+   "s": 14.981,
+   "e": 15.21,
+   "chunk": 2
+  },
+  {
+   "w": "passed",
+   "s": 15.21,
+   "e": 15.484,
+   "chunk": 2
+  },
+  {
+   "w": "through",
+   "s": 15.484,
+   "e": 15.757,
+   "chunk": 2
+  },
+  {
+   "w": "his",
+   "s": 15.757,
+   "e": 15.986,
+   "chunk": 2
+  },
+  {
+   "w": "hands,",
+   "s": 15.986,
+   "e": 16.305,
+   "chunk": 2
+  },
+  {
+   "w": "he",
+   "s": 16.615,
+   "e": 16.815,
+   "chunk": 2
+  },
+  {
+   "w": "trimmed",
+   "s": 16.815,
+   "e": 17.165,
+   "chunk": 2
+  },
+  {
+   "w": "a",
+   "s": 17.165,
+   "e": 17.365,
+   "chunk": 2
+  },
+  {
+   "w": "tiny",
+   "s": 17.365,
+   "e": 17.715,
+   "chunk": 2
+  },
+  {
+   "w": "sliver",
+   "s": 17.715,
+   "e": 18.065,
+   "chunk": 2
+  },
+  {
+   "w": "off",
+   "s": 18.065,
+   "e": 18.265,
+   "chunk": 2
+  },
+  {
+   "w": "the",
+   "s": 18.265,
+   "e": 18.415,
+   "chunk": 2
+  },
+  {
+   "w": "edge.",
+   "s": 18.415,
+   "e": 18.665,
+   "chunk": 2
+  },
+  {
+   "w": "Too",
+   "s": 19.095,
+   "e": 19.36,
+   "chunk": 2
+  },
+  {
+   "w": "small",
+   "s": 19.36,
+   "e": 19.731,
+   "chunk": 2
+  },
+  {
+   "w": "to",
+   "s": 19.731,
+   "e": 19.943,
+   "chunk": 2
+  },
+  {
+   "w": "notice.",
+   "s": 19.943,
+   "e": 20.366,
+   "chunk": 2
+  },
+  {
+   "w": "One",
+   "s": 20.586,
+   "e": 20.848,
+   "chunk": 3
+  },
+  {
+   "w": "sliver",
+   "s": 20.848,
+   "e": 21.214,
+   "chunk": 3
+  },
+  {
+   "w": "is",
+   "s": 21.214,
+   "e": 21.37,
+   "chunk": 3
+  },
+  {
+   "w": "nothing.",
+   "s": 21.37,
+   "e": 21.736,
+   "chunk": 3
+  },
+  {
+   "w": "A",
+   "s": 22.186,
+   "e": 22.373,
+   "chunk": 3
+  },
+  {
+   "w": "thousand",
+   "s": 22.373,
+   "e": 22.793,
+   "chunk": 3
+  },
+  {
+   "w": "slivers?",
+   "s": 22.793,
+   "e": 23.166,
+   "chunk": 3
+  },
+  {
+   "w": "He",
+   "s": 23.286,
+   "e": 23.521,
+   "chunk": 3
+  },
+  {
+   "w": "melted",
+   "s": 23.521,
+   "e": 23.991,
+   "chunk": 3
+  },
+  {
+   "w": "them",
+   "s": 23.991,
+   "e": 24.284,
+   "chunk": 3
+  },
+  {
+   "w": "into",
+   "s": 24.284,
+   "e": 24.636,
+   "chunk": 3
+  },
+  {
+   "w": "a",
+   "s": 24.636,
+   "e": 24.871,
+   "chunk": 3
+  },
+  {
+   "w": "bar",
+   "s": 24.871,
+   "e": 25.223,
+   "chunk": 3
+  },
+  {
+   "w": "of",
+   "s": 25.223,
+   "e": 25.399,
+   "chunk": 3
+  },
+  {
+   "w": "solid",
+   "s": 25.399,
+   "e": 25.869,
+   "chunk": 3
+  },
+  {
+   "w": "silver.",
+   "s": 25.869,
+   "e": 26.28,
+   "chunk": 3
+  },
+  {
+   "w": "Soon,",
+   "s": 26.5,
+   "e": 26.854,
+   "chunk": 4
+  },
+  {
+   "w": "everyone",
+   "s": 26.854,
+   "e": 27.311,
+   "chunk": 4
+  },
+  {
+   "w": "was",
+   "s": 27.311,
+   "e": 27.493,
+   "chunk": 4
+  },
+  {
+   "w": "doing",
+   "s": 27.493,
+   "e": 27.813,
+   "chunk": 4
+  },
+  {
+   "w": "it.",
+   "s": 27.813,
+   "e": 27.95,
+   "chunk": 4
+  },
+  {
+   "w": "Coins",
+   "s": 28.45,
+   "e": 28.85,
+   "chunk": 4
+  },
+  {
+   "w": "shrank.",
+   "s": 28.85,
+   "e": 29.25,
+   "chunk": 4
+  },
+  {
+   "w": "Shopkeepers",
+   "s": 29.86,
+   "e": 30.324,
+   "chunk": 4
+  },
+  {
+   "w": "weighed",
+   "s": 30.324,
+   "e": 30.555,
+   "chunk": 4
+  },
+  {
+   "w": "every",
+   "s": 30.555,
+   "e": 30.787,
+   "chunk": 4
+  },
+  {
+   "w": "single",
+   "s": 30.787,
+   "e": 31.097,
+   "chunk": 4
+  },
+  {
+   "w": "one.",
+   "s": 31.097,
+   "e": 31.29,
+   "chunk": 4
+  },
+  {
+   "w": "Nobody",
+   "s": 31.29,
+   "e": 31.881,
+   "chunk": 4
+  },
+  {
+   "w": "trusted",
+   "s": 31.881,
+   "e": 32.414,
+   "chunk": 4
+  },
+  {
+   "w": "money",
+   "s": 32.414,
+   "e": 32.768,
+   "chunk": 4
+  },
+  {
+   "w": "anymore,",
+   "s": 32.768,
+   "e": 33.36,
+   "chunk": 4
+  },
+  {
+   "w": "and",
+   "s": 33.36,
+   "e": 33.596,
+   "chunk": 4
+  },
+  {
+   "w": "the",
+   "s": 33.596,
+   "e": 33.774,
+   "chunk": 4
+  },
+  {
+   "w": "whole",
+   "s": 33.774,
+   "e": 34.129,
+   "chunk": 4
+  },
+  {
+   "w": "kingdom",
+   "s": 34.129,
+   "e": 34.602,
+   "chunk": 4
+  },
+  {
+   "w": "started",
+   "s": 34.602,
+   "e": 35.193,
+   "chunk": 4
+  },
+  {
+   "w": "to",
+   "s": 35.193,
+   "e": 35.43,
+   "chunk": 4
+  },
+  {
+   "w": "choke.",
+   "s": 35.43,
+   "e": 35.844,
+   "chunk": 4
+  },
+  {
+   "w": "So",
+   "s": 36.244,
+   "e": 36.429,
+   "chunk": 5
+  },
+  {
+   "w": "the",
+   "s": 36.429,
+   "e": 36.54,
+   "chunk": 5
+  },
+  {
+   "w": "mint",
+   "s": 36.54,
+   "e": 36.762,
+   "chunk": 5
+  },
+  {
+   "w": "changed",
+   "s": 36.762,
+   "e": 37.133,
+   "chunk": 5
+  },
+  {
+   "w": "one",
+   "s": 37.133,
+   "e": 37.318,
+   "chunk": 5
+  },
+  {
+   "w": "thing.",
+   "s": 37.318,
+   "e": 37.504,
+   "chunk": 5
+  },
+  {
+   "w": "Every",
+   "s": 38.074,
+   "e": 38.396,
+   "chunk": 5
+  },
+  {
+   "w": "new",
+   "s": 38.396,
+   "e": 38.665,
+   "chunk": 5
+  },
+  {
+   "w": "coin",
+   "s": 38.665,
+   "e": 38.988,
+   "chunk": 5
+  },
+  {
+   "w": "got",
+   "s": 38.988,
+   "e": 39.31,
+   "chunk": 5
+  },
+  {
+   "w": "tiny",
+   "s": 39.31,
+   "e": 39.687,
+   "chunk": 5
+  },
+  {
+   "w": "ridges",
+   "s": 39.687,
+   "e": 40.117,
+   "chunk": 5
+  },
+  {
+   "w": "pressed",
+   "s": 40.117,
+   "e": 40.493,
+   "chunk": 5
+  },
+  {
+   "w": "into",
+   "s": 40.493,
+   "e": 40.816,
+   "chunk": 5
+  },
+  {
+   "w": "its",
+   "s": 40.816,
+   "e": 41.031,
+   "chunk": 5
+  },
+  {
+   "w": "edge.",
+   "s": 41.031,
+   "e": 41.3,
+   "chunk": 5
+  },
+  {
+   "w": "Shave",
+   "s": 41.52,
+   "e": 41.832,
+   "chunk": 6
+  },
+  {
+   "w": "a",
+   "s": 41.832,
+   "e": 42.04,
+   "chunk": 6
+  },
+  {
+   "w": "coin",
+   "s": 42.04,
+   "e": 42.352,
+   "chunk": 6
+  },
+  {
+   "w": "now,",
+   "s": 42.352,
+   "e": 42.611,
+   "chunk": 6
+  },
+  {
+   "w": "and",
+   "s": 42.611,
+   "e": 42.778,
+   "chunk": 6
+  },
+  {
+   "w": "the",
+   "s": 42.778,
+   "e": 42.902,
+   "chunk": 6
+  },
+  {
+   "w": "ridges",
+   "s": 42.902,
+   "e": 43.235,
+   "chunk": 6
+  },
+  {
+   "w": "disappear.",
+   "s": 43.235,
+   "e": 43.65,
+   "chunk": 6
+  },
+  {
+   "w": "Everyone",
+   "s": 44.09,
+   "e": 44.532,
+   "chunk": 6
+  },
+  {
+   "w": "can",
+   "s": 44.532,
+   "e": 44.753,
+   "chunk": 6
+  },
+  {
+   "w": "see",
+   "s": 44.753,
+   "e": 44.974,
+   "chunk": 6
+  },
+  {
+   "w": "it.",
+   "s": 44.974,
+   "e": 45.106,
+   "chunk": 6
+  },
+  {
+   "w": "And",
+   "s": 45.506,
+   "e": 45.737,
+   "chunk": 7
+  },
+  {
+   "w": "the",
+   "s": 45.737,
+   "e": 45.911,
+   "chunk": 7
+  },
+  {
+   "w": "man",
+   "s": 45.911,
+   "e": 46.2,
+   "chunk": 7
+  },
+  {
+   "w": "put",
+   "s": 46.2,
+   "e": 46.49,
+   "chunk": 7
+  },
+  {
+   "w": "in",
+   "s": 46.49,
+   "e": 46.721,
+   "chunk": 7
+  },
+  {
+   "w": "charge",
+   "s": 46.721,
+   "e": 47.242,
+   "chunk": 7
+  },
+  {
+   "w": "of",
+   "s": 47.242,
+   "e": 47.415,
+   "chunk": 7
+  },
+  {
+   "w": "the",
+   "s": 47.415,
+   "e": 47.589,
+   "chunk": 7
+  },
+  {
+   "w": "mint,",
+   "s": 47.589,
+   "e": 47.936,
+   "chunk": 7
+  },
+  {
+   "w": "who",
+   "s": 48.036,
+   "e": 48.243,
+   "chunk": 7
+  },
+  {
+   "w": "went",
+   "s": 48.243,
+   "e": 48.492,
+   "chunk": 7
+  },
+  {
+   "w": "undercover",
+   "s": 48.492,
+   "e": 48.949,
+   "chunk": 7
+  },
+  {
+   "w": "in",
+   "s": 48.949,
+   "e": 49.114,
+   "chunk": 7
+  },
+  {
+   "w": "taverns",
+   "s": 49.114,
+   "e": 49.446,
+   "chunk": 7
+  },
+  {
+   "w": "to",
+   "s": 49.446,
+   "e": 49.612,
+   "chunk": 7
+  },
+  {
+   "w": "hunt",
+   "s": 49.612,
+   "e": 49.861,
+   "chunk": 7
+  },
+  {
+   "w": "the",
+   "s": 49.861,
+   "e": 49.985,
+   "chunk": 7
+  },
+  {
+   "w": "clippers",
+   "s": 49.985,
+   "e": 50.317,
+   "chunk": 7
+  },
+  {
+   "w": "down?",
+   "s": 50.317,
+   "e": 50.566,
+   "chunk": 7
+  },
+  {
+   "w": "Isaac",
+   "s": 51.206,
+   "e": 51.575,
+   "chunk": 7
+  },
+  {
+   "w": "Newton.",
+   "s": 51.575,
+   "e": 51.996,
+   "chunk": 7
+  },
+  {
+   "w": "Yes.",
+   "s": 52.216,
+   "e": 52.48,
+   "chunk": 8
+  },
+  {
+   "w": "That",
+   "s": 52.48,
+   "e": 52.745,
+   "chunk": 8
+  },
+  {
+   "w": "Isaac",
+   "s": 52.745,
+   "e": 53.115,
+   "chunk": 8
+  },
+  {
+   "w": "Newton.",
+   "s": 53.115,
+   "e": 53.538,
+   "chunk": 8
+  },
+  {
+   "w": "Three",
+   "s": 53.758,
+   "e": 54.032,
+   "chunk": 9
+  },
+  {
+   "w": "hundred",
+   "s": 54.032,
+   "e": 54.443,
+   "chunk": 9
+  },
+  {
+   "w": "years",
+   "s": 54.443,
+   "e": 54.718,
+   "chunk": 9
+  },
+  {
+   "w": "later,",
+   "s": 54.718,
+   "e": 55.038,
+   "chunk": 9
+  },
+  {
+   "w": "coins",
+   "s": 55.288,
+   "e": 55.624,
+   "chunk": 9
+  },
+  {
+   "w": "aren't",
+   "s": 55.624,
+   "e": 55.961,
+   "chunk": 9
+  },
+  {
+   "w": "even",
+   "s": 55.961,
+   "e": 56.297,
+   "chunk": 9
+  },
+  {
+   "w": "made",
+   "s": 56.297,
+   "e": 56.586,
+   "chunk": 9
+  },
+  {
+   "w": "of",
+   "s": 56.586,
+   "e": 56.73,
+   "chunk": 9
+  },
+  {
+   "w": "silver",
+   "s": 56.73,
+   "e": 57.067,
+   "chunk": 9
+  },
+  {
+   "w": "anymore.",
+   "s": 57.067,
+   "e": 57.548,
+   "chunk": 9
+  },
+  {
+   "w": "But",
+   "s": 58.158,
+   "e": 58.461,
+   "chunk": 9
+  },
+  {
+   "w": "they",
+   "s": 58.461,
+   "e": 58.703,
+   "chunk": 9
+  },
+  {
+   "w": "still",
+   "s": 58.703,
+   "e": 59.067,
+   "chunk": 9
+  },
+  {
+   "w": "have",
+   "s": 59.067,
+   "e": 59.37,
+   "chunk": 9
+  },
+  {
+   "w": "the",
+   "s": 59.37,
+   "e": 59.552,
+   "chunk": 9
+  },
+  {
+   "w": "ridges.",
+   "s": 59.552,
+   "e": 60.037,
+   "chunk": 9
+  }
+ ]
+}

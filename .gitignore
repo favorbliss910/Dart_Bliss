@@ -1,0 +1,3 @@
+STORY_LAB/renders/*.log
+STORY_LAB/stories/*/audio/mix.wav
+STORY_LAB/scripts/__pycache__/

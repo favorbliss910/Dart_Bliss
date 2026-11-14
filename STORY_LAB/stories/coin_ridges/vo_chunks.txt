@@ -1,0 +1,13 @@
+hook | The ridges on the edge of your coins exist because of one greedy man... and a pair of scissors.
+
+normal | You see, hundreds of years ago, coins were made of real silver. A coin was worth the metal inside it.
+normal | So a merchant tried something. From every coin that passed through his hands, he trimmed a tiny sliver off the edge. Too small to notice.
+turn | One sliver is nothing. A thousand slivers? He melted them into a bar of solid silver.
+dread | Soon, everyone was doing it. Coins shrank. Shopkeepers weighed every single one. Nobody trusted money anymore, and the whole kingdom started to choke.
+
+normal | So the mint changed one thing. Every new coin got tiny ridges pressed into its edge.
+normal | Shave a coin now, and the ridges disappear. Everyone can see it.
+
+turn | And the man put in charge of the mint, who went undercover in taverns to hunt the clippers down? Isaac Newton.
+normal | Yes. That Isaac Newton.
+final | Three hundred years later, coins aren't even made of silver anymore. But they still have the ridges.
