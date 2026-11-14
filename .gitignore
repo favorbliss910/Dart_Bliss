@@ -4,3 +4,4 @@ STORY_LAB/scripts/__pycache__/
 STORY_LAB/renders/qc/
 STORY_LAB/renders/*_part.mp4
 STORY_LAB/stories/fourth_dimension/audio/voice.wav
+STORY_LAB/renders/*.video.mp4
