@@ -1,0 +1,12717 @@
+{
+ "voice": "kokoro/am_michael",
+ "duration": 716.435,
+ "speech_end": 714.835,
+ "chunks": [
+  {
+   "i": 0,
+   "mood": "hook",
+   "text": "Point up. Now point down. Left. Right. Forward. Back.",
+   "s": 0.25,
+   "e": 3.456
+  },
+  {
+   "i": 1,
+   "mood": "hook",
+   "text": "Six directions. Three dimensions. That is the whole world, as far as you know.",
+   "s": 4.056,
+   "e": 8.858
+  },
+  {
+   "i": 2,
+   "mood": "hook",
+   "text": "But mathematicians have long wondered about another direction. One that sits at a right angle to all the others.",
+   "s": 9.458,
+   "e": 16.504
+  },
+  {
+   "i": 3,
+   "mood": "hook",
+   "text": "A direction you cannot point to, cannot picture, and cannot see.",
+   "s": 16.784,
+   "e": 20.472
+  },
+  {
+   "i": 4,
+   "mood": "hook",
+   "text": "If you could see it, the world would turn inside out. You would see the cash inside a locked safe.",
+   "s": 21.072,
+   "e": 26.74
+  },
+  {
+   "i": 5,
+   "mood": "hook",
+   "text": "You would see every room of your home at once. You would see the heart beating inside your own chest.",
+   "s": 27.02,
+   "e": 32.59
+  },
+  {
+   "i": 6,
+   "mood": "hook",
+   "text": "And anything living in that direction could reach inside you, and remove your heart, without leaving a single mark.",
+   "s": 33.19,
+   "e": 39.958
+  },
+  {
+   "i": 7,
+   "mood": "hook",
+   "text": "Before this story ends, you will understand exactly how.",
+   "s": 40.558,
+   "e": 44.117
+  },
+  {
+   "i": 8,
+   "mood": "hook",
+   "text": "This is what it would mean to see the fourth dimension.",
+   "s": 44.717,
+   "e": 47.487
+  },
+  {
+   "i": 9,
+   "mood": "hook",
+   "text": "And no, we do not mean time. We mean a fourth direction of space. Like up, or left. Just one we have never been able to visit.",
+   "s": 48.087,
+   "e": 56.267
+  },
+  {
+   "i": 10,
+   "mood": "normal",
+   "text": "Here is where we are going. First, a world with one dimension fewer than ours. Then, what your eyes would see, and what you could do.",
+   "s": 56.867,
+   "e": 65.01
+  },
+  {
+   "i": 11,
+   "mood": "normal",
+   "text": "Then, what something else could do to you. And finally, why we are stuck here at all. Some of it is not entirely comfortable.",
+   "s": 65.29,
+   "e": 72.757
+  },
+  {
+   "i": 12,
+   "mood": "turn",
+   "text": "Part one. A world without up.",
+   "s": 73.357,
+   "e": 75.268
+  },
+  {
+   "i": 13,
+   "mood": "normal",
+   "text": "In eighteen eighty-four, an English headmaster named Edwin Abbott published a strange little book. It described a world that was completely flat.",
+   "s": 75.868,
+   "e": 84.773
+  },
+  {
+   "i": 14,
+   "mood": "normal",
+   "text": "Like a sheet of paper, stretching on forever. He called it Flatland.",
+   "s": 85.053,
+   "e": 88.843
+  },
+  {
+   "i": 15,
+   "mood": "normal",
+   "text": "Let us meet one of its residents. A small square. We will call him Sam.",
+   "s": 89.443,
+   "e": 93.609
+  },
+  {
+   "i": 16,
+   "mood": "normal",
+   "text": "Sam can move forward and back. He can move left and right. But up? Sam has no word for it. His entire universe has no up.",
+   "s": 94.209,
+   "e": 102.407
+  },
+  {
+   "i": 17,
+   "mood": "normal",
+   "text": "And Sam cannot look down on his world, the way we look down on a drawing. His eyes sit inside it. He only sees edges.",
+   "s": 103.007,
+   "e": 110.94
+  },
+  {
+   "i": 18,
+   "mood": "normal",
+   "text": "Every object around him appears as a single line. Brighter here. Darker there.",
+   "s": 111.22,
+   "e": 116.223
+  },
+  {
+   "i": 19,
+   "mood": "normal",
+   "text": "Sam's home is a shape, surrounded by walls. And those walls are simply lines. When he locks his door, he closes a gap in that line.",
+   "s": 116.823,
+   "e": 125.509
+  },
+  {
+   "i": 20,
+   "mood": "normal",
+   "text": "And in his world, that is enough. Nothing can get in.",
+   "s": 125.789,
+   "e": 128.687
+  },
+  {
+   "i": 21,
+   "mood": "normal",
+   "text": "Except, of course, you.",
+   "s": 129.287,
+   "e": 130.618
+  },
+  {
+   "i": 22,
+   "mood": "normal",
+   "text": "You could reach down from above, into the middle of his locked home. To Sam, a hand would appear from nowhere. Inside a sealed room. And then, vanish.",
+   "s": 131.218,
+   "e": 140.268
+  },
+  {
+   "i": 23,
+   "mood": "normal",
+   "text": "Hold on to that image. Because in this story, you are Sam. And somewhere, there may be something looking down on you.",
+   "s": 140.868,
+   "e": 147.388
+  },
+  {
+   "i": 24,
+   "mood": "turn",
+   "text": "Part two. The eye.",
+   "s": 147.988,
+   "e": 149.262
+  },
+  {
+   "i": 25,
+   "mood": "normal",
+   "text": "If Sam sees only lines, what do we see?",
+   "s": 149.862,
+   "e": 152.4
+  },
+  {
+   "i": 26,
+   "mood": "normal",
+   "text": "The answer is surprising. We believe we see the world in three dimensions. We do not.",
+   "s": 153.0,
+   "e": 158.168
+  },
+  {
+   "i": 27,
+   "mood": "normal",
+   "text": "At the back of your eye is the retina. A thin sheet of light-sensitive cells. Essentially, a two-dimensional screen. Light lands on it and paints a flat picture.",
+   "s": 158.768,
+   "e": 169.115
+  },
+  {
+   "i": 28,
+   "mood": "normal",
+   "text": "Your brain then rebuilds depth, using two eyes, shadows, and a lifetime of experience.",
+   "s": 169.395,
+   "e": 174.889
+  },
+  {
+   "i": 29,
+   "mood": "normal",
+   "text": "So you live in three dimensions, but you see in two. Sam lives in two dimensions, but sees in one.",
+   "s": 175.489,
+   "e": 181.524
+  },
+  {
+   "i": 30,
+   "mood": "normal",
+   "text": "Take that pattern one step further. A creature living in four dimensions would have a retina that is not a sheet, but a solid.",
+   "s": 182.124,
+   "e": 189.512
+  },
+  {
+   "i": 31,
+   "mood": "normal",
+   "text": "A block of light-sensitive cells, filled all the way through.",
+   "s": 189.792,
+   "e": 193.223
+  },
+  {
+   "i": 32,
+   "mood": "normal",
+   "text": "And that changes everything.",
+   "s": 193.823,
+   "e": 195.264
+  },
+  {
+   "i": 33,
+   "mood": "normal",
+   "text": "A flat image of a box shows you only its surface. But a solid image of a box contains every point within it.",
+   "s": 195.864,
+   "e": 202.622
+  },
+  {
+   "i": 34,
+   "mood": "normal",
+   "text": "The outside, and the inside, together.",
+   "s": 202.902,
+   "e": 205.018
+  },
+  {
+   "i": 35,
+   "mood": "normal",
+   "text": "So with four-dimensional sight, a closed box would simply show you what it holds. Not like an x-ray, faint and transparent.",
+   "s": 205.618,
+   "e": 213.295
+  },
+  {
+   "i": 36,
+   "mood": "normal",
+   "text": "More like the way you see Sam's home from above. Every room. Every wall. Every interior. All at once, in full detail.",
+   "s": 213.575,
+   "e": 221.411
+  },
+  {
+   "i": 37,
+   "mood": "normal",
+   "text": "You could look at another person and see their skin, their muscle, their bones, and their beating heart. All at the same time. From every side.",
+   "s": 222.011,
+   "e": 230.04
+  },
+  {
+   "i": 38,
+   "mood": "normal",
+   "text": "To eyes like that, nothing could be hidden. Not in a pocket. Not in a vault. Not inside a body.",
+   "s": 230.64,
+   "e": 236.679
+  },
+  {
+   "i": 39,
+   "mood": "turn",
+   "text": "Part three. Visitors.",
+   "s": 237.279,
+   "e": 238.713
+  },
+  {
+   "i": 40,
+   "mood": "normal",
+   "text": "So what would a four-dimensional object look like, if it passed through our world?",
+   "s": 239.313,
+   "e": 243.748
+  },
+  {
+   "i": 41,
+   "mood": "normal",
+   "text": "Let us go back to Sam. Imagine lowering a ball through his flat universe.",
+   "s": 244.348,
+   "e": 248.846
+  },
+  {
+   "i": 42,
+   "mood": "normal",
+   "text": "Sam would not see a ball. He would see a single point, appearing out of nothing. The point would grow into a circle. The circle would widen.",
+   "s": 249.446,
+   "e": 257.884
+  },
+  {
+   "i": 43,
+   "mood": "normal",
+   "text": "Then shrink. Then disappear entirely.",
+   "s": 258.164,
+   "e": 260.456
+  },
+  {
+   "i": 44,
+   "mood": "normal",
+   "text": "Sam would call it a miracle. You would call it a ball, passing through.",
+   "s": 261.056,
+   "e": 264.789
+  },
+  {
+   "i": 45,
+   "mood": "normal",
+   "text": "Now, take that one level higher.",
+   "s": 265.389,
+   "e": 267.054
+  },
+  {
+   "i": 46,
+   "mood": "normal",
+   "text": "Mathematicians describe a four-dimensional ball, called a hypersphere. If one passed through our world, you would see a tiny point appear in empty air.",
+   "s": 267.654,
+   "e": 277.093
+  },
+  {
+   "i": 47,
+   "mood": "normal",
+   "text": "It would swell into a sphere. Grow larger. Then smaller. And then, it would be gone.",
+   "s": 277.373,
+   "e": 282.284
+  },
+  {
+   "i": 48,
+   "mood": "normal",
+   "text": "No door. No direction of arrival. Just presence, and then absence.",
+   "s": 282.884,
+   "e": 287.103
+  },
+  {
+   "i": 49,
+   "mood": "normal",
+   "text": "The four-dimensional cube, called a tesseract, is stranger still. We draw it as a cube inside a cube, folding through itself as it turns.",
+   "s": 287.703,
+   "e": 296.747
+  },
+  {
+   "i": 50,
+   "mood": "normal",
+   "text": "But that is only its shadow. To a four-dimensional eye, it is perfectly simple.",
+   "s": 297.027,
+   "e": 301.711
+  },
+  {
+   "i": 51,
+   "mood": "normal",
+   "text": "The strangeness is ours. Not the shape's.",
+   "s": 302.311,
+   "e": 304.758
+  },
+  {
+   "i": 52,
+   "mood": "turn",
+   "text": "Part four. A day in four dimensions.",
+   "s": 305.358,
+   "e": 307.842
+  },
+  {
+   "i": 53,
+   "mood": "normal",
+   "text": "Now, let us try something.",
+   "s": 308.442,
+   "e": 309.951
+  },
+  {
+   "i": 54,
+   "mood": "normal",
+   "text": "Imagine you wake up tomorrow, and something has changed. You can move in the fourth direction.",
+   "s": 310.551,
+   "e": 315.667
+  },
+  {
+   "i": 55,
+   "mood": "normal",
+   "text": "It even has a name. More than a century ago, the mathematician Charles Hinton gave the two ends of this direction their own words. Ana, and kata.",
+   "s": 316.267,
+   "e": 325.904
+  },
+  {
+   "i": 56,
+   "mood": "normal",
+   "text": "Like up, and down. Just pointed somewhere else.",
+   "s": 326.184,
+   "e": 329.175
+  },
+  {
+   "i": 57,
+   "mood": "normal",
+   "text": "So, you try it. You step ana.",
+   "s": 329.776,
+   "e": 331.567
+  },
+  {
+   "i": 58,
+   "mood": "normal",
+   "text": "And your house opens like a flower.",
+   "s": 332.167,
+   "e": 334.106
+  },
+  {
+   "i": 59,
+   "mood": "normal",
+   "text": "You are not above it. You are not beside it. You are outside of it, in a way you have never been outside of anything. Every room.",
+   "s": 334.706,
+   "e": 342.282
+  },
+  {
+   "i": 60,
+   "mood": "normal",
+   "text": "Every drawer. The inside of every wall. All in plain sight.",
+   "s": 342.562,
+   "e": 346.232
+  },
+  {
+   "i": 61,
+   "mood": "normal",
+   "text": "In the kitchen, you notice your keys. They are sitting on the counter, inside a house you locked last night. You do not need them.",
+   "s": 346.832,
+   "e": 354.031
+  },
+  {
+   "i": 62,
+   "mood": "normal",
+   "text": "You step kata, and you are standing beside them.",
+   "s": 354.311,
+   "e": 357.046
+  },
+  {
+   "i": 63,
+   "mood": "normal",
+   "text": "The door never opened. The lock never turned. For you, walls are now just suggestions.",
+   "s": 357.646,
+   "e": 363.21
+  },
+  {
+   "i": 64,
+   "mood": "normal",
+   "text": "You head outside. You bend down to tie your shoes. You pull the laces tight. And the knot slides apart in your hands.",
+   "s": 363.81,
+   "e": 371.109
+  },
+  {
+   "i": 65,
+   "mood": "normal",
+   "text": "You try again. It happens again.",
+   "s": 371.709,
+   "e": 373.746
+  },
+  {
+   "i": 66,
+   "mood": "normal",
+   "text": "A knot only holds because a rope cannot pass through itself. But now, every rope near you has an extra direction to slip into. And it takes it.",
+   "s": 374.346,
+   "e": 383.38
+  },
+  {
+   "i": 67,
+   "mood": "normal",
+   "text": "In four dimensions, nothing stays tied.",
+   "s": 383.66,
+   "e": 386.025
+  },
+  {
+   "i": 68,
+   "mood": "normal",
+   "text": "Then, you remember Sam.",
+   "s": 386.625,
+   "e": 387.942
+  },
+  {
+   "i": 69,
+   "mood": "normal",
+   "text": "You lean over his flat world, the way you always could. But now, you do something you never could before.",
+   "s": 388.542,
+   "e": 394.652
+  },
+  {
+   "i": 70,
+   "mood": "normal",
+   "text": "Beside Sam is a footprint. A left footprint. Sam could slide it anywhere, and spin it any way he liked.",
+   "s": 395.252,
+   "e": 401.504
+  },
+  {
+   "i": 71,
+   "mood": "normal",
+   "text": "But he could never turn it into a right footprint. Nothing in his flat world could.",
+   "s": 401.784,
+   "e": 406.295
+  },
+  {
+   "i": 72,
+   "mood": "normal",
+   "text": "You lift it out of Flatland. You flip it over. You lay it back down.",
+   "s": 406.895,
+   "e": 410.834
+  },
+  {
+   "i": 73,
+   "mood": "normal",
+   "text": "Sam stares at it. It is now a right footprint. To him, the impossible has just happened, quietly, in front of his eyes.",
+   "s": 411.434,
+   "e": 419.157
+  },
+  {
+   "i": 74,
+   "mood": "normal",
+   "text": "Walking through walls. Untying every knot. Turning anything into its reflection.",
+   "s": 419.757,
+   "e": 424.865
+  },
+  {
+   "i": 75,
+   "mood": "normal",
+   "text": "If you could keep only one of these abilities, which would you choose? Tell me in the comments. And think about it carefully.",
+   "s": 425.465,
+   "e": 431.91
+  },
+  {
+   "i": 76,
+   "mood": "normal",
+   "text": "Because that last ability, the reflection, is about to matter a great deal.",
+   "s": 432.51,
+   "e": 437.072
+  },
+  {
+   "i": 77,
+   "mood": "turn",
+   "text": "Part five. The watcher.",
+   "s": 437.672,
+   "e": 439.096
+  },
+  {
+   "i": 78,
+   "mood": "dread",
+   "text": "Now, let us reverse it. Suppose something else already has these abilities.",
+   "s": 439.696,
+   "e": 444.303
+  },
+  {
+   "i": 79,
+   "mood": "dread",
+   "text": "To that creature, you are Sam. Your skin is not a barrier. It is an outline.",
+   "s": 444.903,
+   "e": 449.679
+  },
+  {
+   "i": 80,
+   "mood": "dread",
+   "text": "Your heart is as exposed to it as a heart drawn on paper is to you.",
+   "s": 449.959,
+   "e": 454.204
+  },
+  {
+   "i": 81,
+   "mood": "dread",
+   "text": "You could lift a coin from the very center of Sam, without touching his edges.",
+   "s": 454.804,
+   "e": 459.606
+  },
+  {
+   "i": 82,
+   "mood": "dread",
+   "text": "In exactly the same way, a four-dimensional being could reach into your chest and remove your heart. No incision. No wound. No trace.",
+   "s": 459.886,
+   "e": 469.101
+  },
+  {
+   "i": 83,
+   "mood": "dread",
+   "text": "That is how something could take your heart, without ever breaking your skin.",
+   "s": 469.701,
+   "e": 473.878
+  },
+  {
+   "i": 84,
+   "mood": "dread",
+   "text": "And then, there is the matter of reflections.",
+   "s": 474.478,
+   "e": 476.943
+  },
+  {
+   "i": 85,
+   "mood": "dread",
+   "text": "Imagine this being lifts you out of our world. Turns you, once, through the fourth dimension. And sets you back down, exactly where you were.",
+   "s": 477.543,
+   "e": 486.117
+  },
+  {
+   "i": 86,
+   "mood": "dread",
+   "text": "At first, you would feel nothing unusual. But your heart would now sit on the right side of your chest.",
+   "s": 486.717,
+   "e": 492.795
+  },
+  {
+   "i": 87,
+   "mood": "dread",
+   "text": "Every part of you would be a mirror image of what it was. Just like Sam's footprint.",
+   "s": 493.075,
+   "e": 498.161
+  },
+  {
+   "i": 88,
+   "mood": "dread",
+   "text": "And slowly, you would begin to starve.",
+   "s": 498.761,
+   "e": 501.048
+  },
+  {
+   "i": 89,
+   "mood": "dread",
+   "text": "Many of the molecules of life come in two mirror-image forms. Left-handed, and right-handed. And life on Earth is remarkably particular.",
+   "s": 501.648,
+   "e": 511.197
+  },
+  {
+   "i": 90,
+   "mood": "dread",
+   "text": "It is built almost entirely from left-handed amino acids, and right-handed sugars.",
+   "s": 511.477,
+   "e": 517.221
+  },
+  {
+   "i": 91,
+   "mood": "dread",
+   "text": "Reflect a body, and every one of those molecules reverses. Much of the world's food would now be the wrong shape for you.",
+   "s": 517.821,
+   "e": 525.435
+  },
+  {
+   "i": 92,
+   "mood": "dread",
+   "text": "You could eat every single day, and still waste away.",
+   "s": 525.715,
+   "e": 528.869
+  },
+  {
+   "i": 93,
+   "mood": "dread",
+   "text": "A single turn, through a direction you cannot see. And the living world would no longer feed you.",
+   "s": 529.469,
+   "e": 535.486
+  },
+  {
+   "i": 94,
+   "mood": "turn",
+   "text": "Part six. Nothing stays tied.",
+   "s": 536.086,
+   "e": 538.217
+  },
+  {
+   "i": 95,
+   "mood": "normal",
+   "text": "So if the fourth dimension is so powerful, why don't we live there?",
+   "s": 538.817,
+   "e": 542.55
+  },
+  {
+   "i": 96,
+   "mood": "normal",
+   "text": "To find out, let us run an experiment. We take our solar system, exactly as it is, and give it one extra direction.",
+   "s": 543.15,
+   "e": 550.74
+  },
+  {
+   "i": 97,
+   "mood": "normal",
+   "text": "At first, nothing seems wrong. The Sun still shines. The Earth still circles it.",
+   "s": 551.34,
+   "e": 556.113
+  },
+  {
+   "i": 98,
+   "mood": "normal",
+   "text": "Then, a tiny nudge. A slight tug from Jupiter. The kind of thing that happens all the time.",
+   "s": 556.713,
+   "e": 562.34
+  },
+  {
+   "i": 99,
+   "mood": "normal",
+   "text": "In our universe, that barely matters. The Earth wobbles, and settles into a slightly different path. Our orbits are forgiving.",
+   "s": 562.94,
+   "e": 570.306
+  },
+  {
+   "i": 100,
+   "mood": "normal",
+   "text": "But with four dimensions, gravity spreads out into more space, and it fades far faster with distance.",
+   "s": 570.906,
+   "e": 577.274
+  },
+  {
+   "i": 101,
+   "mood": "normal",
+   "text": "In nineteen seventeen, the physicist Paul Ehrenfest worked out what that means. There are no forgiving orbits anymore.",
+   "s": 577.554,
+   "e": 584.767
+  },
+  {
+   "i": 102,
+   "mood": "normal",
+   "text": "So the nudge grows. The Earth drifts a little closer to the Sun. Gravity grips a little harder. It drifts closer still.",
+   "s": 585.367,
+   "e": 592.859
+  },
+  {
+   "i": 103,
+   "mood": "normal",
+   "text": "Until the Earth spirals down, into the fire.",
+   "s": 593.139,
+   "e": 595.801
+  },
+  {
+   "i": 104,
+   "mood": "normal",
+   "text": "Or, nudged the other way, it slips loose, and sails off into the dark. Forever.",
+   "s": 596.401,
+   "e": 600.774
+  },
+  {
+   "i": 105,
+   "mood": "normal",
+   "text": "Now, zoom in. All the way down, to a single atom.",
+   "s": 601.374,
+   "e": 604.53
+  },
+  {
+   "i": 106,
+   "mood": "normal",
+   "text": "An electron around a nucleus faces the same problem. In four dimensions, it has no stable place to settle. Atoms as we know them could not hold together.",
+   "s": 605.13,
+   "e": 615.286
+  },
+  {
+   "i": 107,
+   "mood": "normal",
+   "text": "No atoms, no chemistry. No chemistry, no life.",
+   "s": 615.566,
+   "e": 618.848
+  },
+  {
+   "i": 108,
+   "mood": "normal",
+   "text": "Remember your shoelaces? In four dimensions, nothing stays tied. Not knots. Not planets. Not atoms.",
+   "s": 619.448,
+   "e": 626.125
+  },
+  {
+   "i": 109,
+   "mood": "normal",
+   "text": "So what about fewer dimensions? What about Sam?",
+   "s": 626.725,
+   "e": 629.556
+  },
+  {
+   "i": 110,
+   "mood": "normal",
+   "text": "Sam, it turns out, has a problem of his own. Think about what it means to eat.",
+   "s": 630.156,
+   "e": 634.811
+  },
+  {
+   "i": 111,
+   "mood": "normal",
+   "text": "Food goes in one end of a tube, and out the other. But draw a tube straight through Sam's flat body, and you have cut him in two.",
+   "s": 635.091,
+   "e": 642.608
+  },
+  {
+   "i": 112,
+   "mood": "normal",
+   "text": "As Stephen Hawking once pointed out, a creature in two dimensions would be split apart by its own digestive tract.",
+   "s": 642.888,
+   "e": 650.016
+  },
+  {
+   "i": 113,
+   "mood": "normal",
+   "text": "Sam, sadly, could never have eaten lunch.",
+   "s": 650.616,
+   "e": 653.016
+  },
+  {
+   "i": 114,
+   "mood": "normal",
+   "text": "Too few dimensions, and a body falls apart. Too many, and nothing holds together at all.",
+   "s": 653.616,
+   "e": 659.149
+  },
+  {
+   "i": 115,
+   "mood": "normal",
+   "text": "Three is the narrow space in between. Just enough room for life to be built. Not so much that it all comes undone.",
+   "s": 659.749,
+   "e": 667.014
+  },
+  {
+   "i": 116,
+   "mood": "normal",
+   "text": "So three dimensions are not a limitation. They may be the very thing that allows us to exist.",
+   "s": 667.614,
+   "e": 673.442
+  },
+  {
+   "i": 117,
+   "mood": "normal",
+   "text": "And our blindness to the fourth dimension may simply be the price of being alive.",
+   "s": 674.042,
+   "e": 678.586
+  },
+  {
+   "i": 118,
+   "mood": "turn",
+   "text": "Epilogue.",
+   "s": 679.186,
+   "e": 680.014
+  },
+  {
+   "i": 119,
+   "mood": "dread",
+   "text": "And yet, one thought remains.",
+   "s": 680.614,
+   "e": 682.268
+  },
+  {
+   "i": 120,
+   "mood": "dread",
+   "text": "Sam never knew he was being watched. He could not have known.",
+   "s": 682.868,
+   "e": 686.387
+  },
+  {
+   "i": 121,
+   "mood": "dread",
+   "text": "You were right there, only a hair's width above him, in a direction he had no word for.",
+   "s": 686.667,
+   "e": 692.048
+  },
+  {
+   "i": 122,
+   "mood": "dread",
+   "text": "So if something were watching you from the fourth dimension, at this very moment, how would you ever know?",
+   "s": 692.648,
+   "e": 698.649
+  },
+  {
+   "i": 123,
+   "mood": "dread",
+   "text": "You could not see it. You could not point to it. It could be closer to you than your own skin.",
+   "s": 699.249,
+   "e": 704.406
+  },
+  {
+   "i": 124,
+   "mood": "dread",
+   "text": "And it would see everything.",
+   "s": 705.006,
+   "e": 706.319
+  },
+  {
+   "i": 125,
+   "mood": "final",
+   "text": "If you want to keep exploring the edges of what we can imagine, subscribe. There is a lot more out there that we cannot see. Yet.",
+   "s": 706.919,
+   "e": 714.835
+  }
+ ],
+ "words": [
+  {
+   "w": "Point",
+   "s": 0.25,
+   "e": 0.658,
+   "chunk": 0
+  },
+  {
+   "w": "up.",
+   "s": 0.658,
+   "e": 0.891,
+   "chunk": 0
+  },
+  {
+   "w": "Now",
+   "s": 0.891,
+   "e": 1.044,
+   "chunk": 0
+  },
+  {
+   "w": "point",
+   "s": 1.044,
+   "e": 1.257,
+   "chunk": 0
+  },
+  {
+   "w": "down.",
+   "s": 1.257,
+   "e": 1.44,
+   "chunk": 0
+  },
+  {
+   "w": "Left.",
+   "s": 1.81,
+   "e": 2.29,
+   "chunk": 0
+  },
+  {
+   "w": "Right.",
+   "s": 2.29,
+   "e": 2.64,
+   "chunk": 0
+  },
+  {
+   "w": "Forward.",
+   "s": 2.64,
+   "e": 3.165,
+   "chunk": 0
+  },
+  {
+   "w": "Back.",
+   "s": 3.165,
+   "e": 3.456,
+   "chunk": 0
+  },
+  {
+   "w": "Six",
+   "s": 4.056,
+   "e": 4.353,
+   "chunk": 1
+  },
+  {
+   "w": "directions.",
+   "s": 4.353,
+   "e": 4.896,
+   "chunk": 1
+  },
+  {
+   "w": "Three",
+   "s": 5.006,
+   "e": 5.408,
+   "chunk": 1
+  },
+  {
+   "w": "dimensions.",
+   "s": 5.408,
+   "e": 6.146,
+   "chunk": 1
+  },
+  {
+   "w": "That",
+   "s": 6.276,
+   "e": 6.548,
+   "chunk": 1
+  },
+  {
+   "w": "is",
+   "s": 6.548,
+   "e": 6.711,
+   "chunk": 1
+  },
+  {
+   "w": "the",
+   "s": 6.711,
+   "e": 6.874,
+   "chunk": 1
+  },
+  {
+   "w": "whole",
+   "s": 6.874,
+   "e": 7.201,
+   "chunk": 1
+  },
+  {
+   "w": "world,",
+   "s": 7.201,
+   "e": 7.582,
+   "chunk": 1
+  },
+  {
+   "w": "as",
+   "s": 7.582,
+   "e": 7.764,
+   "chunk": 1
+  },
+  {
+   "w": "far",
+   "s": 7.764,
+   "e": 8.129,
+   "chunk": 1
+  },
+  {
+   "w": "as",
+   "s": 8.129,
+   "e": 8.311,
+   "chunk": 1
+  },
+  {
+   "w": "you",
+   "s": 8.311,
+   "e": 8.554,
+   "chunk": 1
+  },
+  {
+   "w": "know.",
+   "s": 8.554,
+   "e": 8.858,
+   "chunk": 1
+  },
+  {
+   "w": "But",
+   "s": 9.458,
+   "e": 9.736,
+   "chunk": 2
+  },
+  {
+   "w": "mathematicians",
+   "s": 9.736,
+   "e": 10.568,
+   "chunk": 2
+  },
+  {
+   "w": "have",
+   "s": 10.568,
+   "e": 10.845,
+   "chunk": 2
+  },
+  {
+   "w": "long",
+   "s": 10.845,
+   "e": 11.123,
+   "chunk": 2
+  },
+  {
+   "w": "wondered",
+   "s": 11.123,
+   "e": 11.567,
+   "chunk": 2
+  },
+  {
+   "w": "about",
+   "s": 11.567,
+   "e": 11.955,
+   "chunk": 2
+  },
+  {
+   "w": "another",
+   "s": 11.955,
+   "e": 12.343,
+   "chunk": 2
+  },
+  {
+   "w": "direction.",
+   "s": 12.343,
+   "e": 12.898,
+   "chunk": 2
+  },
+  {
+   "w": "One",
+   "s": 13.538,
+   "e": 13.813,
+   "chunk": 2
+  },
+  {
+   "w": "that",
+   "s": 13.813,
+   "e": 14.087,
+   "chunk": 2
+  },
+  {
+   "w": "sits",
+   "s": 14.087,
+   "e": 14.417,
+   "chunk": 2
+  },
+  {
+   "w": "at",
+   "s": 14.417,
+   "e": 14.582,
+   "chunk": 2
+  },
+  {
+   "w": "a",
+   "s": 14.582,
+   "e": 14.801,
+   "chunk": 2
+  },
+  {
+   "w": "right",
+   "s": 14.801,
+   "e": 15.131,
+   "chunk": 2
+  },
+  {
+   "w": "angle",
+   "s": 15.131,
+   "e": 15.515,
+   "chunk": 2
+  },
+  {
+   "w": "to",
+   "s": 15.515,
+   "e": 15.735,
+   "chunk": 2
+  },
+  {
+   "w": "all",
+   "s": 15.735,
+   "e": 16.009,
+   "chunk": 2
+  },
+  {
+   "w": "the",
+   "s": 16.009,
+   "e": 16.174,
+   "chunk": 2
+  },
+  {
+   "w": "others.",
+   "s": 16.174,
+   "e": 16.504,
+   "chunk": 2
+  },
+  {
+   "w": "A",
+   "s": 16.784,
+   "e": 17.015,
+   "chunk": 3
+  },
+  {
+   "w": "direction",
+   "s": 17.015,
+   "e": 17.593,
+   "chunk": 3
+  },
+  {
+   "w": "you",
+   "s": 17.593,
+   "e": 17.825,
+   "chunk": 3
+  },
+  {
+   "w": "cannot",
+   "s": 17.825,
+   "e": 18.287,
+   "chunk": 3
+  },
+  {
+   "w": "point",
+   "s": 18.287,
+   "e": 18.692,
+   "chunk": 3
+  },
+  {
+   "w": "to,",
+   "s": 18.692,
+   "e": 18.924,
+   "chunk": 3
+  },
+  {
+   "w": "cannot",
+   "s": 19.034,
+   "e": 19.305,
+   "chunk": 3
+  },
+  {
+   "w": "picture,",
+   "s": 19.305,
+   "e": 19.576,
+   "chunk": 3
+  },
+  {
+   "w": "and",
+   "s": 19.576,
+   "e": 19.787,
+   "chunk": 3
+  },
+  {
+   "w": "cannot",
+   "s": 19.787,
+   "e": 20.209,
+   "chunk": 3
+  },
+  {
+   "w": "see.",
+   "s": 20.209,
+   "e": 20.472,
+   "chunk": 3
+  },
+  {
+   "w": "If",
+   "s": 21.072,
+   "e": 21.192,
+   "chunk": 4
+  },
+  {
+   "w": "you",
+   "s": 21.192,
+   "e": 21.352,
+   "chunk": 4
+  },
+  {
+   "w": "could",
+   "s": 21.352,
+   "e": 21.552,
+   "chunk": 4
+  },
+  {
+   "w": "see",
+   "s": 21.552,
+   "e": 21.752,
+   "chunk": 4
+  },
+  {
+   "w": "it,",
+   "s": 21.752,
+   "e": 21.872,
+   "chunk": 4
+  },
+  {
+   "w": "the",
+   "s": 22.142,
+   "e": 22.277,
+   "chunk": 4
+  },
+  {
+   "w": "world",
+   "s": 22.277,
+   "e": 22.592,
+   "chunk": 4
+  },
+  {
+   "w": "would",
+   "s": 22.592,
+   "e": 22.817,
+   "chunk": 4
+  },
+  {
+   "w": "turn",
+   "s": 22.817,
+   "e": 23.087,
+   "chunk": 4
+  },
+  {
+   "w": "inside",
+   "s": 23.087,
+   "e": 23.447,
+   "chunk": 4
+  },
+  {
+   "w": "out.",
+   "s": 23.447,
+   "e": 23.672,
+   "chunk": 4
+  },
+  {
+   "w": "You",
+   "s": 24.322,
+   "e": 24.528,
+   "chunk": 4
+  },
+  {
+   "w": "would",
+   "s": 24.528,
+   "e": 24.785,
+   "chunk": 4
+  },
+  {
+   "w": "see",
+   "s": 24.785,
+   "e": 25.042,
+   "chunk": 4
+  },
+  {
+   "w": "the",
+   "s": 25.042,
+   "e": 25.197,
+   "chunk": 4
+  },
+  {
+   "w": "cash",
+   "s": 25.197,
+   "e": 25.454,
+   "chunk": 4
+  },
+  {
+   "w": "inside",
+   "s": 25.454,
+   "e": 25.865,
+   "chunk": 4
+  },
+  {
+   "w": "a",
+   "s": 25.865,
+   "e": 26.071,
+   "chunk": 4
+  },
+  {
+   "w": "locked",
+   "s": 26.071,
+   "e": 26.431,
+   "chunk": 4
+  },
+  {
+   "w": "safe.",
+   "s": 26.431,
+   "e": 26.74,
+   "chunk": 4
+  },
+  {
+   "w": "You",
+   "s": 27.02,
+   "e": 27.21,
+   "chunk": 5
+  },
+  {
+   "w": "would",
+   "s": 27.21,
+   "e": 27.447,
+   "chunk": 5
+  },
+  {
+   "w": "see",
+   "s": 27.447,
+   "e": 27.685,
+   "chunk": 5
+  },
+  {
+   "w": "every",
+   "s": 27.685,
+   "e": 27.97,
+   "chunk": 5
+  },
+  {
+   "w": "room",
+   "s": 27.97,
+   "e": 28.255,
+   "chunk": 5
+  },
+  {
+   "w": "of",
+   "s": 28.255,
+   "e": 28.397,
+   "chunk": 5
+  },
+  {
+   "w": "your",
+   "s": 28.397,
+   "e": 28.587,
+   "chunk": 5
+  },
+  {
+   "w": "home",
+   "s": 28.587,
+   "e": 28.872,
+   "chunk": 5
+  },
+  {
+   "w": "at",
+   "s": 28.872,
+   "e": 29.015,
+   "chunk": 5
+  },
+  {
+   "w": "once.",
+   "s": 29.015,
+   "e": 29.3,
+   "chunk": 5
+  },
+  {
+   "w": "You",
+   "s": 29.79,
+   "e": 29.99,
+   "chunk": 5
+  },
+  {
+   "w": "would",
+   "s": 29.99,
+   "e": 30.24,
+   "chunk": 5
+  },
+  {
+   "w": "see",
+   "s": 30.24,
+   "e": 30.49,
+   "chunk": 5
+  },
+  {
+   "w": "the",
+   "s": 30.49,
+   "e": 30.64,
+   "chunk": 5
+  },
+  {
+   "w": "heart",
+   "s": 30.64,
+   "e": 30.99,
+   "chunk": 5
+  },
+  {
+   "w": "beating",
+   "s": 30.99,
+   "e": 31.39,
+   "chunk": 5
+  },
+  {
+   "w": "inside",
+   "s": 31.39,
+   "e": 31.79,
+   "chunk": 5
+  },
+  {
+   "w": "your",
+   "s": 31.79,
+   "e": 31.99,
+   "chunk": 5
+  },
+  {
+   "w": "own",
+   "s": 31.99,
+   "e": 32.24,
+   "chunk": 5
+  },
+  {
+   "w": "chest.",
+   "s": 32.24,
+   "e": 32.59,
+   "chunk": 5
+  },
+  {
+   "w": "And",
+   "s": 33.19,
+   "e": 33.385,
+   "chunk": 6
+  },
+  {
+   "w": "anything",
+   "s": 33.385,
+   "e": 33.825,
+   "chunk": 6
+  },
+  {
+   "w": "living",
+   "s": 33.825,
+   "e": 34.167,
+   "chunk": 6
+  },
+  {
+   "w": "in",
+   "s": 34.167,
+   "e": 34.363,
+   "chunk": 6
+  },
+  {
+   "w": "that",
+   "s": 34.363,
+   "e": 34.607,
+   "chunk": 6
+  },
+  {
+   "w": "direction",
+   "s": 34.607,
+   "e": 35.096,
+   "chunk": 6
+  },
+  {
+   "w": "could",
+   "s": 35.096,
+   "e": 35.341,
+   "chunk": 6
+  },
+  {
+   "w": "reach",
+   "s": 35.341,
+   "e": 35.683,
+   "chunk": 6
+  },
+  {
+   "w": "inside",
+   "s": 35.683,
+   "e": 36.074,
+   "chunk": 6
+  },
+  {
+   "w": "you,",
+   "s": 36.074,
+   "e": 36.27,
+   "chunk": 6
+  },
+  {
+   "w": "and",
+   "s": 36.71,
+   "e": 36.89,
+   "chunk": 6
+  },
+  {
+   "w": "remove",
+   "s": 36.89,
+   "e": 37.252,
+   "chunk": 6
+  },
+  {
+   "w": "your",
+   "s": 37.252,
+   "e": 37.433,
+   "chunk": 6
+  },
+  {
+   "w": "heart,",
+   "s": 37.433,
+   "e": 37.75,
+   "chunk": 6
+  },
+  {
+   "w": "without",
+   "s": 38.26,
+   "e": 38.648,
+   "chunk": 6
+  },
+  {
+   "w": "leaving",
+   "s": 38.648,
+   "e": 39.036,
+   "chunk": 6
+  },
+  {
+   "w": "a",
+   "s": 39.036,
+   "e": 39.23,
+   "chunk": 6
+  },
+  {
+   "w": "single",
+   "s": 39.23,
+   "e": 39.619,
+   "chunk": 6
+  },
+  {
+   "w": "mark.",
+   "s": 39.619,
+   "e": 39.958,
+   "chunk": 6
+  },
+  {
+   "w": "Before",
+   "s": 40.558,
+   "e": 40.955,
+   "chunk": 7
+  },
+  {
+   "w": "this",
+   "s": 40.955,
+   "e": 41.203,
+   "chunk": 7
+  },
+  {
+   "w": "story",
+   "s": 41.203,
+   "e": 41.6,
+   "chunk": 7
+  },
+  {
+   "w": "ends,",
+   "s": 41.6,
+   "e": 41.898,
+   "chunk": 7
+  },
+  {
+   "w": "you",
+   "s": 42.258,
+   "e": 42.465,
+   "chunk": 7
+  },
+  {
+   "w": "will",
+   "s": 42.465,
+   "e": 42.723,
+   "chunk": 7
+  },
+  {
+   "w": "understand",
+   "s": 42.723,
+   "e": 43.343,
+   "chunk": 7
+  },
+  {
+   "w": "exactly",
+   "s": 43.343,
+   "e": 43.859,
+   "chunk": 7
+  },
+  {
+   "w": "how.",
+   "s": 43.859,
+   "e": 44.117,
+   "chunk": 7
+  },
+  {
+   "w": "This",
+   "s": 44.717,
+   "e": 44.964,
+   "chunk": 8
+  },
+  {
+   "w": "is",
+   "s": 44.964,
+   "e": 45.113,
+   "chunk": 8
+  },
+  {
+   "w": "what",
+   "s": 45.113,
+   "e": 45.36,
+   "chunk": 8
+  },
+  {
+   "w": "it",
+   "s": 45.36,
+   "e": 45.508,
+   "chunk": 8
+  },
+  {
+   "w": "would",
+   "s": 45.508,
+   "e": 45.756,
+   "chunk": 8
+  },
+  {
+   "w": "mean",
+   "s": 45.756,
+   "e": 46.053,
+   "chunk": 8
+  },
+  {
+   "w": "to",
+   "s": 46.053,
+   "e": 46.25,
+   "chunk": 8
+  },
+  {
+   "w": "see",
+   "s": 46.25,
+   "e": 46.498,
+   "chunk": 8
+  },
+  {
+   "w": "the",
+   "s": 46.498,
+   "e": 46.646,
+   "chunk": 8
+  },
+  {
+   "w": "fourth",
+   "s": 46.646,
+   "e": 46.992,
+   "chunk": 8
+  },
+  {
+   "w": "dimension.",
+   "s": 46.992,
+   "e": 47.487,
+   "chunk": 8
+  },
+  {
+   "w": "And",
+   "s": 48.087,
+   "e": 48.31,
+   "chunk": 9
+  },
+  {
+   "w": "no,",
+   "s": 48.31,
+   "e": 48.588,
+   "chunk": 9
+  },
+  {
+   "w": "we",
+   "s": 48.588,
+   "e": 48.764,
+   "chunk": 9
+  },
+  {
+   "w": "do",
+   "s": 48.764,
+   "e": 48.984,
+   "chunk": 9
+  },
+  {
+   "w": "not",
+   "s": 48.984,
+   "e": 49.248,
+   "chunk": 9
+  },
+  {
+   "w": "mean",
+   "s": 49.248,
+   "e": 49.513,
+   "chunk": 9
+  },
+  {
+   "w": "time.",
+   "s": 49.513,
+   "e": 49.777,
+   "chunk": 9
+  },
+  {
+   "w": "We",
+   "s": 50.317,
+   "e": 50.502,
+   "chunk": 9
+  },
+  {
+   "w": "mean",
+   "s": 50.502,
+   "e": 50.78,
+   "chunk": 9
+  },
+  {
+   "w": "a",
+   "s": 50.78,
+   "e": 50.966,
+   "chunk": 9
+  },
+  {
+   "w": "fourth",
+   "s": 50.966,
+   "e": 51.29,
+   "chunk": 9
+  },
+  {
+   "w": "direction",
+   "s": 51.29,
+   "e": 51.754,
+   "chunk": 9
+  },
+  {
+   "w": "of",
+   "s": 51.754,
+   "e": 51.893,
+   "chunk": 9
+  },
+  {
+   "w": "space.",
+   "s": 51.893,
+   "e": 52.217,
+   "chunk": 9
+  },
+  {
+   "w": "Like",
+   "s": 52.597,
+   "e": 52.855,
+   "chunk": 9
+  },
+  {
+   "w": "up,",
+   "s": 52.855,
+   "e": 53.027,
+   "chunk": 9
+  },
+  {
+   "w": "or",
+   "s": 53.137,
+   "e": 53.177,
+   "chunk": 9
+  },
+  {
+   "w": "left.",
+   "s": 53.177,
+   "e": 53.237,
+   "chunk": 9
+  },
+  {
+   "w": "Just",
+   "s": 53.267,
+   "e": 53.687,
+   "chunk": 9
+  },
+  {
+   "w": "one",
+   "s": 53.687,
+   "e": 53.987,
+   "chunk": 9
+  },
+  {
+   "w": "we",
+   "s": 53.987,
+   "e": 54.227,
+   "chunk": 9
+  },
+  {
+   "w": "have",
+   "s": 54.227,
+   "e": 54.527,
+   "chunk": 9
+  },
+  {
+   "w": "never",
+   "s": 54.527,
+   "e": 54.887,
+   "chunk": 9
+  },
+  {
+   "w": "been",
+   "s": 54.887,
+   "e": 55.187,
+   "chunk": 9
+  },
+  {
+   "w": "able",
+   "s": 55.187,
+   "e": 55.607,
+   "chunk": 9
+  },
+  {
+   "w": "to",
+   "s": 55.607,
+   "e": 55.847,
+   "chunk": 9
+  },
+  {
+   "w": "visit.",
+   "s": 55.847,
+   "e": 56.267,
+   "chunk": 9
+  },
+  {
+   "w": "Here",
+   "s": 56.867,
+   "e": 57.091,
+   "chunk": 10
+  },
+  {
+   "w": "is",
+   "s": 57.091,
+   "e": 57.225,
+   "chunk": 10
+  },
+  {
+   "w": "where",
+   "s": 57.225,
+   "e": 57.448,
+   "chunk": 10
+  },
+  {
+   "w": "we",
+   "s": 57.448,
+   "e": 57.626,
+   "chunk": 10
+  },
+  {
+   "w": "are",
+   "s": 57.626,
+   "e": 57.805,
+   "chunk": 10
+  },
+  {
+   "w": "going.",
+   "s": 57.805,
+   "e": 58.117,
+   "chunk": 10
+  },
+  {
+   "w": "First,",
+   "s": 58.717,
+   "e": 59.097,
+   "chunk": 10
+  },
+  {
+   "w": "a",
+   "s": 59.207,
+   "e": 59.427,
+   "chunk": 10
+  },
+  {
+   "w": "world",
+   "s": 59.427,
+   "e": 59.812,
+   "chunk": 10
+  },
+  {
+   "w": "with",
+   "s": 59.812,
+   "e": 60.032,
+   "chunk": 10
+  },
+  {
+   "w": "one",
+   "s": 60.032,
+   "e": 60.307,
+   "chunk": 10
+  },
+  {
+   "w": "dimension",
+   "s": 60.307,
+   "e": 60.857,
+   "chunk": 10
+  },
+  {
+   "w": "fewer",
+   "s": 60.857,
+   "e": 61.242,
+   "chunk": 10
+  },
+  {
+   "w": "than",
+   "s": 61.242,
+   "e": 61.462,
+   "chunk": 10
+  },
+  {
+   "w": "ours.",
+   "s": 61.462,
+   "e": 61.737,
+   "chunk": 10
+  },
+  {
+   "w": "Then,",
+   "s": 62.207,
+   "e": 62.307,
+   "chunk": 10
+  },
+  {
+   "w": "what",
+   "s": 61.647,
+   "e": 62.055,
+   "chunk": 10
+  },
+  {
+   "w": "your",
+   "s": 62.055,
+   "e": 62.38,
+   "chunk": 10
+  },
+  {
+   "w": "eyes",
+   "s": 62.38,
+   "e": 62.787,
+   "chunk": 10
+  },
+  {
+   "w": "would",
+   "s": 62.787,
+   "e": 63.195,
+   "chunk": 10
+  },
+  {
+   "w": "see,",
+   "s": 63.195,
+   "e": 63.602,
+   "chunk": 10
+  },
+  {
+   "w": "and",
+   "s": 63.602,
+   "e": 63.847,
+   "chunk": 10
+  },
+  {
+   "w": "what",
+   "s": 63.847,
+   "e": 64.153,
+   "chunk": 10
+  },
+  {
+   "w": "you",
+   "s": 64.153,
+   "e": 64.398,
+   "chunk": 10
+  },
+  {
+   "w": "could",
+   "s": 64.398,
+   "e": 64.704,
+   "chunk": 10
+  },
+  {
+   "w": "do.",
+   "s": 64.704,
+   "e": 65.01,
+   "chunk": 10
+  },
+  {
+   "w": "Then,",
+   "s": 65.29,
+   "e": 65.584,
+   "chunk": 11
+  },
+  {
+   "w": "what",
+   "s": 65.584,
+   "e": 65.932,
+   "chunk": 11
+  },
+  {
+   "w": "something",
+   "s": 65.932,
+   "e": 66.489,
+   "chunk": 11
+  },
+  {
+   "w": "else",
+   "s": 66.489,
+   "e": 66.837,
+   "chunk": 11
+  },
+  {
+   "w": "could",
+   "s": 66.837,
+   "e": 67.185,
+   "chunk": 11
+  },
+  {
+   "w": "do",
+   "s": 67.185,
+   "e": 67.533,
+   "chunk": 11
+  },
+  {
+   "w": "to",
+   "s": 67.533,
+   "e": 67.811,
+   "chunk": 11
+  },
+  {
+   "w": "you.",
+   "s": 67.811,
+   "e": 68.09,
+   "chunk": 11
+  },
+  {
+   "w": "And",
+   "s": 68.36,
+   "e": 68.392,
+   "chunk": 11
+  },
+  {
+   "w": "finally,",
+   "s": 68.392,
+   "e": 68.465,
+   "chunk": 11
+  },
+  {
+   "w": "why",
+   "s": 68.465,
+   "e": 68.675,
+   "chunk": 11
+  },
+  {
+   "w": "we",
+   "s": 68.675,
+   "e": 68.843,
+   "chunk": 11
+  },
+  {
+   "w": "are",
+   "s": 68.843,
+   "e": 69.011,
+   "chunk": 11
+  },
+  {
+   "w": "stuck",
+   "s": 69.011,
+   "e": 69.263,
+   "chunk": 11
+  },
+  {
+   "w": "here",
+   "s": 69.263,
+   "e": 69.474,
+   "chunk": 11
+  },
+  {
+   "w": "at",
+   "s": 69.474,
+   "e": 69.6,
+   "chunk": 11
+  },
+  {
+   "w": "all.",
+   "s": 69.6,
+   "e": 69.81,
+   "chunk": 11
+  },
+  {
+   "w": "Some",
+   "s": 70.34,
+   "e": 70.635,
+   "chunk": 11
+  },
+  {
+   "w": "of",
+   "s": 70.635,
+   "e": 70.812,
+   "chunk": 11
+  },
+  {
+   "w": "it",
+   "s": 70.812,
+   "e": 70.988,
+   "chunk": 11
+  },
+  {
+   "w": "is",
+   "s": 70.988,
+   "e": 71.165,
+   "chunk": 11
+  },
+  {
+   "w": "not",
+   "s": 71.165,
+   "e": 71.519,
+   "chunk": 11
+  },
+  {
+   "w": "entirely",
+   "s": 71.519,
+   "e": 72.108,
+   "chunk": 11
+  },
+  {
+   "w": "comfortable.",
+   "s": 72.108,
+   "e": 72.757,
+   "chunk": 11
+  },
+  {
+   "w": "Part",
+   "s": 73.357,
+   "e": 73.695,
+   "chunk": 12
+  },
+  {
+   "w": "one.",
+   "s": 73.695,
+   "e": 73.937,
+   "chunk": 12
+  },
+  {
+   "w": "A",
+   "s": 74.117,
+   "e": 74.317,
+   "chunk": 12
+  },
+  {
+   "w": "world",
+   "s": 74.317,
+   "e": 74.667,
+   "chunk": 12
+  },
+  {
+   "w": "without",
+   "s": 74.667,
+   "e": 75.068,
+   "chunk": 12
+  },
+  {
+   "w": "up.",
+   "s": 75.068,
+   "e": 75.268,
+   "chunk": 12
+  },
+  {
+   "w": "In",
+   "s": 75.868,
+   "e": 76.075,
+   "chunk": 13
+  },
+  {
+   "w": "eighteen",
+   "s": 76.075,
+   "e": 76.489,
+   "chunk": 13
+  },
+  {
+   "w": "eighty-four,",
+   "s": 76.489,
+   "e": 77.058,
+   "chunk": 13
+  },
+  {
+   "w": "an",
+   "s": 77.508,
+   "e": 77.668,
+   "chunk": 13
+  },
+  {
+   "w": "English",
+   "s": 77.668,
+   "e": 78.096,
+   "chunk": 13
+  },
+  {
+   "w": "headmaster",
+   "s": 78.096,
+   "e": 78.63,
+   "chunk": 13
+  },
+  {
+   "w": "named",
+   "s": 78.63,
+   "e": 79.004,
+   "chunk": 13
+  },
+  {
+   "w": "Edwin",
+   "s": 79.004,
+   "e": 79.378,
+   "chunk": 13
+  },
+  {
+   "w": "Abbott",
+   "s": 79.378,
+   "e": 79.698,
+   "chunk": 13
+  },
+  {
+   "w": "published",
+   "s": 79.698,
+   "e": 80.179,
+   "chunk": 13
+  },
+  {
+   "w": "a",
+   "s": 80.179,
+   "e": 80.393,
+   "chunk": 13
+  },
+  {
+   "w": "strange",
+   "s": 80.393,
+   "e": 80.927,
+   "chunk": 13
+  },
+  {
+   "w": "little",
+   "s": 80.927,
+   "e": 81.301,
+   "chunk": 13
+  },
+  {
+   "w": "book.",
+   "s": 81.301,
+   "e": 81.568,
+   "chunk": 13
+  },
+  {
+   "w": "It",
+   "s": 82.248,
+   "e": 82.394,
+   "chunk": 13
+  },
+  {
+   "w": "described",
+   "s": 82.394,
+   "e": 82.928,
+   "chunk": 13
+  },
+  {
+   "w": "a",
+   "s": 82.928,
+   "e": 83.122,
+   "chunk": 13
+  },
+  {
+   "w": "world",
+   "s": 83.122,
+   "e": 83.462,
+   "chunk": 13
+  },
+  {
+   "w": "that",
+   "s": 83.462,
+   "e": 83.704,
+   "chunk": 13
+  },
+  {
+   "w": "was",
+   "s": 83.704,
+   "e": 83.899,
+   "chunk": 13
+  },
+  {
+   "w": "completely",
+   "s": 83.899,
+   "e": 84.481,
+   "chunk": 13
+  },
+  {
+   "w": "flat.",
+   "s": 84.481,
+   "e": 84.773,
+   "chunk": 13
+  },
+  {
+   "w": "Like",
+   "s": 85.053,
+   "e": 85.368,
+   "chunk": 14
+  },
+  {
+   "w": "a",
+   "s": 85.368,
+   "e": 85.579,
+   "chunk": 14
+  },
+  {
+   "w": "sheet",
+   "s": 85.579,
+   "e": 85.895,
+   "chunk": 14
+  },
+  {
+   "w": "of",
+   "s": 85.895,
+   "e": 86.053,
+   "chunk": 14
+  },
+  {
+   "w": "paper,",
+   "s": 86.053,
+   "e": 86.421,
+   "chunk": 14
+  },
+  {
+   "w": "stretching",
+   "s": 86.421,
+   "e": 86.84,
+   "chunk": 14
+  },
+  {
+   "w": "on",
+   "s": 86.84,
+   "e": 87.008,
+   "chunk": 14
+  },
+  {
+   "w": "forever.",
+   "s": 87.008,
+   "e": 87.343,
+   "chunk": 14
+  },
+  {
+   "w": "He",
+   "s": 87.733,
+   "e": 87.918,
+   "chunk": 14
+  },
+  {
+   "w": "called",
+   "s": 87.918,
+   "e": 88.242,
+   "chunk": 14
+  },
+  {
+   "w": "it",
+   "s": 88.242,
+   "e": 88.38,
+   "chunk": 14
+  },
+  {
+   "w": "Flatland.",
+   "s": 88.38,
+   "e": 88.843,
+   "chunk": 14
+  },
+  {
+   "w": "Let",
+   "s": 89.443,
+   "e": 89.639,
+   "chunk": 15
+  },
+  {
+   "w": "us",
+   "s": 89.639,
+   "e": 89.796,
+   "chunk": 15
+  },
+  {
+   "w": "meet",
+   "s": 89.796,
+   "e": 90.031,
+   "chunk": 15
+  },
+  {
+   "w": "one",
+   "s": 90.031,
+   "e": 90.227,
+   "chunk": 15
+  },
+  {
+   "w": "of",
+   "s": 90.227,
+   "e": 90.345,
+   "chunk": 15
+  },
+  {
+   "w": "its",
+   "s": 90.345,
+   "e": 90.502,
+   "chunk": 15
+  },
+  {
+   "w": "residents.",
+   "s": 90.502,
+   "e": 90.933,
+   "chunk": 15
+  },
+  {
+   "w": "A",
+   "s": 91.203,
+   "e": 91.416,
+   "chunk": 15
+  },
+  {
+   "w": "small",
+   "s": 91.416,
+   "e": 91.79,
+   "chunk": 15
+  },
+  {
+   "w": "square.",
+   "s": 91.79,
+   "e": 92.163,
+   "chunk": 15
+  },
+  {
+   "w": "We",
+   "s": 92.463,
+   "e": 92.646,
+   "chunk": 15
+  },
+  {
+   "w": "will",
+   "s": 92.646,
+   "e": 92.875,
+   "chunk": 15
+  },
+  {
+   "w": "call",
+   "s": 92.875,
+   "e": 93.15,
+   "chunk": 15
+  },
+  {
+   "w": "him",
+   "s": 93.15,
+   "e": 93.379,
+   "chunk": 15
+  },
+  {
+   "w": "Sam.",
+   "s": 93.379,
+   "e": 93.609,
+   "chunk": 15
+  },
+  {
+   "w": "Sam",
+   "s": 94.209,
+   "e": 94.435,
+   "chunk": 16
+  },
+  {
+   "w": "can",
+   "s": 94.435,
+   "e": 94.662,
+   "chunk": 16
+  },
+  {
+   "w": "move",
+   "s": 94.662,
+   "e": 94.933,
+   "chunk": 16
+  },
+  {
+   "w": "forward",
+   "s": 94.933,
+   "e": 95.341,
+   "chunk": 16
+  },
+  {
+   "w": "and",
+   "s": 95.341,
+   "e": 95.522,
+   "chunk": 16
+  },
+  {
+   "w": "back.",
+   "s": 95.522,
+   "e": 95.749,
+   "chunk": 16
+  },
+  {
+   "w": "He",
+   "s": 96.259,
+   "e": 96.416,
+   "chunk": 16
+  },
+  {
+   "w": "can",
+   "s": 96.416,
+   "e": 96.613,
+   "chunk": 16
+  },
+  {
+   "w": "move",
+   "s": 96.613,
+   "e": 96.849,
+   "chunk": 16
+  },
+  {
+   "w": "left",
+   "s": 96.849,
+   "e": 97.085,
+   "chunk": 16
+  },
+  {
+   "w": "and",
+   "s": 97.085,
+   "e": 97.242,
+   "chunk": 16
+  },
+  {
+   "w": "right.",
+   "s": 97.242,
+   "e": 97.479,
+   "chunk": 16
+  },
+  {
+   "w": "But",
+   "s": 97.989,
+   "e": 98.116,
+   "chunk": 16
+  },
+  {
+   "w": "up?",
+   "s": 98.116,
+   "e": 98.219,
+   "chunk": 16
+  },
+  {
+   "w": "Sam",
+   "s": 98.709,
+   "e": 98.953,
+   "chunk": 16
+  },
+  {
+   "w": "has",
+   "s": 98.953,
+   "e": 99.198,
+   "chunk": 16
+  },
+  {
+   "w": "no",
+   "s": 99.198,
+   "e": 99.443,
+   "chunk": 16
+  },
+  {
+   "w": "word",
+   "s": 99.443,
+   "e": 99.737,
+   "chunk": 16
+  },
+  {
+   "w": "for",
+   "s": 99.737,
+   "e": 99.982,
+   "chunk": 16
+  },
+  {
+   "w": "it.",
+   "s": 99.982,
+   "e": 100.129,
+   "chunk": 16
+  },
+  {
+   "w": "His",
+   "s": 100.489,
+   "e": 100.735,
+   "chunk": 16
+  },
+  {
+   "w": "entire",
+   "s": 100.735,
+   "e": 101.128,
+   "chunk": 16
+  },
+  {
+   "w": "universe",
+   "s": 101.128,
+   "e": 101.718,
+   "chunk": 16
+  },
+  {
+   "w": "has",
+   "s": 101.718,
+   "e": 101.964,
+   "chunk": 16
+  },
+  {
+   "w": "no",
+   "s": 101.964,
+   "e": 102.21,
+   "chunk": 16
+  },
+  {
+   "w": "up.",
+   "s": 102.21,
+   "e": 102.407,
+   "chunk": 16
+  },
+  {
+   "w": "And",
+   "s": 103.007,
+   "e": 103.26,
+   "chunk": 17
+  },
+  {
+   "w": "Sam",
+   "s": 103.26,
+   "e": 103.576,
+   "chunk": 17
+  },
+  {
+   "w": "cannot",
+   "s": 103.576,
+   "e": 104.081,
+   "chunk": 17
+  },
+  {
+   "w": "look",
+   "s": 104.081,
+   "e": 104.397,
+   "chunk": 17
+  },
+  {
+   "w": "down",
+   "s": 104.397,
+   "e": 104.776,
+   "chunk": 17
+  },
+  {
+   "w": "on",
+   "s": 104.776,
+   "e": 105.029,
+   "chunk": 17
+  },
+  {
+   "w": "his",
+   "s": 105.029,
+   "e": 105.345,
+   "chunk": 17
+  },
+  {
+   "w": "world,",
+   "s": 105.345,
+   "e": 105.787,
+   "chunk": 17
+  },
+  {
+   "w": "the",
+   "s": 105.917,
+   "e": 106.074,
+   "chunk": 17
+  },
+  {
+   "w": "way",
+   "s": 106.074,
+   "e": 106.336,
+   "chunk": 17
+  },
+  {
+   "w": "we",
+   "s": 106.336,
+   "e": 106.545,
+   "chunk": 17
+  },
+  {
+   "w": "look",
+   "s": 106.545,
+   "e": 106.807,
+   "chunk": 17
+  },
+  {
+   "w": "down",
+   "s": 106.807,
+   "e": 107.121,
+   "chunk": 17
+  },
+  {
+   "w": "on",
+   "s": 107.121,
+   "e": 107.33,
+   "chunk": 17
+  },
+  {
+   "w": "a",
+   "s": 107.33,
+   "e": 107.539,
+   "chunk": 17
+  },
+  {
+   "w": "drawing.",
+   "s": 107.539,
+   "e": 107.958,
+   "chunk": 17
+  },
+  {
+   "w": "His",
+   "s": 107.958,
+   "e": 108.15,
+   "chunk": 17
+  },
+  {
+   "w": "eyes",
+   "s": 108.15,
+   "e": 108.342,
+   "chunk": 17
+  },
+  {
+   "w": "sit",
+   "s": 108.342,
+   "e": 108.534,
+   "chunk": 17
+  },
+  {
+   "w": "inside",
+   "s": 108.534,
+   "e": 108.842,
+   "chunk": 17
+  },
+  {
+   "w": "it.",
+   "s": 108.842,
+   "e": 108.957,
+   "chunk": 17
+  },
+  {
+   "w": "He",
+   "s": 109.497,
+   "e": 109.738,
+   "chunk": 17
+  },
+  {
+   "w": "only",
+   "s": 109.738,
+   "e": 110.158,
+   "chunk": 17
+  },
+  {
+   "w": "sees",
+   "s": 110.158,
+   "e": 110.519,
+   "chunk": 17
+  },
+  {
+   "w": "edges.",
+   "s": 110.519,
+   "e": 110.94,
+   "chunk": 17
+  },
+  {
+   "w": "Every",
+   "s": 111.22,
+   "e": 111.499,
+   "chunk": 18
+  },
+  {
+   "w": "object",
+   "s": 111.499,
+   "e": 111.964,
+   "chunk": 18
+  },
+  {
+   "w": "around",
+   "s": 111.964,
+   "e": 112.336,
+   "chunk": 18
+  },
+  {
+   "w": "him",
+   "s": 112.336,
+   "e": 112.568,
+   "chunk": 18
+  },
+  {
+   "w": "appears",
+   "s": 112.568,
+   "e": 112.894,
+   "chunk": 18
+  },
+  {
+   "w": "as",
+   "s": 112.894,
+   "e": 113.033,
+   "chunk": 18
+  },
+  {
+   "w": "a",
+   "s": 113.033,
+   "e": 113.219,
+   "chunk": 18
+  },
+  {
+   "w": "single",
+   "s": 113.219,
+   "e": 113.591,
+   "chunk": 18
+  },
+  {
+   "w": "line.",
+   "s": 113.591,
+   "e": 113.87,
+   "chunk": 18
+  },
+  {
+   "w": "Brighter",
+   "s": 114.47,
+   "e": 114.833,
+   "chunk": 18
+  },
+  {
+   "w": "here.",
+   "s": 114.833,
+   "e": 115.06,
+   "chunk": 18
+  },
+  {
+   "w": "Darker",
+   "s": 115.45,
+   "e": 115.925,
+   "chunk": 18
+  },
+  {
+   "w": "there.",
+   "s": 115.925,
+   "e": 116.223,
+   "chunk": 18
+  },
+  {
+   "w": "Sam's",
+   "s": 116.823,
+   "e": 117.139,
+   "chunk": 19
+  },
+  {
+   "w": "home",
+   "s": 117.139,
+   "e": 117.456,
+   "chunk": 19
+  },
+  {
+   "w": "is",
+   "s": 117.456,
+   "e": 117.615,
+   "chunk": 19
+  },
+  {
+   "w": "a",
+   "s": 117.615,
+   "e": 117.826,
+   "chunk": 19
+  },
+  {
+   "w": "shape,",
+   "s": 117.826,
+   "e": 118.143,
+   "chunk": 19
+  },
+  {
+   "w": "surrounded",
+   "s": 118.523,
+   "e": 119.058,
+   "chunk": 19
+  },
+  {
+   "w": "by",
+   "s": 119.058,
+   "e": 119.302,
+   "chunk": 19
+  },
+  {
+   "w": "walls.",
+   "s": 119.302,
+   "e": 119.643,
+   "chunk": 19
+  },
+  {
+   "w": "And",
+   "s": 119.813,
+   "e": 120.05,
+   "chunk": 19
+  },
+  {
+   "w": "those",
+   "s": 120.05,
+   "e": 120.407,
+   "chunk": 19
+  },
+  {
+   "w": "walls",
+   "s": 120.407,
+   "e": 120.823,
+   "chunk": 19
+  },
+  {
+   "w": "are",
+   "s": 120.823,
+   "e": 121.061,
+   "chunk": 19
+  },
+  {
+   "w": "simply",
+   "s": 121.061,
+   "e": 121.537,
+   "chunk": 19
+  },
+  {
+   "w": "lines.",
+   "s": 121.537,
+   "e": 121.953,
+   "chunk": 19
+  },
+  {
+   "w": "When",
+   "s": 122.183,
+   "e": 122.396,
+   "chunk": 19
+  },
+  {
+   "w": "he",
+   "s": 122.396,
+   "e": 122.568,
+   "chunk": 19
+  },
+  {
+   "w": "locks",
+   "s": 122.568,
+   "e": 122.867,
+   "chunk": 19
+  },
+  {
+   "w": "his",
+   "s": 122.867,
+   "e": 123.081,
+   "chunk": 19
+  },
+  {
+   "w": "door,",
+   "s": 123.081,
+   "e": 123.337,
+   "chunk": 19
+  },
+  {
+   "w": "he",
+   "s": 123.337,
+   "e": 123.572,
+   "chunk": 19
+  },
+  {
+   "w": "closes",
+   "s": 123.572,
+   "e": 124.1,
+   "chunk": 19
+  },
+  {
+   "w": "a",
+   "s": 124.1,
+   "e": 124.335,
+   "chunk": 19
+  },
+  {
+   "w": "gap",
+   "s": 124.335,
+   "e": 124.629,
+   "chunk": 19
+  },
+  {
+   "w": "in",
+   "s": 124.629,
+   "e": 124.863,
+   "chunk": 19
+  },
+  {
+   "w": "that",
+   "s": 124.863,
+   "e": 125.157,
+   "chunk": 19
+  },
+  {
+   "w": "line.",
+   "s": 125.157,
+   "e": 125.509,
+   "chunk": 19
+  },
+  {
+   "w": "And",
+   "s": 125.789,
+   "e": 126.083,
+   "chunk": 20
+  },
+  {
+   "w": "in",
+   "s": 126.083,
+   "e": 126.377,
+   "chunk": 20
+  },
+  {
+   "w": "his",
+   "s": 126.377,
+   "e": 126.744,
+   "chunk": 20
+  },
+  {
+   "w": "world,",
+   "s": 126.744,
+   "e": 127.259,
+   "chunk": 20
+  },
+  {
+   "w": "that",
+   "s": 127.619,
+   "e": 127.655,
+   "chunk": 20
+  },
+  {
+   "w": "is",
+   "s": 127.655,
+   "e": 127.676,
+   "chunk": 20
+  },
+  {
+   "w": "enough.",
+   "s": 127.676,
+   "e": 127.719,
+   "chunk": 20
+  },
+  {
+   "w": "Nothing",
+   "s": 127.58,
+   "e": 127.949,
+   "chunk": 20
+  },
+  {
+   "w": "can",
+   "s": 127.949,
+   "e": 128.213,
+   "chunk": 20
+  },
+  {
+   "w": "get",
+   "s": 128.213,
+   "e": 128.476,
+   "chunk": 20
+  },
+  {
+   "w": "in.",
+   "s": 128.476,
+   "e": 128.687,
+   "chunk": 20
+  },
+  {
+   "w": "Except,",
+   "s": 129.287,
+   "e": 129.771,
+   "chunk": 21
+  },
+  {
+   "w": "of",
+   "s": 129.771,
+   "e": 129.953,
+   "chunk": 21
+  },
+  {
+   "w": "course,",
+   "s": 129.953,
+   "e": 130.376,
+   "chunk": 21
+  },
+  {
+   "w": "you.",
+   "s": 130.376,
+   "e": 130.618,
+   "chunk": 21
+  },
+  {
+   "w": "You",
+   "s": 131.218,
+   "e": 131.453,
+   "chunk": 22
+  },
+  {
+   "w": "could",
+   "s": 131.453,
+   "e": 131.747,
+   "chunk": 22
+  },
+  {
+   "w": "reach",
+   "s": 131.747,
+   "e": 132.159,
+   "chunk": 22
+  },
+  {
+   "w": "down",
+   "s": 132.159,
+   "e": 132.511,
+   "chunk": 22
+  },
+  {
+   "w": "from",
+   "s": 132.511,
+   "e": 132.805,
+   "chunk": 22
+  },
+  {
+   "w": "above,",
+   "s": 132.805,
+   "e": 133.158,
+   "chunk": 22
+  },
+  {
+   "w": "into",
+   "s": 133.158,
+   "e": 133.51,
+   "chunk": 22
+  },
+  {
+   "w": "the",
+   "s": 133.51,
+   "e": 133.686,
+   "chunk": 22
+  },
+  {
+   "w": "middle",
+   "s": 133.686,
+   "e": 134.098,
+   "chunk": 22
+  },
+  {
+   "w": "of",
+   "s": 134.098,
+   "e": 134.274,
+   "chunk": 22
+  },
+  {
+   "w": "his",
+   "s": 134.274,
+   "e": 134.568,
+   "chunk": 22
+  },
+  {
+   "w": "locked",
+   "s": 134.568,
+   "e": 134.979,
+   "chunk": 22
+  },
+  {
+   "w": "home.",
+   "s": 134.979,
+   "e": 135.332,
+   "chunk": 22
+  },
+  {
+   "w": "To",
+   "s": 135.332,
+   "e": 135.567,
+   "chunk": 22
+  },
+  {
+   "w": "Sam,",
+   "s": 135.567,
+   "e": 135.861,
+   "chunk": 22
+  },
+  {
+   "w": "a",
+   "s": 135.861,
+   "e": 136.096,
+   "chunk": 22
+  },
+  {
+   "w": "hand",
+   "s": 136.096,
+   "e": 136.448,
+   "chunk": 22
+  },
+  {
+   "w": "would",
+   "s": 136.448,
+   "e": 136.742,
+   "chunk": 22
+  },
+  {
+   "w": "appear",
+   "s": 136.742,
+   "e": 137.095,
+   "chunk": 22
+  },
+  {
+   "w": "from",
+   "s": 137.095,
+   "e": 137.388,
+   "chunk": 22
+  },
+  {
+   "w": "nowhere.",
+   "s": 137.388,
+   "e": 137.859,
+   "chunk": 22
+  },
+  {
+   "w": "Inside",
+   "s": 137.859,
+   "e": 138.115,
+   "chunk": 22
+  },
+  {
+   "w": "a",
+   "s": 138.115,
+   "e": 138.242,
+   "chunk": 22
+  },
+  {
+   "w": "sealed",
+   "s": 138.242,
+   "e": 138.466,
+   "chunk": 22
+  },
+  {
+   "w": "room.",
+   "s": 138.466,
+   "e": 138.658,
+   "chunk": 22
+  },
+  {
+   "w": "And",
+   "s": 139.168,
+   "e": 139.52,
+   "chunk": 22
+  },
+  {
+   "w": "then,",
+   "s": 139.52,
+   "e": 139.958,
+   "chunk": 22
+  },
+  {
+   "w": "vanish.",
+   "s": 140.068,
+   "e": 140.268,
+   "chunk": 22
+  },
+  {
+   "w": "Hold",
+   "s": 140.868,
+   "e": 141.202,
+   "chunk": 23
+  },
+  {
+   "w": "on",
+   "s": 141.202,
+   "e": 141.393,
+   "chunk": 23
+  },
+  {
+   "w": "to",
+   "s": 141.393,
+   "e": 141.584,
+   "chunk": 23
+  },
+  {
+   "w": "that",
+   "s": 141.584,
+   "e": 141.823,
+   "chunk": 23
+  },
+  {
+   "w": "image.",
+   "s": 141.823,
+   "e": 142.158,
+   "chunk": 23
+  },
+  {
+   "w": "Because",
+   "s": 142.578,
+   "e": 142.887,
+   "chunk": 23
+  },
+  {
+   "w": "in",
+   "s": 142.887,
+   "e": 143.064,
+   "chunk": 23
+  },
+  {
+   "w": "this",
+   "s": 143.064,
+   "e": 143.285,
+   "chunk": 23
+  },
+  {
+   "w": "story,",
+   "s": 143.285,
+   "e": 143.639,
+   "chunk": 23
+  },
+  {
+   "w": "you",
+   "s": 143.639,
+   "e": 143.841,
+   "chunk": 23
+  },
+  {
+   "w": "are",
+   "s": 143.841,
+   "e": 144.044,
+   "chunk": 23
+  },
+  {
+   "w": "Sam.",
+   "s": 144.044,
+   "e": 144.298,
+   "chunk": 23
+  },
+  {
+   "w": "And",
+   "s": 144.788,
+   "e": 144.994,
+   "chunk": 23
+  },
+  {
+   "w": "somewhere,",
+   "s": 144.994,
+   "e": 145.408,
+   "chunk": 23
+  },
+  {
+   "w": "there",
+   "s": 145.498,
+   "e": 145.713,
+   "chunk": 23
+  },
+  {
+   "w": "may",
+   "s": 145.713,
+   "e": 145.927,
+   "chunk": 23
+  },
+  {
+   "w": "be",
+   "s": 145.927,
+   "e": 146.142,
+   "chunk": 23
+  },
+  {
+   "w": "something",
+   "s": 146.142,
+   "e": 146.486,
+   "chunk": 23
+  },
+  {
+   "w": "looking",
+   "s": 146.486,
+   "e": 146.786,
+   "chunk": 23
+  },
+  {
+   "w": "down",
+   "s": 146.786,
+   "e": 147.044,
+   "chunk": 23
+  },
+  {
+   "w": "on",
+   "s": 147.044,
+   "e": 147.216,
+   "chunk": 23
+  },
+  {
+   "w": "you.",
+   "s": 147.216,
+   "e": 147.388,
+   "chunk": 23
+  },
+  {
+   "w": "Part",
+   "s": 147.988,
+   "e": 148.457,
+   "chunk": 24
+  },
+  {
+   "w": "two.",
+   "s": 148.457,
+   "e": 148.792,
+   "chunk": 24
+  },
+  {
+   "w": "The",
+   "s": 148.792,
+   "e": 148.994,
+   "chunk": 24
+  },
+  {
+   "w": "eye.",
+   "s": 148.994,
+   "e": 149.262,
+   "chunk": 24
+  },
+  {
+   "w": "If",
+   "s": 149.862,
+   "e": 150.02,
+   "chunk": 25
+  },
+  {
+   "w": "Sam",
+   "s": 150.02,
+   "e": 150.285,
+   "chunk": 25
+  },
+  {
+   "w": "sees",
+   "s": 150.285,
+   "e": 150.602,
+   "chunk": 25
+  },
+  {
+   "w": "only",
+   "s": 150.602,
+   "e": 150.972,
+   "chunk": 25
+  },
+  {
+   "w": "lines,",
+   "s": 150.972,
+   "e": 151.342,
+   "chunk": 25
+  },
+  {
+   "w": "what",
+   "s": 151.642,
+   "e": 151.841,
+   "chunk": 25
+  },
+  {
+   "w": "do",
+   "s": 151.841,
+   "e": 152.041,
+   "chunk": 25
+  },
+  {
+   "w": "we",
+   "s": 152.041,
+   "e": 152.2,
+   "chunk": 25
+  },
+  {
+   "w": "see?",
+   "s": 152.2,
+   "e": 152.4,
+   "chunk": 25
+  },
+  {
+   "w": "The",
+   "s": 153.0,
+   "e": 153.172,
+   "chunk": 26
+  },
+  {
+   "w": "answer",
+   "s": 153.172,
+   "e": 153.516,
+   "chunk": 26
+  },
+  {
+   "w": "is",
+   "s": 153.516,
+   "e": 153.688,
+   "chunk": 26
+  },
+  {
+   "w": "surprising.",
+   "s": 153.688,
+   "e": 154.32,
+   "chunk": 26
+  },
+  {
+   "w": "We",
+   "s": 154.76,
+   "e": 154.943,
+   "chunk": 26
+  },
+  {
+   "w": "believe",
+   "s": 154.943,
+   "e": 155.311,
+   "chunk": 26
+  },
+  {
+   "w": "we",
+   "s": 155.311,
+   "e": 155.495,
+   "chunk": 26
+  },
+  {
+   "w": "see",
+   "s": 155.495,
+   "e": 155.725,
+   "chunk": 26
+  },
+  {
+   "w": "the",
+   "s": 155.725,
+   "e": 155.863,
+   "chunk": 26
+  },
+  {
+   "w": "world",
+   "s": 155.863,
+   "e": 156.184,
+   "chunk": 26
+  },
+  {
+   "w": "in",
+   "s": 156.184,
+   "e": 156.368,
+   "chunk": 26
+  },
+  {
+   "w": "three",
+   "s": 156.368,
+   "e": 156.644,
+   "chunk": 26
+  },
+  {
+   "w": "dimensions.",
+   "s": 156.644,
+   "e": 157.15,
+   "chunk": 26
+  },
+  {
+   "w": "We",
+   "s": 157.5,
+   "e": 157.678,
+   "chunk": 26
+  },
+  {
+   "w": "do",
+   "s": 157.678,
+   "e": 157.901,
+   "chunk": 26
+  },
+  {
+   "w": "not.",
+   "s": 157.901,
+   "e": 158.168,
+   "chunk": 26
+  },
+  {
+   "w": "At",
+   "s": 158.768,
+   "e": 158.908,
+   "chunk": 27
+  },
+  {
+   "w": "the",
+   "s": 158.908,
+   "e": 159.048,
+   "chunk": 27
+  },
+  {
+   "w": "back",
+   "s": 159.048,
+   "e": 159.282,
+   "chunk": 27
+  },
+  {
+   "w": "of",
+   "s": 159.282,
+   "e": 159.422,
+   "chunk": 27
+  },
+  {
+   "w": "your",
+   "s": 159.422,
+   "e": 159.608,
+   "chunk": 27
+  },
+  {
+   "w": "eye",
+   "s": 159.608,
+   "e": 159.795,
+   "chunk": 27
+  },
+  {
+   "w": "is",
+   "s": 159.795,
+   "e": 159.935,
+   "chunk": 27
+  },
+  {
+   "w": "the",
+   "s": 159.935,
+   "e": 160.075,
+   "chunk": 27
+  },
+  {
+   "w": "retina.",
+   "s": 160.075,
+   "e": 160.448,
+   "chunk": 27
+  },
+  {
+   "w": "A",
+   "s": 160.908,
+   "e": 161.145,
+   "chunk": 27
+  },
+  {
+   "w": "thin",
+   "s": 161.145,
+   "e": 161.442,
+   "chunk": 27
+  },
+  {
+   "w": "sheet",
+   "s": 161.442,
+   "e": 161.797,
+   "chunk": 27
+  },
+  {
+   "w": "of",
+   "s": 161.797,
+   "e": 161.975,
+   "chunk": 27
+  },
+  {
+   "w": "light-sensitive",
+   "s": 161.975,
+   "e": 162.923,
+   "chunk": 27
+  },
+  {
+   "w": "cells.",
+   "s": 162.923,
+   "e": 163.278,
+   "chunk": 27
+  },
+  {
+   "w": "Essentially,",
+   "s": 163.718,
+   "e": 164.378,
+   "chunk": 27
+  },
+  {
+   "w": "a",
+   "s": 164.638,
+   "e": 164.783,
+   "chunk": 27
+  },
+  {
+   "w": "two-dimensional",
+   "s": 164.783,
+   "e": 165.36,
+   "chunk": 27
+  },
+  {
+   "w": "screen.",
+   "s": 165.36,
+   "e": 165.648,
+   "chunk": 27
+  },
+  {
+   "w": "Light",
+   "s": 165.738,
+   "e": 166.144,
+   "chunk": 27
+  },
+  {
+   "w": "lands",
+   "s": 166.144,
+   "e": 166.616,
+   "chunk": 27
+  },
+  {
+   "w": "on",
+   "s": 166.616,
+   "e": 166.886,
+   "chunk": 27
+  },
+  {
+   "w": "it",
+   "s": 166.886,
+   "e": 167.089,
+   "chunk": 27
+  },
+  {
+   "w": "and",
+   "s": 167.089,
+   "e": 167.359,
+   "chunk": 27
+  },
+  {
+   "w": "paints",
+   "s": 167.359,
+   "e": 167.9,
+   "chunk": 27
+  },
+  {
+   "w": "a",
+   "s": 167.9,
+   "e": 168.17,
+   "chunk": 27
+  },
+  {
+   "w": "flat",
+   "s": 168.17,
+   "e": 168.575,
+   "chunk": 27
+  },
+  {
+   "w": "picture.",
+   "s": 168.575,
+   "e": 169.115,
+   "chunk": 27
+  },
+  {
+   "w": "Your",
+   "s": 169.395,
+   "e": 169.589,
+   "chunk": 28
+  },
+  {
+   "w": "brain",
+   "s": 169.589,
+   "e": 169.927,
+   "chunk": 28
+  },
+  {
+   "w": "then",
+   "s": 169.927,
+   "e": 170.169,
+   "chunk": 28
+  },
+  {
+   "w": "rebuilds",
+   "s": 170.169,
+   "e": 170.605,
+   "chunk": 28
+  },
+  {
+   "w": "depth,",
+   "s": 170.605,
+   "e": 170.895,
+   "chunk": 28
+  },
+  {
+   "w": "using",
+   "s": 171.495,
+   "e": 171.877,
+   "chunk": 28
+  },
+  {
+   "w": "two",
+   "s": 171.877,
+   "e": 172.115,
+   "chunk": 28
+  },
+  {
+   "w": "eyes,",
+   "s": 172.115,
+   "e": 172.354,
+   "chunk": 28
+  },
+  {
+   "w": "shadows,",
+   "s": 172.354,
+   "e": 173.045,
+   "chunk": 28
+  },
+  {
+   "w": "and",
+   "s": 173.175,
+   "e": 173.377,
+   "chunk": 28
+  },
+  {
+   "w": "a",
+   "s": 173.377,
+   "e": 173.579,
+   "chunk": 28
+  },
+  {
+   "w": "lifetime",
+   "s": 173.579,
+   "e": 174.083,
+   "chunk": 28
+  },
+  {
+   "w": "of",
+   "s": 174.083,
+   "e": 174.234,
+   "chunk": 28
+  },
+  {
+   "w": "experience.",
+   "s": 174.234,
+   "e": 174.889,
+   "chunk": 28
+  },
+  {
+   "w": "So",
+   "s": 175.489,
+   "e": 175.703,
+   "chunk": 29
+  },
+  {
+   "w": "you",
+   "s": 175.703,
+   "e": 175.874,
+   "chunk": 29
+  },
+  {
+   "w": "live",
+   "s": 175.874,
+   "e": 176.131,
+   "chunk": 29
+  },
+  {
+   "w": "in",
+   "s": 176.131,
+   "e": 176.302,
+   "chunk": 29
+  },
+  {
+   "w": "three",
+   "s": 176.302,
+   "e": 176.559,
+   "chunk": 29
+  },
+  {
+   "w": "dimensions,",
+   "s": 176.559,
+   "e": 177.029,
+   "chunk": 29
+  },
+  {
+   "w": "but",
+   "s": 177.189,
+   "e": 177.379,
+   "chunk": 29
+  },
+  {
+   "w": "you",
+   "s": 177.379,
+   "e": 177.53,
+   "chunk": 29
+  },
+  {
+   "w": "see",
+   "s": 177.53,
+   "e": 177.719,
+   "chunk": 29
+  },
+  {
+   "w": "in",
+   "s": 177.719,
+   "e": 177.87,
+   "chunk": 29
+  },
+  {
+   "w": "two.",
+   "s": 177.87,
+   "e": 178.059,
+   "chunk": 29
+  },
+  {
+   "w": "Sam",
+   "s": 178.699,
+   "e": 178.967,
+   "chunk": 29
+  },
+  {
+   "w": "lives",
+   "s": 178.967,
+   "e": 179.341,
+   "chunk": 29
+  },
+  {
+   "w": "in",
+   "s": 179.341,
+   "e": 179.554,
+   "chunk": 29
+  },
+  {
+   "w": "two",
+   "s": 179.554,
+   "e": 179.822,
+   "chunk": 29
+  },
+  {
+   "w": "dimensions,",
+   "s": 179.822,
+   "e": 180.409,
+   "chunk": 29
+  },
+  {
+   "w": "but",
+   "s": 180.499,
+   "e": 180.756,
+   "chunk": 29
+  },
+  {
+   "w": "sees",
+   "s": 180.756,
+   "e": 181.063,
+   "chunk": 29
+  },
+  {
+   "w": "in",
+   "s": 181.063,
+   "e": 181.268,
+   "chunk": 29
+  },
+  {
+   "w": "one.",
+   "s": 181.268,
+   "e": 181.524,
+   "chunk": 29
+  },
+  {
+   "w": "Take",
+   "s": 182.124,
+   "e": 182.418,
+   "chunk": 30
+  },
+  {
+   "w": "that",
+   "s": 182.418,
+   "e": 182.662,
+   "chunk": 30
+  },
+  {
+   "w": "pattern",
+   "s": 182.662,
+   "e": 183.004,
+   "chunk": 30
+  },
+  {
+   "w": "one",
+   "s": 183.004,
+   "e": 183.249,
+   "chunk": 30
+  },
+  {
+   "w": "step",
+   "s": 183.249,
+   "e": 183.542,
+   "chunk": 30
+  },
+  {
+   "w": "further.",
+   "s": 183.542,
+   "e": 183.884,
+   "chunk": 30
+  },
+  {
+   "w": "A",
+   "s": 184.454,
+   "e": 184.63,
+   "chunk": 30
+  },
+  {
+   "w": "creature",
+   "s": 184.63,
+   "e": 185.025,
+   "chunk": 30
+  },
+  {
+   "w": "living",
+   "s": 185.025,
+   "e": 185.333,
+   "chunk": 30
+  },
+  {
+   "w": "in",
+   "s": 185.333,
+   "e": 185.508,
+   "chunk": 30
+  },
+  {
+   "w": "four",
+   "s": 185.508,
+   "e": 185.772,
+   "chunk": 30
+  },
+  {
+   "w": "dimensions",
+   "s": 185.772,
+   "e": 186.255,
+   "chunk": 30
+  },
+  {
+   "w": "would",
+   "s": 186.255,
+   "e": 186.474,
+   "chunk": 30
+  },
+  {
+   "w": "have",
+   "s": 186.474,
+   "e": 186.694,
+   "chunk": 30
+  },
+  {
+   "w": "a",
+   "s": 186.694,
+   "e": 186.869,
+   "chunk": 30
+  },
+  {
+   "w": "retina",
+   "s": 186.869,
+   "e": 187.221,
+   "chunk": 30
+  },
+  {
+   "w": "that",
+   "s": 187.221,
+   "e": 187.44,
+   "chunk": 30
+  },
+  {
+   "w": "is",
+   "s": 187.44,
+   "e": 187.572,
+   "chunk": 30
+  },
+  {
+   "w": "not",
+   "s": 187.572,
+   "e": 187.835,
+   "chunk": 30
+  },
+  {
+   "w": "a",
+   "s": 187.835,
+   "e": 188.011,
+   "chunk": 30
+  },
+  {
+   "w": "sheet,",
+   "s": 188.011,
+   "e": 188.274,
+   "chunk": 30
+  },
+  {
+   "w": "but",
+   "s": 188.744,
+   "e": 188.97,
+   "chunk": 30
+  },
+  {
+   "w": "a",
+   "s": 188.97,
+   "e": 189.151,
+   "chunk": 30
+  },
+  {
+   "w": "solid.",
+   "s": 189.151,
+   "e": 189.512,
+   "chunk": 30
+  },
+  {
+   "w": "A",
+   "s": 189.792,
+   "e": 189.989,
+   "chunk": 31
+  },
+  {
+   "w": "block",
+   "s": 189.989,
+   "e": 190.336,
+   "chunk": 31
+  },
+  {
+   "w": "of",
+   "s": 190.336,
+   "e": 190.484,
+   "chunk": 31
+  },
+  {
+   "w": "light-sensitive",
+   "s": 190.484,
+   "e": 191.275,
+   "chunk": 31
+  },
+  {
+   "w": "cells,",
+   "s": 191.275,
+   "e": 191.572,
+   "chunk": 31
+  },
+  {
+   "w": "filled",
+   "s": 191.922,
+   "e": 192.234,
+   "chunk": 31
+  },
+  {
+   "w": "all",
+   "s": 192.234,
+   "e": 192.494,
+   "chunk": 31
+  },
+  {
+   "w": "the",
+   "s": 192.494,
+   "e": 192.65,
+   "chunk": 31
+  },
+  {
+   "w": "way",
+   "s": 192.65,
+   "e": 192.911,
+   "chunk": 31
+  },
+  {
+   "w": "through.",
+   "s": 192.911,
+   "e": 193.223,
+   "chunk": 31
+  },
+  {
+   "w": "And",
+   "s": 193.823,
+   "e": 194.015,
+   "chunk": 32
+  },
+  {
+   "w": "that",
+   "s": 194.015,
+   "e": 194.255,
+   "chunk": 32
+  },
+  {
+   "w": "changes",
+   "s": 194.255,
+   "e": 194.784,
+   "chunk": 32
+  },
+  {
+   "w": "everything.",
+   "s": 194.784,
+   "e": 195.264,
+   "chunk": 32
+  },
+  {
+   "w": "A",
+   "s": 195.864,
+   "e": 196.059,
+   "chunk": 33
+  },
+  {
+   "w": "flat",
+   "s": 196.059,
+   "e": 196.351,
+   "chunk": 33
+  },
+  {
+   "w": "image",
+   "s": 196.351,
+   "e": 196.691,
+   "chunk": 33
+  },
+  {
+   "w": "of",
+   "s": 196.691,
+   "e": 196.837,
+   "chunk": 33
+  },
+  {
+   "w": "a",
+   "s": 196.837,
+   "e": 197.032,
+   "chunk": 33
+  },
+  {
+   "w": "box",
+   "s": 197.032,
+   "e": 197.373,
+   "chunk": 33
+  },
+  {
+   "w": "shows",
+   "s": 197.373,
+   "e": 197.665,
+   "chunk": 33
+  },
+  {
+   "w": "you",
+   "s": 197.665,
+   "e": 197.859,
+   "chunk": 33
+  },
+  {
+   "w": "only",
+   "s": 197.859,
+   "e": 198.2,
+   "chunk": 33
+  },
+  {
+   "w": "its",
+   "s": 198.2,
+   "e": 198.395,
+   "chunk": 33
+  },
+  {
+   "w": "surface.",
+   "s": 198.395,
+   "e": 198.784,
+   "chunk": 33
+  },
+  {
+   "w": "But",
+   "s": 199.304,
+   "e": 199.538,
+   "chunk": 33
+  },
+  {
+   "w": "a",
+   "s": 199.538,
+   "e": 199.725,
+   "chunk": 33
+  },
+  {
+   "w": "solid",
+   "s": 199.725,
+   "e": 200.098,
+   "chunk": 33
+  },
+  {
+   "w": "image",
+   "s": 200.098,
+   "e": 200.426,
+   "chunk": 33
+  },
+  {
+   "w": "of",
+   "s": 200.426,
+   "e": 200.566,
+   "chunk": 33
+  },
+  {
+   "w": "a",
+   "s": 200.566,
+   "e": 200.753,
+   "chunk": 33
+  },
+  {
+   "w": "box",
+   "s": 200.753,
+   "e": 201.08,
+   "chunk": 33
+  },
+  {
+   "w": "contains",
+   "s": 201.08,
+   "e": 201.547,
+   "chunk": 33
+  },
+  {
+   "w": "every",
+   "s": 201.547,
+   "e": 201.827,
+   "chunk": 33
+  },
+  {
+   "w": "point",
+   "s": 201.827,
+   "e": 202.154,
+   "chunk": 33
+  },
+  {
+   "w": "within",
+   "s": 202.154,
+   "e": 202.481,
+   "chunk": 33
+  },
+  {
+   "w": "it.",
+   "s": 202.481,
+   "e": 202.622,
+   "chunk": 33
+  },
+  {
+   "w": "The",
+   "s": 202.902,
+   "e": 203.083,
+   "chunk": 34
+  },
+  {
+   "w": "outside,",
+   "s": 203.083,
+   "e": 203.627,
+   "chunk": 34
+  },
+  {
+   "w": "and",
+   "s": 203.627,
+   "e": 203.869,
+   "chunk": 34
+  },
+  {
+   "w": "the",
+   "s": 203.869,
+   "e": 204.05,
+   "chunk": 34
+  },
+  {
+   "w": "inside,",
+   "s": 204.05,
+   "e": 204.534,
+   "chunk": 34
+  },
+  {
+   "w": "together.",
+   "s": 204.534,
+   "e": 205.018,
+   "chunk": 34
+  },
+  {
+   "w": "So",
+   "s": 205.618,
+   "e": 205.843,
+   "chunk": 35
+  },
+  {
+   "w": "with",
+   "s": 205.843,
+   "e": 206.023,
+   "chunk": 35
+  },
+  {
+   "w": "four-dimensional",
+   "s": 206.023,
+   "e": 206.788,
+   "chunk": 35
+  },
+  {
+   "w": "sight,",
+   "s": 206.788,
+   "e": 207.058,
+   "chunk": 35
+  },
+  {
+   "w": "a",
+   "s": 207.398,
+   "e": 207.588,
+   "chunk": 35
+  },
+  {
+   "w": "closed",
+   "s": 207.588,
+   "e": 207.968,
+   "chunk": 35
+  },
+  {
+   "w": "box",
+   "s": 207.968,
+   "e": 208.301,
+   "chunk": 35
+  },
+  {
+   "w": "would",
+   "s": 208.301,
+   "e": 208.539,
+   "chunk": 35
+  },
+  {
+   "w": "simply",
+   "s": 208.539,
+   "e": 208.919,
+   "chunk": 35
+  },
+  {
+   "w": "show",
+   "s": 208.919,
+   "e": 209.157,
+   "chunk": 35
+  },
+  {
+   "w": "you",
+   "s": 209.157,
+   "e": 209.347,
+   "chunk": 35
+  },
+  {
+   "w": "what",
+   "s": 209.347,
+   "e": 209.585,
+   "chunk": 35
+  },
+  {
+   "w": "it",
+   "s": 209.585,
+   "e": 209.727,
+   "chunk": 35
+  },
+  {
+   "w": "holds.",
+   "s": 209.727,
+   "e": 210.108,
+   "chunk": 35
+  },
+  {
+   "w": "Not",
+   "s": 210.628,
+   "e": 210.923,
+   "chunk": 35
+  },
+  {
+   "w": "like",
+   "s": 210.923,
+   "e": 211.218,
+   "chunk": 35
+  },
+  {
+   "w": "an",
+   "s": 211.218,
+   "e": 211.365,
+   "chunk": 35
+  },
+  {
+   "w": "x-ray,",
+   "s": 211.365,
+   "e": 211.808,
+   "chunk": 35
+  },
+  {
+   "w": "faint",
+   "s": 212.028,
+   "e": 212.397,
+   "chunk": 35
+  },
+  {
+   "w": "and",
+   "s": 212.397,
+   "e": 212.608,
+   "chunk": 35
+  },
+  {
+   "w": "transparent.",
+   "s": 212.608,
+   "e": 213.295,
+   "chunk": 35
+  },
+  {
+   "w": "More",
+   "s": 213.575,
+   "e": 213.961,
+   "chunk": 36
+  },
+  {
+   "w": "like",
+   "s": 213.961,
+   "e": 214.348,
+   "chunk": 36
+  },
+  {
+   "w": "the",
+   "s": 214.348,
+   "e": 214.541,
+   "chunk": 36
+  },
+  {
+   "w": "way",
+   "s": 214.541,
+   "e": 214.863,
+   "chunk": 36
+  },
+  {
+   "w": "you",
+   "s": 214.863,
+   "e": 215.121,
+   "chunk": 36
+  },
+  {
+   "w": "see",
+   "s": 215.121,
+   "e": 215.443,
+   "chunk": 36
+  },
+  {
+   "w": "Sam's",
+   "s": 215.443,
+   "e": 215.83,
+   "chunk": 36
+  },
+  {
+   "w": "home",
+   "s": 215.83,
+   "e": 216.216,
+   "chunk": 36
+  },
+  {
+   "w": "from",
+   "s": 216.216,
+   "e": 216.538,
+   "chunk": 36
+  },
+  {
+   "w": "above.",
+   "s": 216.538,
+   "e": 216.925,
+   "chunk": 36
+  },
+  {
+   "w": "Every",
+   "s": 217.405,
+   "e": 217.74,
+   "chunk": 36
+  },
+  {
+   "w": "room.",
+   "s": 217.74,
+   "e": 218.075,
+   "chunk": 36
+  },
+  {
+   "w": "Every",
+   "s": 218.405,
+   "e": 218.455,
+   "chunk": 36
+  },
+  {
+   "w": "wall.",
+   "s": 218.455,
+   "e": 218.505,
+   "chunk": 36
+  },
+  {
+   "w": "Every",
+   "s": 218.417,
+   "e": 218.772,
+   "chunk": 36
+  },
+  {
+   "w": "interior.",
+   "s": 218.772,
+   "e": 219.305,
+   "chunk": 36
+  },
+  {
+   "w": "All",
+   "s": 219.655,
+   "e": 219.872,
+   "chunk": 36
+  },
+  {
+   "w": "at",
+   "s": 219.872,
+   "e": 220.003,
+   "chunk": 36
+  },
+  {
+   "w": "once,",
+   "s": 220.003,
+   "e": 220.264,
+   "chunk": 36
+  },
+  {
+   "w": "in",
+   "s": 220.264,
+   "e": 220.519,
+   "chunk": 36
+  },
+  {
+   "w": "full",
+   "s": 220.519,
+   "e": 220.838,
+   "chunk": 36
+  },
+  {
+   "w": "detail.",
+   "s": 220.838,
+   "e": 221.411,
+   "chunk": 36
+  },
+  {
+   "w": "You",
+   "s": 222.011,
+   "e": 222.255,
+   "chunk": 37
+  },
+  {
+   "w": "could",
+   "s": 222.255,
+   "e": 222.56,
+   "chunk": 37
+  },
+  {
+   "w": "look",
+   "s": 222.56,
+   "e": 222.865,
+   "chunk": 37
+  },
+  {
+   "w": "at",
+   "s": 222.865,
+   "e": 223.048,
+   "chunk": 37
+  },
+  {
+   "w": "another",
+   "s": 223.048,
+   "e": 223.475,
+   "chunk": 37
+  },
+  {
+   "w": "person",
+   "s": 223.475,
+   "e": 223.963,
+   "chunk": 37
+  },
+  {
+   "w": "and",
+   "s": 223.963,
+   "e": 224.206,
+   "chunk": 37
+  },
+  {
+   "w": "see",
+   "s": 224.206,
+   "e": 224.511,
+   "chunk": 37
+  },
+  {
+   "w": "their",
+   "s": 224.511,
+   "e": 224.755,
+   "chunk": 37
+  },
+  {
+   "w": "skin,",
+   "s": 224.755,
+   "e": 225.121,
+   "chunk": 37
+  },
+  {
+   "w": "their",
+   "s": 225.231,
+   "e": 225.391,
+   "chunk": 37
+  },
+  {
+   "w": "muscle,",
+   "s": 225.391,
+   "e": 225.671,
+   "chunk": 37
+  },
+  {
+   "w": "their",
+   "s": 225.671,
+   "e": 225.907,
+   "chunk": 37
+  },
+  {
+   "w": "bones,",
+   "s": 225.907,
+   "e": 226.321,
+   "chunk": 37
+  },
+  {
+   "w": "and",
+   "s": 226.321,
+   "e": 226.411,
+   "chunk": 37
+  },
+  {
+   "w": "their",
+   "s": 226.411,
+   "e": 226.502,
+   "chunk": 37
+  },
+  {
+   "w": "beating",
+   "s": 226.502,
+   "e": 226.683,
+   "chunk": 37
+  },
+  {
+   "w": "heart.",
+   "s": 226.683,
+   "e": 226.841,
+   "chunk": 37
+  },
+  {
+   "w": "All",
+   "s": 227.491,
+   "e": 227.715,
+   "chunk": 37
+  },
+  {
+   "w": "at",
+   "s": 227.715,
+   "e": 227.849,
+   "chunk": 37
+  },
+  {
+   "w": "the",
+   "s": 227.849,
+   "e": 227.984,
+   "chunk": 37
+  },
+  {
+   "w": "same",
+   "s": 227.984,
+   "e": 228.252,
+   "chunk": 37
+  },
+  {
+   "w": "time.",
+   "s": 228.252,
+   "e": 228.521,
+   "chunk": 37
+  },
+  {
+   "w": "From",
+   "s": 229.031,
+   "e": 229.328,
+   "chunk": 37
+  },
+  {
+   "w": "every",
+   "s": 229.328,
+   "e": 229.684,
+   "chunk": 37
+  },
+  {
+   "w": "side.",
+   "s": 229.684,
+   "e": 230.04,
+   "chunk": 37
+  },
+  {
+   "w": "To",
+   "s": 230.64,
+   "e": 230.778,
+   "chunk": 38
+  },
+  {
+   "w": "eyes",
+   "s": 230.778,
+   "e": 230.95,
+   "chunk": 38
+  },
+  {
+   "w": "like",
+   "s": 230.95,
+   "e": 231.157,
+   "chunk": 38
+  },
+  {
+   "w": "that,",
+   "s": 231.157,
+   "e": 231.33,
+   "chunk": 38
+  },
+  {
+   "w": "nothing",
+   "s": 231.43,
+   "e": 231.762,
+   "chunk": 38
+  },
+  {
+   "w": "could",
+   "s": 231.762,
+   "e": 232.0,
+   "chunk": 38
+  },
+  {
+   "w": "be",
+   "s": 232.0,
+   "e": 232.237,
+   "chunk": 38
+  },
+  {
+   "w": "hidden.",
+   "s": 232.237,
+   "e": 232.57,
+   "chunk": 38
+  },
+  {
+   "w": "Not",
+   "s": 233.11,
+   "e": 233.339,
+   "chunk": 38
+  },
+  {
+   "w": "in",
+   "s": 233.339,
+   "e": 233.492,
+   "chunk": 38
+  },
+  {
+   "w": "a",
+   "s": 233.492,
+   "e": 233.644,
+   "chunk": 38
+  },
+  {
+   "w": "pocket.",
+   "s": 233.644,
+   "e": 233.95,
+   "chunk": 38
+  },
+  {
+   "w": "Not",
+   "s": 234.26,
+   "e": 234.512,
+   "chunk": 38
+  },
+  {
+   "w": "in",
+   "s": 234.512,
+   "e": 234.68,
+   "chunk": 38
+  },
+  {
+   "w": "a",
+   "s": 234.68,
+   "e": 234.848,
+   "chunk": 38
+  },
+  {
+   "w": "vault.",
+   "s": 234.848,
+   "e": 235.1,
+   "chunk": 38
+  },
+  {
+   "w": "Not",
+   "s": 235.42,
+   "e": 235.722,
+   "chunk": 38
+  },
+  {
+   "w": "inside",
+   "s": 235.722,
+   "e": 236.125,
+   "chunk": 38
+  },
+  {
+   "w": "a",
+   "s": 236.125,
+   "e": 236.327,
+   "chunk": 38
+  },
+  {
+   "w": "body.",
+   "s": 236.327,
+   "e": 236.679,
+   "chunk": 38
+  },
+  {
+   "w": "Part",
+   "s": 237.279,
+   "e": 237.735,
+   "chunk": 39
+  },
+  {
+   "w": "three.",
+   "s": 237.735,
+   "e": 238.127,
+   "chunk": 39
+  },
+  {
+   "w": "Visitors.",
+   "s": 238.127,
+   "e": 238.713,
+   "chunk": 39
+  },
+  {
+   "w": "So",
+   "s": 239.313,
+   "e": 239.525,
+   "chunk": 40
+  },
+  {
+   "w": "what",
+   "s": 239.525,
+   "e": 239.736,
+   "chunk": 40
+  },
+  {
+   "w": "would",
+   "s": 239.736,
+   "e": 239.947,
+   "chunk": 40
+  },
+  {
+   "w": "a",
+   "s": 239.947,
+   "e": 240.116,
+   "chunk": 40
+  },
+  {
+   "w": "four-dimensional",
+   "s": 240.116,
+   "e": 240.835,
+   "chunk": 40
+  },
+  {
+   "w": "object",
+   "s": 240.835,
+   "e": 241.258,
+   "chunk": 40
+  },
+  {
+   "w": "look",
+   "s": 241.258,
+   "e": 241.469,
+   "chunk": 40
+  },
+  {
+   "w": "like,",
+   "s": 241.469,
+   "e": 241.723,
+   "chunk": 40
+  },
+  {
+   "w": "if",
+   "s": 242.233,
+   "e": 242.385,
+   "chunk": 40
+  },
+  {
+   "w": "it",
+   "s": 242.385,
+   "e": 242.536,
+   "chunk": 40
+  },
+  {
+   "w": "passed",
+   "s": 242.536,
+   "e": 242.839,
+   "chunk": 40
+  },
+  {
+   "w": "through",
+   "s": 242.839,
+   "e": 243.142,
+   "chunk": 40
+  },
+  {
+   "w": "our",
+   "s": 243.142,
+   "e": 243.394,
+   "chunk": 40
+  },
+  {
+   "w": "world?",
+   "s": 243.394,
+   "e": 243.748,
+   "chunk": 40
+  },
+  {
+   "w": "Let",
+   "s": 244.348,
+   "e": 244.542,
+   "chunk": 41
+  },
+  {
+   "w": "us",
+   "s": 244.542,
+   "e": 244.698,
+   "chunk": 41
+  },
+  {
+   "w": "go",
+   "s": 244.698,
+   "e": 244.893,
+   "chunk": 41
+  },
+  {
+   "w": "back",
+   "s": 244.893,
+   "e": 245.087,
+   "chunk": 41
+  },
+  {
+   "w": "to",
+   "s": 245.087,
+   "e": 245.243,
+   "chunk": 41
+  },
+  {
+   "w": "Sam.",
+   "s": 245.243,
+   "e": 245.438,
+   "chunk": 41
+  },
+  {
+   "w": "Imagine",
+   "s": 246.038,
+   "e": 246.481,
+   "chunk": 41
+  },
+  {
+   "w": "lowering",
+   "s": 246.481,
+   "e": 246.925,
+   "chunk": 41
+  },
+  {
+   "w": "a",
+   "s": 246.925,
+   "e": 247.122,
+   "chunk": 41
+  },
+  {
+   "w": "ball",
+   "s": 247.122,
+   "e": 247.417,
+   "chunk": 41
+  },
+  {
+   "w": "through",
+   "s": 247.417,
+   "e": 247.713,
+   "chunk": 41
+  },
+  {
+   "w": "his",
+   "s": 247.713,
+   "e": 247.959,
+   "chunk": 41
+  },
+  {
+   "w": "flat",
+   "s": 247.959,
+   "e": 248.255,
+   "chunk": 41
+  },
+  {
+   "w": "universe.",
+   "s": 248.255,
+   "e": 248.846,
+   "chunk": 41
+  },
+  {
+   "w": "Sam",
+   "s": 249.446,
+   "e": 249.682,
+   "chunk": 42
+  },
+  {
+   "w": "would",
+   "s": 249.682,
+   "e": 249.917,
+   "chunk": 42
+  },
+  {
+   "w": "not",
+   "s": 249.917,
+   "e": 250.2,
+   "chunk": 42
+  },
+  {
+   "w": "see",
+   "s": 250.2,
+   "e": 250.435,
+   "chunk": 42
+  },
+  {
+   "w": "a",
+   "s": 250.435,
+   "e": 250.624,
+   "chunk": 42
+  },
+  {
+   "w": "ball.",
+   "s": 250.624,
+   "e": 250.906,
+   "chunk": 42
+  },
+  {
+   "w": "He",
+   "s": 251.396,
+   "e": 251.596,
+   "chunk": 42
+  },
+  {
+   "w": "would",
+   "s": 251.596,
+   "e": 251.846,
+   "chunk": 42
+  },
+  {
+   "w": "see",
+   "s": 251.846,
+   "e": 252.096,
+   "chunk": 42
+  },
+  {
+   "w": "a",
+   "s": 252.096,
+   "e": 252.296,
+   "chunk": 42
+  },
+  {
+   "w": "single",
+   "s": 252.296,
+   "e": 252.696,
+   "chunk": 42
+  },
+  {
+   "w": "point,",
+   "s": 252.696,
+   "e": 253.046,
+   "chunk": 42
+  },
+  {
+   "w": "appearing",
+   "s": 253.046,
+   "e": 253.339,
+   "chunk": 42
+  },
+  {
+   "w": "out",
+   "s": 253.339,
+   "e": 253.521,
+   "chunk": 42
+  },
+  {
+   "w": "of",
+   "s": 253.521,
+   "e": 253.631,
+   "chunk": 42
+  },
+  {
+   "w": "nothing.",
+   "s": 253.631,
+   "e": 253.886,
+   "chunk": 42
+  },
+  {
+   "w": "The",
+   "s": 254.426,
+   "e": 254.565,
+   "chunk": 42
+  },
+  {
+   "w": "point",
+   "s": 254.565,
+   "e": 254.89,
+   "chunk": 42
+  },
+  {
+   "w": "would",
+   "s": 254.89,
+   "e": 255.122,
+   "chunk": 42
+  },
+  {
+   "w": "grow",
+   "s": 255.122,
+   "e": 255.401,
+   "chunk": 42
+  },
+  {
+   "w": "into",
+   "s": 255.401,
+   "e": 255.679,
+   "chunk": 42
+  },
+  {
+   "w": "a",
+   "s": 255.679,
+   "e": 255.865,
+   "chunk": 42
+  },
+  {
+   "w": "circle.",
+   "s": 255.865,
+   "e": 256.236,
+   "chunk": 42
+  },
+  {
+   "w": "The",
+   "s": 256.686,
+   "e": 256.836,
+   "chunk": 42
+  },
+  {
+   "w": "circle",
+   "s": 256.836,
+   "e": 257.235,
+   "chunk": 42
+  },
+  {
+   "w": "would",
+   "s": 257.235,
+   "e": 257.485,
+   "chunk": 42
+  },
+  {
+   "w": "widen.",
+   "s": 257.485,
+   "e": 257.884,
+   "chunk": 42
+  },
+  {
+   "w": "Then",
+   "s": 258.164,
+   "e": 258.398,
+   "chunk": 43
+  },
+  {
+   "w": "shrink.",
+   "s": 258.398,
+   "e": 258.724,
+   "chunk": 43
+  },
+  {
+   "w": "Then",
+   "s": 258.994,
+   "e": 259.287,
+   "chunk": 43
+  },
+  {
+   "w": "disappear",
+   "s": 259.287,
+   "e": 259.871,
+   "chunk": 43
+  },
+  {
+   "w": "entirely.",
+   "s": 259.871,
+   "e": 260.456,
+   "chunk": 43
+  },
+  {
+   "w": "Sam",
+   "s": 261.056,
+   "e": 261.265,
+   "chunk": 44
+  },
+  {
+   "w": "would",
+   "s": 261.265,
+   "e": 261.474,
+   "chunk": 44
+  },
+  {
+   "w": "call",
+   "s": 261.474,
+   "e": 261.726,
+   "chunk": 44
+  },
+  {
+   "w": "it",
+   "s": 261.726,
+   "e": 261.851,
+   "chunk": 44
+  },
+  {
+   "w": "a",
+   "s": 261.851,
+   "e": 262.019,
+   "chunk": 44
+  },
+  {
+   "w": "miracle.",
+   "s": 262.019,
+   "e": 262.396,
+   "chunk": 44
+  },
+  {
+   "w": "You",
+   "s": 262.866,
+   "e": 263.045,
+   "chunk": 44
+  },
+  {
+   "w": "would",
+   "s": 263.045,
+   "e": 263.27,
+   "chunk": 44
+  },
+  {
+   "w": "call",
+   "s": 263.27,
+   "e": 263.54,
+   "chunk": 44
+  },
+  {
+   "w": "it",
+   "s": 263.54,
+   "e": 263.675,
+   "chunk": 44
+  },
+  {
+   "w": "a",
+   "s": 263.675,
+   "e": 263.854,
+   "chunk": 44
+  },
+  {
+   "w": "ball,",
+   "s": 263.854,
+   "e": 264.124,
+   "chunk": 44
+  },
+  {
+   "w": "passing",
+   "s": 264.124,
+   "e": 264.482,
+   "chunk": 44
+  },
+  {
+   "w": "through.",
+   "s": 264.482,
+   "e": 264.789,
+   "chunk": 44
+  },
+  {
+   "w": "Now,",
+   "s": 265.389,
+   "e": 265.919,
+   "chunk": 45
+  },
+  {
+   "w": "take",
+   "s": 266.019,
+   "e": 266.233,
+   "chunk": 45
+  },
+  {
+   "w": "that",
+   "s": 266.233,
+   "e": 266.412,
+   "chunk": 45
+  },
+  {
+   "w": "one",
+   "s": 266.412,
+   "e": 266.59,
+   "chunk": 45
+  },
+  {
+   "w": "level",
+   "s": 266.59,
+   "e": 266.84,
+   "chunk": 45
+  },
+  {
+   "w": "higher.",
+   "s": 266.84,
+   "e": 267.054,
+   "chunk": 45
+  },
+  {
+   "w": "Mathematicians",
+   "s": 267.654,
+   "e": 268.433,
+   "chunk": 46
+  },
+  {
+   "w": "describe",
+   "s": 268.433,
+   "e": 268.953,
+   "chunk": 46
+  },
+  {
+   "w": "a",
+   "s": 268.953,
+   "e": 269.16,
+   "chunk": 46
+  },
+  {
+   "w": "four-dimensional",
+   "s": 269.16,
+   "e": 270.043,
+   "chunk": 46
+  },
+  {
+   "w": "ball,",
+   "s": 270.043,
+   "e": 270.354,
+   "chunk": 46
+  },
+  {
+   "w": "called",
+   "s": 270.754,
+   "e": 271.098,
+   "chunk": 46
+  },
+  {
+   "w": "a",
+   "s": 271.098,
+   "e": 271.295,
+   "chunk": 46
+  },
+  {
+   "w": "hypersphere.",
+   "s": 271.295,
+   "e": 271.884,
+   "chunk": 46
+  },
+  {
+   "w": "If",
+   "s": 272.494,
+   "e": 272.643,
+   "chunk": 46
+  },
+  {
+   "w": "one",
+   "s": 272.643,
+   "e": 272.889,
+   "chunk": 46
+  },
+  {
+   "w": "passed",
+   "s": 272.889,
+   "e": 273.186,
+   "chunk": 46
+  },
+  {
+   "w": "through",
+   "s": 273.186,
+   "e": 273.482,
+   "chunk": 46
+  },
+  {
+   "w": "our",
+   "s": 273.482,
+   "e": 273.729,
+   "chunk": 46
+  },
+  {
+   "w": "world,",
+   "s": 273.729,
+   "e": 274.074,
+   "chunk": 46
+  },
+  {
+   "w": "you",
+   "s": 274.394,
+   "e": 274.598,
+   "chunk": 46
+  },
+  {
+   "w": "would",
+   "s": 274.598,
+   "e": 274.853,
+   "chunk": 46
+  },
+  {
+   "w": "see",
+   "s": 274.853,
+   "e": 275.107,
+   "chunk": 46
+  },
+  {
+   "w": "a",
+   "s": 275.107,
+   "e": 275.311,
+   "chunk": 46
+  },
+  {
+   "w": "tiny",
+   "s": 275.311,
+   "e": 275.668,
+   "chunk": 46
+  },
+  {
+   "w": "point",
+   "s": 275.668,
+   "e": 276.024,
+   "chunk": 46
+  },
+  {
+   "w": "appear",
+   "s": 276.024,
+   "e": 276.33,
+   "chunk": 46
+  },
+  {
+   "w": "in",
+   "s": 276.33,
+   "e": 276.533,
+   "chunk": 46
+  },
+  {
+   "w": "empty",
+   "s": 276.533,
+   "e": 276.89,
+   "chunk": 46
+  },
+  {
+   "w": "air.",
+   "s": 276.89,
+   "e": 277.093,
+   "chunk": 46
+  },
+  {
+   "w": "It",
+   "s": 277.373,
+   "e": 277.505,
+   "chunk": 47
+  },
+  {
+   "w": "would",
+   "s": 277.505,
+   "e": 277.725,
+   "chunk": 47
+  },
+  {
+   "w": "swell",
+   "s": 277.725,
+   "e": 277.989,
+   "chunk": 47
+  },
+  {
+   "w": "into",
+   "s": 277.989,
+   "e": 278.253,
+   "chunk": 47
+  },
+  {
+   "w": "a",
+   "s": 278.253,
+   "e": 278.429,
+   "chunk": 47
+  },
+  {
+   "w": "sphere.",
+   "s": 278.429,
+   "e": 278.693,
+   "chunk": 47
+  },
+  {
+   "w": "Grow",
+   "s": 279.043,
+   "e": 279.359,
+   "chunk": 47
+  },
+  {
+   "w": "larger.",
+   "s": 279.359,
+   "e": 279.833,
+   "chunk": 47
+  },
+  {
+   "w": "Then",
+   "s": 279.923,
+   "e": 280.17,
+   "chunk": 47
+  },
+  {
+   "w": "smaller.",
+   "s": 280.17,
+   "e": 280.563,
+   "chunk": 47
+  },
+  {
+   "w": "And",
+   "s": 281.053,
+   "e": 281.138,
+   "chunk": 47
+  },
+  {
+   "w": "then,",
+   "s": 281.138,
+   "e": 281.244,
+   "chunk": 47
+  },
+  {
+   "w": "it",
+   "s": 281.244,
+   "e": 281.418,
+   "chunk": 47
+  },
+  {
+   "w": "would",
+   "s": 281.418,
+   "e": 281.707,
+   "chunk": 47
+  },
+  {
+   "w": "be",
+   "s": 281.707,
+   "e": 281.995,
+   "chunk": 47
+  },
+  {
+   "w": "gone.",
+   "s": 281.995,
+   "e": 282.284,
+   "chunk": 47
+  },
+  {
+   "w": "No",
+   "s": 282.884,
+   "e": 283.181,
+   "chunk": 48
+  },
+  {
+   "w": "door.",
+   "s": 283.181,
+   "e": 283.538,
+   "chunk": 48
+  },
+  {
+   "w": "No",
+   "s": 283.538,
+   "e": 283.771,
+   "chunk": 48
+  },
+  {
+   "w": "direction",
+   "s": 283.771,
+   "e": 284.236,
+   "chunk": 48
+  },
+  {
+   "w": "of",
+   "s": 284.236,
+   "e": 284.376,
+   "chunk": 48
+  },
+  {
+   "w": "arrival.",
+   "s": 284.376,
+   "e": 284.794,
+   "chunk": 48
+  },
+  {
+   "w": "Just",
+   "s": 285.284,
+   "e": 285.367,
+   "chunk": 48
+  },
+  {
+   "w": "presence,",
+   "s": 285.367,
+   "e": 285.474,
+   "chunk": 48
+  },
+  {
+   "w": "and",
+   "s": 285.574,
+   "e": 285.934,
+   "chunk": 48
+  },
+  {
+   "w": "then",
+   "s": 285.934,
+   "e": 286.384,
+   "chunk": 48
+  },
+  {
+   "w": "absence.",
+   "s": 286.384,
+   "e": 287.103,
+   "chunk": 48
+  },
+  {
+   "w": "The",
+   "s": 287.703,
+   "e": 287.883,
+   "chunk": 49
+  },
+  {
+   "w": "four-dimensional",
+   "s": 287.883,
+   "e": 288.901,
+   "chunk": 49
+  },
+  {
+   "w": "cube,",
+   "s": 288.901,
+   "e": 289.32,
+   "chunk": 49
+  },
+  {
+   "w": "called",
+   "s": 289.32,
+   "e": 289.547,
+   "chunk": 49
+  },
+  {
+   "w": "a",
+   "s": 289.547,
+   "e": 289.677,
+   "chunk": 49
+  },
+  {
+   "w": "tesseract,",
+   "s": 289.677,
+   "e": 290.033,
+   "chunk": 49
+  },
+  {
+   "w": "is",
+   "s": 290.463,
+   "e": 290.625,
+   "chunk": 49
+  },
+  {
+   "w": "stranger",
+   "s": 290.625,
+   "e": 291.219,
+   "chunk": 49
+  },
+  {
+   "w": "still.",
+   "s": 291.219,
+   "e": 291.543,
+   "chunk": 49
+  },
+  {
+   "w": "We",
+   "s": 292.173,
+   "e": 292.359,
+   "chunk": 49
+  },
+  {
+   "w": "draw",
+   "s": 292.359,
+   "e": 292.638,
+   "chunk": 49
+  },
+  {
+   "w": "it",
+   "s": 292.638,
+   "e": 292.778,
+   "chunk": 49
+  },
+  {
+   "w": "as",
+   "s": 292.778,
+   "e": 292.917,
+   "chunk": 49
+  },
+  {
+   "w": "a",
+   "s": 292.917,
+   "e": 293.103,
+   "chunk": 49
+  },
+  {
+   "w": "cube",
+   "s": 293.103,
+   "e": 293.429,
+   "chunk": 49
+  },
+  {
+   "w": "inside",
+   "s": 293.429,
+   "e": 293.801,
+   "chunk": 49
+  },
+  {
+   "w": "a",
+   "s": 293.801,
+   "e": 293.987,
+   "chunk": 49
+  },
+  {
+   "w": "cube,",
+   "s": 293.987,
+   "e": 294.313,
+   "chunk": 49
+  },
+  {
+   "w": "folding",
+   "s": 294.683,
+   "e": 295.199,
+   "chunk": 49
+  },
+  {
+   "w": "through",
+   "s": 295.199,
+   "e": 295.543,
+   "chunk": 49
+  },
+  {
+   "w": "itself",
+   "s": 295.543,
+   "e": 296.002,
+   "chunk": 49
+  },
+  {
+   "w": "as",
+   "s": 296.002,
+   "e": 296.174,
+   "chunk": 49
+  },
+  {
+   "w": "it",
+   "s": 296.174,
+   "e": 296.346,
+   "chunk": 49
+  },
+  {
+   "w": "turns.",
+   "s": 296.346,
+   "e": 296.747,
+   "chunk": 49
+  },
+  {
+   "w": "But",
+   "s": 297.027,
+   "e": 297.24,
+   "chunk": 50
+  },
+  {
+   "w": "that",
+   "s": 297.24,
+   "e": 297.453,
+   "chunk": 50
+  },
+  {
+   "w": "is",
+   "s": 297.453,
+   "e": 297.581,
+   "chunk": 50
+  },
+  {
+   "w": "only",
+   "s": 297.581,
+   "e": 297.879,
+   "chunk": 50
+  },
+  {
+   "w": "its",
+   "s": 297.879,
+   "e": 298.049,
+   "chunk": 50
+  },
+  {
+   "w": "shadow.",
+   "s": 298.049,
+   "e": 298.347,
+   "chunk": 50
+  },
+  {
+   "w": "To",
+   "s": 298.887,
+   "e": 299.083,
+   "chunk": 50
+  },
+  {
+   "w": "a",
+   "s": 299.083,
+   "e": 299.279,
+   "chunk": 50
+  },
+  {
+   "w": "four-dimensional",
+   "s": 299.279,
+   "e": 300.111,
+   "chunk": 50
+  },
+  {
+   "w": "eye,",
+   "s": 300.111,
+   "e": 300.307,
+   "chunk": 50
+  },
+  {
+   "w": "it",
+   "s": 300.407,
+   "e": 300.564,
+   "chunk": 50
+  },
+  {
+   "w": "is",
+   "s": 300.564,
+   "e": 300.72,
+   "chunk": 50
+  },
+  {
+   "w": "perfectly",
+   "s": 300.72,
+   "e": 301.293,
+   "chunk": 50
+  },
+  {
+   "w": "simple.",
+   "s": 301.293,
+   "e": 301.711,
+   "chunk": 50
+  },
+  {
+   "w": "The",
+   "s": 302.311,
+   "e": 302.479,
+   "chunk": 51
+  },
+  {
+   "w": "strangeness",
+   "s": 302.479,
+   "e": 303.211,
+   "chunk": 51
+  },
+  {
+   "w": "is",
+   "s": 303.211,
+   "e": 303.379,
+   "chunk": 51
+  },
+  {
+   "w": "ours.",
+   "s": 303.379,
+   "e": 303.661,
+   "chunk": 51
+  },
+  {
+   "w": "Not",
+   "s": 303.951,
+   "e": 304.253,
+   "chunk": 51
+  },
+  {
+   "w": "the",
+   "s": 304.253,
+   "e": 304.405,
+   "chunk": 51
+  },
+  {
+   "w": "shape's.",
+   "s": 304.405,
+   "e": 304.758,
+   "chunk": 51
+  },
+  {
+   "w": "Part",
+   "s": 305.358,
+   "e": 305.708,
+   "chunk": 52
+  },
+  {
+   "w": "four.",
+   "s": 305.708,
+   "e": 306.008,
+   "chunk": 52
+  },
+  {
+   "w": "A",
+   "s": 306.278,
+   "e": 306.486,
+   "chunk": 52
+  },
+  {
+   "w": "day",
+   "s": 306.486,
+   "e": 306.747,
+   "chunk": 52
+  },
+  {
+   "w": "in",
+   "s": 306.747,
+   "e": 306.955,
+   "chunk": 52
+  },
+  {
+   "w": "four",
+   "s": 306.955,
+   "e": 307.268,
+   "chunk": 52
+  },
+  {
+   "w": "dimensions.",
+   "s": 307.268,
+   "e": 307.842,
+   "chunk": 52
+  },
+  {
+   "w": "Now,",
+   "s": 308.442,
+   "e": 308.711,
+   "chunk": 53
+  },
+  {
+   "w": "let",
+   "s": 308.711,
+   "e": 308.981,
+   "chunk": 53
+  },
+  {
+   "w": "us",
+   "s": 308.981,
+   "e": 309.197,
+   "chunk": 53
+  },
+  {
+   "w": "try",
+   "s": 309.197,
+   "e": 309.52,
+   "chunk": 53
+  },
+  {
+   "w": "something.",
+   "s": 309.52,
+   "e": 309.951,
+   "chunk": 53
+  },
+  {
+   "w": "Imagine",
+   "s": 310.551,
+   "e": 311.016,
+   "chunk": 54
+  },
+  {
+   "w": "you",
+   "s": 311.016,
+   "e": 311.223,
+   "chunk": 54
+  },
+  {
+   "w": "wake",
+   "s": 311.223,
+   "e": 311.533,
+   "chunk": 54
+  },
+  {
+   "w": "up",
+   "s": 311.533,
+   "e": 311.74,
+   "chunk": 54
+  },
+  {
+   "w": "tomorrow,",
+   "s": 311.74,
+   "e": 312.257,
+   "chunk": 54
+  },
+  {
+   "w": "and",
+   "s": 312.257,
+   "e": 312.45,
+   "chunk": 54
+  },
+  {
+   "w": "something",
+   "s": 312.45,
+   "e": 312.836,
+   "chunk": 54
+  },
+  {
+   "w": "has",
+   "s": 312.836,
+   "e": 313.078,
+   "chunk": 54
+  },
+  {
+   "w": "changed.",
+   "s": 313.078,
+   "e": 313.561,
+   "chunk": 54
+  },
+  {
+   "w": "You",
+   "s": 314.081,
+   "e": 314.244,
+   "chunk": 54
+  },
+  {
+   "w": "can",
+   "s": 314.244,
+   "e": 314.447,
+   "chunk": 54
+  },
+  {
+   "w": "move",
+   "s": 314.447,
+   "e": 314.691,
+   "chunk": 54
+  },
+  {
+   "w": "in",
+   "s": 314.691,
+   "e": 314.854,
+   "chunk": 54
+  },
+  {
+   "w": "the",
+   "s": 314.854,
+   "e": 314.976,
+   "chunk": 54
+  },
+  {
+   "w": "fourth",
+   "s": 314.976,
+   "e": 315.261,
+   "chunk": 54
+  },
+  {
+   "w": "direction.",
+   "s": 315.261,
+   "e": 315.667,
+   "chunk": 54
+  },
+  {
+   "w": "It",
+   "s": 316.267,
+   "e": 316.389,
+   "chunk": 55
+  },
+  {
+   "w": "even",
+   "s": 316.389,
+   "e": 316.671,
+   "chunk": 55
+  },
+  {
+   "w": "has",
+   "s": 316.671,
+   "e": 316.873,
+   "chunk": 55
+  },
+  {
+   "w": "a",
+   "s": 316.873,
+   "e": 317.035,
+   "chunk": 55
+  },
+  {
+   "w": "name.",
+   "s": 317.035,
+   "e": 317.277,
+   "chunk": 55
+  },
+  {
+   "w": "More",
+   "s": 317.927,
+   "e": 318.193,
+   "chunk": 55
+  },
+  {
+   "w": "than",
+   "s": 318.193,
+   "e": 318.371,
+   "chunk": 55
+  },
+  {
+   "w": "a",
+   "s": 318.371,
+   "e": 318.548,
+   "chunk": 55
+  },
+  {
+   "w": "century",
+   "s": 318.548,
+   "e": 318.991,
+   "chunk": 55
+  },
+  {
+   "w": "ago,",
+   "s": 318.991,
+   "e": 319.257,
+   "chunk": 55
+  },
+  {
+   "w": "the",
+   "s": 319.507,
+   "e": 319.694,
+   "chunk": 55
+  },
+  {
+   "w": "mathematician",
+   "s": 319.694,
+   "e": 320.566,
+   "chunk": 55
+  },
+  {
+   "w": "Charles",
+   "s": 320.566,
+   "e": 321.127,
+   "chunk": 55
+  },
+  {
+   "w": "Hinton",
+   "s": 321.127,
+   "e": 321.625,
+   "chunk": 55
+  },
+  {
+   "w": "gave",
+   "s": 321.625,
+   "e": 321.998,
+   "chunk": 55
+  },
+  {
+   "w": "the",
+   "s": 321.998,
+   "e": 322.185,
+   "chunk": 55
+  },
+  {
+   "w": "two",
+   "s": 322.185,
+   "e": 322.497,
+   "chunk": 55
+  },
+  {
+   "w": "ends",
+   "s": 322.497,
+   "e": 322.87,
+   "chunk": 55
+  },
+  {
+   "w": "of",
+   "s": 322.87,
+   "e": 323.057,
+   "chunk": 55
+  },
+  {
+   "w": "this",
+   "s": 323.057,
+   "e": 323.368,
+   "chunk": 55
+  },
+  {
+   "w": "direction",
+   "s": 323.368,
+   "e": 323.991,
+   "chunk": 55
+  },
+  {
+   "w": "their",
+   "s": 323.991,
+   "e": 324.24,
+   "chunk": 55
+  },
+  {
+   "w": "own",
+   "s": 324.24,
+   "e": 324.552,
+   "chunk": 55
+  },
+  {
+   "w": "words.",
+   "s": 324.552,
+   "e": 324.987,
+   "chunk": 55
+  },
+  {
+   "w": "Ana,",
+   "s": 325.247,
+   "e": 325.347,
+   "chunk": 55
+  },
+  {
+   "w": "and",
+   "s": 325.242,
+   "e": 325.483,
+   "chunk": 55
+  },
+  {
+   "w": "kata.",
+   "s": 325.483,
+   "e": 325.904,
+   "chunk": 55
+  },
+  {
+   "w": "Like",
+   "s": 326.184,
+   "e": 326.424,
+   "chunk": 56
+  },
+  {
+   "w": "up,",
+   "s": 326.424,
+   "e": 326.584,
+   "chunk": 56
+  },
+  {
+   "w": "and",
+   "s": 326.684,
+   "e": 326.912,
+   "chunk": 56
+  },
+  {
+   "w": "down.",
+   "s": 326.912,
+   "e": 327.254,
+   "chunk": 56
+  },
+  {
+   "w": "Just",
+   "s": 327.654,
+   "e": 328.021,
+   "chunk": 56
+  },
+  {
+   "w": "pointed",
+   "s": 328.021,
+   "e": 328.494,
+   "chunk": 56
+  },
+  {
+   "w": "somewhere",
+   "s": 328.494,
+   "e": 328.913,
+   "chunk": 56
+  },
+  {
+   "w": "else.",
+   "s": 328.913,
+   "e": 329.175,
+   "chunk": 56
+  },
+  {
+   "w": "So,",
+   "s": 329.776,
+   "e": 330.536,
+   "chunk": 57
+  },
+  {
+   "w": "you",
+   "s": 330.716,
+   "e": 330.746,
+   "chunk": 57
+  },
+  {
+   "w": "try",
+   "s": 330.746,
+   "e": 330.792,
+   "chunk": 57
+  },
+  {
+   "w": "it.",
+   "s": 330.792,
+   "e": 330.816,
+   "chunk": 57
+  },
+  {
+   "w": "You",
+   "s": 330.724,
+   "e": 330.934,
+   "chunk": 57
+  },
+  {
+   "w": "step",
+   "s": 330.934,
+   "e": 331.251,
+   "chunk": 57
+  },
+  {
+   "w": "ana.",
+   "s": 331.251,
+   "e": 331.567,
+   "chunk": 57
+  },
+  {
+   "w": "And",
+   "s": 332.167,
+   "e": 332.366,
+   "chunk": 58
+  },
+  {
+   "w": "your",
+   "s": 332.366,
+   "e": 332.565,
+   "chunk": 58
+  },
+  {
+   "w": "house",
+   "s": 332.565,
+   "e": 332.863,
+   "chunk": 58
+  },
+  {
+   "w": "opens",
+   "s": 332.863,
+   "e": 333.261,
+   "chunk": 58
+  },
+  {
+   "w": "like",
+   "s": 333.261,
+   "e": 333.559,
+   "chunk": 58
+  },
+  {
+   "w": "a",
+   "s": 333.559,
+   "e": 333.758,
+   "chunk": 58
+  },
+  {
+   "w": "flower.",
+   "s": 333.758,
+   "e": 334.106,
+   "chunk": 58
+  },
+  {
+   "w": "You",
+   "s": 334.706,
+   "e": 334.87,
+   "chunk": 59
+  },
+  {
+   "w": "are",
+   "s": 334.87,
+   "e": 335.033,
+   "chunk": 59
+  },
+  {
+   "w": "not",
+   "s": 335.033,
+   "e": 335.279,
+   "chunk": 59
+  },
+  {
+   "w": "above",
+   "s": 335.279,
+   "e": 335.524,
+   "chunk": 59
+  },
+  {
+   "w": "it.",
+   "s": 335.524,
+   "e": 335.646,
+   "chunk": 59
+  },
+  {
+   "w": "You",
+   "s": 336.116,
+   "e": 336.281,
+   "chunk": 59
+  },
+  {
+   "w": "are",
+   "s": 336.281,
+   "e": 336.446,
+   "chunk": 59
+  },
+  {
+   "w": "not",
+   "s": 336.446,
+   "e": 336.693,
+   "chunk": 59
+  },
+  {
+   "w": "beside",
+   "s": 336.693,
+   "e": 337.023,
+   "chunk": 59
+  },
+  {
+   "w": "it.",
+   "s": 337.023,
+   "e": 337.146,
+   "chunk": 59
+  },
+  {
+   "w": "You",
+   "s": 337.696,
+   "e": 337.859,
+   "chunk": 59
+  },
+  {
+   "w": "are",
+   "s": 337.859,
+   "e": 338.022,
+   "chunk": 59
+  },
+  {
+   "w": "outside",
+   "s": 338.022,
+   "e": 338.388,
+   "chunk": 59
+  },
+  {
+   "w": "of",
+   "s": 338.388,
+   "e": 338.51,
+   "chunk": 59
+  },
+  {
+   "w": "it,",
+   "s": 338.51,
+   "e": 338.632,
+   "chunk": 59
+  },
+  {
+   "w": "in",
+   "s": 338.632,
+   "e": 338.81,
+   "chunk": 59
+  },
+  {
+   "w": "a",
+   "s": 338.81,
+   "e": 338.987,
+   "chunk": 59
+  },
+  {
+   "w": "way",
+   "s": 338.987,
+   "e": 339.209,
+   "chunk": 59
+  },
+  {
+   "w": "you",
+   "s": 339.209,
+   "e": 339.386,
+   "chunk": 59
+  },
+  {
+   "w": "have",
+   "s": 339.386,
+   "e": 339.608,
+   "chunk": 59
+  },
+  {
+   "w": "never",
+   "s": 339.608,
+   "e": 339.874,
+   "chunk": 59
+  },
+  {
+   "w": "been",
+   "s": 339.874,
+   "e": 340.095,
+   "chunk": 59
+  },
+  {
+   "w": "outside",
+   "s": 340.095,
+   "e": 340.494,
+   "chunk": 59
+  },
+  {
+   "w": "of",
+   "s": 340.494,
+   "e": 340.627,
+   "chunk": 59
+  },
+  {
+   "w": "anything.",
+   "s": 340.627,
+   "e": 341.026,
+   "chunk": 59
+  },
+  {
+   "w": "Every",
+   "s": 341.526,
+   "e": 341.904,
+   "chunk": 59
+  },
+  {
+   "w": "room.",
+   "s": 341.904,
+   "e": 342.282,
+   "chunk": 59
+  },
+  {
+   "w": "Every",
+   "s": 342.562,
+   "e": 342.843,
+   "chunk": 60
+  },
+  {
+   "w": "drawer.",
+   "s": 342.843,
+   "e": 343.172,
+   "chunk": 60
+  },
+  {
+   "w": "The",
+   "s": 343.602,
+   "e": 343.759,
+   "chunk": 60
+  },
+  {
+   "w": "inside",
+   "s": 343.759,
+   "e": 344.177,
+   "chunk": 60
+  },
+  {
+   "w": "of",
+   "s": 344.177,
+   "e": 344.334,
+   "chunk": 60
+  },
+  {
+   "w": "every",
+   "s": 344.334,
+   "e": 344.648,
+   "chunk": 60
+  },
+  {
+   "w": "wall.",
+   "s": 344.648,
+   "e": 344.962,
+   "chunk": 60
+  },
+  {
+   "w": "All",
+   "s": 345.142,
+   "e": 345.389,
+   "chunk": 60
+  },
+  {
+   "w": "in",
+   "s": 345.389,
+   "e": 345.588,
+   "chunk": 60
+  },
+  {
+   "w": "plain",
+   "s": 345.588,
+   "e": 345.935,
+   "chunk": 60
+  },
+  {
+   "w": "sight.",
+   "s": 345.935,
+   "e": 346.232,
+   "chunk": 60
+  },
+  {
+   "w": "In",
+   "s": 346.832,
+   "e": 347.047,
+   "chunk": 61
+  },
+  {
+   "w": "the",
+   "s": 347.047,
+   "e": 347.208,
+   "chunk": 61
+  },
+  {
+   "w": "kitchen,",
+   "s": 347.208,
+   "e": 347.638,
+   "chunk": 61
+  },
+  {
+   "w": "you",
+   "s": 347.638,
+   "e": 347.835,
+   "chunk": 61
+  },
+  {
+   "w": "notice",
+   "s": 347.835,
+   "e": 348.229,
+   "chunk": 61
+  },
+  {
+   "w": "your",
+   "s": 348.229,
+   "e": 348.426,
+   "chunk": 61
+  },
+  {
+   "w": "keys.",
+   "s": 348.426,
+   "e": 348.722,
+   "chunk": 61
+  },
+  {
+   "w": "They",
+   "s": 349.182,
+   "e": 349.365,
+   "chunk": 61
+  },
+  {
+   "w": "are",
+   "s": 349.365,
+   "e": 349.547,
+   "chunk": 61
+  },
+  {
+   "w": "sitting",
+   "s": 349.547,
+   "e": 349.867,
+   "chunk": 61
+  },
+  {
+   "w": "on",
+   "s": 349.867,
+   "e": 350.05,
+   "chunk": 61
+  },
+  {
+   "w": "the",
+   "s": 350.05,
+   "e": 350.187,
+   "chunk": 61
+  },
+  {
+   "w": "counter,",
+   "s": 350.187,
+   "e": 350.552,
+   "chunk": 61
+  },
+  {
+   "w": "inside",
+   "s": 350.642,
+   "e": 350.993,
+   "chunk": 61
+  },
+  {
+   "w": "a",
+   "s": 350.993,
+   "e": 351.169,
+   "chunk": 61
+  },
+  {
+   "w": "house",
+   "s": 351.169,
+   "e": 351.432,
+   "chunk": 61
+  },
+  {
+   "w": "you",
+   "s": 351.432,
+   "e": 351.608,
+   "chunk": 61
+  },
+  {
+   "w": "locked",
+   "s": 351.608,
+   "e": 351.915,
+   "chunk": 61
+  },
+  {
+   "w": "last",
+   "s": 351.915,
+   "e": 352.179,
+   "chunk": 61
+  },
+  {
+   "w": "night.",
+   "s": 352.179,
+   "e": 352.442,
+   "chunk": 61
+  },
+  {
+   "w": "You",
+   "s": 352.942,
+   "e": 353.11,
+   "chunk": 61
+  },
+  {
+   "w": "do",
+   "s": 353.11,
+   "e": 353.319,
+   "chunk": 61
+  },
+  {
+   "w": "not",
+   "s": 353.319,
+   "e": 353.57,
+   "chunk": 61
+  },
+  {
+   "w": "need",
+   "s": 353.57,
+   "e": 353.822,
+   "chunk": 61
+  },
+  {
+   "w": "them.",
+   "s": 353.822,
+   "e": 354.031,
+   "chunk": 61
+  },
+  {
+   "w": "You",
+   "s": 354.311,
+   "e": 354.516,
+   "chunk": 62
+  },
+  {
+   "w": "step",
+   "s": 354.516,
+   "e": 354.823,
+   "chunk": 62
+  },
+  {
+   "w": "kata,",
+   "s": 354.823,
+   "e": 355.181,
+   "chunk": 62
+  },
+  {
+   "w": "and",
+   "s": 355.491,
+   "e": 355.674,
+   "chunk": 62
+  },
+  {
+   "w": "you",
+   "s": 355.674,
+   "e": 355.857,
+   "chunk": 62
+  },
+  {
+   "w": "are",
+   "s": 355.857,
+   "e": 356.04,
+   "chunk": 62
+  },
+  {
+   "w": "standing",
+   "s": 356.04,
+   "e": 356.452,
+   "chunk": 62
+  },
+  {
+   "w": "beside",
+   "s": 356.452,
+   "e": 356.818,
+   "chunk": 62
+  },
+  {
+   "w": "them.",
+   "s": 356.818,
+   "e": 357.046,
+   "chunk": 62
+  },
+  {
+   "w": "The",
+   "s": 357.646,
+   "e": 357.794,
+   "chunk": 63
+  },
+  {
+   "w": "door",
+   "s": 357.794,
+   "e": 358.089,
+   "chunk": 63
+  },
+  {
+   "w": "never",
+   "s": 358.089,
+   "e": 358.383,
+   "chunk": 63
+  },
+  {
+   "w": "opened.",
+   "s": 358.383,
+   "e": 358.776,
+   "chunk": 63
+  },
+  {
+   "w": "The",
+   "s": 359.256,
+   "e": 359.397,
+   "chunk": 63
+  },
+  {
+   "w": "lock",
+   "s": 359.397,
+   "e": 359.678,
+   "chunk": 63
+  },
+  {
+   "w": "never",
+   "s": 359.678,
+   "e": 359.959,
+   "chunk": 63
+  },
+  {
+   "w": "turned.",
+   "s": 359.959,
+   "e": 360.286,
+   "chunk": 63
+  },
+  {
+   "w": "For",
+   "s": 360.836,
+   "e": 360.919,
+   "chunk": 63
+  },
+  {
+   "w": "you,",
+   "s": 360.919,
+   "e": 360.984,
+   "chunk": 63
+  },
+  {
+   "w": "walls",
+   "s": 360.984,
+   "e": 361.417,
+   "chunk": 63
+  },
+  {
+   "w": "are",
+   "s": 361.417,
+   "e": 361.664,
+   "chunk": 63
+  },
+  {
+   "w": "now",
+   "s": 361.664,
+   "e": 361.973,
+   "chunk": 63
+  },
+  {
+   "w": "just",
+   "s": 361.973,
+   "e": 362.406,
+   "chunk": 63
+  },
+  {
+   "w": "suggestions.",
+   "s": 362.406,
+   "e": 363.21,
+   "chunk": 63
+  },
+  {
+   "w": "You",
+   "s": 363.81,
+   "e": 363.985,
+   "chunk": 64
+  },
+  {
+   "w": "head",
+   "s": 363.985,
+   "e": 364.205,
+   "chunk": 64
+  },
+  {
+   "w": "outside.",
+   "s": 364.205,
+   "e": 364.6,
+   "chunk": 64
+  },
+  {
+   "w": "You",
+   "s": 365.09,
+   "e": 365.283,
+   "chunk": 64
+  },
+  {
+   "w": "bend",
+   "s": 365.283,
+   "e": 365.573,
+   "chunk": 64
+  },
+  {
+   "w": "down",
+   "s": 365.573,
+   "e": 365.862,
+   "chunk": 64
+  },
+  {
+   "w": "to",
+   "s": 365.862,
+   "e": 366.055,
+   "chunk": 64
+  },
+  {
+   "w": "tie",
+   "s": 366.055,
+   "e": 366.297,
+   "chunk": 64
+  },
+  {
+   "w": "your",
+   "s": 366.297,
+   "e": 366.49,
+   "chunk": 64
+  },
+  {
+   "w": "shoes.",
+   "s": 366.49,
+   "e": 366.78,
+   "chunk": 64
+  },
+  {
+   "w": "You",
+   "s": 367.11,
+   "e": 367.296,
+   "chunk": 64
+  },
+  {
+   "w": "pull",
+   "s": 367.296,
+   "e": 367.529,
+   "chunk": 64
+  },
+  {
+   "w": "the",
+   "s": 367.529,
+   "e": 367.668,
+   "chunk": 64
+  },
+  {
+   "w": "laces",
+   "s": 367.668,
+   "e": 368.041,
+   "chunk": 64
+  },
+  {
+   "w": "tight.",
+   "s": 368.041,
+   "e": 368.32,
+   "chunk": 64
+  },
+  {
+   "w": "And",
+   "s": 368.86,
+   "e": 369.064,
+   "chunk": 64
+  },
+  {
+   "w": "the",
+   "s": 369.064,
+   "e": 369.218,
+   "chunk": 64
+  },
+  {
+   "w": "knot",
+   "s": 369.218,
+   "e": 369.524,
+   "chunk": 64
+  },
+  {
+   "w": "slides",
+   "s": 369.524,
+   "e": 369.933,
+   "chunk": 64
+  },
+  {
+   "w": "apart",
+   "s": 369.933,
+   "e": 370.342,
+   "chunk": 64
+  },
+  {
+   "w": "in",
+   "s": 370.342,
+   "e": 370.547,
+   "chunk": 64
+  },
+  {
+   "w": "your",
+   "s": 370.547,
+   "e": 370.752,
+   "chunk": 64
+  },
+  {
+   "w": "hands.",
+   "s": 370.752,
+   "e": 371.109,
+   "chunk": 64
+  },
+  {
+   "w": "You",
+   "s": 371.709,
+   "e": 371.907,
+   "chunk": 65
+  },
+  {
+   "w": "try",
+   "s": 371.907,
+   "e": 372.203,
+   "chunk": 65
+  },
+  {
+   "w": "again.",
+   "s": 372.203,
+   "e": 372.499,
+   "chunk": 65
+  },
+  {
+   "w": "It",
+   "s": 372.729,
+   "e": 372.909,
+   "chunk": 65
+  },
+  {
+   "w": "happens",
+   "s": 372.909,
+   "e": 373.387,
+   "chunk": 65
+  },
+  {
+   "w": "again.",
+   "s": 373.387,
+   "e": 373.746,
+   "chunk": 65
+  },
+  {
+   "w": "A",
+   "s": 374.346,
+   "e": 374.529,
+   "chunk": 66
+  },
+  {
+   "w": "knot",
+   "s": 374.529,
+   "e": 374.803,
+   "chunk": 66
+  },
+  {
+   "w": "only",
+   "s": 374.803,
+   "e": 375.123,
+   "chunk": 66
+  },
+  {
+   "w": "holds",
+   "s": 375.123,
+   "e": 375.488,
+   "chunk": 66
+  },
+  {
+   "w": "because",
+   "s": 375.488,
+   "e": 375.807,
+   "chunk": 66
+  },
+  {
+   "w": "a",
+   "s": 375.807,
+   "e": 375.99,
+   "chunk": 66
+  },
+  {
+   "w": "rope",
+   "s": 375.99,
+   "e": 376.264,
+   "chunk": 66
+  },
+  {
+   "w": "cannot",
+   "s": 376.264,
+   "e": 376.629,
+   "chunk": 66
+  },
+  {
+   "w": "pass",
+   "s": 376.629,
+   "e": 376.857,
+   "chunk": 66
+  },
+  {
+   "w": "through",
+   "s": 376.857,
+   "e": 377.131,
+   "chunk": 66
+  },
+  {
+   "w": "itself.",
+   "s": 377.131,
+   "e": 377.496,
+   "chunk": 66
+  },
+  {
+   "w": "But",
+   "s": 378.176,
+   "e": 378.426,
+   "chunk": 66
+  },
+  {
+   "w": "now,",
+   "s": 378.426,
+   "e": 378.676,
+   "chunk": 66
+  },
+  {
+   "w": "every",
+   "s": 379.096,
+   "e": 379.392,
+   "chunk": 66
+  },
+  {
+   "w": "rope",
+   "s": 379.392,
+   "e": 379.687,
+   "chunk": 66
+  },
+  {
+   "w": "near",
+   "s": 379.687,
+   "e": 379.933,
+   "chunk": 66
+  },
+  {
+   "w": "you",
+   "s": 379.933,
+   "e": 380.13,
+   "chunk": 66
+  },
+  {
+   "w": "has",
+   "s": 380.13,
+   "e": 380.376,
+   "chunk": 66
+  },
+  {
+   "w": "an",
+   "s": 380.376,
+   "e": 380.523,
+   "chunk": 66
+  },
+  {
+   "w": "extra",
+   "s": 380.523,
+   "e": 380.917,
+   "chunk": 66
+  },
+  {
+   "w": "direction",
+   "s": 380.917,
+   "e": 381.409,
+   "chunk": 66
+  },
+  {
+   "w": "to",
+   "s": 381.409,
+   "e": 381.606,
+   "chunk": 66
+  },
+  {
+   "w": "slip",
+   "s": 381.606,
+   "e": 381.901,
+   "chunk": 66
+  },
+  {
+   "w": "into.",
+   "s": 381.901,
+   "e": 382.196,
+   "chunk": 66
+  },
+  {
+   "w": "And",
+   "s": 382.696,
+   "e": 382.857,
+   "chunk": 66
+  },
+  {
+   "w": "it",
+   "s": 382.857,
+   "e": 382.978,
+   "chunk": 66
+  },
+  {
+   "w": "takes",
+   "s": 382.978,
+   "e": 383.259,
+   "chunk": 66
+  },
+  {
+   "w": "it.",
+   "s": 383.259,
+   "e": 383.38,
+   "chunk": 66
+  },
+  {
+   "w": "In",
+   "s": 383.66,
+   "e": 383.837,
+   "chunk": 67
+  },
+  {
+   "w": "four",
+   "s": 383.837,
+   "e": 384.103,
+   "chunk": 67
+  },
+  {
+   "w": "dimensions,",
+   "s": 384.103,
+   "e": 384.59,
+   "chunk": 67
+  },
+  {
+   "w": "nothing",
+   "s": 384.74,
+   "e": 385.19,
+   "chunk": 67
+  },
+  {
+   "w": "stays",
+   "s": 385.19,
+   "e": 385.639,
+   "chunk": 67
+  },
+  {
+   "w": "tied.",
+   "s": 385.639,
+   "e": 386.025,
+   "chunk": 67
+  },
+  {
+   "w": "Then,",
+   "s": 386.625,
+   "e": 386.911,
+   "chunk": 68
+  },
+  {
+   "w": "you",
+   "s": 386.911,
+   "e": 387.14,
+   "chunk": 68
+  },
+  {
+   "w": "remember",
+   "s": 387.14,
+   "e": 387.656,
+   "chunk": 68
+  },
+  {
+   "w": "Sam.",
+   "s": 387.656,
+   "e": 387.942,
+   "chunk": 68
+  },
+  {
+   "w": "You",
+   "s": 388.542,
+   "e": 388.723,
+   "chunk": 69
+  },
+  {
+   "w": "lean",
+   "s": 388.723,
+   "e": 388.995,
+   "chunk": 69
+  },
+  {
+   "w": "over",
+   "s": 388.995,
+   "e": 389.267,
+   "chunk": 69
+  },
+  {
+   "w": "his",
+   "s": 389.267,
+   "e": 389.493,
+   "chunk": 69
+  },
+  {
+   "w": "flat",
+   "s": 389.493,
+   "e": 389.765,
+   "chunk": 69
+  },
+  {
+   "w": "world,",
+   "s": 389.765,
+   "e": 390.082,
+   "chunk": 69
+  },
+  {
+   "w": "the",
+   "s": 390.182,
+   "e": 390.32,
+   "chunk": 69
+  },
+  {
+   "w": "way",
+   "s": 390.32,
+   "e": 390.551,
+   "chunk": 69
+  },
+  {
+   "w": "you",
+   "s": 390.551,
+   "e": 390.736,
+   "chunk": 69
+  },
+  {
+   "w": "always",
+   "s": 390.736,
+   "e": 391.151,
+   "chunk": 69
+  },
+  {
+   "w": "could.",
+   "s": 391.151,
+   "e": 391.382,
+   "chunk": 69
+  },
+  {
+   "w": "But",
+   "s": 392.012,
+   "e": 392.247,
+   "chunk": 69
+  },
+  {
+   "w": "now,",
+   "s": 392.247,
+   "e": 392.482,
+   "chunk": 69
+  },
+  {
+   "w": "you",
+   "s": 392.792,
+   "e": 392.978,
+   "chunk": 69
+  },
+  {
+   "w": "do",
+   "s": 392.978,
+   "e": 393.21,
+   "chunk": 69
+  },
+  {
+   "w": "something",
+   "s": 393.21,
+   "e": 393.583,
+   "chunk": 69
+  },
+  {
+   "w": "you",
+   "s": 393.583,
+   "e": 393.769,
+   "chunk": 69
+  },
+  {
+   "w": "never",
+   "s": 393.769,
+   "e": 394.048,
+   "chunk": 69
+  },
+  {
+   "w": "could",
+   "s": 394.048,
+   "e": 394.28,
+   "chunk": 69
+  },
+  {
+   "w": "before.",
+   "s": 394.28,
+   "e": 394.652,
+   "chunk": 69
+  },
+  {
+   "w": "Beside",
+   "s": 395.252,
+   "e": 395.626,
+   "chunk": 70
+  },
+  {
+   "w": "Sam",
+   "s": 395.626,
+   "e": 395.859,
+   "chunk": 70
+  },
+  {
+   "w": "is",
+   "s": 395.859,
+   "e": 395.999,
+   "chunk": 70
+  },
+  {
+   "w": "a",
+   "s": 395.999,
+   "e": 396.186,
+   "chunk": 70
+  },
+  {
+   "w": "footprint.",
+   "s": 396.186,
+   "e": 396.652,
+   "chunk": 70
+  },
+  {
+   "w": "A",
+   "s": 397.112,
+   "e": 397.26,
+   "chunk": 70
+  },
+  {
+   "w": "left",
+   "s": 397.26,
+   "e": 397.482,
+   "chunk": 70
+  },
+  {
+   "w": "footprint.",
+   "s": 397.482,
+   "e": 397.852,
+   "chunk": 70
+  },
+  {
+   "w": "Sam",
+   "s": 398.462,
+   "e": 398.662,
+   "chunk": 70
+  },
+  {
+   "w": "could",
+   "s": 398.662,
+   "e": 398.863,
+   "chunk": 70
+  },
+  {
+   "w": "slide",
+   "s": 398.863,
+   "e": 399.143,
+   "chunk": 70
+  },
+  {
+   "w": "it",
+   "s": 399.143,
+   "e": 399.263,
+   "chunk": 70
+  },
+  {
+   "w": "anywhere,",
+   "s": 399.263,
+   "e": 399.623,
+   "chunk": 70
+  },
+  {
+   "w": "and",
+   "s": 399.623,
+   "e": 399.844,
+   "chunk": 70
+  },
+  {
+   "w": "spin",
+   "s": 399.844,
+   "e": 400.176,
+   "chunk": 70
+  },
+  {
+   "w": "it",
+   "s": 400.176,
+   "e": 400.342,
+   "chunk": 70
+  },
+  {
+   "w": "any",
+   "s": 400.342,
+   "e": 400.619,
+   "chunk": 70
+  },
+  {
+   "w": "way",
+   "s": 400.619,
+   "e": 400.895,
+   "chunk": 70
+  },
+  {
+   "w": "he",
+   "s": 400.895,
+   "e": 401.116,
+   "chunk": 70
+  },
+  {
+   "w": "liked.",
+   "s": 401.116,
+   "e": 401.504,
+   "chunk": 70
+  },
+  {
+   "w": "But",
+   "s": 401.784,
+   "e": 401.975,
+   "chunk": 71
+  },
+  {
+   "w": "he",
+   "s": 401.975,
+   "e": 402.127,
+   "chunk": 71
+  },
+  {
+   "w": "could",
+   "s": 402.127,
+   "e": 402.318,
+   "chunk": 71
+  },
+  {
+   "w": "never",
+   "s": 402.318,
+   "e": 402.547,
+   "chunk": 71
+  },
+  {
+   "w": "turn",
+   "s": 402.547,
+   "e": 402.776,
+   "chunk": 71
+  },
+  {
+   "w": "it",
+   "s": 402.776,
+   "e": 402.891,
+   "chunk": 71
+  },
+  {
+   "w": "into",
+   "s": 402.891,
+   "e": 403.12,
+   "chunk": 71
+  },
+  {
+   "w": "a",
+   "s": 403.12,
+   "e": 403.273,
+   "chunk": 71
+  },
+  {
+   "w": "right",
+   "s": 403.273,
+   "e": 403.502,
+   "chunk": 71
+  },
+  {
+   "w": "footprint.",
+   "s": 403.502,
+   "e": 403.884,
+   "chunk": 71
+  },
+  {
+   "w": "Nothing",
+   "s": 404.474,
+   "e": 404.849,
+   "chunk": 71
+  },
+  {
+   "w": "in",
+   "s": 404.849,
+   "e": 405.063,
+   "chunk": 71
+  },
+  {
+   "w": "his",
+   "s": 405.063,
+   "e": 405.331,
+   "chunk": 71
+  },
+  {
+   "w": "flat",
+   "s": 405.331,
+   "e": 405.652,
+   "chunk": 71
+  },
+  {
+   "w": "world",
+   "s": 405.652,
+   "e": 406.027,
+   "chunk": 71
+  },
+  {
+   "w": "could.",
+   "s": 406.027,
+   "e": 406.295,
+   "chunk": 71
+  },
+  {
+   "w": "You",
+   "s": 406.895,
+   "e": 407.066,
+   "chunk": 72
+  },
+  {
+   "w": "lift",
+   "s": 407.066,
+   "e": 407.324,
+   "chunk": 72
+  },
+  {
+   "w": "it",
+   "s": 407.324,
+   "e": 407.453,
+   "chunk": 72
+  },
+  {
+   "w": "out",
+   "s": 407.453,
+   "e": 407.667,
+   "chunk": 72
+  },
+  {
+   "w": "of",
+   "s": 407.667,
+   "e": 407.796,
+   "chunk": 72
+  },
+  {
+   "w": "Flatland.",
+   "s": 407.796,
+   "e": 408.225,
+   "chunk": 72
+  },
+  {
+   "w": "You",
+   "s": 408.605,
+   "e": 408.78,
+   "chunk": 72
+  },
+  {
+   "w": "flip",
+   "s": 408.78,
+   "e": 409.042,
+   "chunk": 72
+  },
+  {
+   "w": "it",
+   "s": 409.042,
+   "e": 409.173,
+   "chunk": 72
+  },
+  {
+   "w": "over.",
+   "s": 409.173,
+   "e": 409.435,
+   "chunk": 72
+  },
+  {
+   "w": "You",
+   "s": 409.685,
+   "e": 409.885,
+   "chunk": 72
+  },
+  {
+   "w": "lay",
+   "s": 409.885,
+   "e": 410.134,
+   "chunk": 72
+  },
+  {
+   "w": "it",
+   "s": 410.134,
+   "e": 410.284,
+   "chunk": 72
+  },
+  {
+   "w": "back",
+   "s": 410.284,
+   "e": 410.534,
+   "chunk": 72
+  },
+  {
+   "w": "down.",
+   "s": 410.534,
+   "e": 410.834,
+   "chunk": 72
+  },
+  {
+   "w": "Sam",
+   "s": 411.434,
+   "e": 411.737,
+   "chunk": 73
+  },
+  {
+   "w": "stares",
+   "s": 411.737,
+   "e": 412.161,
+   "chunk": 73
+  },
+  {
+   "w": "at",
+   "s": 412.161,
+   "e": 412.342,
+   "chunk": 73
+  },
+  {
+   "w": "it.",
+   "s": 412.342,
+   "e": 412.524,
+   "chunk": 73
+  },
+  {
+   "w": "It",
+   "s": 413.044,
+   "e": 413.153,
+   "chunk": 73
+  },
+  {
+   "w": "is",
+   "s": 413.153,
+   "e": 413.263,
+   "chunk": 73
+  },
+  {
+   "w": "now",
+   "s": 413.263,
+   "e": 413.445,
+   "chunk": 73
+  },
+  {
+   "w": "a",
+   "s": 413.445,
+   "e": 413.591,
+   "chunk": 73
+  },
+  {
+   "w": "right",
+   "s": 413.591,
+   "e": 413.809,
+   "chunk": 73
+  },
+  {
+   "w": "footprint.",
+   "s": 413.809,
+   "e": 414.174,
+   "chunk": 73
+  },
+  {
+   "w": "To",
+   "s": 414.284,
+   "e": 414.351,
+   "chunk": 73
+  },
+  {
+   "w": "him,",
+   "s": 414.351,
+   "e": 414.434,
+   "chunk": 73
+  },
+  {
+   "w": "the",
+   "s": 415.044,
+   "e": 415.235,
+   "chunk": 73
+  },
+  {
+   "w": "impossible",
+   "s": 415.235,
+   "e": 416.0,
+   "chunk": 73
+  },
+  {
+   "w": "has",
+   "s": 416.0,
+   "e": 416.318,
+   "chunk": 73
+  },
+  {
+   "w": "just",
+   "s": 416.318,
+   "e": 416.764,
+   "chunk": 73
+  },
+  {
+   "w": "happened,",
+   "s": 416.764,
+   "e": 417.274,
+   "chunk": 73
+  },
+  {
+   "w": "quietly,",
+   "s": 417.364,
+   "e": 417.698,
+   "chunk": 73
+  },
+  {
+   "w": "in",
+   "s": 417.698,
+   "e": 417.941,
+   "chunk": 73
+  },
+  {
+   "w": "front",
+   "s": 417.941,
+   "e": 418.366,
+   "chunk": 73
+  },
+  {
+   "w": "of",
+   "s": 418.366,
+   "e": 418.549,
+   "chunk": 73
+  },
+  {
+   "w": "his",
+   "s": 418.549,
+   "e": 418.853,
+   "chunk": 73
+  },
+  {
+   "w": "eyes.",
+   "s": 418.853,
+   "e": 419.157,
+   "chunk": 73
+  },
+  {
+   "w": "Walking",
+   "s": 419.757,
+   "e": 420.226,
+   "chunk": 74
+  },
+  {
+   "w": "through",
+   "s": 420.226,
+   "e": 420.577,
+   "chunk": 74
+  },
+  {
+   "w": "walls.",
+   "s": 420.577,
+   "e": 420.987,
+   "chunk": 74
+  },
+  {
+   "w": "Untying",
+   "s": 421.307,
+   "e": 421.834,
+   "chunk": 74
+  },
+  {
+   "w": "every",
+   "s": 421.834,
+   "e": 422.186,
+   "chunk": 74
+  },
+  {
+   "w": "knot.",
+   "s": 422.186,
+   "e": 422.537,
+   "chunk": 74
+  },
+  {
+   "w": "Turning",
+   "s": 423.047,
+   "e": 423.43,
+   "chunk": 74
+  },
+  {
+   "w": "anything",
+   "s": 423.43,
+   "e": 423.86,
+   "chunk": 74
+  },
+  {
+   "w": "into",
+   "s": 423.86,
+   "e": 424.148,
+   "chunk": 74
+  },
+  {
+   "w": "its",
+   "s": 424.148,
+   "e": 424.339,
+   "chunk": 74
+  },
+  {
+   "w": "reflection.",
+   "s": 424.339,
+   "e": 424.865,
+   "chunk": 74
+  },
+  {
+   "w": "If",
+   "s": 425.465,
+   "e": 425.618,
+   "chunk": 75
+  },
+  {
+   "w": "you",
+   "s": 425.618,
+   "e": 425.821,
+   "chunk": 75
+  },
+  {
+   "w": "could",
+   "s": 425.821,
+   "e": 426.074,
+   "chunk": 75
+  },
+  {
+   "w": "keep",
+   "s": 426.074,
+   "e": 426.379,
+   "chunk": 75
+  },
+  {
+   "w": "only",
+   "s": 426.379,
+   "e": 426.734,
+   "chunk": 75
+  },
+  {
+   "w": "one",
+   "s": 426.734,
+   "e": 426.988,
+   "chunk": 75
+  },
+  {
+   "w": "of",
+   "s": 426.988,
+   "e": 427.14,
+   "chunk": 75
+  },
+  {
+   "w": "these",
+   "s": 427.14,
+   "e": 427.445,
+   "chunk": 75
+  },
+  {
+   "w": "abilities,",
+   "s": 427.445,
+   "e": 427.952,
+   "chunk": 75
+  },
+  {
+   "w": "which",
+   "s": 427.952,
+   "e": 428.16,
+   "chunk": 75
+  },
+  {
+   "w": "would",
+   "s": 428.16,
+   "e": 428.334,
+   "chunk": 75
+  },
+  {
+   "w": "you",
+   "s": 428.334,
+   "e": 428.472,
+   "chunk": 75
+  },
+  {
+   "w": "choose?",
+   "s": 428.472,
+   "e": 428.715,
+   "chunk": 75
+  },
+  {
+   "w": "Tell",
+   "s": 429.195,
+   "e": 429.403,
+   "chunk": 75
+  },
+  {
+   "w": "me",
+   "s": 429.403,
+   "e": 429.61,
+   "chunk": 75
+  },
+  {
+   "w": "in",
+   "s": 429.61,
+   "e": 429.776,
+   "chunk": 75
+  },
+  {
+   "w": "the",
+   "s": 429.776,
+   "e": 429.901,
+   "chunk": 75
+  },
+  {
+   "w": "comments.",
+   "s": 429.901,
+   "e": 430.315,
+   "chunk": 75
+  },
+  {
+   "w": "And",
+   "s": 430.655,
+   "e": 430.828,
+   "chunk": 75
+  },
+  {
+   "w": "think",
+   "s": 430.828,
+   "e": 431.088,
+   "chunk": 75
+  },
+  {
+   "w": "about",
+   "s": 431.088,
+   "e": 431.391,
+   "chunk": 75
+  },
+  {
+   "w": "it",
+   "s": 431.391,
+   "e": 431.521,
+   "chunk": 75
+  },
+  {
+   "w": "carefully.",
+   "s": 431.521,
+   "e": 431.91,
+   "chunk": 75
+  },
+  {
+   "w": "Because",
+   "s": 432.51,
+   "e": 432.878,
+   "chunk": 76
+  },
+  {
+   "w": "that",
+   "s": 432.878,
+   "e": 433.141,
+   "chunk": 76
+  },
+  {
+   "w": "last",
+   "s": 433.141,
+   "e": 433.457,
+   "chunk": 76
+  },
+  {
+   "w": "ability,",
+   "s": 433.457,
+   "e": 433.93,
+   "chunk": 76
+  },
+  {
+   "w": "the",
+   "s": 434.1,
+   "e": 434.235,
+   "chunk": 76
+  },
+  {
+   "w": "reflection,",
+   "s": 434.235,
+   "e": 434.73,
+   "chunk": 76
+  },
+  {
+   "w": "is",
+   "s": 435.22,
+   "e": 435.37,
+   "chunk": 76
+  },
+  {
+   "w": "about",
+   "s": 435.37,
+   "e": 435.721,
+   "chunk": 76
+  },
+  {
+   "w": "to",
+   "s": 435.721,
+   "e": 435.921,
+   "chunk": 76
+  },
+  {
+   "w": "matter",
+   "s": 435.921,
+   "e": 436.221,
+   "chunk": 76
+  },
+  {
+   "w": "a",
+   "s": 436.221,
+   "e": 436.422,
+   "chunk": 76
+  },
+  {
+   "w": "great",
+   "s": 436.422,
+   "e": 436.772,
+   "chunk": 76
+  },
+  {
+   "w": "deal.",
+   "s": 436.772,
+   "e": 437.072,
+   "chunk": 76
+  },
+  {
+   "w": "Part",
+   "s": 437.672,
+   "e": 438.088,
+   "chunk": 77
+  },
+  {
+   "w": "five.",
+   "s": 438.088,
+   "e": 438.443,
+   "chunk": 77
+  },
+  {
+   "w": "The",
+   "s": 438.443,
+   "e": 438.621,
+   "chunk": 77
+  },
+  {
+   "w": "watcher.",
+   "s": 438.621,
+   "e": 439.096,
+   "chunk": 77
+  },
+  {
+   "w": "Now,",
+   "s": 439.696,
+   "e": 439.999,
+   "chunk": 78
+  },
+  {
+   "w": "let",
+   "s": 439.999,
+   "e": 440.248,
+   "chunk": 78
+  },
+  {
+   "w": "us",
+   "s": 440.248,
+   "e": 440.448,
+   "chunk": 78
+  },
+  {
+   "w": "reverse",
+   "s": 440.448,
+   "e": 440.846,
+   "chunk": 78
+  },
+  {
+   "w": "it.",
+   "s": 440.846,
+   "e": 440.996,
+   "chunk": 78
+  },
+  {
+   "w": "Suppose",
+   "s": 441.526,
+   "e": 441.962,
+   "chunk": 78
+  },
+  {
+   "w": "something",
+   "s": 441.962,
+   "e": 442.397,
+   "chunk": 78
+  },
+  {
+   "w": "else",
+   "s": 442.397,
+   "e": 442.67,
+   "chunk": 78
+  },
+  {
+   "w": "already",
+   "s": 442.67,
+   "e": 443.16,
+   "chunk": 78
+  },
+  {
+   "w": "has",
+   "s": 443.16,
+   "e": 443.432,
+   "chunk": 78
+  },
+  {
+   "w": "these",
+   "s": 443.432,
+   "e": 443.759,
+   "chunk": 78
+  },
+  {
+   "w": "abilities.",
+   "s": 443.759,
+   "e": 444.303,
+   "chunk": 78
+  },
+  {
+   "w": "To",
+   "s": 444.903,
+   "e": 445.145,
+   "chunk": 79
+  },
+  {
+   "w": "that",
+   "s": 445.145,
+   "e": 445.447,
+   "chunk": 79
+  },
+  {
+   "w": "creature,",
+   "s": 445.447,
+   "e": 445.991,
+   "chunk": 79
+  },
+  {
+   "w": "you",
+   "s": 445.991,
+   "e": 446.106,
+   "chunk": 79
+  },
+  {
+   "w": "are",
+   "s": 446.106,
+   "e": 446.22,
+   "chunk": 79
+  },
+  {
+   "w": "Sam.",
+   "s": 446.22,
+   "e": 446.363,
+   "chunk": 79
+  },
+  {
+   "w": "Your",
+   "s": 446.863,
+   "e": 447.057,
+   "chunk": 79
+  },
+  {
+   "w": "skin",
+   "s": 447.057,
+   "e": 447.347,
+   "chunk": 79
+  },
+  {
+   "w": "is",
+   "s": 447.347,
+   "e": 447.492,
+   "chunk": 79
+  },
+  {
+   "w": "not",
+   "s": 447.492,
+   "e": 447.782,
+   "chunk": 79
+  },
+  {
+   "w": "a",
+   "s": 447.782,
+   "e": 447.975,
+   "chunk": 79
+  },
+  {
+   "w": "barrier.",
+   "s": 447.975,
+   "e": 448.313,
+   "chunk": 79
+  },
+  {
+   "w": "It",
+   "s": 448.643,
+   "e": 448.816,
+   "chunk": 79
+  },
+  {
+   "w": "is",
+   "s": 448.816,
+   "e": 448.989,
+   "chunk": 79
+  },
+  {
+   "w": "an",
+   "s": 448.989,
+   "e": 449.161,
+   "chunk": 79
+  },
+  {
+   "w": "outline.",
+   "s": 449.161,
+   "e": 449.679,
+   "chunk": 79
+  },
+  {
+   "w": "Your",
+   "s": 449.959,
+   "e": 450.18,
+   "chunk": 80
+  },
+  {
+   "w": "heart",
+   "s": 450.18,
+   "e": 450.565,
+   "chunk": 80
+  },
+  {
+   "w": "is",
+   "s": 450.565,
+   "e": 450.731,
+   "chunk": 80
+  },
+  {
+   "w": "as",
+   "s": 450.731,
+   "e": 450.896,
+   "chunk": 80
+  },
+  {
+   "w": "exposed",
+   "s": 450.896,
+   "e": 451.447,
+   "chunk": 80
+  },
+  {
+   "w": "to",
+   "s": 451.447,
+   "e": 451.668,
+   "chunk": 80
+  },
+  {
+   "w": "it",
+   "s": 451.668,
+   "e": 451.833,
+   "chunk": 80
+  },
+  {
+   "w": "as",
+   "s": 451.833,
+   "e": 451.999,
+   "chunk": 80
+  },
+  {
+   "w": "a",
+   "s": 451.999,
+   "e": 452.219,
+   "chunk": 80
+  },
+  {
+   "w": "heart",
+   "s": 452.219,
+   "e": 452.605,
+   "chunk": 80
+  },
+  {
+   "w": "drawn",
+   "s": 452.605,
+   "e": 452.991,
+   "chunk": 80
+  },
+  {
+   "w": "on",
+   "s": 452.991,
+   "e": 453.211,
+   "chunk": 80
+  },
+  {
+   "w": "paper",
+   "s": 453.211,
+   "e": 453.597,
+   "chunk": 80
+  },
+  {
+   "w": "is",
+   "s": 453.597,
+   "e": 453.763,
+   "chunk": 80
+  },
+  {
+   "w": "to",
+   "s": 453.763,
+   "e": 453.983,
+   "chunk": 80
+  },
+  {
+   "w": "you.",
+   "s": 453.983,
+   "e": 454.204,
+   "chunk": 80
+  },
+  {
+   "w": "You",
+   "s": 454.804,
+   "e": 454.998,
+   "chunk": 81
+  },
+  {
+   "w": "could",
+   "s": 454.998,
+   "e": 455.24,
+   "chunk": 81
+  },
+  {
+   "w": "lift",
+   "s": 455.24,
+   "e": 455.531,
+   "chunk": 81
+  },
+  {
+   "w": "a",
+   "s": 455.531,
+   "e": 455.725,
+   "chunk": 81
+  },
+  {
+   "w": "coin",
+   "s": 455.725,
+   "e": 456.016,
+   "chunk": 81
+  },
+  {
+   "w": "from",
+   "s": 456.016,
+   "e": 456.259,
+   "chunk": 81
+  },
+  {
+   "w": "the",
+   "s": 456.259,
+   "e": 456.405,
+   "chunk": 81
+  },
+  {
+   "w": "very",
+   "s": 456.405,
+   "e": 456.696,
+   "chunk": 81
+  },
+  {
+   "w": "center",
+   "s": 456.696,
+   "e": 457.035,
+   "chunk": 81
+  },
+  {
+   "w": "of",
+   "s": 457.035,
+   "e": 457.181,
+   "chunk": 81
+  },
+  {
+   "w": "Sam,",
+   "s": 457.181,
+   "e": 457.424,
+   "chunk": 81
+  },
+  {
+   "w": "without",
+   "s": 457.984,
+   "e": 458.447,
+   "chunk": 81
+  },
+  {
+   "w": "touching",
+   "s": 458.447,
+   "e": 458.911,
+   "chunk": 81
+  },
+  {
+   "w": "his",
+   "s": 458.911,
+   "e": 459.2,
+   "chunk": 81
+  },
+  {
+   "w": "edges.",
+   "s": 459.2,
+   "e": 459.606,
+   "chunk": 81
+  },
+  {
+   "w": "In",
+   "s": 459.886,
+   "e": 460.089,
+   "chunk": 82
+  },
+  {
+   "w": "exactly",
+   "s": 460.089,
+   "e": 460.596,
+   "chunk": 82
+  },
+  {
+   "w": "the",
+   "s": 460.596,
+   "e": 460.748,
+   "chunk": 82
+  },
+  {
+   "w": "same",
+   "s": 460.748,
+   "e": 461.052,
+   "chunk": 82
+  },
+  {
+   "w": "way,",
+   "s": 461.052,
+   "e": 461.306,
+   "chunk": 82
+  },
+  {
+   "w": "a",
+   "s": 461.526,
+   "e": 461.782,
+   "chunk": 82
+  },
+  {
+   "w": "four-dimensional",
+   "s": 461.782,
+   "e": 462.873,
+   "chunk": 82
+  },
+  {
+   "w": "being",
+   "s": 462.873,
+   "e": 463.321,
+   "chunk": 82
+  },
+  {
+   "w": "could",
+   "s": 463.321,
+   "e": 463.642,
+   "chunk": 82
+  },
+  {
+   "w": "reach",
+   "s": 463.642,
+   "e": 464.091,
+   "chunk": 82
+  },
+  {
+   "w": "into",
+   "s": 464.091,
+   "e": 464.476,
+   "chunk": 82
+  },
+  {
+   "w": "your",
+   "s": 464.476,
+   "e": 464.732,
+   "chunk": 82
+  },
+  {
+   "w": "chest",
+   "s": 464.732,
+   "e": 465.181,
+   "chunk": 82
+  },
+  {
+   "w": "and",
+   "s": 465.181,
+   "e": 465.438,
+   "chunk": 82
+  },
+  {
+   "w": "remove",
+   "s": 465.438,
+   "e": 465.951,
+   "chunk": 82
+  },
+  {
+   "w": "your",
+   "s": 465.951,
+   "e": 466.207,
+   "chunk": 82
+  },
+  {
+   "w": "heart.",
+   "s": 466.207,
+   "e": 466.656,
+   "chunk": 82
+  },
+  {
+   "w": "No",
+   "s": 467.146,
+   "e": 467.371,
+   "chunk": 82
+  },
+  {
+   "w": "incision.",
+   "s": 467.371,
+   "e": 467.776,
+   "chunk": 82
+  },
+  {
+   "w": "No",
+   "s": 467.896,
+   "e": 467.938,
+   "chunk": 82
+  },
+  {
+   "w": "wound.",
+   "s": 467.938,
+   "e": 467.996,
+   "chunk": 82
+  },
+  {
+   "w": "No",
+   "s": 468.246,
+   "e": 468.602,
+   "chunk": 82
+  },
+  {
+   "w": "trace.",
+   "s": 468.602,
+   "e": 469.101,
+   "chunk": 82
+  },
+  {
+   "w": "That",
+   "s": 469.701,
+   "e": 469.932,
+   "chunk": 83
+  },
+  {
+   "w": "is",
+   "s": 469.932,
+   "e": 470.071,
+   "chunk": 83
+  },
+  {
+   "w": "how",
+   "s": 470.071,
+   "e": 470.303,
+   "chunk": 83
+  },
+  {
+   "w": "something",
+   "s": 470.303,
+   "e": 470.673,
+   "chunk": 83
+  },
+  {
+   "w": "could",
+   "s": 470.673,
+   "e": 470.904,
+   "chunk": 83
+  },
+  {
+   "w": "take",
+   "s": 470.904,
+   "e": 471.182,
+   "chunk": 83
+  },
+  {
+   "w": "your",
+   "s": 471.182,
+   "e": 471.367,
+   "chunk": 83
+  },
+  {
+   "w": "heart,",
+   "s": 471.367,
+   "e": 471.691,
+   "chunk": 83
+  },
+  {
+   "w": "without",
+   "s": 472.221,
+   "e": 472.635,
+   "chunk": 83
+  },
+  {
+   "w": "ever",
+   "s": 472.635,
+   "e": 472.894,
+   "chunk": 83
+  },
+  {
+   "w": "breaking",
+   "s": 472.894,
+   "e": 473.36,
+   "chunk": 83
+  },
+  {
+   "w": "your",
+   "s": 473.36,
+   "e": 473.568,
+   "chunk": 83
+  },
+  {
+   "w": "skin.",
+   "s": 473.568,
+   "e": 473.878,
+   "chunk": 83
+  },
+  {
+   "w": "And",
+   "s": 474.478,
+   "e": 474.692,
+   "chunk": 84
+  },
+  {
+   "w": "then,",
+   "s": 474.692,
+   "e": 474.958,
+   "chunk": 84
+  },
+  {
+   "w": "there",
+   "s": 475.168,
+   "e": 475.446,
+   "chunk": 84
+  },
+  {
+   "w": "is",
+   "s": 475.446,
+   "e": 475.612,
+   "chunk": 84
+  },
+  {
+   "w": "the",
+   "s": 475.612,
+   "e": 475.778,
+   "chunk": 84
+  },
+  {
+   "w": "matter",
+   "s": 475.778,
+   "e": 476.111,
+   "chunk": 84
+  },
+  {
+   "w": "of",
+   "s": 476.111,
+   "e": 476.277,
+   "chunk": 84
+  },
+  {
+   "w": "reflections.",
+   "s": 476.277,
+   "e": 476.943,
+   "chunk": 84
+  },
+  {
+   "w": "Imagine",
+   "s": 477.543,
+   "e": 477.965,
+   "chunk": 85
+  },
+  {
+   "w": "this",
+   "s": 477.965,
+   "e": 478.2,
+   "chunk": 85
+  },
+  {
+   "w": "being",
+   "s": 478.2,
+   "e": 478.528,
+   "chunk": 85
+  },
+  {
+   "w": "lifts",
+   "s": 478.528,
+   "e": 478.857,
+   "chunk": 85
+  },
+  {
+   "w": "you",
+   "s": 478.857,
+   "e": 479.044,
+   "chunk": 85
+  },
+  {
+   "w": "out",
+   "s": 479.044,
+   "e": 479.279,
+   "chunk": 85
+  },
+  {
+   "w": "of",
+   "s": 479.279,
+   "e": 479.42,
+   "chunk": 85
+  },
+  {
+   "w": "our",
+   "s": 479.42,
+   "e": 479.654,
+   "chunk": 85
+  },
+  {
+   "w": "world.",
+   "s": 479.654,
+   "e": 479.983,
+   "chunk": 85
+  },
+  {
+   "w": "Turns",
+   "s": 480.653,
+   "e": 481.078,
+   "chunk": 85
+  },
+  {
+   "w": "you,",
+   "s": 481.078,
+   "e": 481.32,
+   "chunk": 85
+  },
+  {
+   "w": "once,",
+   "s": 481.32,
+   "e": 481.68,
+   "chunk": 85
+  },
+  {
+   "w": "through",
+   "s": 481.68,
+   "e": 481.942,
+   "chunk": 85
+  },
+  {
+   "w": "the",
+   "s": 481.942,
+   "e": 482.072,
+   "chunk": 85
+  },
+  {
+   "w": "fourth",
+   "s": 482.072,
+   "e": 482.377,
+   "chunk": 85
+  },
+  {
+   "w": "dimension.",
+   "s": 482.377,
+   "e": 482.813,
+   "chunk": 85
+  },
+  {
+   "w": "And",
+   "s": 483.413,
+   "e": 483.619,
+   "chunk": 85
+  },
+  {
+   "w": "sets",
+   "s": 483.619,
+   "e": 483.929,
+   "chunk": 85
+  },
+  {
+   "w": "you",
+   "s": 483.929,
+   "e": 484.135,
+   "chunk": 85
+  },
+  {
+   "w": "back",
+   "s": 484.135,
+   "e": 484.393,
+   "chunk": 85
+  },
+  {
+   "w": "down,",
+   "s": 484.393,
+   "e": 484.703,
+   "chunk": 85
+  },
+  {
+   "w": "exactly",
+   "s": 484.803,
+   "e": 485.374,
+   "chunk": 85
+  },
+  {
+   "w": "where",
+   "s": 485.374,
+   "e": 485.66,
+   "chunk": 85
+  },
+  {
+   "w": "you",
+   "s": 485.66,
+   "e": 485.889,
+   "chunk": 85
+  },
+  {
+   "w": "were.",
+   "s": 485.889,
+   "e": 486.117,
+   "chunk": 85
+  },
+  {
+   "w": "At",
+   "s": 486.717,
+   "e": 486.879,
+   "chunk": 86
+  },
+  {
+   "w": "first,",
+   "s": 486.879,
+   "e": 487.257,
+   "chunk": 86
+  },
+  {
+   "w": "you",
+   "s": 487.437,
+   "e": 487.62,
+   "chunk": 86
+  },
+  {
+   "w": "would",
+   "s": 487.62,
+   "e": 487.848,
+   "chunk": 86
+  },
+  {
+   "w": "feel",
+   "s": 487.848,
+   "e": 488.121,
+   "chunk": 86
+  },
+  {
+   "w": "nothing",
+   "s": 488.121,
+   "e": 488.44,
+   "chunk": 86
+  },
+  {
+   "w": "unusual.",
+   "s": 488.44,
+   "e": 488.987,
+   "chunk": 86
+  },
+  {
+   "w": "But",
+   "s": 489.597,
+   "e": 489.847,
+   "chunk": 86
+  },
+  {
+   "w": "your",
+   "s": 489.847,
+   "e": 490.047,
+   "chunk": 86
+  },
+  {
+   "w": "heart",
+   "s": 490.047,
+   "e": 490.397,
+   "chunk": 86
+  },
+  {
+   "w": "would",
+   "s": 490.397,
+   "e": 490.647,
+   "chunk": 86
+  },
+  {
+   "w": "now",
+   "s": 490.647,
+   "e": 490.896,
+   "chunk": 86
+  },
+  {
+   "w": "sit",
+   "s": 490.896,
+   "e": 491.146,
+   "chunk": 86
+  },
+  {
+   "w": "on",
+   "s": 491.146,
+   "e": 491.346,
+   "chunk": 86
+  },
+  {
+   "w": "the",
+   "s": 491.346,
+   "e": 491.496,
+   "chunk": 86
+  },
+  {
+   "w": "right",
+   "s": 491.496,
+   "e": 491.796,
+   "chunk": 86
+  },
+  {
+   "w": "side",
+   "s": 491.796,
+   "e": 492.095,
+   "chunk": 86
+  },
+  {
+   "w": "of",
+   "s": 492.095,
+   "e": 492.245,
+   "chunk": 86
+  },
+  {
+   "w": "your",
+   "s": 492.245,
+   "e": 492.445,
+   "chunk": 86
+  },
+  {
+   "w": "chest.",
+   "s": 492.445,
+   "e": 492.795,
+   "chunk": 86
+  },
+  {
+   "w": "Every",
+   "s": 493.075,
+   "e": 493.366,
+   "chunk": 87
+  },
+  {
+   "w": "part",
+   "s": 493.366,
+   "e": 493.706,
+   "chunk": 87
+  },
+  {
+   "w": "of",
+   "s": 493.706,
+   "e": 493.852,
+   "chunk": 87
+  },
+  {
+   "w": "you",
+   "s": 493.852,
+   "e": 494.046,
+   "chunk": 87
+  },
+  {
+   "w": "would",
+   "s": 494.046,
+   "e": 494.289,
+   "chunk": 87
+  },
+  {
+   "w": "be",
+   "s": 494.289,
+   "e": 494.531,
+   "chunk": 87
+  },
+  {
+   "w": "a",
+   "s": 494.531,
+   "e": 494.726,
+   "chunk": 87
+  },
+  {
+   "w": "mirror",
+   "s": 494.726,
+   "e": 495.017,
+   "chunk": 87
+  },
+  {
+   "w": "image",
+   "s": 495.017,
+   "e": 495.357,
+   "chunk": 87
+  },
+  {
+   "w": "of",
+   "s": 495.357,
+   "e": 495.502,
+   "chunk": 87
+  },
+  {
+   "w": "what",
+   "s": 495.502,
+   "e": 495.745,
+   "chunk": 87
+  },
+  {
+   "w": "it",
+   "s": 495.745,
+   "e": 495.891,
+   "chunk": 87
+  },
+  {
+   "w": "was.",
+   "s": 495.891,
+   "e": 496.085,
+   "chunk": 87
+  },
+  {
+   "w": "Just",
+   "s": 496.575,
+   "e": 496.958,
+   "chunk": 87
+  },
+  {
+   "w": "like",
+   "s": 496.958,
+   "e": 497.286,
+   "chunk": 87
+  },
+  {
+   "w": "Sam's",
+   "s": 497.286,
+   "e": 497.614,
+   "chunk": 87
+  },
+  {
+   "w": "footprint.",
+   "s": 497.614,
+   "e": 498.161,
+   "chunk": 87
+  },
+  {
+   "w": "And",
+   "s": 498.761,
+   "e": 498.991,
+   "chunk": 88
+  },
+  {
+   "w": "slowly,",
+   "s": 498.991,
+   "e": 499.451,
+   "chunk": 88
+  },
+  {
+   "w": "you",
+   "s": 499.681,
+   "e": 499.876,
+   "chunk": 88
+  },
+  {
+   "w": "would",
+   "s": 499.876,
+   "e": 500.12,
+   "chunk": 88
+  },
+  {
+   "w": "begin",
+   "s": 500.12,
+   "e": 500.462,
+   "chunk": 88
+  },
+  {
+   "w": "to",
+   "s": 500.462,
+   "e": 500.657,
+   "chunk": 88
+  },
+  {
+   "w": "starve.",
+   "s": 500.657,
+   "e": 501.048,
+   "chunk": 88
+  },
+  {
+   "w": "Many",
+   "s": 501.648,
+   "e": 501.984,
+   "chunk": 89
+  },
+  {
+   "w": "of",
+   "s": 501.984,
+   "e": 502.153,
+   "chunk": 89
+  },
+  {
+   "w": "the",
+   "s": 502.153,
+   "e": 502.321,
+   "chunk": 89
+  },
+  {
+   "w": "molecules",
+   "s": 502.321,
+   "e": 503.107,
+   "chunk": 89
+  },
+  {
+   "w": "of",
+   "s": 503.107,
+   "e": 503.276,
+   "chunk": 89
+  },
+  {
+   "w": "life",
+   "s": 503.276,
+   "e": 503.613,
+   "chunk": 89
+  },
+  {
+   "w": "come",
+   "s": 503.613,
+   "e": 503.893,
+   "chunk": 89
+  },
+  {
+   "w": "in",
+   "s": 503.893,
+   "e": 504.118,
+   "chunk": 89
+  },
+  {
+   "w": "two",
+   "s": 504.118,
+   "e": 504.399,
+   "chunk": 89
+  },
+  {
+   "w": "mirror-image",
+   "s": 504.399,
+   "e": 505.128,
+   "chunk": 89
+  },
+  {
+   "w": "forms.",
+   "s": 505.128,
+   "e": 505.578,
+   "chunk": 89
+  },
+  {
+   "w": "Left-handed,",
+   "s": 506.108,
+   "e": 506.878,
+   "chunk": 89
+  },
+  {
+   "w": "and",
+   "s": 507.138,
+   "e": 507.338,
+   "chunk": 89
+  },
+  {
+   "w": "right-handed.",
+   "s": 507.338,
+   "e": 507.988,
+   "chunk": 89
+  },
+  {
+   "w": "And",
+   "s": 508.538,
+   "e": 508.769,
+   "chunk": 89
+  },
+  {
+   "w": "life",
+   "s": 508.769,
+   "e": 509.116,
+   "chunk": 89
+  },
+  {
+   "w": "on",
+   "s": 509.116,
+   "e": 509.347,
+   "chunk": 89
+  },
+  {
+   "w": "Earth",
+   "s": 509.347,
+   "e": 509.636,
+   "chunk": 89
+  },
+  {
+   "w": "is",
+   "s": 509.636,
+   "e": 509.81,
+   "chunk": 89
+  },
+  {
+   "w": "remarkably",
+   "s": 509.81,
+   "e": 510.561,
+   "chunk": 89
+  },
+  {
+   "w": "particular.",
+   "s": 510.561,
+   "e": 511.197,
+   "chunk": 89
+  },
+  {
+   "w": "It",
+   "s": 511.477,
+   "e": 511.652,
+   "chunk": 90
+  },
+  {
+   "w": "is",
+   "s": 511.652,
+   "e": 511.827,
+   "chunk": 90
+  },
+  {
+   "w": "built",
+   "s": 511.827,
+   "e": 512.177,
+   "chunk": 90
+  },
+  {
+   "w": "almost",
+   "s": 512.177,
+   "e": 512.761,
+   "chunk": 90
+  },
+  {
+   "w": "entirely",
+   "s": 512.761,
+   "e": 513.344,
+   "chunk": 90
+  },
+  {
+   "w": "from",
+   "s": 513.344,
+   "e": 513.636,
+   "chunk": 90
+  },
+  {
+   "w": "left-handed",
+   "s": 513.636,
+   "e": 514.394,
+   "chunk": 90
+  },
+  {
+   "w": "amino",
+   "s": 514.394,
+   "e": 514.919,
+   "chunk": 90
+  },
+  {
+   "w": "acids,",
+   "s": 514.919,
+   "e": 515.327,
+   "chunk": 90
+  },
+  {
+   "w": "and",
+   "s": 515.727,
+   "e": 515.976,
+   "chunk": 90
+  },
+  {
+   "w": "right-handed",
+   "s": 515.976,
+   "e": 516.785,
+   "chunk": 90
+  },
+  {
+   "w": "sugars.",
+   "s": 516.785,
+   "e": 517.221,
+   "chunk": 90
+  },
+  {
+   "w": "Reflect",
+   "s": 517.821,
+   "e": 518.235,
+   "chunk": 91
+  },
+  {
+   "w": "a",
+   "s": 518.235,
+   "e": 518.419,
+   "chunk": 91
+  },
+  {
+   "w": "body,",
+   "s": 518.419,
+   "e": 518.741,
+   "chunk": 91
+  },
+  {
+   "w": "and",
+   "s": 519.191,
+   "e": 519.383,
+   "chunk": 91
+  },
+  {
+   "w": "every",
+   "s": 519.383,
+   "e": 519.67,
+   "chunk": 91
+  },
+  {
+   "w": "one",
+   "s": 519.67,
+   "e": 519.91,
+   "chunk": 91
+  },
+  {
+   "w": "of",
+   "s": 519.91,
+   "e": 520.053,
+   "chunk": 91
+  },
+  {
+   "w": "those",
+   "s": 520.053,
+   "e": 520.341,
+   "chunk": 91
+  },
+  {
+   "w": "molecules",
+   "s": 520.341,
+   "e": 521.012,
+   "chunk": 91
+  },
+  {
+   "w": "reverses.",
+   "s": 521.012,
+   "e": 521.491,
+   "chunk": 91
+  },
+  {
+   "w": "Much",
+   "s": 521.611,
+   "e": 521.969,
+   "chunk": 91
+  },
+  {
+   "w": "of",
+   "s": 521.969,
+   "e": 522.149,
+   "chunk": 91
+  },
+  {
+   "w": "the",
+   "s": 522.149,
+   "e": 522.328,
+   "chunk": 91
+  },
+  {
+   "w": "world's",
+   "s": 522.328,
+   "e": 522.806,
+   "chunk": 91
+  },
+  {
+   "w": "food",
+   "s": 522.806,
+   "e": 523.165,
+   "chunk": 91
+  },
+  {
+   "w": "would",
+   "s": 523.165,
+   "e": 523.463,
+   "chunk": 91
+  },
+  {
+   "w": "now",
+   "s": 523.463,
+   "e": 523.762,
+   "chunk": 91
+  },
+  {
+   "w": "be",
+   "s": 523.762,
+   "e": 524.061,
+   "chunk": 91
+  },
+  {
+   "w": "the",
+   "s": 524.061,
+   "e": 524.24,
+   "chunk": 91
+  },
+  {
+   "w": "wrong",
+   "s": 524.24,
+   "e": 524.539,
+   "chunk": 91
+  },
+  {
+   "w": "shape",
+   "s": 524.539,
+   "e": 524.898,
+   "chunk": 91
+  },
+  {
+   "w": "for",
+   "s": 524.898,
+   "e": 525.196,
+   "chunk": 91
+  },
+  {
+   "w": "you.",
+   "s": 525.196,
+   "e": 525.435,
+   "chunk": 91
+  },
+  {
+   "w": "You",
+   "s": 525.715,
+   "e": 525.911,
+   "chunk": 92
+  },
+  {
+   "w": "could",
+   "s": 525.911,
+   "e": 526.154,
+   "chunk": 92
+  },
+  {
+   "w": "eat",
+   "s": 526.154,
+   "e": 526.398,
+   "chunk": 92
+  },
+  {
+   "w": "every",
+   "s": 526.398,
+   "e": 526.691,
+   "chunk": 92
+  },
+  {
+   "w": "single",
+   "s": 526.691,
+   "e": 527.081,
+   "chunk": 92
+  },
+  {
+   "w": "day,",
+   "s": 527.081,
+   "e": 527.325,
+   "chunk": 92
+  },
+  {
+   "w": "and",
+   "s": 527.595,
+   "e": 527.817,
+   "chunk": 92
+  },
+  {
+   "w": "still",
+   "s": 527.817,
+   "e": 528.149,
+   "chunk": 92
+  },
+  {
+   "w": "waste",
+   "s": 528.149,
+   "e": 528.537,
+   "chunk": 92
+  },
+  {
+   "w": "away.",
+   "s": 528.537,
+   "e": 528.869,
+   "chunk": 92
+  },
+  {
+   "w": "A",
+   "s": 529.469,
+   "e": 529.678,
+   "chunk": 93
+  },
+  {
+   "w": "single",
+   "s": 529.678,
+   "e": 530.096,
+   "chunk": 93
+  },
+  {
+   "w": "turn,",
+   "s": 530.096,
+   "e": 530.409,
+   "chunk": 93
+  },
+  {
+   "w": "through",
+   "s": 530.789,
+   "e": 531.073,
+   "chunk": 93
+  },
+  {
+   "w": "a",
+   "s": 531.073,
+   "e": 531.262,
+   "chunk": 93
+  },
+  {
+   "w": "direction",
+   "s": 531.262,
+   "e": 531.735,
+   "chunk": 93
+  },
+  {
+   "w": "you",
+   "s": 531.735,
+   "e": 531.924,
+   "chunk": 93
+  },
+  {
+   "w": "cannot",
+   "s": 531.924,
+   "e": 532.303,
+   "chunk": 93
+  },
+  {
+   "w": "see.",
+   "s": 532.303,
+   "e": 532.539,
+   "chunk": 93
+  },
+  {
+   "w": "And",
+   "s": 533.189,
+   "e": 533.381,
+   "chunk": 93
+  },
+  {
+   "w": "the",
+   "s": 533.381,
+   "e": 533.524,
+   "chunk": 93
+  },
+  {
+   "w": "living",
+   "s": 533.524,
+   "e": 533.859,
+   "chunk": 93
+  },
+  {
+   "w": "world",
+   "s": 533.859,
+   "e": 534.194,
+   "chunk": 93
+  },
+  {
+   "w": "would",
+   "s": 534.194,
+   "e": 534.433,
+   "chunk": 93
+  },
+  {
+   "w": "no",
+   "s": 534.433,
+   "e": 534.672,
+   "chunk": 93
+  },
+  {
+   "w": "longer",
+   "s": 534.672,
+   "e": 535.007,
+   "chunk": 93
+  },
+  {
+   "w": "feed",
+   "s": 535.007,
+   "e": 535.294,
+   "chunk": 93
+  },
+  {
+   "w": "you.",
+   "s": 535.294,
+   "e": 535.486,
+   "chunk": 93
+  },
+  {
+   "w": "Part",
+   "s": 536.086,
+   "e": 536.436,
+   "chunk": 94
+  },
+  {
+   "w": "six.",
+   "s": 536.436,
+   "e": 536.736,
+   "chunk": 94
+  },
+  {
+   "w": "Nothing",
+   "s": 536.906,
+   "e": 537.365,
+   "chunk": 94
+  },
+  {
+   "w": "stays",
+   "s": 537.365,
+   "e": 537.823,
+   "chunk": 94
+  },
+  {
+   "w": "tied.",
+   "s": 537.823,
+   "e": 538.217,
+   "chunk": 94
+  },
+  {
+   "w": "So",
+   "s": 538.817,
+   "e": 539.074,
+   "chunk": 95
+  },
+  {
+   "w": "if",
+   "s": 539.074,
+   "e": 539.229,
+   "chunk": 95
+  },
+  {
+   "w": "the",
+   "s": 539.229,
+   "e": 539.384,
+   "chunk": 95
+  },
+  {
+   "w": "fourth",
+   "s": 539.384,
+   "e": 539.745,
+   "chunk": 95
+  },
+  {
+   "w": "dimension",
+   "s": 539.745,
+   "e": 540.26,
+   "chunk": 95
+  },
+  {
+   "w": "is",
+   "s": 540.26,
+   "e": 540.415,
+   "chunk": 95
+  },
+  {
+   "w": "so",
+   "s": 540.415,
+   "e": 540.673,
+   "chunk": 95
+  },
+  {
+   "w": "powerful,",
+   "s": 540.673,
+   "e": 541.137,
+   "chunk": 95
+  },
+  {
+   "w": "why",
+   "s": 541.517,
+   "e": 541.708,
+   "chunk": 95
+  },
+  {
+   "w": "don't",
+   "s": 541.708,
+   "e": 541.976,
+   "chunk": 95
+  },
+  {
+   "w": "we",
+   "s": 541.976,
+   "e": 542.129,
+   "chunk": 95
+  },
+  {
+   "w": "live",
+   "s": 542.129,
+   "e": 542.359,
+   "chunk": 95
+  },
+  {
+   "w": "there?",
+   "s": 542.359,
+   "e": 542.55,
+   "chunk": 95
+  },
+  {
+   "w": "To",
+   "s": 543.15,
+   "e": 543.384,
+   "chunk": 96
+  },
+  {
+   "w": "find",
+   "s": 543.384,
+   "e": 543.793,
+   "chunk": 96
+  },
+  {
+   "w": "out,",
+   "s": 543.793,
+   "e": 544.084,
+   "chunk": 96
+  },
+  {
+   "w": "let",
+   "s": 544.084,
+   "e": 544.25,
+   "chunk": 96
+  },
+  {
+   "w": "us",
+   "s": 544.25,
+   "e": 544.383,
+   "chunk": 96
+  },
+  {
+   "w": "run",
+   "s": 544.383,
+   "e": 544.549,
+   "chunk": 96
+  },
+  {
+   "w": "an",
+   "s": 544.549,
+   "e": 544.649,
+   "chunk": 96
+  },
+  {
+   "w": "experiment.",
+   "s": 544.649,
+   "e": 545.08,
+   "chunk": 96
+  },
+  {
+   "w": "We",
+   "s": 545.72,
+   "e": 545.995,
+   "chunk": 96
+  },
+  {
+   "w": "take",
+   "s": 545.995,
+   "e": 546.407,
+   "chunk": 96
+  },
+  {
+   "w": "our",
+   "s": 546.407,
+   "e": 546.75,
+   "chunk": 96
+  },
+  {
+   "w": "solar",
+   "s": 546.75,
+   "e": 547.231,
+   "chunk": 96
+  },
+  {
+   "w": "system,",
+   "s": 547.231,
+   "e": 547.78,
+   "chunk": 96
+  },
+  {
+   "w": "exactly",
+   "s": 547.87,
+   "e": 548.334,
+   "chunk": 96
+  },
+  {
+   "w": "as",
+   "s": 548.334,
+   "e": 548.472,
+   "chunk": 96
+  },
+  {
+   "w": "it",
+   "s": 548.472,
+   "e": 548.611,
+   "chunk": 96
+  },
+  {
+   "w": "is,",
+   "s": 548.611,
+   "e": 548.75,
+   "chunk": 96
+  },
+  {
+   "w": "and",
+   "s": 549.01,
+   "e": 549.208,
+   "chunk": 96
+  },
+  {
+   "w": "give",
+   "s": 549.208,
+   "e": 549.455,
+   "chunk": 96
+  },
+  {
+   "w": "it",
+   "s": 549.455,
+   "e": 549.603,
+   "chunk": 96
+  },
+  {
+   "w": "one",
+   "s": 549.603,
+   "e": 549.85,
+   "chunk": 96
+  },
+  {
+   "w": "extra",
+   "s": 549.85,
+   "e": 550.246,
+   "chunk": 96
+  },
+  {
+   "w": "direction.",
+   "s": 550.246,
+   "e": 550.74,
+   "chunk": 96
+  },
+  {
+   "w": "At",
+   "s": 551.34,
+   "e": 551.528,
+   "chunk": 97
+  },
+  {
+   "w": "first,",
+   "s": 551.528,
+   "e": 551.968,
+   "chunk": 97
+  },
+  {
+   "w": "nothing",
+   "s": 551.968,
+   "e": 552.3,
+   "chunk": 97
+  },
+  {
+   "w": "seems",
+   "s": 552.3,
+   "e": 552.633,
+   "chunk": 97
+  },
+  {
+   "w": "wrong.",
+   "s": 552.633,
+   "e": 552.87,
+   "chunk": 97
+  },
+  {
+   "w": "The",
+   "s": 553.25,
+   "e": 553.397,
+   "chunk": 97
+  },
+  {
+   "w": "Sun",
+   "s": 553.397,
+   "e": 553.642,
+   "chunk": 97
+  },
+  {
+   "w": "still",
+   "s": 553.642,
+   "e": 553.937,
+   "chunk": 97
+  },
+  {
+   "w": "shines.",
+   "s": 553.937,
+   "e": 554.28,
+   "chunk": 97
+  },
+  {
+   "w": "The",
+   "s": 554.43,
+   "e": 554.624,
+   "chunk": 97
+  },
+  {
+   "w": "Earth",
+   "s": 554.624,
+   "e": 554.948,
+   "chunk": 97
+  },
+  {
+   "w": "still",
+   "s": 554.948,
+   "e": 555.336,
+   "chunk": 97
+  },
+  {
+   "w": "circles",
+   "s": 555.336,
+   "e": 555.919,
+   "chunk": 97
+  },
+  {
+   "w": "it.",
+   "s": 555.919,
+   "e": 556.113,
+   "chunk": 97
+  },
+  {
+   "w": "Then,",
+   "s": 556.713,
+   "e": 557.0,
+   "chunk": 98
+  },
+  {
+   "w": "a",
+   "s": 557.0,
+   "e": 557.21,
+   "chunk": 98
+  },
+  {
+   "w": "tiny",
+   "s": 557.21,
+   "e": 557.578,
+   "chunk": 98
+  },
+  {
+   "w": "nudge.",
+   "s": 557.578,
+   "e": 557.893,
+   "chunk": 98
+  },
+  {
+   "w": "A",
+   "s": 558.003,
+   "e": 558.248,
+   "chunk": 98
+  },
+  {
+   "w": "slight",
+   "s": 558.248,
+   "e": 558.677,
+   "chunk": 98
+  },
+  {
+   "w": "tug",
+   "s": 558.677,
+   "e": 558.984,
+   "chunk": 98
+  },
+  {
+   "w": "from",
+   "s": 558.984,
+   "e": 559.29,
+   "chunk": 98
+  },
+  {
+   "w": "Jupiter.",
+   "s": 559.29,
+   "e": 559.903,
+   "chunk": 98
+  },
+  {
+   "w": "The",
+   "s": 560.323,
+   "e": 560.458,
+   "chunk": 98
+  },
+  {
+   "w": "kind",
+   "s": 560.458,
+   "e": 560.771,
+   "chunk": 98
+  },
+  {
+   "w": "of",
+   "s": 560.771,
+   "e": 560.906,
+   "chunk": 98
+  },
+  {
+   "w": "thing",
+   "s": 560.906,
+   "e": 561.13,
+   "chunk": 98
+  },
+  {
+   "w": "that",
+   "s": 561.13,
+   "e": 561.354,
+   "chunk": 98
+  },
+  {
+   "w": "happens",
+   "s": 561.354,
+   "e": 561.713,
+   "chunk": 98
+  },
+  {
+   "w": "all",
+   "s": 561.713,
+   "e": 561.937,
+   "chunk": 98
+  },
+  {
+   "w": "the",
+   "s": 561.937,
+   "e": 562.071,
+   "chunk": 98
+  },
+  {
+   "w": "time.",
+   "s": 562.071,
+   "e": 562.34,
+   "chunk": 98
+  },
+  {
+   "w": "In",
+   "s": 562.94,
+   "e": 563.258,
+   "chunk": 99
+  },
+  {
+   "w": "our",
+   "s": 563.258,
+   "e": 563.656,
+   "chunk": 99
+  },
+  {
+   "w": "universe,",
+   "s": 563.656,
+   "e": 564.61,
+   "chunk": 99
+  },
+  {
+   "w": "that",
+   "s": 564.75,
+   "e": 564.776,
+   "chunk": 99
+  },
+  {
+   "w": "barely",
+   "s": 564.776,
+   "e": 564.813,
+   "chunk": 99
+  },
+  {
+   "w": "matters.",
+   "s": 564.813,
+   "e": 564.85,
+   "chunk": 99
+  },
+  {
+   "w": "The",
+   "s": 565.27,
+   "e": 565.433,
+   "chunk": 99
+  },
+  {
+   "w": "Earth",
+   "s": 565.433,
+   "e": 565.705,
+   "chunk": 99
+  },
+  {
+   "w": "wobbles,",
+   "s": 565.705,
+   "e": 566.195,
+   "chunk": 99
+  },
+  {
+   "w": "and",
+   "s": 566.195,
+   "e": 566.39,
+   "chunk": 99
+  },
+  {
+   "w": "settles",
+   "s": 566.39,
+   "e": 566.78,
+   "chunk": 99
+  },
+  {
+   "w": "into",
+   "s": 566.78,
+   "e": 567.073,
+   "chunk": 99
+  },
+  {
+   "w": "a",
+   "s": 567.073,
+   "e": 567.268,
+   "chunk": 99
+  },
+  {
+   "w": "slightly",
+   "s": 567.268,
+   "e": 567.707,
+   "chunk": 99
+  },
+  {
+   "w": "different",
+   "s": 567.707,
+   "e": 568.146,
+   "chunk": 99
+  },
+  {
+   "w": "path.",
+   "s": 568.146,
+   "e": 568.39,
+   "chunk": 99
+  },
+  {
+   "w": "Our",
+   "s": 568.99,
+   "e": 569.234,
+   "chunk": 99
+  },
+  {
+   "w": "orbits",
+   "s": 569.234,
+   "e": 569.673,
+   "chunk": 99
+  },
+  {
+   "w": "are",
+   "s": 569.673,
+   "e": 569.868,
+   "chunk": 99
+  },
+  {
+   "w": "forgiving.",
+   "s": 569.868,
+   "e": 570.306,
+   "chunk": 99
+  },
+  {
+   "w": "But",
+   "s": 570.906,
+   "e": 571.133,
+   "chunk": 100
+  },
+  {
+   "w": "with",
+   "s": 571.133,
+   "e": 571.315,
+   "chunk": 100
+  },
+  {
+   "w": "four",
+   "s": 571.315,
+   "e": 571.587,
+   "chunk": 100
+  },
+  {
+   "w": "dimensions,",
+   "s": 571.587,
+   "e": 572.086,
+   "chunk": 100
+  },
+  {
+   "w": "gravity",
+   "s": 572.486,
+   "e": 572.936,
+   "chunk": 100
+  },
+  {
+   "w": "spreads",
+   "s": 572.936,
+   "e": 573.336,
+   "chunk": 100
+  },
+  {
+   "w": "out",
+   "s": 573.336,
+   "e": 573.586,
+   "chunk": 100
+  },
+  {
+   "w": "into",
+   "s": 573.586,
+   "e": 573.886,
+   "chunk": 100
+  },
+  {
+   "w": "more",
+   "s": 573.886,
+   "e": 574.186,
+   "chunk": 100
+  },
+  {
+   "w": "space,",
+   "s": 574.186,
+   "e": 574.536,
+   "chunk": 100
+  },
+  {
+   "w": "and",
+   "s": 574.916,
+   "e": 575.152,
+   "chunk": 100
+  },
+  {
+   "w": "it",
+   "s": 575.152,
+   "e": 575.329,
+   "chunk": 100
+  },
+  {
+   "w": "fades",
+   "s": 575.329,
+   "e": 575.741,
+   "chunk": 100
+  },
+  {
+   "w": "far",
+   "s": 575.741,
+   "e": 576.095,
+   "chunk": 100
+  },
+  {
+   "w": "faster",
+   "s": 576.095,
+   "e": 576.507,
+   "chunk": 100
+  },
+  {
+   "w": "with",
+   "s": 576.507,
+   "e": 576.743,
+   "chunk": 100
+  },
+  {
+   "w": "distance.",
+   "s": 576.743,
+   "e": 577.274,
+   "chunk": 100
+  },
+  {
+   "w": "In",
+   "s": 577.554,
+   "e": 577.758,
+   "chunk": 101
+  },
+  {
+   "w": "nineteen",
+   "s": 577.758,
+   "e": 578.27,
+   "chunk": 101
+  },
+  {
+   "w": "seventeen,",
+   "s": 578.27,
+   "e": 578.884,
+   "chunk": 101
+  },
+  {
+   "w": "the",
+   "s": 579.204,
+   "e": 579.351,
+   "chunk": 101
+  },
+  {
+   "w": "physicist",
+   "s": 579.351,
+   "e": 579.89,
+   "chunk": 101
+  },
+  {
+   "w": "Paul",
+   "s": 579.89,
+   "e": 580.184,
+   "chunk": 101
+  },
+  {
+   "w": "Ehrenfest",
+   "s": 580.184,
+   "e": 580.723,
+   "chunk": 101
+  },
+  {
+   "w": "worked",
+   "s": 580.723,
+   "e": 581.066,
+   "chunk": 101
+  },
+  {
+   "w": "out",
+   "s": 581.066,
+   "e": 581.311,
+   "chunk": 101
+  },
+  {
+   "w": "what",
+   "s": 581.311,
+   "e": 581.556,
+   "chunk": 101
+  },
+  {
+   "w": "that",
+   "s": 581.556,
+   "e": 581.801,
+   "chunk": 101
+  },
+  {
+   "w": "means.",
+   "s": 581.801,
+   "e": 582.144,
+   "chunk": 101
+  },
+  {
+   "w": "There",
+   "s": 582.294,
+   "e": 582.588,
+   "chunk": 101
+  },
+  {
+   "w": "are",
+   "s": 582.588,
+   "e": 582.824,
+   "chunk": 101
+  },
+  {
+   "w": "no",
+   "s": 582.824,
+   "e": 583.118,
+   "chunk": 101
+  },
+  {
+   "w": "forgiving",
+   "s": 583.118,
+   "e": 583.648,
+   "chunk": 101
+  },
+  {
+   "w": "orbits",
+   "s": 583.648,
+   "e": 584.178,
+   "chunk": 101
+  },
+  {
+   "w": "anymore.",
+   "s": 584.178,
+   "e": 584.767,
+   "chunk": 101
+  },
+  {
+   "w": "So",
+   "s": 585.367,
+   "e": 585.622,
+   "chunk": 102
+  },
+  {
+   "w": "the",
+   "s": 585.622,
+   "e": 585.775,
+   "chunk": 102
+  },
+  {
+   "w": "nudge",
+   "s": 585.775,
+   "e": 586.081,
+   "chunk": 102
+  },
+  {
+   "w": "grows.",
+   "s": 586.081,
+   "e": 586.437,
+   "chunk": 102
+  },
+  {
+   "w": "The",
+   "s": 586.567,
+   "e": 586.727,
+   "chunk": 102
+  },
+  {
+   "w": "Earth",
+   "s": 586.727,
+   "e": 586.993,
+   "chunk": 102
+  },
+  {
+   "w": "drifts",
+   "s": 586.993,
+   "e": 587.418,
+   "chunk": 102
+  },
+  {
+   "w": "a",
+   "s": 587.418,
+   "e": 587.631,
+   "chunk": 102
+  },
+  {
+   "w": "little",
+   "s": 587.631,
+   "e": 588.003,
+   "chunk": 102
+  },
+  {
+   "w": "closer",
+   "s": 588.003,
+   "e": 588.429,
+   "chunk": 102
+  },
+  {
+   "w": "to",
+   "s": 588.429,
+   "e": 588.642,
+   "chunk": 102
+  },
+  {
+   "w": "the",
+   "s": 588.642,
+   "e": 588.801,
+   "chunk": 102
+  },
+  {
+   "w": "Sun.",
+   "s": 588.801,
+   "e": 589.067,
+   "chunk": 102
+  },
+  {
+   "w": "Gravity",
+   "s": 589.607,
+   "e": 589.996,
+   "chunk": 102
+  },
+  {
+   "w": "grips",
+   "s": 589.996,
+   "e": 590.298,
+   "chunk": 102
+  },
+  {
+   "w": "a",
+   "s": 590.298,
+   "e": 590.47,
+   "chunk": 102
+  },
+  {
+   "w": "little",
+   "s": 590.47,
+   "e": 590.772,
+   "chunk": 102
+  },
+  {
+   "w": "harder.",
+   "s": 590.772,
+   "e": 591.117,
+   "chunk": 102
+  },
+  {
+   "w": "It",
+   "s": 591.427,
+   "e": 591.599,
+   "chunk": 102
+  },
+  {
+   "w": "drifts",
+   "s": 591.599,
+   "e": 592.057,
+   "chunk": 102
+  },
+  {
+   "w": "closer",
+   "s": 592.057,
+   "e": 592.516,
+   "chunk": 102
+  },
+  {
+   "w": "still.",
+   "s": 592.516,
+   "e": 592.859,
+   "chunk": 102
+  },
+  {
+   "w": "Until",
+   "s": 593.139,
+   "e": 593.5,
+   "chunk": 103
+  },
+  {
+   "w": "the",
+   "s": 593.5,
+   "e": 593.655,
+   "chunk": 103
+  },
+  {
+   "w": "Earth",
+   "s": 593.655,
+   "e": 593.913,
+   "chunk": 103
+  },
+  {
+   "w": "spirals",
+   "s": 593.913,
+   "e": 594.48,
+   "chunk": 103
+  },
+  {
+   "w": "down,",
+   "s": 594.48,
+   "e": 594.789,
+   "chunk": 103
+  },
+  {
+   "w": "into",
+   "s": 595.039,
+   "e": 595.344,
+   "chunk": 103
+  },
+  {
+   "w": "the",
+   "s": 595.344,
+   "e": 595.496,
+   "chunk": 103
+  },
+  {
+   "w": "fire.",
+   "s": 595.496,
+   "e": 595.801,
+   "chunk": 103
+  },
+  {
+   "w": "Or,",
+   "s": 596.401,
+   "e": 596.622,
+   "chunk": 104
+  },
+  {
+   "w": "nudged",
+   "s": 596.622,
+   "e": 597.01,
+   "chunk": 104
+  },
+  {
+   "w": "the",
+   "s": 597.01,
+   "e": 597.176,
+   "chunk": 104
+  },
+  {
+   "w": "other",
+   "s": 597.176,
+   "e": 597.453,
+   "chunk": 104
+  },
+  {
+   "w": "way,",
+   "s": 597.453,
+   "e": 597.729,
+   "chunk": 104
+  },
+  {
+   "w": "it",
+   "s": 597.729,
+   "e": 597.895,
+   "chunk": 104
+  },
+  {
+   "w": "slips",
+   "s": 597.895,
+   "e": 598.283,
+   "chunk": 104
+  },
+  {
+   "w": "loose,",
+   "s": 598.283,
+   "e": 598.615,
+   "chunk": 104
+  },
+  {
+   "w": "and",
+   "s": 598.615,
+   "e": 598.753,
+   "chunk": 104
+  },
+  {
+   "w": "sails",
+   "s": 598.753,
+   "e": 598.993,
+   "chunk": 104
+  },
+  {
+   "w": "off",
+   "s": 598.993,
+   "e": 599.131,
+   "chunk": 104
+  },
+  {
+   "w": "into",
+   "s": 599.131,
+   "e": 599.337,
+   "chunk": 104
+  },
+  {
+   "w": "the",
+   "s": 599.337,
+   "e": 599.44,
+   "chunk": 104
+  },
+  {
+   "w": "dark.",
+   "s": 599.44,
+   "e": 599.681,
+   "chunk": 104
+  },
+  {
+   "w": "Forever.",
+   "s": 600.301,
+   "e": 600.774,
+   "chunk": 104
+  },
+  {
+   "w": "Now,",
+   "s": 601.374,
+   "e": 601.656,
+   "chunk": 105
+  },
+  {
+   "w": "zoom",
+   "s": 601.656,
+   "e": 601.913,
+   "chunk": 105
+  },
+  {
+   "w": "in.",
+   "s": 601.913,
+   "e": 602.084,
+   "chunk": 105
+  },
+  {
+   "w": "All",
+   "s": 602.584,
+   "e": 602.77,
+   "chunk": 105
+  },
+  {
+   "w": "the",
+   "s": 602.77,
+   "e": 602.881,
+   "chunk": 105
+  },
+  {
+   "w": "way",
+   "s": 602.881,
+   "e": 603.067,
+   "chunk": 105
+  },
+  {
+   "w": "down,",
+   "s": 603.067,
+   "e": 603.29,
+   "chunk": 105
+  },
+  {
+   "w": "to",
+   "s": 603.29,
+   "e": 603.515,
+   "chunk": 105
+  },
+  {
+   "w": "a",
+   "s": 603.515,
+   "e": 603.741,
+   "chunk": 105
+  },
+  {
+   "w": "single",
+   "s": 603.741,
+   "e": 604.191,
+   "chunk": 105
+  },
+  {
+   "w": "atom.",
+   "s": 604.191,
+   "e": 604.53,
+   "chunk": 105
+  },
+  {
+   "w": "An",
+   "s": 605.13,
+   "e": 605.28,
+   "chunk": 106
+  },
+  {
+   "w": "electron",
+   "s": 605.28,
+   "e": 605.834,
+   "chunk": 106
+  },
+  {
+   "w": "around",
+   "s": 605.834,
+   "e": 606.236,
+   "chunk": 106
+  },
+  {
+   "w": "a",
+   "s": 606.236,
+   "e": 606.438,
+   "chunk": 106
+  },
+  {
+   "w": "nucleus",
+   "s": 606.438,
+   "e": 606.941,
+   "chunk": 106
+  },
+  {
+   "w": "faces",
+   "s": 606.941,
+   "e": 607.343,
+   "chunk": 106
+  },
+  {
+   "w": "the",
+   "s": 607.343,
+   "e": 607.494,
+   "chunk": 106
+  },
+  {
+   "w": "same",
+   "s": 607.494,
+   "e": 607.796,
+   "chunk": 106
+  },
+  {
+   "w": "problem.",
+   "s": 607.796,
+   "e": 608.3,
+   "chunk": 106
+  },
+  {
+   "w": "In",
+   "s": 608.84,
+   "e": 609.049,
+   "chunk": 106
+  },
+  {
+   "w": "four",
+   "s": 609.049,
+   "e": 609.363,
+   "chunk": 106
+  },
+  {
+   "w": "dimensions,",
+   "s": 609.363,
+   "e": 609.94,
+   "chunk": 106
+  },
+  {
+   "w": "it",
+   "s": 610.23,
+   "e": 610.372,
+   "chunk": 106
+  },
+  {
+   "w": "has",
+   "s": 610.372,
+   "e": 610.61,
+   "chunk": 106
+  },
+  {
+   "w": "no",
+   "s": 610.61,
+   "e": 610.847,
+   "chunk": 106
+  },
+  {
+   "w": "stable",
+   "s": 610.847,
+   "e": 611.275,
+   "chunk": 106
+  },
+  {
+   "w": "place",
+   "s": 611.275,
+   "e": 611.607,
+   "chunk": 106
+  },
+  {
+   "w": "to",
+   "s": 611.607,
+   "e": 611.797,
+   "chunk": 106
+  },
+  {
+   "w": "settle.",
+   "s": 611.797,
+   "e": 612.13,
+   "chunk": 106
+  },
+  {
+   "w": "Atoms",
+   "s": 612.76,
+   "e": 613.113,
+   "chunk": 106
+  },
+  {
+   "w": "as",
+   "s": 613.113,
+   "e": 613.265,
+   "chunk": 106
+  },
+  {
+   "w": "we",
+   "s": 613.265,
+   "e": 613.467,
+   "chunk": 106
+  },
+  {
+   "w": "know",
+   "s": 613.467,
+   "e": 613.72,
+   "chunk": 106
+  },
+  {
+   "w": "them",
+   "s": 613.72,
+   "e": 613.972,
+   "chunk": 106
+  },
+  {
+   "w": "could",
+   "s": 613.972,
+   "e": 614.225,
+   "chunk": 106
+  },
+  {
+   "w": "not",
+   "s": 614.225,
+   "e": 614.528,
+   "chunk": 106
+  },
+  {
+   "w": "hold",
+   "s": 614.528,
+   "e": 614.882,
+   "chunk": 106
+  },
+  {
+   "w": "together.",
+   "s": 614.882,
+   "e": 615.286,
+   "chunk": 106
+  },
+  {
+   "w": "No",
+   "s": 615.566,
+   "e": 615.876,
+   "chunk": 107
+  },
+  {
+   "w": "atoms,",
+   "s": 615.876,
+   "e": 616.309,
+   "chunk": 107
+  },
+  {
+   "w": "no",
+   "s": 616.309,
+   "e": 616.532,
+   "chunk": 107
+  },
+  {
+   "w": "chemistry.",
+   "s": 616.532,
+   "e": 616.976,
+   "chunk": 107
+  },
+  {
+   "w": "No",
+   "s": 617.356,
+   "e": 617.626,
+   "chunk": 107
+  },
+  {
+   "w": "chemistry,",
+   "s": 617.626,
+   "e": 618.167,
+   "chunk": 107
+  },
+  {
+   "w": "no",
+   "s": 618.167,
+   "e": 618.477,
+   "chunk": 107
+  },
+  {
+   "w": "life.",
+   "s": 618.477,
+   "e": 618.848,
+   "chunk": 107
+  },
+  {
+   "w": "Remember",
+   "s": 619.448,
+   "e": 619.943,
+   "chunk": 108
+  },
+  {
+   "w": "your",
+   "s": 619.943,
+   "e": 620.163,
+   "chunk": 108
+  },
+  {
+   "w": "shoelaces?",
+   "s": 620.163,
+   "e": 620.768,
+   "chunk": 108
+  },
+  {
+   "w": "In",
+   "s": 621.168,
+   "e": 621.38,
+   "chunk": 108
+  },
+  {
+   "w": "four",
+   "s": 621.38,
+   "e": 621.699,
+   "chunk": 108
+  },
+  {
+   "w": "dimensions,",
+   "s": 621.699,
+   "e": 622.283,
+   "chunk": 108
+  },
+  {
+   "w": "nothing",
+   "s": 622.283,
+   "e": 622.582,
+   "chunk": 108
+  },
+  {
+   "w": "stays",
+   "s": 622.582,
+   "e": 622.881,
+   "chunk": 108
+  },
+  {
+   "w": "tied.",
+   "s": 622.881,
+   "e": 623.138,
+   "chunk": 108
+  },
+  {
+   "w": "Not",
+   "s": 623.578,
+   "e": 624.063,
+   "chunk": 108
+  },
+  {
+   "w": "knots.",
+   "s": 624.063,
+   "e": 624.628,
+   "chunk": 108
+  },
+  {
+   "w": "Not",
+   "s": 624.728,
+   "e": 625.032,
+   "chunk": 108
+  },
+  {
+   "w": "planets.",
+   "s": 625.032,
+   "e": 625.488,
+   "chunk": 108
+  },
+  {
+   "w": "Not",
+   "s": 625.578,
+   "e": 625.83,
+   "chunk": 108
+  },
+  {
+   "w": "atoms.",
+   "s": 625.83,
+   "e": 626.125,
+   "chunk": 108
+  },
+  {
+   "w": "So",
+   "s": 626.725,
+   "e": 626.949,
+   "chunk": 109
+  },
+  {
+   "w": "what",
+   "s": 626.949,
+   "e": 627.173,
+   "chunk": 109
+  },
+  {
+   "w": "about",
+   "s": 627.173,
+   "e": 627.487,
+   "chunk": 109
+  },
+  {
+   "w": "fewer",
+   "s": 627.487,
+   "e": 627.801,
+   "chunk": 109
+  },
+  {
+   "w": "dimensions?",
+   "s": 627.801,
+   "e": 628.295,
+   "chunk": 109
+  },
+  {
+   "w": "What",
+   "s": 628.635,
+   "e": 628.906,
+   "chunk": 109
+  },
+  {
+   "w": "about",
+   "s": 628.906,
+   "e": 629.285,
+   "chunk": 109
+  },
+  {
+   "w": "Sam?",
+   "s": 629.285,
+   "e": 629.556,
+   "chunk": 109
+  },
+  {
+   "w": "Sam,",
+   "s": 630.156,
+   "e": 630.417,
+   "chunk": 110
+  },
+  {
+   "w": "it",
+   "s": 630.417,
+   "e": 630.601,
+   "chunk": 110
+  },
+  {
+   "w": "turns",
+   "s": 630.601,
+   "e": 631.03,
+   "chunk": 110
+  },
+  {
+   "w": "out,",
+   "s": 631.03,
+   "e": 631.336,
+   "chunk": 110
+  },
+  {
+   "w": "has",
+   "s": 631.536,
+   "e": 631.719,
+   "chunk": 110
+  },
+  {
+   "w": "a",
+   "s": 631.719,
+   "e": 631.865,
+   "chunk": 110
+  },
+  {
+   "w": "problem",
+   "s": 631.865,
+   "e": 632.23,
+   "chunk": 110
+  },
+  {
+   "w": "of",
+   "s": 632.23,
+   "e": 632.34,
+   "chunk": 110
+  },
+  {
+   "w": "his",
+   "s": 632.34,
+   "e": 632.523,
+   "chunk": 110
+  },
+  {
+   "w": "own.",
+   "s": 632.523,
+   "e": 632.706,
+   "chunk": 110
+  },
+  {
+   "w": "Think",
+   "s": 633.306,
+   "e": 633.55,
+   "chunk": 110
+  },
+  {
+   "w": "about",
+   "s": 633.55,
+   "e": 633.835,
+   "chunk": 110
+  },
+  {
+   "w": "what",
+   "s": 633.835,
+   "e": 634.038,
+   "chunk": 110
+  },
+  {
+   "w": "it",
+   "s": 634.038,
+   "e": 634.16,
+   "chunk": 110
+  },
+  {
+   "w": "means",
+   "s": 634.16,
+   "e": 634.445,
+   "chunk": 110
+  },
+  {
+   "w": "to",
+   "s": 634.445,
+   "e": 634.608,
+   "chunk": 110
+  },
+  {
+   "w": "eat.",
+   "s": 634.608,
+   "e": 634.811,
+   "chunk": 110
+  },
+  {
+   "w": "Food",
+   "s": 635.091,
+   "e": 635.416,
+   "chunk": 111
+  },
+  {
+   "w": "goes",
+   "s": 635.416,
+   "e": 635.74,
+   "chunk": 111
+  },
+  {
+   "w": "in",
+   "s": 635.74,
+   "e": 635.957,
+   "chunk": 111
+  },
+  {
+   "w": "one",
+   "s": 635.957,
+   "e": 636.227,
+   "chunk": 111
+  },
+  {
+   "w": "end",
+   "s": 636.227,
+   "e": 636.498,
+   "chunk": 111
+  },
+  {
+   "w": "of",
+   "s": 636.498,
+   "e": 636.66,
+   "chunk": 111
+  },
+  {
+   "w": "a",
+   "s": 636.66,
+   "e": 636.877,
+   "chunk": 111
+  },
+  {
+   "w": "tube,",
+   "s": 636.877,
+   "e": 637.201,
+   "chunk": 111
+  },
+  {
+   "w": "and",
+   "s": 637.311,
+   "e": 637.391,
+   "chunk": 111
+  },
+  {
+   "w": "out",
+   "s": 637.391,
+   "e": 637.491,
+   "chunk": 111
+  },
+  {
+   "w": "the",
+   "s": 637.491,
+   "e": 637.551,
+   "chunk": 111
+  },
+  {
+   "w": "other.",
+   "s": 637.551,
+   "e": 637.651,
+   "chunk": 111
+  },
+  {
+   "w": "But",
+   "s": 638.261,
+   "e": 638.509,
+   "chunk": 111
+  },
+  {
+   "w": "draw",
+   "s": 638.509,
+   "e": 638.807,
+   "chunk": 111
+  },
+  {
+   "w": "a",
+   "s": 638.807,
+   "e": 639.006,
+   "chunk": 111
+  },
+  {
+   "w": "tube",
+   "s": 639.006,
+   "e": 639.303,
+   "chunk": 111
+  },
+  {
+   "w": "straight",
+   "s": 639.303,
+   "e": 639.701,
+   "chunk": 111
+  },
+  {
+   "w": "through",
+   "s": 639.701,
+   "e": 639.998,
+   "chunk": 111
+  },
+  {
+   "w": "Sam's",
+   "s": 639.998,
+   "e": 640.296,
+   "chunk": 111
+  },
+  {
+   "w": "flat",
+   "s": 640.296,
+   "e": 640.594,
+   "chunk": 111
+  },
+  {
+   "w": "body,",
+   "s": 640.594,
+   "e": 640.941,
+   "chunk": 111
+  },
+  {
+   "w": "and",
+   "s": 641.301,
+   "e": 641.465,
+   "chunk": 111
+  },
+  {
+   "w": "you",
+   "s": 641.465,
+   "e": 641.628,
+   "chunk": 111
+  },
+  {
+   "w": "have",
+   "s": 641.628,
+   "e": 641.832,
+   "chunk": 111
+  },
+  {
+   "w": "cut",
+   "s": 641.832,
+   "e": 642.036,
+   "chunk": 111
+  },
+  {
+   "w": "him",
+   "s": 642.036,
+   "e": 642.24,
+   "chunk": 111
+  },
+  {
+   "w": "in",
+   "s": 642.24,
+   "e": 642.404,
+   "chunk": 111
+  },
+  {
+   "w": "two.",
+   "s": 642.404,
+   "e": 642.608,
+   "chunk": 111
+  },
+  {
+   "w": "As",
+   "s": 642.888,
+   "e": 643.031,
+   "chunk": 112
+  },
+  {
+   "w": "Stephen",
+   "s": 643.031,
+   "e": 643.461,
+   "chunk": 112
+  },
+  {
+   "w": "Hawking",
+   "s": 643.461,
+   "e": 643.843,
+   "chunk": 112
+  },
+  {
+   "w": "once",
+   "s": 643.843,
+   "e": 644.129,
+   "chunk": 112
+  },
+  {
+   "w": "pointed",
+   "s": 644.129,
+   "e": 644.559,
+   "chunk": 112
+  },
+  {
+   "w": "out,",
+   "s": 644.559,
+   "e": 644.798,
+   "chunk": 112
+  },
+  {
+   "w": "a",
+   "s": 645.348,
+   "e": 645.553,
+   "chunk": 112
+  },
+  {
+   "w": "creature",
+   "s": 645.553,
+   "e": 646.015,
+   "chunk": 112
+  },
+  {
+   "w": "in",
+   "s": 646.015,
+   "e": 646.22,
+   "chunk": 112
+  },
+  {
+   "w": "two",
+   "s": 646.22,
+   "e": 646.476,
+   "chunk": 112
+  },
+  {
+   "w": "dimensions",
+   "s": 646.476,
+   "e": 647.041,
+   "chunk": 112
+  },
+  {
+   "w": "would",
+   "s": 647.041,
+   "e": 647.297,
+   "chunk": 112
+  },
+  {
+   "w": "be",
+   "s": 647.297,
+   "e": 647.554,
+   "chunk": 112
+  },
+  {
+   "w": "split",
+   "s": 647.554,
+   "e": 647.913,
+   "chunk": 112
+  },
+  {
+   "w": "apart",
+   "s": 647.913,
+   "e": 648.323,
+   "chunk": 112
+  },
+  {
+   "w": "by",
+   "s": 648.323,
+   "e": 648.58,
+   "chunk": 112
+  },
+  {
+   "w": "its",
+   "s": 648.58,
+   "e": 648.785,
+   "chunk": 112
+  },
+  {
+   "w": "own",
+   "s": 648.785,
+   "e": 649.041,
+   "chunk": 112
+  },
+  {
+   "w": "digestive",
+   "s": 649.041,
+   "e": 649.657,
+   "chunk": 112
+  },
+  {
+   "w": "tract.",
+   "s": 649.657,
+   "e": 650.016,
+   "chunk": 112
+  },
+  {
+   "w": "Sam,",
+   "s": 650.616,
+   "e": 650.909,
+   "chunk": 113
+  },
+  {
+   "w": "sadly,",
+   "s": 650.909,
+   "e": 651.486,
+   "chunk": 113
+  },
+  {
+   "w": "could",
+   "s": 651.716,
+   "e": 651.94,
+   "chunk": 113
+  },
+  {
+   "w": "never",
+   "s": 651.94,
+   "e": 652.209,
+   "chunk": 113
+  },
+  {
+   "w": "have",
+   "s": 652.209,
+   "e": 652.433,
+   "chunk": 113
+  },
+  {
+   "w": "eaten",
+   "s": 652.433,
+   "e": 652.702,
+   "chunk": 113
+  },
+  {
+   "w": "lunch.",
+   "s": 652.702,
+   "e": 653.016,
+   "chunk": 113
+  },
+  {
+   "w": "Too",
+   "s": 653.616,
+   "e": 653.898,
+   "chunk": 114
+  },
+  {
+   "w": "few",
+   "s": 653.898,
+   "e": 654.237,
+   "chunk": 114
+  },
+  {
+   "w": "dimensions,",
+   "s": 654.237,
+   "e": 654.858,
+   "chunk": 114
+  },
+  {
+   "w": "and",
+   "s": 654.858,
+   "e": 655.015,
+   "chunk": 114
+  },
+  {
+   "w": "a",
+   "s": 655.015,
+   "e": 655.172,
+   "chunk": 114
+  },
+  {
+   "w": "body",
+   "s": 655.172,
+   "e": 655.447,
+   "chunk": 114
+  },
+  {
+   "w": "falls",
+   "s": 655.447,
+   "e": 655.722,
+   "chunk": 114
+  },
+  {
+   "w": "apart.",
+   "s": 655.722,
+   "e": 656.036,
+   "chunk": 114
+  },
+  {
+   "w": "Too",
+   "s": 656.666,
+   "e": 656.88,
+   "chunk": 114
+  },
+  {
+   "w": "many,",
+   "s": 656.88,
+   "e": 657.136,
+   "chunk": 114
+  },
+  {
+   "w": "and",
+   "s": 657.346,
+   "e": 657.552,
+   "chunk": 114
+  },
+  {
+   "w": "nothing",
+   "s": 657.552,
+   "e": 657.913,
+   "chunk": 114
+  },
+  {
+   "w": "holds",
+   "s": 657.913,
+   "e": 658.325,
+   "chunk": 114
+  },
+  {
+   "w": "together",
+   "s": 658.325,
+   "e": 658.737,
+   "chunk": 114
+  },
+  {
+   "w": "at",
+   "s": 658.737,
+   "e": 658.891,
+   "chunk": 114
+  },
+  {
+   "w": "all.",
+   "s": 658.891,
+   "e": 659.149,
+   "chunk": 114
+  },
+  {
+   "w": "Three",
+   "s": 659.749,
+   "e": 660.077,
+   "chunk": 115
+  },
+  {
+   "w": "is",
+   "s": 660.077,
+   "e": 660.24,
+   "chunk": 115
+  },
+  {
+   "w": "the",
+   "s": 660.24,
+   "e": 660.404,
+   "chunk": 115
+  },
+  {
+   "w": "narrow",
+   "s": 660.404,
+   "e": 660.787,
+   "chunk": 115
+  },
+  {
+   "w": "space",
+   "s": 660.787,
+   "e": 661.169,
+   "chunk": 115
+  },
+  {
+   "w": "in",
+   "s": 661.169,
+   "e": 661.387,
+   "chunk": 115
+  },
+  {
+   "w": "between.",
+   "s": 661.387,
+   "e": 661.879,
+   "chunk": 115
+  },
+  {
+   "w": "Just",
+   "s": 662.499,
+   "e": 662.77,
+   "chunk": 115
+  },
+  {
+   "w": "enough",
+   "s": 662.77,
+   "e": 663.002,
+   "chunk": 115
+  },
+  {
+   "w": "room",
+   "s": 663.002,
+   "e": 663.234,
+   "chunk": 115
+  },
+  {
+   "w": "for",
+   "s": 663.234,
+   "e": 663.427,
+   "chunk": 115
+  },
+  {
+   "w": "life",
+   "s": 663.427,
+   "e": 663.659,
+   "chunk": 115
+  },
+  {
+   "w": "to",
+   "s": 663.659,
+   "e": 663.814,
+   "chunk": 115
+  },
+  {
+   "w": "be",
+   "s": 663.814,
+   "e": 664.007,
+   "chunk": 115
+  },
+  {
+   "w": "built.",
+   "s": 664.007,
+   "e": 664.239,
+   "chunk": 115
+  },
+  {
+   "w": "Not",
+   "s": 664.829,
+   "e": 665.134,
+   "chunk": 115
+  },
+  {
+   "w": "so",
+   "s": 665.134,
+   "e": 665.388,
+   "chunk": 115
+  },
+  {
+   "w": "much",
+   "s": 665.388,
+   "e": 665.693,
+   "chunk": 115
+  },
+  {
+   "w": "that",
+   "s": 665.693,
+   "e": 665.947,
+   "chunk": 115
+  },
+  {
+   "w": "it",
+   "s": 665.947,
+   "e": 666.099,
+   "chunk": 115
+  },
+  {
+   "w": "all",
+   "s": 666.099,
+   "e": 666.353,
+   "chunk": 115
+  },
+  {
+   "w": "comes",
+   "s": 666.353,
+   "e": 666.658,
+   "chunk": 115
+  },
+  {
+   "w": "undone.",
+   "s": 666.658,
+   "e": 667.014,
+   "chunk": 115
+  },
+  {
+   "w": "So",
+   "s": 667.614,
+   "e": 667.856,
+   "chunk": 116
+  },
+  {
+   "w": "three",
+   "s": 667.856,
+   "e": 668.146,
+   "chunk": 116
+  },
+  {
+   "w": "dimensions",
+   "s": 668.146,
+   "e": 668.678,
+   "chunk": 116
+  },
+  {
+   "w": "are",
+   "s": 668.678,
+   "e": 668.872,
+   "chunk": 116
+  },
+  {
+   "w": "not",
+   "s": 668.872,
+   "e": 669.162,
+   "chunk": 116
+  },
+  {
+   "w": "a",
+   "s": 669.162,
+   "e": 669.355,
+   "chunk": 116
+  },
+  {
+   "w": "limitation.",
+   "s": 669.355,
+   "e": 669.984,
+   "chunk": 116
+  },
+  {
+   "w": "They",
+   "s": 670.594,
+   "e": 670.798,
+   "chunk": 116
+  },
+  {
+   "w": "may",
+   "s": 670.798,
+   "e": 671.052,
+   "chunk": 116
+  },
+  {
+   "w": "be",
+   "s": 671.052,
+   "e": 671.306,
+   "chunk": 116
+  },
+  {
+   "w": "the",
+   "s": 671.306,
+   "e": 671.459,
+   "chunk": 116
+  },
+  {
+   "w": "very",
+   "s": 671.459,
+   "e": 671.764,
+   "chunk": 116
+  },
+  {
+   "w": "thing",
+   "s": 671.764,
+   "e": 672.018,
+   "chunk": 116
+  },
+  {
+   "w": "that",
+   "s": 672.018,
+   "e": 672.272,
+   "chunk": 116
+  },
+  {
+   "w": "allows",
+   "s": 672.272,
+   "e": 672.628,
+   "chunk": 116
+  },
+  {
+   "w": "us",
+   "s": 672.628,
+   "e": 672.832,
+   "chunk": 116
+  },
+  {
+   "w": "to",
+   "s": 672.832,
+   "e": 673.035,
+   "chunk": 116
+  },
+  {
+   "w": "exist.",
+   "s": 673.035,
+   "e": 673.442,
+   "chunk": 116
+  },
+  {
+   "w": "And",
+   "s": 674.042,
+   "e": 674.246,
+   "chunk": 117
+  },
+  {
+   "w": "our",
+   "s": 674.246,
+   "e": 674.502,
+   "chunk": 117
+  },
+  {
+   "w": "blindness",
+   "s": 674.502,
+   "e": 675.063,
+   "chunk": 117
+  },
+  {
+   "w": "to",
+   "s": 675.063,
+   "e": 675.267,
+   "chunk": 117
+  },
+  {
+   "w": "the",
+   "s": 675.267,
+   "e": 675.421,
+   "chunk": 117
+  },
+  {
+   "w": "fourth",
+   "s": 675.421,
+   "e": 675.778,
+   "chunk": 117
+  },
+  {
+   "w": "dimension",
+   "s": 675.778,
+   "e": 676.289,
+   "chunk": 117
+  },
+  {
+   "w": "may",
+   "s": 676.289,
+   "e": 676.544,
+   "chunk": 117
+  },
+  {
+   "w": "simply",
+   "s": 676.544,
+   "e": 676.952,
+   "chunk": 117
+  },
+  {
+   "w": "be",
+   "s": 676.952,
+   "e": 677.208,
+   "chunk": 117
+  },
+  {
+   "w": "the",
+   "s": 677.208,
+   "e": 677.361,
+   "chunk": 117
+  },
+  {
+   "w": "price",
+   "s": 677.361,
+   "e": 677.718,
+   "chunk": 117
+  },
+  {
+   "w": "of",
+   "s": 677.718,
+   "e": 677.871,
+   "chunk": 117
+  },
+  {
+   "w": "being",
+   "s": 677.871,
+   "e": 678.229,
+   "chunk": 117
+  },
+  {
+   "w": "alive.",
+   "s": 678.229,
+   "e": 678.586,
+   "chunk": 117
+  },
+  {
+   "w": "Epilogue.",
+   "s": 679.186,
+   "e": 680.014,
+   "chunk": 118
+  },
+  {
+   "w": "And",
+   "s": 680.614,
+   "e": 680.842,
+   "chunk": 119
+  },
+  {
+   "w": "yet,",
+   "s": 680.842,
+   "e": 681.128,
+   "chunk": 119
+  },
+  {
+   "w": "one",
+   "s": 681.128,
+   "e": 681.413,
+   "chunk": 119
+  },
+  {
+   "w": "thought",
+   "s": 681.413,
+   "e": 681.755,
+   "chunk": 119
+  },
+  {
+   "w": "remains.",
+   "s": 681.755,
+   "e": 682.268,
+   "chunk": 119
+  },
+  {
+   "w": "Sam",
+   "s": 682.868,
+   "e": 683.124,
+   "chunk": 120
+  },
+  {
+   "w": "never",
+   "s": 683.124,
+   "e": 683.43,
+   "chunk": 120
+  },
+  {
+   "w": "knew",
+   "s": 683.43,
+   "e": 683.685,
+   "chunk": 120
+  },
+  {
+   "w": "he",
+   "s": 683.685,
+   "e": 683.889,
+   "chunk": 120
+  },
+  {
+   "w": "was",
+   "s": 683.889,
+   "e": 684.093,
+   "chunk": 120
+  },
+  {
+   "w": "being",
+   "s": 684.093,
+   "e": 684.45,
+   "chunk": 120
+  },
+  {
+   "w": "watched.",
+   "s": 684.45,
+   "e": 684.858,
+   "chunk": 120
+  },
+  {
+   "w": "He",
+   "s": 685.308,
+   "e": 685.474,
+   "chunk": 120
+  },
+  {
+   "w": "could",
+   "s": 685.474,
+   "e": 685.682,
+   "chunk": 120
+  },
+  {
+   "w": "not",
+   "s": 685.682,
+   "e": 685.931,
+   "chunk": 120
+  },
+  {
+   "w": "have",
+   "s": 685.931,
+   "e": 686.138,
+   "chunk": 120
+  },
+  {
+   "w": "known.",
+   "s": 686.138,
+   "e": 686.387,
+   "chunk": 120
+  },
+  {
+   "w": "You",
+   "s": 686.667,
+   "e": 686.835,
+   "chunk": 121
+  },
+  {
+   "w": "were",
+   "s": 686.835,
+   "e": 687.004,
+   "chunk": 121
+  },
+  {
+   "w": "right",
+   "s": 687.004,
+   "e": 687.256,
+   "chunk": 121
+  },
+  {
+   "w": "there,",
+   "s": 687.256,
+   "e": 687.467,
+   "chunk": 121
+  },
+  {
+   "w": "only",
+   "s": 687.967,
+   "e": 688.3,
+   "chunk": 121
+  },
+  {
+   "w": "a",
+   "s": 688.3,
+   "e": 688.491,
+   "chunk": 121
+  },
+  {
+   "w": "hair's",
+   "s": 688.491,
+   "e": 688.777,
+   "chunk": 121
+  },
+  {
+   "w": "width",
+   "s": 688.777,
+   "e": 689.063,
+   "chunk": 121
+  },
+  {
+   "w": "above",
+   "s": 689.063,
+   "e": 689.349,
+   "chunk": 121
+  },
+  {
+   "w": "him,",
+   "s": 689.349,
+   "e": 689.587,
+   "chunk": 121
+  },
+  {
+   "w": "in",
+   "s": 690.077,
+   "e": 690.26,
+   "chunk": 121
+  },
+  {
+   "w": "a",
+   "s": 690.26,
+   "e": 690.444,
+   "chunk": 121
+  },
+  {
+   "w": "direction",
+   "s": 690.444,
+   "e": 690.902,
+   "chunk": 121
+  },
+  {
+   "w": "he",
+   "s": 690.902,
+   "e": 691.085,
+   "chunk": 121
+  },
+  {
+   "w": "had",
+   "s": 691.085,
+   "e": 691.315,
+   "chunk": 121
+  },
+  {
+   "w": "no",
+   "s": 691.315,
+   "e": 691.544,
+   "chunk": 121
+  },
+  {
+   "w": "word",
+   "s": 691.544,
+   "e": 691.819,
+   "chunk": 121
+  },
+  {
+   "w": "for.",
+   "s": 691.819,
+   "e": 692.048,
+   "chunk": 121
+  },
+  {
+   "w": "So",
+   "s": 692.648,
+   "e": 692.883,
+   "chunk": 122
+  },
+  {
+   "w": "if",
+   "s": 692.883,
+   "e": 693.025,
+   "chunk": 122
+  },
+  {
+   "w": "something",
+   "s": 693.025,
+   "e": 693.401,
+   "chunk": 122
+  },
+  {
+   "w": "were",
+   "s": 693.401,
+   "e": 693.589,
+   "chunk": 122
+  },
+  {
+   "w": "watching",
+   "s": 693.589,
+   "e": 694.013,
+   "chunk": 122
+  },
+  {
+   "w": "you",
+   "s": 694.013,
+   "e": 694.201,
+   "chunk": 122
+  },
+  {
+   "w": "from",
+   "s": 694.201,
+   "e": 694.437,
+   "chunk": 122
+  },
+  {
+   "w": "the",
+   "s": 694.437,
+   "e": 694.578,
+   "chunk": 122
+  },
+  {
+   "w": "fourth",
+   "s": 694.578,
+   "e": 694.907,
+   "chunk": 122
+  },
+  {
+   "w": "dimension,",
+   "s": 694.907,
+   "e": 695.378,
+   "chunk": 122
+  },
+  {
+   "w": "at",
+   "s": 695.788,
+   "e": 695.931,
+   "chunk": 122
+  },
+  {
+   "w": "this",
+   "s": 695.931,
+   "e": 696.171,
+   "chunk": 122
+  },
+  {
+   "w": "very",
+   "s": 696.171,
+   "e": 696.458,
+   "chunk": 122
+  },
+  {
+   "w": "moment,",
+   "s": 696.458,
+   "e": 696.888,
+   "chunk": 122
+  },
+  {
+   "w": "how",
+   "s": 697.428,
+   "e": 697.682,
+   "chunk": 122
+  },
+  {
+   "w": "would",
+   "s": 697.682,
+   "e": 697.937,
+   "chunk": 122
+  },
+  {
+   "w": "you",
+   "s": 697.937,
+   "e": 698.14,
+   "chunk": 122
+  },
+  {
+   "w": "ever",
+   "s": 698.14,
+   "e": 698.394,
+   "chunk": 122
+  },
+  {
+   "w": "know?",
+   "s": 698.394,
+   "e": 698.649,
+   "chunk": 122
+  },
+  {
+   "w": "You",
+   "s": 699.249,
+   "e": 699.419,
+   "chunk": 123
+  },
+  {
+   "w": "could",
+   "s": 699.419,
+   "e": 699.632,
+   "chunk": 123
+  },
+  {
+   "w": "not",
+   "s": 699.632,
+   "e": 699.888,
+   "chunk": 123
+  },
+  {
+   "w": "see",
+   "s": 699.888,
+   "e": 700.101,
+   "chunk": 123
+  },
+  {
+   "w": "it.",
+   "s": 700.101,
+   "e": 700.229,
+   "chunk": 123
+  },
+  {
+   "w": "You",
+   "s": 700.709,
+   "e": 700.866,
+   "chunk": 123
+  },
+  {
+   "w": "could",
+   "s": 700.866,
+   "e": 701.062,
+   "chunk": 123
+  },
+  {
+   "w": "not",
+   "s": 701.062,
+   "e": 701.298,
+   "chunk": 123
+  },
+  {
+   "w": "point",
+   "s": 701.298,
+   "e": 701.573,
+   "chunk": 123
+  },
+  {
+   "w": "to",
+   "s": 701.573,
+   "e": 701.731,
+   "chunk": 123
+  },
+  {
+   "w": "it.",
+   "s": 701.731,
+   "e": 701.849,
+   "chunk": 123
+  },
+  {
+   "w": "It",
+   "s": 702.219,
+   "e": 702.355,
+   "chunk": 123
+  },
+  {
+   "w": "could",
+   "s": 702.355,
+   "e": 702.583,
+   "chunk": 123
+  },
+  {
+   "w": "be",
+   "s": 702.583,
+   "e": 702.811,
+   "chunk": 123
+  },
+  {
+   "w": "closer",
+   "s": 702.811,
+   "e": 703.175,
+   "chunk": 123
+  },
+  {
+   "w": "to",
+   "s": 703.175,
+   "e": 703.358,
+   "chunk": 123
+  },
+  {
+   "w": "you",
+   "s": 703.358,
+   "e": 703.54,
+   "chunk": 123
+  },
+  {
+   "w": "than",
+   "s": 703.54,
+   "e": 703.722,
+   "chunk": 123
+  },
+  {
+   "w": "your",
+   "s": 703.722,
+   "e": 703.905,
+   "chunk": 123
+  },
+  {
+   "w": "own",
+   "s": 703.905,
+   "e": 704.132,
+   "chunk": 123
+  },
+  {
+   "w": "skin.",
+   "s": 704.132,
+   "e": 704.406,
+   "chunk": 123
+  },
+  {
+   "w": "And",
+   "s": 705.006,
+   "e": 705.2,
+   "chunk": 124
+  },
+  {
+   "w": "it",
+   "s": 705.2,
+   "e": 705.346,
+   "chunk": 124
+  },
+  {
+   "w": "would",
+   "s": 705.346,
+   "e": 705.589,
+   "chunk": 124
+  },
+  {
+   "w": "see",
+   "s": 705.589,
+   "e": 705.832,
+   "chunk": 124
+  },
+  {
+   "w": "everything.",
+   "s": 705.832,
+   "e": 706.319,
+   "chunk": 124
+  },
+  {
+   "w": "If",
+   "s": 706.919,
+   "e": 707.086,
+   "chunk": 125
+  },
+  {
+   "w": "you",
+   "s": 707.086,
+   "e": 707.309,
+   "chunk": 125
+  },
+  {
+   "w": "want",
+   "s": 707.309,
+   "e": 707.644,
+   "chunk": 125
+  },
+  {
+   "w": "to",
+   "s": 707.644,
+   "e": 707.867,
+   "chunk": 125
+  },
+  {
+   "w": "keep",
+   "s": 707.867,
+   "e": 708.201,
+   "chunk": 125
+  },
+  {
+   "w": "exploring",
+   "s": 708.201,
+   "e": 708.871,
+   "chunk": 125
+  },
+  {
+   "w": "the",
+   "s": 708.871,
+   "e": 709.038,
+   "chunk": 125
+  },
+  {
+   "w": "edges",
+   "s": 709.038,
+   "e": 709.429,
+   "chunk": 125
+  },
+  {
+   "w": "of",
+   "s": 709.429,
+   "e": 709.596,
+   "chunk": 125
+  },
+  {
+   "w": "what",
+   "s": 709.596,
+   "e": 709.875,
+   "chunk": 125
+  },
+  {
+   "w": "we",
+   "s": 709.875,
+   "e": 710.098,
+   "chunk": 125
+  },
+  {
+   "w": "can",
+   "s": 710.098,
+   "e": 710.377,
+   "chunk": 125
+  },
+  {
+   "w": "imagine,",
+   "s": 710.377,
+   "e": 710.879,
+   "chunk": 125
+  },
+  {
+   "w": "subscribe.",
+   "s": 711.549,
+   "e": 711.649,
+   "chunk": 125
+  },
+  {
+   "w": "There",
+   "s": 711.458,
+   "e": 711.68,
+   "chunk": 125
+  },
+  {
+   "w": "is",
+   "s": 711.68,
+   "e": 711.813,
+   "chunk": 125
+  },
+  {
+   "w": "a",
+   "s": 711.813,
+   "e": 711.99,
+   "chunk": 125
+  },
+  {
+   "w": "lot",
+   "s": 711.99,
+   "e": 712.255,
+   "chunk": 125
+  },
+  {
+   "w": "more",
+   "s": 712.255,
+   "e": 712.521,
+   "chunk": 125
+  },
+  {
+   "w": "out",
+   "s": 712.521,
+   "e": 712.743,
+   "chunk": 125
+  },
+  {
+   "w": "there",
+   "s": 712.743,
+   "e": 712.964,
+   "chunk": 125
+  },
+  {
+   "w": "that",
+   "s": 712.964,
+   "e": 713.186,
+   "chunk": 125
+  },
+  {
+   "w": "we",
+   "s": 713.186,
+   "e": 713.363,
+   "chunk": 125
+  },
+  {
+   "w": "cannot",
+   "s": 713.363,
+   "e": 713.717,
+   "chunk": 125
+  },
+  {
+   "w": "see.",
+   "s": 713.717,
+   "e": 713.939,
+   "chunk": 125
+  },
+  {
+   "w": "Yet.",
+   "s": 714.549,
+   "e": 714.835,
+   "chunk": 125
+  }
+ ]
+}
