@@ -33,7 +33,7 @@ On the night of August 21, 1986, Lake Nyos in Cameroon did something no one thou
 
 A massive cloud of carbon dioxide burst from the bottom of the lake, rolled over the crater rim and flowed down into the valleys below. Invisible. Odourless. Heavier than air. By morning, about 1,700 people and thousands of animals in nearby villages had suffocated in their sleep. The lake's blue water had turned blood-red.
 
-Scientists call it a "limnic eruption". Today, pipes in the lake slowly release the built-up gas, to stop it from ever building up like that again.
+Scientists call it a "limnic eruption". Today, pipes in the lake slowly release the built-up gas, greatly lowering the risk of it happening again.
 
 Would you have survived the night? 👇
 
