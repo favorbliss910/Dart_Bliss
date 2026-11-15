@@ -12,9 +12,28 @@
       "architecture": "tall and narrow brick/plaster facades",
       "signature_set_piece": "striped awning shop with a neon OPEN sign",
       "lighting_recipe": "night rain",
-      "camera_language": ["lateral truck past a near lamp post"],
+      "camera_language": [
+        "lateral truck past a near lamp post"
+      ],
       "sound_bed": "rain, wet footsteps, neon buzz",
       "thumbnail": "renders/proof_v1/final_f46.png"
+    },
+    {
+      "project": "P02",
+      "status": "pending",
+      "setting": "underground optics laboratory + observation corridor",
+      "era": "retro-futurist",
+      "time_of_day": "late night (interior)",
+      "weather": "still air, then indoor sprinkler rain",
+      "palette_family": "monochrome cool white/mint plus red accent",
+      "architecture": "wide and low, rounded tile",
+      "signature_set_piece": "the Halo lens ring",
+      "lighting_recipe": "interior tungsten + fluorescent, red strobes",
+      "camera_language": [
+        "see docs/world_P02.md"
+      ],
+      "sound_bed": "room tone, Halo hum, alarm, sprinkler water",
+      "thumbnail": "renders/P02/S24/lookdev_S24.png"
     }
   ]
 }

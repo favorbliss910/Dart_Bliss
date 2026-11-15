@@ -1,3 +1,5 @@
 node_modules/
 public/p01/
 out/*.png
+public/p02/
+out/*.mp4.part

@@ -14,11 +14,106 @@
       "mouth": "arc",
       "signature_feature": "wide-brim rain hat",
       "primary_colour_family": "teal",
-      "palette_hex": ["#05656B", "#D98C0D", "#730A08", "#CC8054", "#73471F"],
+      "palette_hex": [
+        "#05656B",
+        "#D98C0D",
+        "#730A08",
+        "#CC8054",
+        "#73471F"
+      ],
       "surface": "clear-coat plastic",
       "gait": "small careful steps, 8-frame cadence",
       "prop": "parcel",
       "thumbnail": "renders/proof_v1/final_f120.png"
+    },
+    {
+      "project": "P02",
+      "name": "Dr. Alder Quill",
+      "role": "lead",
+      "status": "pending",
+      "archetype": "human elder inventor",
+      "body_shape": "tall noodle",
+      "height_m": 1.9,
+      "head_shape": "flat-top boxy",
+      "eyes": "big round with pupils",
+      "mouth": "arc",
+      "signature_feature": "brass forehead goggles + chest control disc",
+      "primary_colour_family": "graphite / cyan",
+      "palette_hex": [
+        "#2B2E33",
+        "#19C3D6",
+        "#F2A33A",
+        "#EDEBE6"
+      ],
+      "surface": "hex-weave matte suit",
+      "gait": "long stiff strides, 8-frame cadence",
+      "prop": "light-bending suit",
+      "thumbnail": "renders/P02/S07/lookdev_S07.png"
+    },
+    {
+      "project": "P02",
+      "name": "Juno Park",
+      "role": "lead",
+      "status": "pending",
+      "archetype": "human young assistant",
+      "body_shape": "pear",
+      "height_m": 1.25,
+      "head_shape": "wide oval",
+      "eyes": "big round behind square glasses",
+      "mouth": "arc",
+      "signature_feature": "bead braids",
+      "primary_colour_family": "coral",
+      "palette_hex": [
+        "#E2553F",
+        "#D9A520",
+        "#1E2A44"
+      ],
+      "surface": "soft felt",
+      "gait": "quick tiptoe, 7-frame cadence",
+      "prop": "clipboard, mug",
+      "thumbnail": "renders/P02/S17/lookdev_S17.png"
+    },
+    {
+      "project": "P02",
+      "name": "SCANNER",
+      "role": "supporting",
+      "status": "pending",
+      "archetype": "living object (diagnostic cart)",
+      "body_shape": "round ball",
+      "height_m": 1.3,
+      "head_shape": "sphere with round screen",
+      "eyes": "LED brows on screen",
+      "mouth": "none",
+      "signature_feature": "CRT screen face + probe arm",
+      "primary_colour_family": "mint",
+      "palette_hex": [
+        "#9FD8C4"
+      ],
+      "surface": "brushed metal",
+      "gait": "rolling",
+      "prop": "probe",
+      "thumbnail": "renders/P02/S11/lookdev_S11.png"
+    },
+    {
+      "project": "P02",
+      "name": "Mote",
+      "role": "supporting",
+      "status": "pending",
+      "archetype": "small lab creature",
+      "body_shape": "round ball",
+      "height_m": 0.12,
+      "head_shape": "sphere",
+      "eyes": "button dots",
+      "mouth": "none",
+      "signature_feature": "pink ears",
+      "primary_colour_family": "sand",
+      "palette_hex": [
+        "#BF8C4D"
+      ],
+      "surface": "fuzzy",
+      "gait": "stationary",
+      "prop": "glass habitat",
+      "thumbnail": "renders/P02/S02/lookdev_S02.png"
     }
   ]
 }
