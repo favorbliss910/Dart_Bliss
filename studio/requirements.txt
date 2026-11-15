@@ -1,0 +1,4 @@
+bpy==5.3.0          # Blender 5.3 as a Python module (render + 3D, headless)
+numpy
+pillow
+rapidocr_onnxruntime  # OCR for analysing reference videos' burned-in captions
