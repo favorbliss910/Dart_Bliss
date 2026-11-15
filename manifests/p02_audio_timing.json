@@ -592,5 +592,21 @@
     }
   ],
   "total_frames": 3643,
-  "total_s": 151.79
+  "total_s": 151.79,
+  "mix": {
+    "file": "assets/audio/p02/mix.wav",
+    "duration_s": 151.792,
+    "prenorm_lufs_i": -24.1,
+    "final_lufs_i": -16.1,
+    "final_true_peak_dbfs": -1.4,
+    "target_lufs_i": -16.0,
+    "stems": [
+      "assets/audio/p02/dialogue.wav",
+      "assets/audio/p02/ambience.wav",
+      "assets/audio/p02/foley.wav",
+      "assets/audio/p02/fx.wav",
+      "assets/audio/p02/music.wav"
+    ],
+    "fx_events": 119
+  }
 }

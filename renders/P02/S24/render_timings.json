@@ -34,6 +34,720 @@
    "res": "240x426",
    "samples": 8,
    "kind": "stills"
+  },
+  {
+   "frame": 1,
+   "seconds": 9.42,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 3,
+   "seconds": 7.96,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 5,
+   "seconds": 8.14,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 7,
+   "seconds": 7.77,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 9,
+   "seconds": 8.0,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 11,
+   "seconds": 8.06,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 13,
+   "seconds": 7.76,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 15,
+   "seconds": 7.68,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 17,
+   "seconds": 7.71,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 19,
+   "seconds": 8.98,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 21,
+   "seconds": 8.62,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 23,
+   "seconds": 8.18,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 25,
+   "seconds": 8.43,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 27,
+   "seconds": 8.96,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 29,
+   "seconds": 8.21,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 31,
+   "seconds": 8.2,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 33,
+   "seconds": 7.98,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 35,
+   "seconds": 7.7,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 37,
+   "seconds": 8.08,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 39,
+   "seconds": 7.86,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 41,
+   "seconds": 8.07,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 43,
+   "seconds": 8.7,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 45,
+   "seconds": 8.46,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 47,
+   "seconds": 8.58,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 49,
+   "seconds": 7.98,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 51,
+   "seconds": 8.19,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 53,
+   "seconds": 8.47,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 55,
+   "seconds": 7.93,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 57,
+   "seconds": 8.6,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 59,
+   "seconds": 8.13,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 61,
+   "seconds": 8.48,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 63,
+   "seconds": 9.45,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 65,
+   "seconds": 8.93,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 67,
+   "seconds": 8.37,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 69,
+   "seconds": 8.89,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 71,
+   "seconds": 8.3,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 73,
+   "seconds": 8.16,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 75,
+   "seconds": 8.59,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 77,
+   "seconds": 8.15,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 79,
+   "seconds": 8.32,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 81,
+   "seconds": 8.06,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 83,
+   "seconds": 8.18,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 85,
+   "seconds": 8.43,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 87,
+   "seconds": 8.6,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 89,
+   "seconds": 8.43,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 91,
+   "seconds": 8.64,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 93,
+   "seconds": 8.29,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 95,
+   "seconds": 8.01,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 97,
+   "seconds": 8.19,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 99,
+   "seconds": 8.44,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 101,
+   "seconds": 8.53,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 103,
+   "seconds": 8.24,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 105,
+   "seconds": 8.24,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 107,
+   "seconds": 8.03,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 109,
+   "seconds": 8.16,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 111,
+   "seconds": 8.45,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 113,
+   "seconds": 8.03,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 115,
+   "seconds": 8.32,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 117,
+   "seconds": 9.11,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 119,
+   "seconds": 8.75,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 121,
+   "seconds": 9.14,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 123,
+   "seconds": 8.3,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 125,
+   "seconds": 8.66,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 127,
+   "seconds": 8.04,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 129,
+   "seconds": 7.9,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 131,
+   "seconds": 8.39,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 133,
+   "seconds": 8.18,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 135,
+   "seconds": 8.08,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 137,
+   "seconds": 7.62,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 139,
+   "seconds": 8.16,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 141,
+   "seconds": 8.34,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 143,
+   "seconds": 7.13,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 145,
+   "seconds": 7.63,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 147,
+   "seconds": 7.41,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 149,
+   "seconds": 7.19,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 151,
+   "seconds": 7.34,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 153,
+   "seconds": 7.02,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 155,
+   "seconds": 7.02,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 157,
+   "seconds": 7.41,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 159,
+   "seconds": 7.22,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 161,
+   "seconds": 7.23,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 163,
+   "seconds": 7.17,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 165,
+   "seconds": 7.26,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 167,
+   "seconds": 7.01,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 169,
+   "seconds": 7.08,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 171,
+   "seconds": 6.85,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 173,
+   "seconds": 6.86,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 175,
+   "seconds": 6.96,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 177,
+   "seconds": 6.85,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 179,
+   "seconds": 6.92,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 181,
+   "seconds": 7.22,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 183,
+   "seconds": 7.05,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 185,
+   "seconds": 7.11,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 187,
+   "seconds": 7.13,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 189,
+   "seconds": 7.53,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 191,
+   "seconds": 7.16,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 193,
+   "seconds": 6.9,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 195,
+   "seconds": 7.29,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 197,
+   "seconds": 7.53,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 199,
+   "seconds": 7.08,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 201,
+   "seconds": 7.18,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 203,
+   "seconds": 7.23,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
   }
  ]
 }

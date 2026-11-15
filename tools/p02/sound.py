@@ -253,7 +253,9 @@ def s_flutter():
 
 
 def s_lever():
-    return norm(s_bolt() * 0.8 + np.pad(tone(240, 0.5, 5, ((1, 1), (2.7, 0.4))), (int(SR * 0.05), 0))[: int(SR * 0.6)])
+    b = s_bolt() * 0.8
+    t = np.pad(tone(240, 0.5, 5, ((1, 1), (2.7, 0.4))), (int(SR * 0.05), len(b)))[: len(b)]
+    return norm(b + t)
 
 
 def s_groan(sec=1.4):
