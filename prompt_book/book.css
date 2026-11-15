@@ -1,0 +1,37 @@
+@page { size: A4; }
+:root { --ink:#1d1a17; --amber:#B9773E; --amber2:#E3B47A; --navy:#070B1A; --navy2:#1C2A55; --cyan:#2b8fc4; --muted:#6d6257; }
+body { font-family: 'Inter', sans-serif; color: var(--ink); font-size: 10.2pt; line-height: 1.5; margin: 0; background:#fff; }
+.cover { height: 297mm; margin: 0; padding: 0; background: radial-gradient(circle at 70% 60%, #1C2A55 0%, #070B1A 70%); color: #FFF1D6; position: relative; overflow: hidden; }
+.cover-inner { padding: 38mm 22mm; position: relative; z-index: 2; }
+.kicker { font-family: 'JetBrains Mono', monospace; font-size: 9pt; letter-spacing: 3px; color: #E3B47A; }
+.title { font-family: 'Inter Display', 'Inter', sans-serif; font-weight: 900; font-size: 62pt; line-height: 1; margin-top: 14mm; color: #FFF1D6; }
+.subtitle { font-family: 'Inter Display', sans-serif; font-weight: 800; font-size: 24pt; color: #E3B47A; margin-top: 6mm; line-height: 1.15; }
+.specs { position: absolute; top: 236mm; left: 22mm; max-width: 84mm; font-size: 8pt !important; text-shadow: 0 0 4mm #070B1A, 0 0 2mm #070B1A; font-family: 'JetBrains Mono', monospace; font-size: 9pt; color: #9FE3FF; line-height: 1.7; }
+.planet { position: absolute; right: -75mm; top: 118mm; width: 175mm; height: 175mm; border-radius: 50%; z-index: 1;
+  background: radial-gradient(circle at 30% 30%, rgba(255,241,214,.25), transparent 55%),
+    repeating-linear-gradient(180deg, #f2ddb8 0 9mm, #b9773e 9mm 15mm, #e3b47a 15mm 21mm, #8a4e2b 21mm 25mm, #fff1d6 25mm 33mm);
+  box-shadow: inset -40mm -20mm 60mm rgba(7,11,26,.9), 0 0 25mm rgba(255,217,160,.25); }
+.intro { page-break-after: always; }
+.intro h1 { display:none; }
+.toc { page-break-after: always; }
+.toc ul { list-style: none; padding: 0; columns: 1; }
+.toc li.l1 { font-weight: 800; margin-top: 3mm; font-size: 10.5pt; }
+.toc li.l2 { margin-left: 6mm; font-size: 9pt; color: var(--muted); }
+.toc a { color: inherit; text-decoration: none; }
+h1 { font-family: 'Inter Display', sans-serif; font-weight: 900; font-size: 22pt; color: var(--navy); border-bottom: 3px solid var(--amber); padding-bottom: 2mm; page-break-before: always; margin-top: 0; }
+.intro h1, .toc h1.tochead { page-break-before: avoid; }
+h2 { font-family: 'Inter Display', sans-serif; font-weight: 800; font-size: 14pt; color: var(--amber); margin-top: 7mm; page-break-after: avoid; }
+h3 { font-family: 'Inter Display', sans-serif; font-weight: 800; font-size: 11.5pt; color: var(--navy2); margin-top: 5mm; page-break-after: avoid; }
+hr { display: none; }
+table { border-collapse: collapse; width: 100%; margin: 3mm 0; font-size: 8.6pt; page-break-inside: auto; }
+th { background: var(--navy); color: #FFF1D6; text-align: left; padding: 1.6mm 2mm; font-weight: 700; }
+td { border-bottom: 1px solid #e6dccf; padding: 1.4mm 2mm; vertical-align: top; }
+tr:nth-child(even) td { background: #faf6f0; }
+tr { page-break-inside: avoid; }
+code { font-family: 'JetBrains Mono', monospace; font-size: 8.4pt; background: #f4efe7; padding: 0 1mm; border-radius: 2px; }
+pre, .codehilite pre { font-family: 'JetBrains Mono', monospace; font-size: 7.2pt; line-height: 1.38; background: #fbf8f3; border: 1px solid #e6dccf; border-left: 3px solid var(--amber2); padding: 2.5mm 3mm; white-space: pre-wrap; word-break: break-word; border-radius: 3px; }
+pre code { background: none; padding: 0; font-size: inherit; }
+blockquote { margin: 3mm 0; padding: 2mm 4mm; background: #eef6fb; border-left: 3px solid var(--cyan); color: #12324a; border-radius: 3px; }
+strong { color: #111; }
+ol li, ul li { margin: .6mm 0; }
+a { color: var(--cyan); }
