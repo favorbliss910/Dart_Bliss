@@ -15,7 +15,7 @@ All numbers below were measured in this container. The "Measured" table is fille
 | **P01 full proof** | **540×960** | **24** | **120** | **31.2** (min 28.4, max 42.2; total **62.4 min**) | `renders/proof_v1/render_timings.json`; other jobs shared the CPU during the first ~10 frames |
 | Remotion assembly + encode | 540×960 | — | 120 | 12 s wall (validate + render + encode) | h264 CRF 18 + AAC |
 
-Peak memory for the bpy process stayed well under the 15 GiB available; the scene is about 0.5 MB as a .blend.
+Peak RAM was **not measured** (no OOM in 15 GiB, no swap). VRAM: not applicable (no GPU). The scene is about 0.5 MB as a .blend.
 
 ## Extrapolation (not measured; linear in pixels × samples)
 
