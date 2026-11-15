@@ -1,0 +1,20 @@
+{
+  "rule": "A new environment may not match any entry on 3+ of: setting, era, time_of_day, weather, palette_family, architecture. See docs/prompt_book (section 3A).",
+  "environments": [
+    {
+      "project": "P01",
+      "status": "shipped",
+      "setting": "city side street with a corner shop",
+      "era": "contemporary",
+      "time_of_day": "night",
+      "weather": "steady rain",
+      "palette_family": "desaturated cool plus neon",
+      "architecture": "tall and narrow brick/plaster facades",
+      "signature_set_piece": "striped awning shop with a neon OPEN sign",
+      "lighting_recipe": "night rain",
+      "camera_language": ["lateral truck past a near lamp post"],
+      "sound_bed": "rain, wet footsteps, neon buzz",
+      "thumbnail": "renders/proof_v1/final_f46.png"
+    }
+  ]
+}
