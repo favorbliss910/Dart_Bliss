@@ -12,8 +12,8 @@ All numbers below were measured in this container. The "Measured" table is fille
 | P01 lookdev stills | 360×640 | 16 | 5 | 9.2–12.0 | |
 | P01 final-res test | 540×960 | 32 | 2 | 47–49 | about 96 min per 5 s, rejected for proof |
 | P01 final-res test | 540×960 | 24 | 1 | 37.5 | chosen setting |
-| **P01 full proof** | **540×960** | **24** | **120** | **__MEAN__** (total __TOTAL__ min) | `renders/proof_v1/render_timings.json`; other jobs shared the CPU during the first ~10 frames |
-| Remotion assembly + encode | 540×960 | — | 120 | __REMOTION__ | h264 CRF 18 + AAC |
+| **P01 full proof** | **540×960** | **24** | **120** | **31.2** (min 28.4, max 42.2; total **62.4 min**) | `renders/proof_v1/render_timings.json`; other jobs shared the CPU during the first ~10 frames |
+| Remotion assembly + encode | 540×960 | — | 120 | 12 s wall (validate + render + encode) | h264 CRF 18 + AAC |
 
 Peak memory for the bpy process stayed well under the 15 GiB available; the scene is about 0.5 MB as a .blend.
 
