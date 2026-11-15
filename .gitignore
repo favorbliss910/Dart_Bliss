@@ -5,3 +5,5 @@ node_modules/
 renders/**/frames/
 renders/**/*.blend
 renders/smoke/*.png
+renders/**/stills/
+renders/P02/render_log.txt
