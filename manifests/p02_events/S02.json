@@ -1,0 +1,15 @@
+{
+ "shot": "S02",
+ "frames": 159,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "halo_swell",
+   "frame": 37
+  },
+  {
+   "kind": "shimmer",
+   "frame": 42
+  }
+ ]
+}
