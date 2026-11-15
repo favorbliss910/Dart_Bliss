@@ -1,0 +1,20 @@
+{
+  "bpy_version": "5.3.0",
+  "build_platform": "Linux",
+  "render_engines": [
+    "BLENDER_EEVEE",
+    "CYCLES (add-on)"
+  ],
+  "cycles_gpu_devices": {
+    "CUDA": [],
+    "OPTIX": [],
+    "HIP": [],
+    "ONEAPI": [],
+    "METAL": "unsupported in this build"
+  },
+  "test_scene": "/home/user/Dart_Bliss/renders/smoke/smoke_scene.blend",
+  "smoke_frames_written": 12,
+  "smoke_render_seconds": 28.21,
+  "smoke_seconds_per_frame": 2.351,
+  "smoke_pass": true
+}

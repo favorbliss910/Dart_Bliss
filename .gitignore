@@ -1,0 +1,7 @@
+node_modules/
+.venv/
+.models/
+# reproducible render outputs (regenerate with tools/build_proof_scene.py)
+renders/**/frames/
+renders/**/*.blend
+renders/smoke/*.png

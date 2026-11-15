@@ -1,0 +1,7 @@
+timestamp_s,shot_scale,apparent_camera_motion,lighting_direction,palette,geometry_complexity,confidence,source
+,,,,,,unknown,"Reference video NOT present in repo or uploads; no frames extracted. Rows below restate the brief only."
+0-77.86,mixed,unknown,unknown,unknown,unknown,brief_claim_unverified,"Brief p.005: portrait short ~78 s (77.86 s)"
+unknown,unknown,unknown,contrasting,unknown,stylized 3D cartoon subjects,brief_claim_unverified,"Brief p.005: sampled visuals"
+unknown,wide/establishing?,unknown,unknown,rainy urban / night,unknown,brief_claim_unverified,"Brief p.005: rainy urban atmosphere, shop environment"
+unknown,unknown,unknown,bright,poolside,unknown,brief_claim_unverified,"Brief p.005: bright poolside setting"
+unknown,unknown,unknown,dark interiors,unknown,unknown,brief_claim_unverified,"Brief p.005: darker interior scenes, subtitles"

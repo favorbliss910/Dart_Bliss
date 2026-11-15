@@ -1,0 +1,344 @@
+{
+  "id": "P01",
+  "title": "Last Stop (5-second 3D proof)",
+  "frame_in": 1,
+  "frame_out": 120,
+  "fps": 24,
+  "resolution": {
+    "width": 540,
+    "height": 960,
+    "delivery_width": 1080,
+    "delivery_height": 1920
+  },
+  "camera": {
+    "object": "cam_P01",
+    "lens_mm": {
+      "start": 30,
+      "end": 26
+    },
+    "sensor_fit": "VERTICAL",
+    "sensor_mm": 36,
+    "keys": [
+      {
+        "frame": 1,
+        "location": [
+          4.6,
+          -1.55,
+          0.78
+        ]
+      },
+      {
+        "frame": 60,
+        "location": [
+          3.75,
+          -0.4,
+          0.9
+        ]
+      },
+      {
+        "frame": 120,
+        "location": [
+          2.55,
+          1.02,
+          1.05
+        ]
+      }
+    ],
+    "dof": {
+      "fstop": 2.2,
+      "focus_object": "pip_neck"
+    }
+  },
+  "focus_target": "Pip's head (pip_neck); look-at target eases 56% toward the OPEN sign from f80-f110, damped follow",
+  "movement_curve": "Bezier dolly/truck from the street (4.6,-1.55) across the curb onto the sidewalk (2.55,1.02), passing within ~0.5 m of the near lamp post and bollard; lens widens 30->26 mm. Parallax evidence: near lamp/bollard sweep across frame while facade windows and far blocks shift slowly.",
+  "depth_layers": {
+    "near": [
+      "lamp_near",
+      "bollard",
+      "bin",
+      "rain_A",
+      "rain_B"
+    ],
+    "mid": [
+      "shop + interior shelves",
+      "awning",
+      "OPEN sign",
+      "bldg_L1..L3",
+      "bldg_R1",
+      "Pip"
+    ],
+    "far": [
+      "far_block_*",
+      "opp_block_*",
+      "lamp_far_*",
+      "fog_far volume"
+    ]
+  },
+  "character_action": [
+    {
+      "beat": "walk_in",
+      "frames": [
+        1,
+        50
+      ]
+    },
+    {
+      "beat": "decelerate_stop",
+      "frames": [
+        50,
+        66
+      ]
+    },
+    {
+      "beat": "settle_overshoot",
+      "frames": [
+        64,
+        74
+      ]
+    },
+    {
+      "beat": "anticipation_dip",
+      "frames": [
+        70,
+        76
+      ]
+    },
+    {
+      "beat": "turn_to_shop",
+      "frames": [
+        72,
+        88
+      ]
+    },
+    {
+      "beat": "sign_flicker_on",
+      "frames": [
+        80,
+        92
+      ]
+    },
+    {
+      "beat": "eyes_lead_look_up",
+      "frames": [
+        76,
+        84
+      ]
+    },
+    {
+      "beat": "head_look_up",
+      "frames": [
+        79,
+        92
+      ]
+    },
+    {
+      "beat": "blink",
+      "frames": [
+        95,
+        98
+      ]
+    },
+    {
+      "beat": "smile",
+      "frames": [
+        96,
+        104
+      ]
+    },
+    {
+      "beat": "hold",
+      "frames": [
+        104,
+        120
+      ]
+    }
+  ],
+  "environment": "Original rainy night street: wet asphalt with noise-driven puddle roughness, sidewalk + curb, corner shop with real interior volume behind glass, striped awning, receding street lamps, thin far-street volume fog.",
+  "lights": [
+    {
+      "name": "key_window_spill",
+      "type": "AREA",
+      "role": "key (motivated by shop interior)",
+      "energy_w": 45,
+      "color": [
+        1.0,
+        0.65,
+        0.35
+      ]
+    },
+    {
+      "name": "shop_interior",
+      "type": "AREA",
+      "role": "practical interior",
+      "energy_w": 18,
+      "color": [
+        1.0,
+        0.7,
+        0.4
+      ]
+    },
+    {
+      "name": "rim_cool",
+      "type": "AREA",
+      "role": "cool rim from down the street",
+      "energy_w": 220,
+      "color": [
+        0.45,
+        0.6,
+        1.0
+      ]
+    },
+    {
+      "name": "fill_street",
+      "type": "AREA",
+      "role": "low fill from camera side",
+      "energy_w": 35,
+      "color": [
+        0.6,
+        0.7,
+        0.95
+      ]
+    },
+    {
+      "name": "lamp_near_light / lamp_far_*",
+      "type": "SPOT",
+      "role": "practical street lamps",
+      "energy_w": 80,
+      "color": [
+        1.0,
+        0.72,
+        0.42
+      ]
+    },
+    {
+      "name": "sign_glow",
+      "type": "POINT",
+      "role": "practical neon, keyed to flicker (0-32 W)",
+      "color": [
+        1.0,
+        0.25,
+        0.4
+      ]
+    }
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "samples": 24,
+    "denoise": true,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.35,
+    "color_space_out": "sRGB (8-bit PNG, display-referred)"
+  },
+  "media": {
+    "frames_dir": "renders/proof_v1/frames",
+    "frame_pattern": "%04d.png",
+    "frame_count": 120,
+    "alpha": false,
+    "audio_mix": "assets/audio/p01/mix.wav",
+    "audio_stems": [
+      "assets/audio/p01/dialogue.wav",
+      "assets/audio/p01/ambience.wav",
+      "assets/audio/p01/foley.wav",
+      "assets/audio/p01/fx.wav",
+      "assets/audio/p01/music.wav"
+    ]
+  },
+  "audio_cues": [
+    {
+      "type": "footstep",
+      "frame": 4,
+      "note": "L"
+    },
+    {
+      "type": "footstep",
+      "frame": 12,
+      "note": "R"
+    },
+    {
+      "type": "footstep",
+      "frame": 20,
+      "note": "L"
+    },
+    {
+      "type": "footstep",
+      "frame": 28,
+      "note": "R"
+    },
+    {
+      "type": "footstep",
+      "frame": 36,
+      "note": "L"
+    },
+    {
+      "type": "footstep",
+      "frame": 44,
+      "note": "R"
+    },
+    {
+      "type": "footstep",
+      "frame": 52,
+      "note": "L"
+    },
+    {
+      "type": "footstep",
+      "frame": 66,
+      "note": "R"
+    },
+    {
+      "type": "footstep",
+      "frame": 80,
+      "note": "R"
+    },
+    {
+      "type": "footstep",
+      "frame": 88,
+      "note": "L"
+    },
+    {
+      "type": "footstep",
+      "frame": 94,
+      "note": "R"
+    },
+    {
+      "type": "neon_click",
+      "frame": 80
+    },
+    {
+      "type": "neon_click",
+      "frame": 84
+    },
+    {
+      "type": "neon_click",
+      "frame": 86
+    },
+    {
+      "type": "neon_click",
+      "frame": 89
+    },
+    {
+      "type": "dialogue_start",
+      "frame": 12,
+      "note": "am_michael"
+    },
+    {
+      "type": "music_sting",
+      "frame": 92
+    }
+  ],
+  "captions": [
+    {
+      "text": "Last stop tonight...",
+      "start_s": 0.58,
+      "end_s": 1.75,
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "text": "please, still be open.",
+      "start_s": 1.95,
+      "end_s": 3.45,
+      "timing_source": "measured_energy_envelope"
+    }
+  ]
+}

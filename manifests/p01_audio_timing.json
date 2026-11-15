@@ -1,0 +1,107 @@
+{
+  "shot_id": "P01",
+  "sample_rate": 48000,
+  "duration_s": 5.0,
+  "dialogue": [
+    {
+      "id": "line01",
+      "voice": "am_michael",
+      "engine": "kokoro-onnx (Kokoro-82M v1.0, int8 ONNX)",
+      "text": "Last stop tonight... please, still be open.",
+      "speed": 1.0,
+      "start_s": 0.45,
+      "measured_duration_s": 3.029,
+      "end_s": 3.479,
+      "file": "assets/audio/p01/line01_am_michael.wav",
+      "measured_phrases_s": [
+        {
+          "start": 0.58,
+          "end": 1.55
+        },
+        {
+          "start": 1.95,
+          "end": 3.1
+        }
+      ]
+    }
+  ],
+  "footsteps": [
+    {
+      "frame": 4,
+      "time_s": 0.125,
+      "gain_db": -14.0
+    },
+    {
+      "frame": 12,
+      "time_s": 0.4583,
+      "gain_db": -12.9
+    },
+    {
+      "frame": 20,
+      "time_s": 0.7917,
+      "gain_db": -11.7
+    },
+    {
+      "frame": 28,
+      "time_s": 1.125,
+      "gain_db": -10.6
+    },
+    {
+      "frame": 36,
+      "time_s": 1.4583,
+      "gain_db": -9.4
+    },
+    {
+      "frame": 44,
+      "time_s": 1.7917,
+      "gain_db": -8.3
+    },
+    {
+      "frame": 52,
+      "time_s": 2.125,
+      "gain_db": -7.1
+    },
+    {
+      "frame": 66,
+      "time_s": 2.7083,
+      "gain_db": -5.8
+    },
+    {
+      "frame": 80,
+      "time_s": 3.2917,
+      "gain_db": -10.3
+    },
+    {
+      "frame": 88,
+      "time_s": 3.625,
+      "gain_db": -10.1
+    },
+    {
+      "frame": 94,
+      "time_s": 3.875,
+      "gain_db": -9.9
+    }
+  ],
+  "neon_click_frames": [
+    80,
+    84,
+    86,
+    89
+  ],
+  "music_sting_frame": 92,
+  "loudness": {
+    "prenorm_lufs_i": -21.6,
+    "prenorm_true_peak_dbfs": -6.7,
+    "final_lufs_i": -16.0,
+    "final_true_peak_dbfs": -1.1,
+    "target_lufs_i": -16.0
+  },
+  "stems": [
+    "assets/audio/p01/dialogue.wav",
+    "assets/audio/p01/ambience.wav",
+    "assets/audio/p01/foley.wav",
+    "assets/audio/p01/fx.wav",
+    "assets/audio/p01/music.wav",
+    "assets/audio/p01/mix.wav"
+  ]
+}
