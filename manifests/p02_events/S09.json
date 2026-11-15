@@ -1,0 +1,31 @@
+{
+ "shot": "S09",
+ "frames": 126,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "click",
+   "frame": 18
+  },
+  {
+   "kind": "click",
+   "frame": 32
+  },
+  {
+   "kind": "click",
+   "frame": 46
+  },
+  {
+   "kind": "click",
+   "frame": 60
+  },
+  {
+   "kind": "error",
+   "frame": 79
+  },
+  {
+   "kind": "alarm_on",
+   "frame": 83
+  }
+ ]
+}

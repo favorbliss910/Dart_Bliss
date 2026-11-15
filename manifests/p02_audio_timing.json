@@ -1,0 +1,596 @@
+{
+  "project": "P02",
+  "fps": 24,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "engine": "kokoro-onnx 0.6.1 (Kokoro-82M v1.0 int8)",
+  "pre_roll_s": 0.45,
+  "hold_s": 1.0,
+  "shots": [
+    {
+      "id": "S01",
+      "frames": 127,
+      "duration_s": 5.292,
+      "line_file": "assets/audio/p02/S01_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 4.26,
+      "film_start_s": 0.0,
+      "phrases": [
+        {
+          "text": "He switched off his invisibility suit.",
+          "start_s": 0.45,
+          "end_s": 2.5
+        },
+        {
+          "text": "But his body didn't come back.",
+          "start_s": 2.8,
+          "end_s": 4.26
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S02",
+      "frames": 159,
+      "duration_s": 6.625,
+      "line_file": "assets/audio/p02/S02_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.6,
+      "film_start_s": 5.292,
+      "phrases": [
+        {
+          "text": "You see, a scientist had invented a suit that could bend light around anything it covered.",
+          "start_s": 0.45,
+          "end_s": 5.6
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S03",
+      "frames": 107,
+      "duration_s": 4.458,
+      "line_file": "assets/audio/p02/S03_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 3.44,
+      "film_start_s": 11.917,
+      "phrases": [
+        {
+          "text": "One button made you disappear.",
+          "start_s": 0.45,
+          "end_s": 2.09
+        },
+        {
+          "text": "Another brought you back.",
+          "start_s": 2.39,
+          "end_s": 3.44
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S04",
+      "frames": 200,
+      "duration_s": 8.333,
+      "line_file": "assets/audio/p02/S04_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 7.33,
+      "film_start_s": 16.375,
+      "phrases": [
+        {
+          "text": "And if anything went wrong, an emergency machine outside the laboratory could reverse the entire process.",
+          "start_s": 0.45,
+          "end_s": 7.33
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S05",
+      "frames": 104,
+      "duration_s": 4.333,
+      "line_file": "assets/audio/p02/S05_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 3.33,
+      "film_start_s": 24.708,
+      "phrases": [
+        {
+          "text": "There was just one rule.",
+          "start_s": 0.45,
+          "end_s": 1.72
+        },
+        {
+          "text": "Never test it alone.",
+          "start_s": 2.02,
+          "end_s": 3.33
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S06",
+      "frames": 96,
+      "duration_s": 4.0,
+      "line_file": "assets/audio/p02/S06_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 1.25,
+      "film_start_s": 29.042,
+      "phrases": [
+        {
+          "text": "He ignored it.",
+          "start_s": 0.45,
+          "end_s": 1.25
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S07",
+      "frames": 102,
+      "duration_s": 4.25,
+      "line_file": "assets/audio/p02/S07_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 3.22,
+      "film_start_s": 33.042,
+      "phrases": [
+        {
+          "text": "Locked the laboratory door.",
+          "start_s": 0.45,
+          "end_s": 1.88
+        },
+        {
+          "text": "And pressed the button.",
+          "start_s": 2.18,
+          "end_s": 3.22
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S08",
+      "frames": 146,
+      "duration_s": 6.083,
+      "line_file": "assets/audio/p02/S08_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.05,
+      "film_start_s": 37.292,
+      "phrases": [
+        {
+          "text": "His hands vanished.",
+          "start_s": 0.45,
+          "end_s": 1.55
+        },
+        {
+          "text": "His legs disappeared.",
+          "start_s": 1.85,
+          "end_s": 3.04
+        },
+        {
+          "text": "Even his reflection was gone.",
+          "start_s": 3.34,
+          "end_s": 5.05
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S09",
+      "frames": 126,
+      "duration_s": 5.25,
+      "line_file": "assets/audio/p02/S09_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 4.24,
+      "film_start_s": 43.375,
+      "phrases": [
+        {
+          "text": "But when he tried becoming visible again...",
+          "start_s": 0.45,
+          "end_s": 2.66
+        },
+        {
+          "text": "Nothing happened.",
+          "start_s": 3.26,
+          "end_s": 4.24
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S10",
+      "frames": 96,
+      "duration_s": 4.0,
+      "line_file": "assets/audio/p02/S10_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 2.83,
+      "film_start_s": 48.625,
+      "phrases": [
+        {
+          "text": "He ripped off the suit.",
+          "start_s": 0.45,
+          "end_s": 1.47
+        },
+        {
+          "text": "Still invisible.",
+          "start_s": 1.77,
+          "end_s": 2.83
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S11",
+      "frames": 155,
+      "duration_s": 6.458,
+      "line_file": "assets/audio/p02/S11_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.43,
+      "film_start_s": 52.625,
+      "phrases": [
+        {
+          "text": "Then a warning appeared on his scanner.",
+          "start_s": 0.45,
+          "end_s": 2.3
+        },
+        {
+          "text": "NINETY SECONDS UNTIL PERMANENT DISPLACEMENT.",
+          "start_s": 2.6,
+          "end_s": 5.43
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S12",
+      "frames": 226,
+      "duration_s": 9.417,
+      "line_file": "assets/audio/p02/S12_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 8.39,
+      "film_start_s": 59.083,
+      "phrases": [
+        {
+          "text": "The suit contained microscopic particles that redirected light.",
+          "start_s": 0.45,
+          "end_s": 4.36
+        },
+        {
+          "text": "But something had gone wrong.",
+          "start_s": 4.66,
+          "end_s": 6.11
+        },
+        {
+          "text": "The particles had bonded with his skin.",
+          "start_s": 6.41,
+          "end_s": 8.39
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S13",
+      "frames": 131,
+      "duration_s": 5.458,
+      "line_file": "assets/audio/p02/S13_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 4.42,
+      "film_start_s": 68.5,
+      "phrases": [
+        {
+          "text": "And now they were spreading.",
+          "start_s": 0.45,
+          "end_s": 1.68
+        },
+        {
+          "text": "Through his muscles.",
+          "start_s": 1.98,
+          "end_s": 3.05
+        },
+        {
+          "text": "Into his eyes.",
+          "start_s": 3.35,
+          "end_s": 4.42
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S14",
+      "frames": 152,
+      "duration_s": 6.333,
+      "line_file": "assets/audio/p02/S14_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.33,
+      "film_start_s": 73.958,
+      "phrases": [
+        {
+          "text": "Once they reached his retinas, light would never reach them again.",
+          "start_s": 0.45,
+          "end_s": 3.99
+        },
+        {
+          "text": "He would be blind.",
+          "start_s": 4.29,
+          "end_s": 5.33
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S15",
+      "frames": 116,
+      "duration_s": 4.833,
+      "line_file": "assets/audio/p02/S15_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 3.83,
+      "film_start_s": 80.292,
+      "phrases": [
+        {
+          "text": "He rushed toward the emergency machine.",
+          "start_s": 0.45,
+          "end_s": 2.58
+        },
+        {
+          "text": "Then froze.",
+          "start_s": 2.88,
+          "end_s": 3.83
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S16",
+      "frames": 154,
+      "duration_s": 6.417,
+      "line_file": "assets/audio/p02/S16_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.38,
+      "film_start_s": 85.125,
+      "phrases": [
+        {
+          "text": "It was outside the locked laboratory.",
+          "start_s": 0.45,
+          "end_s": 2.5
+        },
+        {
+          "text": "His assistant stood on the other side of the glass.",
+          "start_s": 2.8,
+          "end_s": 5.38
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S17",
+      "frames": 150,
+      "duration_s": 6.25,
+      "line_file": "assets/audio/p02/S17_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.22,
+      "film_start_s": 91.542,
+      "phrases": [
+        {
+          "text": "He screamed.",
+          "start_s": 0.45,
+          "end_s": 1.29
+        },
+        {
+          "text": "But the room was soundproof.",
+          "start_s": 1.59,
+          "end_s": 2.92
+        },
+        {
+          "text": "He waved.",
+          "start_s": 3.22,
+          "end_s": 3.98
+        },
+        {
+          "text": "She saw nothing.",
+          "start_s": 4.28,
+          "end_s": 5.22
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S18",
+      "frames": 166,
+      "duration_s": 6.917,
+      "line_file": "assets/audio/p02/S18_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.88,
+      "film_start_s": 97.792,
+      "phrases": [
+        {
+          "text": "Sixty seconds.",
+          "start_s": 0.45,
+          "end_s": 1.45
+        },
+        {
+          "text": "He smashed his fist against the glass.",
+          "start_s": 1.75,
+          "end_s": 3.76
+        },
+        {
+          "text": "Nothing.",
+          "start_s": 4.06,
+          "end_s": 4.68
+        },
+        {
+          "text": "Thirty seconds.",
+          "start_s": 4.98,
+          "end_s": 5.88
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S19",
+      "frames": 120,
+      "duration_s": 5.0,
+      "line_file": "assets/audio/p02/S19_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 3.97,
+      "film_start_s": 104.708,
+      "phrases": [
+        {
+          "text": "Then he spotted the emergency sprinkler lever.",
+          "start_s": 0.45,
+          "end_s": 2.97
+        },
+        {
+          "text": "He pulled it.",
+          "start_s": 3.27,
+          "end_s": 3.97
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S20",
+      "frames": 246,
+      "duration_s": 10.25,
+      "line_file": "assets/audio/p02/S20_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 9.23,
+      "film_start_s": 109.708,
+      "phrases": [
+        {
+          "text": "Water exploded from the ceiling.",
+          "start_s": 0.45,
+          "end_s": 2.2
+        },
+        {
+          "text": "And suddenly, his assistant saw something impossible.",
+          "start_s": 2.5,
+          "end_s": 5.68
+        },
+        {
+          "text": "Water dripping down the outline of an invisible man.",
+          "start_s": 5.98,
+          "end_s": 9.23
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S21",
+      "frames": 167,
+      "duration_s": 6.958,
+      "line_file": "assets/audio/p02/S21_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 5.95,
+      "film_start_s": 119.958,
+      "phrases": [
+        {
+          "text": "She ran to the emergency machine.",
+          "start_s": 0.45,
+          "end_s": 2.3
+        },
+        {
+          "text": "Twenty seconds.",
+          "start_s": 2.6,
+          "end_s": 3.54
+        },
+        {
+          "text": "She activated the reversal pulse.",
+          "start_s": 3.84,
+          "end_s": 5.95
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S22",
+      "frames": 216,
+      "duration_s": 9.0,
+      "line_file": "assets/audio/p02/S22_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 7.99,
+      "film_start_s": 126.917,
+      "phrases": [
+        {
+          "text": "A blinding flash filled the laboratory.",
+          "start_s": 0.45,
+          "end_s": 2.53
+        },
+        {
+          "text": "The scientist collapsed.",
+          "start_s": 2.83,
+          "end_s": 4.14
+        },
+        {
+          "text": "His assistant rushed inside.",
+          "start_s": 4.44,
+          "end_s": 6.05
+        },
+        {
+          "text": "For a moment, he didn't move.",
+          "start_s": 6.35,
+          "end_s": 7.99
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S23",
+      "frames": 178,
+      "duration_s": 7.417,
+      "line_file": "assets/audio/p02/S23_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 6.4,
+      "film_start_s": 135.917,
+      "phrases": [
+        {
+          "text": "Then he slowly opened his eyes.",
+          "start_s": 0.45,
+          "end_s": 2.31
+        },
+        {
+          "text": "He could see.",
+          "start_s": 2.61,
+          "end_s": 3.41
+        },
+        {
+          "text": "And when he looked down...",
+          "start_s": 3.71,
+          "end_s": 4.78
+        },
+        {
+          "text": "His hands were back.",
+          "start_s": 5.38,
+          "end_s": 6.4
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    },
+    {
+      "id": "S24",
+      "frames": 203,
+      "duration_s": 8.458,
+      "line_file": "assets/audio/p02/S24_line.wav",
+      "line_start_s": 0.45,
+      "line_end_s": 7.43,
+      "film_start_s": 143.333,
+      "phrases": [
+        {
+          "text": "He had invented the perfect way to disappear.",
+          "start_s": 0.45,
+          "end_s": 2.95
+        },
+        {
+          "text": "But the only thing that saved his life...",
+          "start_s": 3.25,
+          "end_s": 5.26
+        },
+        {
+          "text": "Was finding a way to be seen.",
+          "start_s": 5.86,
+          "end_s": 7.43
+        }
+      ],
+      "timing_source": "measured_energy_envelope"
+    }
+  ],
+  "total_frames": 3643,
+  "total_s": 151.79
+}

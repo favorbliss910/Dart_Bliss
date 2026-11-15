@@ -1,0 +1,19 @@
+{
+ "shot": "S08",
+ "frames": 146,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "shimmer",
+   "frame": 14
+  },
+  {
+   "kind": "shimmer",
+   "frame": 47
+  },
+  {
+   "kind": "shimmer",
+   "frame": 85
+  }
+ ]
+}

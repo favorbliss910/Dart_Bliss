@@ -1,0 +1,24 @@
+{
+ "shot": "S11",
+ "frames": 155,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "roll",
+   "frame": 1,
+   "dur": 32
+  },
+  {
+   "kind": "beep",
+   "frame": 38
+  },
+  {
+   "kind": "beep",
+   "frame": 56
+  },
+  {
+   "kind": "warning",
+   "frame": 63
+  }
+ ]
+}

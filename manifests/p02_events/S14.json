@@ -1,0 +1,15 @@
+{
+ "shot": "S14",
+ "frames": 152,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "bend",
+   "frame": 58
+  },
+  {
+   "kind": "drain",
+   "frame": 104
+  }
+ ]
+}

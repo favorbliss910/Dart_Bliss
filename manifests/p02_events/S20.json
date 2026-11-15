@@ -1,0 +1,11 @@
+{
+ "shot": "S20",
+ "frames": 246,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "gasp",
+   "frame": 81
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "shot": "S10",
+ "frames": 96,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "rip",
+   "frame": 22
+  },
+  {
+   "kind": "cloth_thump",
+   "frame": 40
+  }
+ ]
+}

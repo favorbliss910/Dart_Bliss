@@ -1,0 +1,15 @@
+{
+ "shot": "S01",
+ "frames": 127,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "click",
+   "frame": 34
+  },
+  {
+   "kind": "powerdown",
+   "frame": 34
+  }
+ ]
+}

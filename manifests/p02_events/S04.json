@@ -1,0 +1,11 @@
+{
+ "shot": "S04",
+ "frames": 200,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "machine_on",
+   "frame": 86
+  }
+ ]
+}

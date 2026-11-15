@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dart_bliss/shot_schema.json",
+  "title": "Shot manifest entry",
+  "description": "One shot. Blender owns geometry/perspective/lighting; Remotion owns edit timing, captions, final encode. Every observation field that is not measured must say so in `confidence`.",
+  "type": "object",
+  "required": ["id", "frame_in", "frame_out", "fps", "resolution", "camera", "focus_target", "movement_curve", "character_action", "environment", "lights", "render", "media", "audio_cues", "captions"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z][0-9]{2,3}$"},
+    "title": {"type": "string"},
+    "frame_in": {"type": "integer", "minimum": 1},
+    "frame_out": {"type": "integer", "minimum": 1},
+    "fps": {"type": "integer", "enum": [24, 25, 30, 60]},
+    "resolution": {"type": "object", "required": ["width", "height"], "properties": {"width": {"type": "integer"}, "height": {"type": "integer"}, "delivery_width": {"type": "integer"}, "delivery_height": {"type": "integer"}}},
+    "camera": {
+      "type": "object",
+      "required": ["object", "lens_mm", "sensor_fit", "sensor_mm", "keys", "dof"],
+      "properties": {
+        "object": {"type": "string"},
+        "lens_mm": {"type": "object", "properties": {"start": {"type": "number"}, "end": {"type": "number"}}},
+        "sensor_fit": {"enum": ["AUTO", "HORIZONTAL", "VERTICAL"]},
+        "sensor_mm": {"type": "number"},
+        "keys": {"type": "array", "items": {"type": "object", "required": ["frame", "location"], "properties": {"frame": {"type": "integer"}, "location": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3}}}},
+        "dof": {"type": "object", "properties": {"fstop": {"type": "number"}, "focus_object": {"type": "string"}}}
+      }
+    },
+    "focus_target": {"type": "string"},
+    "movement_curve": {"type": "string", "description": "How the camera moves and which near/mid/far layers prove the parallax."},
+    "depth_layers": {"type": "object", "properties": {"near": {"type": "array", "items": {"type": "string"}}, "mid": {"type": "array", "items": {"type": "string"}}, "far": {"type": "array", "items": {"type": "string"}}}},
+    "character_action": {"type": "array", "items": {"type": "object", "required": ["beat", "frames"], "properties": {"beat": {"type": "string"}, "frames": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2}}}},
+    "environment": {"type": "string"},
+    "lights": {"type": "array", "items": {"type": "object", "required": ["name", "type", "role"], "properties": {"name": {"type": "string"}, "type": {"type": "string"}, "role": {"type": "string"}, "energy_w": {"type": "number"}, "color": {"type": "array"}}}},
+    "render": {"type": "object", "required": ["engine", "device", "samples", "view_transform"], "properties": {"engine": {"type": "string"}, "device": {"type": "string"}, "samples": {"type": "integer"}, "denoise": {"type": "boolean"}, "view_transform": {"type": "string"}, "look": {"type": "string"}, "exposure": {"type": "number"}, "color_space_out": {"type": "string"}}},
+    "media": {"type": "object", "required": ["frames_dir", "frame_pattern", "frame_count", "audio_mix"], "properties": {"frames_dir": {"type": "string"}, "frame_pattern": {"type": "string"}, "frame_count": {"type": "integer"}, "alpha": {"type": "boolean"}, "audio_mix": {"type": "string"}, "audio_stems": {"type": "array", "items": {"type": "string"}}}},
+    "audio_cues": {"type": "array", "items": {"type": "object", "required": ["type", "frame"], "properties": {"type": {"type": "string"}, "frame": {"type": "integer"}, "note": {"type": "string"}}}},
+    "captions": {"type": "array", "items": {"type": "object", "required": ["text", "start_s", "end_s", "timing_source"], "properties": {"text": {"type": "string"}, "start_s": {"type": "number"}, "end_s": {"type": "number"}, "timing_source": {"enum": ["measured_energy_envelope", "forced_alignment", "manual", "estimated"]}}}}
+  }
+}

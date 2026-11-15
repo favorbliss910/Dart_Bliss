@@ -1,0 +1,11 @@
+{
+  "project": "P02",
+  "res": "360x640",
+  "samples": 16,
+  "step": 2,
+  "delivery": "1080x1920 (3x upscale in Remotion)",
+  "caption_pos": {
+    "S03": "bottom", "S07": "bottom", "S11": "bottom", "S12": "bottom", "S13": "bottom",
+    "S14": "bottom", "S20": "bottom", "S23": "bottom"
+  }
+}

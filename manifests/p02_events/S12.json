@@ -1,0 +1,16 @@
+{
+ "shot": "S12",
+ "frames": 226,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "glitter",
+   "frame": 113,
+   "dur": 89
+  },
+  {
+   "kind": "bonded",
+   "frame": 179
+  }
+ ]
+}

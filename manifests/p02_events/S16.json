@@ -1,0 +1,115 @@
+{
+ "shot": "S16",
+ "frames": 154,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "step",
+   "frame": 4,
+   "who": "juno",
+   "side": "L",
+   "x": 6.18,
+   "y": -2.32,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 11,
+   "who": "juno",
+   "side": "R",
+   "x": 5.97,
+   "y": -2.12,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 18,
+   "who": "juno",
+   "side": "L",
+   "x": 6.1,
+   "y": -1.73,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 25,
+   "who": "juno",
+   "side": "R",
+   "x": 5.86,
+   "y": -1.32,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 32,
+   "who": "juno",
+   "side": "L",
+   "x": 5.97,
+   "y": -0.79,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 39,
+   "who": "juno",
+   "side": "R",
+   "x": 5.73,
+   "y": -0.31,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 46,
+   "who": "juno",
+   "side": "L",
+   "x": 5.84,
+   "y": 0.2,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 53,
+   "who": "juno",
+   "side": "R",
+   "x": 5.6,
+   "y": 0.59,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 60,
+   "who": "juno",
+   "side": "L",
+   "x": 5.74,
+   "y": 0.94,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 67,
+   "who": "juno",
+   "side": "R",
+   "x": 5.57,
+   "y": 1.19,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 74,
+   "who": "juno",
+   "side": "L",
+   "x": 5.62,
+   "y": 1.06,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 81,
+   "who": "juno",
+   "side": "R",
+   "x": 5.62,
+   "y": 1.24,
+   "run": false
+  }
+ ]
+}

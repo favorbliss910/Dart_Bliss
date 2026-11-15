@@ -1,0 +1,110 @@
+{
+ "shot": "S15",
+ "frames": 116,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "step",
+   "frame": 8,
+   "who": "quill",
+   "side": "L",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 13,
+   "who": "quill",
+   "side": "R",
+   "run": true
+  },
+  {
+   "kind": "papers",
+   "frame": 13
+  },
+  {
+   "kind": "step",
+   "frame": 18,
+   "who": "quill",
+   "side": "L",
+   "run": true
+  },
+  {
+   "kind": "stool",
+   "frame": 18
+  },
+  {
+   "kind": "step",
+   "frame": 23,
+   "who": "quill",
+   "side": "R",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 28,
+   "who": "quill",
+   "side": "L",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 33,
+   "who": "quill",
+   "side": "R",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 38,
+   "who": "quill",
+   "side": "L",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 43,
+   "who": "quill",
+   "side": "R",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 48,
+   "who": "quill",
+   "side": "L",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 53,
+   "who": "quill",
+   "side": "R",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 58,
+   "who": "quill",
+   "side": "L",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 63,
+   "who": "quill",
+   "side": "R",
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 68,
+   "who": "quill",
+   "side": "L",
+   "run": true
+  },
+  {
+   "kind": "stop",
+   "frame": 68
+  }
+ ]
+}

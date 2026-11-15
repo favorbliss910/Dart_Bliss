@@ -1,0 +1,19 @@
+{
+ "shot": "S18",
+ "frames": 166,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "beep",
+   "frame": 12
+  },
+  {
+   "kind": "thump",
+   "frame": 79
+  },
+  {
+   "kind": "beep",
+   "frame": 121
+  }
+ ]
+}

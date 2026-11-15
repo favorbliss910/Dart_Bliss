@@ -1,0 +1,23 @@
+{
+ "shot": "S03",
+ "frames": 107,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "tone_low",
+   "frame": 16
+  },
+  {
+   "kind": "shimmer",
+   "frame": 17
+  },
+  {
+   "kind": "tone_high",
+   "frame": 62
+  },
+  {
+   "kind": "shimmer",
+   "frame": 63
+  }
+ ]
+}

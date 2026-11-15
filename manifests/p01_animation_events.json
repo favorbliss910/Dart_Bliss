@@ -1,0 +1,178 @@
+{
+  "shot_id": "P01",
+  "fps": 24,
+  "frame_in": 1,
+  "frame_out": 120,
+  "footstep_contacts": [
+    {
+      "frame": 4,
+      "foot": "L",
+      "time_s": 0.125
+    },
+    {
+      "frame": 12,
+      "foot": "R",
+      "time_s": 0.4583
+    },
+    {
+      "frame": 20,
+      "foot": "L",
+      "time_s": 0.7917
+    },
+    {
+      "frame": 28,
+      "foot": "R",
+      "time_s": 1.125
+    },
+    {
+      "frame": 36,
+      "foot": "L",
+      "time_s": 1.4583
+    },
+    {
+      "frame": 44,
+      "foot": "R",
+      "time_s": 1.7917
+    },
+    {
+      "frame": 52,
+      "foot": "L",
+      "time_s": 2.125
+    },
+    {
+      "frame": 66,
+      "foot": "R",
+      "time_s": 2.7083
+    },
+    {
+      "frame": 80,
+      "foot": "R",
+      "time_s": 3.2917
+    },
+    {
+      "frame": 88,
+      "foot": "L",
+      "time_s": 3.625
+    },
+    {
+      "frame": 94,
+      "foot": "R",
+      "time_s": 3.875
+    }
+  ],
+  "sign_flicker_keys": [
+    {
+      "frame": 79,
+      "emission": 0.0,
+      "time_s": 3.25
+    },
+    {
+      "frame": 80,
+      "emission": 6.0,
+      "time_s": 3.2917
+    },
+    {
+      "frame": 81,
+      "emission": 0.3,
+      "time_s": 3.3333
+    },
+    {
+      "frame": 82,
+      "emission": 0.0,
+      "time_s": 3.375
+    },
+    {
+      "frame": 84,
+      "emission": 7.0,
+      "time_s": 3.4583
+    },
+    {
+      "frame": 85,
+      "emission": 1.0,
+      "time_s": 3.5
+    },
+    {
+      "frame": 86,
+      "emission": 7.5,
+      "time_s": 3.5417
+    },
+    {
+      "frame": 87,
+      "emission": 0.4,
+      "time_s": 3.5833
+    },
+    {
+      "frame": 89,
+      "emission": 8.0,
+      "time_s": 3.6667
+    },
+    {
+      "frame": 92,
+      "emission": 8.0,
+      "time_s": 3.7917
+    }
+  ],
+  "beats": {
+    "walk_in": [
+      1,
+      50
+    ],
+    "decelerate_stop": [
+      50,
+      66
+    ],
+    "settle_overshoot": [
+      64,
+      74
+    ],
+    "anticipation_dip": [
+      70,
+      76
+    ],
+    "turn_to_shop": [
+      72,
+      88
+    ],
+    "sign_flicker_on": [
+      80,
+      92
+    ],
+    "eyes_lead_look_up": [
+      76,
+      84
+    ],
+    "head_look_up": [
+      79,
+      92
+    ],
+    "blink": [
+      95,
+      98
+    ],
+    "smile": [
+      96,
+      104
+    ],
+    "hold": [
+      104,
+      120
+    ]
+  },
+  "camera_keys": {
+    "1": [
+      4.6,
+      -1.55,
+      0.78
+    ],
+    "60": [
+      3.75,
+      -0.4,
+      0.9
+    ],
+    "120": [
+      2.55,
+      1.02,
+      1.05
+    ]
+  }
+}

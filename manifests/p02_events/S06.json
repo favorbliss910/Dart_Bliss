@@ -1,0 +1,209 @@
+{
+ "shot": "S06",
+ "frames": 96,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "step",
+   "frame": 4,
+   "who": "juno",
+   "side": "L",
+   "x": 6.49,
+   "y": -0.24,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 11,
+   "who": "juno",
+   "side": "R",
+   "x": 6.31,
+   "y": -0.38,
+   "run": false
+  },
+  {
+   "kind": "door_creak",
+   "frame": 12
+  },
+  {
+   "kind": "step",
+   "frame": 16,
+   "who": "quill",
+   "side": "L",
+   "x": 3.85,
+   "y": -0.34,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 18,
+   "who": "juno",
+   "side": "L",
+   "x": 6.5,
+   "y": -0.61,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 24,
+   "who": "quill",
+   "side": "R",
+   "x": 4.05,
+   "y": -0.69,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 25,
+   "who": "juno",
+   "side": "R",
+   "x": 6.32,
+   "y": -0.91,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 32,
+   "who": "quill",
+   "side": "L",
+   "x": 4.11,
+   "y": -0.71,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 32,
+   "who": "juno",
+   "side": "L",
+   "x": 6.5,
+   "y": -1.25,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 39,
+   "who": "juno",
+   "side": "R",
+   "x": 6.33,
+   "y": -1.63,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 40,
+   "who": "quill",
+   "side": "R",
+   "x": 4.27,
+   "y": -1.08,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 46,
+   "who": "juno",
+   "side": "L",
+   "x": 6.52,
+   "y": -2.03,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 48,
+   "who": "quill",
+   "side": "L",
+   "x": 4.29,
+   "y": -0.95,
+   "run": false
+  },
+  {
+   "kind": "door_thud",
+   "frame": 52
+  },
+  {
+   "kind": "step",
+   "frame": 53,
+   "who": "juno",
+   "side": "R",
+   "x": 6.34,
+   "y": -2.42,
+   "run": false
+  },
+  {
+   "kind": "ratchet",
+   "frame": 56,
+   "dur": 26
+  },
+  {
+   "kind": "step",
+   "frame": 56,
+   "who": "quill",
+   "side": "R",
+   "x": 4.31,
+   "y": -1.15,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 60,
+   "who": "juno",
+   "side": "L",
+   "x": 6.53,
+   "y": -2.8,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 64,
+   "who": "quill",
+   "side": "L",
+   "x": 4.29,
+   "y": -0.95,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 67,
+   "who": "juno",
+   "side": "R",
+   "x": 6.35,
+   "y": -3.14,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 74,
+   "who": "juno",
+   "side": "L",
+   "x": 6.53,
+   "y": -3.43,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 81,
+   "who": "juno",
+   "side": "R",
+   "x": 6.36,
+   "y": -3.64,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 88,
+   "who": "juno",
+   "side": "L",
+   "x": 6.54,
+   "y": -3.77,
+   "run": false
+  },
+  {
+   "kind": "step",
+   "frame": 95,
+   "who": "juno",
+   "side": "R",
+   "x": 6.36,
+   "y": -3.8,
+   "run": false
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "shot": "S13",
+ "frames": 131,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "swell",
+   "frame": 12,
+   "dur": 95
+  }
+ ]
+}

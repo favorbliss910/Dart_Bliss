@@ -1,0 +1,24 @@
+{
+  "name": "dart-bliss-p01-assembly",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Remotion assembly for 3D proof shot P01 (edit timing, captions, final encode). Blender owns all 3D depth.",
+  "scripts": {
+    "validate": "node scripts/validate-media.mjs",
+    "studio": "remotion studio src/index.ts",
+    "render": "npm run validate && remotion render src/index.ts P01 out/p01_last_stop.mp4 --codec=h264 --crf=18 --browser-executable=${REMOTION_BROWSER:-/opt/pw-browsers/chromium}",
+    "still": "remotion still src/index.ts P01 out/p01_still.png --frame=110 --browser-executable=${REMOTION_BROWSER:-/opt/pw-browsers/chromium}",
+    "validate:p02": "node scripts/validate-p02.mjs",
+    "render:p02": "npm run validate:p02 && remotion render src/index.ts P02 out/p02_be_seen.mp4 --codec=h264 --crf=18 --concurrency=4 --browser-executable=${REMOTION_BROWSER:-/opt/pw-browsers/chromium}"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.543",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.543"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "typescript": "5.9.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+ "shot": "S24",
+ "frames": 203,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "water_off",
+   "frame": 142
+  },
+  {
+   "kind": "sting",
+   "frame": 144
+  }
+ ]
+}

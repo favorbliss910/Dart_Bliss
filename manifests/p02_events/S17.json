@@ -1,0 +1,12 @@
+{
+ "shot": "S17",
+ "frames": 150,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "silence",
+   "frame": 39,
+   "dur": 38
+  }
+ ]
+}

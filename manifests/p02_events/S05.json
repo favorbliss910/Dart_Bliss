@@ -1,0 +1,19 @@
+{
+ "shot": "S05",
+ "frames": 104,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "tap",
+   "frame": 18
+  },
+  {
+   "kind": "tap",
+   "frame": 47
+  },
+  {
+   "kind": "tap",
+   "frame": 55
+  }
+ ]
+}

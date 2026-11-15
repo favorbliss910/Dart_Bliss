@@ -1,0 +1,24 @@
+{
+  "rule": "A new character may not match any entry on 3+ of: archetype, body_shape, head_shape, primary_colour_family, signature_feature. See docs/prompt_book (section 3A).",
+  "characters": [
+    {
+      "project": "P01",
+      "name": "Pip",
+      "role": "lead",
+      "status": "shipped",
+      "archetype": "human-like small courier",
+      "body_shape": "egg",
+      "height_m": 1.3,
+      "head_shape": "sphere",
+      "eyes": "big round with pupils",
+      "mouth": "arc",
+      "signature_feature": "wide-brim rain hat",
+      "primary_colour_family": "teal",
+      "palette_hex": ["#05656B", "#D98C0D", "#730A08", "#CC8054", "#73471F"],
+      "surface": "clear-coat plastic",
+      "gait": "small careful steps, 8-frame cadence",
+      "prop": "parcel",
+      "thumbnail": "renders/proof_v1/final_f120.png"
+    }
+  ]
+}

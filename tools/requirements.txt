@@ -1,0 +1,7 @@
+# Python 3.13 venv for the 3D proof pipeline (verified 2026-11-15 in the cloud container).
+bpy==5.3.0            # Blender 5.3 as a Python module (~430 MB wheel); Cycles CPU only here
+kokoro-onnx==0.6.1    # Kokoro-82M v1.0 runtime; model files are NOT on PyPI, see docs/environment_audit.md
+onnxruntime==1.32.0
+soundfile==0.14.0
+numpy==2.5.4
+jsonschema==4.26.0    # manifest validation (optional)

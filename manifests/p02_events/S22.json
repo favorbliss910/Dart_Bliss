@@ -1,0 +1,91 @@
+{
+ "shot": "S22",
+ "frames": 216,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "flash_boom",
+   "frame": 22
+  },
+  {
+   "kind": "collapse",
+   "frame": 83
+  },
+  {
+   "kind": "door_creak",
+   "frame": 102
+  },
+  {
+   "kind": "step",
+   "frame": 113,
+   "who": "juno",
+   "side": "L",
+   "x": 5.71,
+   "y": -1.52,
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 119,
+   "who": "juno",
+   "side": "R",
+   "x": 4.87,
+   "y": -0.95,
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 125,
+   "who": "juno",
+   "side": "L",
+   "x": 3.96,
+   "y": -0.51,
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 131,
+   "who": "juno",
+   "side": "R",
+   "x": 2.76,
+   "y": 0.21,
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 137,
+   "who": "juno",
+   "side": "L",
+   "x": 1.95,
+   "y": 0.58,
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 143,
+   "who": "juno",
+   "side": "R",
+   "x": 1.28,
+   "y": 1.03,
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 149,
+   "who": "juno",
+   "side": "L",
+   "x": 1.29,
+   "y": 0.92,
+   "run": true
+  },
+  {
+   "kind": "step",
+   "frame": 155,
+   "who": "juno",
+   "side": "R",
+   "x": 1.21,
+   "y": 1.08,
+   "run": true
+  }
+ ]
+}

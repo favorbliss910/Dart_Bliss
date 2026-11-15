@@ -1,0 +1,19 @@
+{
+ "shot": "S19",
+ "frames": 120,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "lever",
+   "frame": 83
+  },
+  {
+   "kind": "pipe_groan",
+   "frame": 86
+  },
+  {
+   "kind": "water_on",
+   "frame": 97
+  }
+ ]
+}

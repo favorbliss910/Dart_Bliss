@@ -1,0 +1,25 @@
+{
+ "shot": "S07",
+ "frames": 102,
+ "fps": 24,
+ "events": [
+  {
+   "kind": "ratchet",
+   "frame": 1,
+   "dur": 21
+  },
+  {
+   "kind": "bolt",
+   "frame": 22
+  },
+  {
+   "kind": "tone_low",
+   "frame": 67
+  },
+  {
+   "kind": "whine",
+   "frame": 67,
+   "dur": 35
+  }
+ ]
+}
