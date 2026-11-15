@@ -1,0 +1,39 @@
+{
+ "frames": [
+  {
+   "frame": 1,
+   "seconds": 3.86,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 61,
+   "seconds": 2.57,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 123,
+   "seconds": 2.86,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 184,
+   "seconds": 2.91,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 246,
+   "seconds": 3.18,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  }
+ ]
+}

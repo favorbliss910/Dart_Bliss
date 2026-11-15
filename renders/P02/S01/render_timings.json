@@ -1,0 +1,158 @@
+{
+ "frames": [
+  {
+   "frame": 1,
+   "seconds": 2.25,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 31,
+   "seconds": 1.86,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 63,
+   "seconds": 1.81,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 95,
+   "seconds": 1.82,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 127,
+   "seconds": 1.84,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 1,
+   "seconds": 2.38,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 31,
+   "seconds": 1.87,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 63,
+   "seconds": 1.82,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 95,
+   "seconds": 1.73,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 127,
+   "seconds": 1.79,
+   "res": "240x426",
+   "samples": 8,
+   "kind": "stills"
+  },
+  {
+   "frame": 1,
+   "seconds": 8.25,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 3,
+   "seconds": 8.24,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 5,
+   "seconds": 7.62,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 7,
+   "seconds": 6.97,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 9,
+   "seconds": 7.37,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 11,
+   "seconds": 7.69,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 13,
+   "seconds": 7.26,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 15,
+   "seconds": 7.04,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 17,
+   "seconds": 7.27,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 19,
+   "seconds": 7.17,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 21,
+   "seconds": 7.61,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  },
+  {
+   "frame": 23,
+   "seconds": 7.71,
+   "res": "360x640",
+   "samples": 16,
+   "kind": "frames"
+  }
+ ]
+}
