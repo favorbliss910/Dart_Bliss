@@ -258,6 +258,7 @@ def place_sfx(words, dur, prof, rng):
         elif i > 0 and words[i - 1][0][-1:] in ".?!" and rng.random() < s["on_sentence_start_whoosh_chance"]:
             cands.append((max(0, st - 0.25), "whoosh", w))
     rng.shuffle(cands)
+    cands.sort(key=lambda c: c[1] == "whoosh")   # keyword hits first
     chosen = []
     for c in cands:
         if len(chosen) >= budget:
@@ -266,14 +267,21 @@ def place_sfx(words, dur, prof, rng):
             chosen.append(c)
     # Not enough keywords in this script? Fill up to the measured density:
     # whooshes into new sentences first, then pops on the longest (most "visual") words.
-    fill = [(max(0, st - 0.25), "whoosh", w) for i, (w, st, en) in enumerate(words)
-            if i > 0 and words[i - 1][0][-1:] in ".?!"]
-    fill += sorted(((st, "pop", w) for w, st, en in words if len(re.sub(r"[^a-z]", "", w.lower())) >= 6),
-                   key=lambda c: -len(c[2]))
-    for c in fill:
+    # Whooshes are capped (references mostly hit words, not sentence starts).
+    whooshes = [(max(0, st - 0.25), "whoosh", w) for i, (w, st, en) in enumerate(words)
+                if i > 0 and words[i - 1][0][-1:] in ".?!"]
+    rng.shuffle(whooshes)
+    pops = sorted(((st, "pop", w) for w, st, en in words
+                   if len(re.sub(r"[^a-z]", "", w.lower())) >= 6 or re.search(r"\d", w)),
+                  key=lambda c: -len(c[2]))
+    max_wh = int(budget * s.get("max_whoosh_share", 0.35))
+    ok = lambda c: all(abs(c[0] - x[0]) >= s["min_spacing_s"] for x in chosen)
+    for c in pops + whooshes:
         if len(chosen) >= budget:
             break
-        if all(abs(c[0] - x[0]) >= s["min_spacing_s"] for x in chosen):
+        if c[1] == "whoosh" and sum(x[1] == "whoosh" for x in chosen) >= max_wh:
+            continue
+        if ok(c):
             chosen.append(c)
     return sorted(chosen)
 
