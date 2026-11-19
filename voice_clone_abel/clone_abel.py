@@ -1,7 +1,10 @@
 """Clone the "Abel" voice with Qwen3-TTS and speak any text in it.
 
-Setup (needs access to huggingface.co; a GPU helps, CPU works but is slow):
-    pip install -U qwen-tts torch soundfile
+No GPU needed: without one it automatically uses the small 0.6B model on CPU.
+The first run downloads the model (a few GB) from huggingface.co.
+
+Setup (any Windows/Mac/Linux computer with Python 3.10+ and ~8 GB RAM):
+    pip install -U qwen-tts soundfile
 
 Usage:
     # 1) Build the Abel voice once (saves voices/abel.pt)
@@ -23,12 +26,17 @@ from qwen_tts import Qwen3TTSModel
 VOICE_NAME = "Abel"
 HERE = os.path.dirname(os.path.abspath(__file__))
 VOICE_FILE = os.path.join(HERE, "voices", "abel.pt")
-DEFAULT_MODEL = "Qwen/Qwen3-TTS-12Hz-1.7B-Base"  # use ...-0.6B-Base on CPU
+# Big model on a GPU; the small 0.6B model on CPU so it runs in reasonable time.
+GPU = torch.cuda.is_available()
+DEFAULT_MODEL = "Qwen/Qwen3-TTS-12Hz-1.7B-Base" if GPU else "Qwen/Qwen3-TTS-12Hz-0.6B-Base"
 
 
 def load_model(name):
-    if torch.cuda.is_available():
+    if GPU:
         return Qwen3TTSModel.from_pretrained(name, device_map="cuda:0", dtype=torch.bfloat16)
+    torch.set_num_threads(os.cpu_count() or 4)
+    print(f"No GPU found: running {name} on CPU ({torch.get_num_threads()} threads). "
+          "This works but is slow; keep each line of text short.")
     return Qwen3TTSModel.from_pretrained(name, device_map="cpu", dtype=torch.float32)
 
 
