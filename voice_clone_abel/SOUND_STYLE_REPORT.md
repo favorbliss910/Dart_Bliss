@@ -173,7 +173,7 @@ Format for numbers: Scientists / What If / Town.
 137. Pace: matched. The engine auto-tunes Abel to 215–225 wpm.
 138. Pause rhythm: matched. Sentence gaps are 0.20–0.36 s, centred near 0.24 s.
 139. Loudness, music level, music darkness and SFX density: matched (the test remake measured −14.0 LUFS, voice 13.3 dB over music, 0.03% music energy above 2 kHz).
-140. Timbre: close but not the same. Voice-identity similarity is about 0.86 against the separated narrator (1.0 = same voice; the narrator vs themself is about 0.97).
+140. Timbre: close but not the same. Voice-identity similarity is about 0.85 on new sentences against the separated narrator (1.0 = same voice; the narrator vs themself is about 0.97).
 141. **Pitch: lower.** Abel is about 147 Hz vs the narrator's about 190 Hz. Pitch-shifting Abel up made it sound *less* like the narrator, so it isn't done.
 142. **Expressiveness: flatter.** Abel moves about 9 semitones vs the narrator's 13–14. Kokoro can't be directed line by line ("go up on this twist"), which is the biggest remaining gap.
 143. Breaths: Kokoro doesn't generate breaths. Adding real breath samples would close this.

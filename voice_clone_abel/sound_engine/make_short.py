@@ -264,6 +264,17 @@ def place_sfx(words, dur, prof, rng):
             break
         if all(abs(c[0] - x[0]) >= s["min_spacing_s"] for x in chosen):
             chosen.append(c)
+    # Not enough keywords in this script? Fill up to the measured density:
+    # whooshes into new sentences first, then pops on the longest (most "visual") words.
+    fill = [(max(0, st - 0.25), "whoosh", w) for i, (w, st, en) in enumerate(words)
+            if i > 0 and words[i - 1][0][-1:] in ".?!"]
+    fill += sorted(((st, "pop", w) for w, st, en in words if len(re.sub(r"[^a-z]", "", w.lower())) >= 6),
+                   key=lambda c: -len(c[2]))
+    for c in fill:
+        if len(chosen) >= budget:
+            break
+        if all(abs(c[0] - x[0]) >= s["min_spacing_s"] for x in chosen):
+            chosen.append(c)
     return sorted(chosen)
 
 
