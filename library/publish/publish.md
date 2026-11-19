@@ -1,10 +1,12 @@
 # Publish kit: The Blank Library (YouTube Short)
 
 ## Title
-Every Book Here Is Blank
+Don't Read This Book Alone
+
+A/B alternatives: The Librarian Who Never Speaks / Who Was Standing Behind Him?
 
 ## Description
-There's a library in Norway where every book is blank… yet everyone walks out with a story they shouldn't know. 📖
+Every book in this library is blank… until you're alone with it. 📖
 
 Would you open the book?
 
