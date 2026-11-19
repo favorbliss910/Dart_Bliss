@@ -1,39 +1,37 @@
-# Gemini thumbnail prompt: "The Blank Library"
+# Gemini thumbnail prompt: "The Blank Library" (YouTube Short, 9:16)
 
-Attach these three images first:
-- `ref1_reader.png`: the reader (this exact character design)
-- `ref2_librarian.png`: the librarian (this exact character design)
-- `ref3_reveal_style.png`: the art style and the eerie mood
-
----
-
-## Prompt: vertical 9:16 (Shorts / TikTok / Reels)
+Attach these three images in Gemini first: `ref1_reader.png`, `ref2_librarian.png` and `ref3_reveal_style.png`. Then paste:
 
 ```
-Create a vertical 9:16 YouTube Shorts thumbnail, 1080x1920, in the exact art style of the attached reference images: 2D cartoon stick-figure characters with big round white heads, thick black ink outlines, large white disc eyes with tiny black dot pupils, thin black stick arms and legs, pill-shaped coloured bodies, soft painterly shading with rim light. Keep both characters on-model with the references (same faces, hair, clothes and colours).
+Create a vertical 9:16 YouTube Shorts thumbnail, exactly 1080x1920 pixels, in the EXACT art style of the attached reference images: 2D cartoon stick-figure characters with big round pure-white heads, thick bold black ink outlines, white disc eyes with black dot pupils, thin black stick arms, pill-shaped coloured bodies, clean polished painterly shading with only 2-3 tones, and a bright rim light. Keep both characters perfectly on-model with the references: same faces, hair, glasses, clothes and colours.
 
-MAIN SUBJECT (must read instantly): the reader from ref1 (brown bowl-cut hair, orange sweater) in EXTREME close-up, face almost touching the lens, filling the upper-middle of the frame (head about 60% of the frame width, centred around 40% of the height). Expression of pure SHOCK and horror: eyes enormous with tiny pinprick pupils, eyebrows shot up high, mouth a huge open "O" scream showing the dark throat and pink tongue, both hands pressed flat on his cheeks, two cold sweat drops flying off his head.
+THE HERO (one obvious subject, instant read): the reader from ref1 (brown bowl-cut hair, orange sweater), bust crop, face extremely close to the lens as if within arm's reach, the top of his head slightly cropped, his head filling about 35% of the frame height and centred horizontally in the upper-middle. MAXIMUM SHOCK: white eye discs 40% bigger than normal and pure #FFFFFF, tiny pinprick pupils staring straight into the camera (direct eye contact with the viewer), eyebrows shot up high in fear, mouth a tall solid dark vertical "gasp" oval, both hands pressed flat against his cheeks touching his face, two cold sweat drops flying off, head tilted 12 degrees away from the threat in recoil. His white face is the brightest, sharpest thing in the image.
 
-THE BOOK (object of curiosity): he holds an old open book in front of his chest, tilted toward camera. The pages, which should be blank, are GLOWING bright gold, with handwritten lines of golden ink writing themselves across them and a tiny sketch of a house on the right page. The glow lights his face dramatically from below (warm golden under-light on chin, cheeks and eye whites). Golden dust motes and soft light rays rise from the pages behind his head.
+THE BOOK (the one object of curiosity): an old open book held up in front of his chest in the lower-left of the frame, angled 30 degrees toward the camera so the pages face the viewer. The pages should be blank, but they GLOW warm gold from within, and thin lines of golden ink are writing themselves across the empty pages by an invisible hand, with one tiny sketch of a house appearing. The glow lights his face from below (warm golden under-light on his chin and cheeks); the bloom stays contained around the book and never washes out his face. A few golden dust motes float upward.
 
-THE THREAT (right behind him): the silent librarian from ref2 (tall, pale, grey hair bun, round glasses, long charcoal coat) looming just over his right shoulder, leaning in close to his ear as if whispering, slightly out of focus, cold blue rim light on her silhouette, glasses glinting, staring straight into the camera with calm, unblinking eyes. No mouth movement, just a tiny flat line. She is smaller than him but unmistakable.
+THE THREAT (right behind him, calm versus panic): the silent librarian from ref2 (tall, pale, grey hair bun, round glasses, long charcoal coat) leaning in from the upper-right, her face within one head-width of his ear, frozen a split second before she whispers to him. Only about half of her face emerges from the darkness, lit from below in cold teal-blue light. She is calm, with a faint, knowing closed-mouth smile, staring straight into the camera too, one lens of her glasses glinting a single small spot of red light (the only red in the image). She is slightly soft-focus (2-3 px blur) but her silhouette stays readable, and she is larger and taller than him so she looms.
 
-BACKGROUND: a dark, moody old library: towering bookshelves of muted coloured spines, heavily blurred (shallow depth of field), deep blue-black shadows with a faint warm lamp pool. Strong warm-gold versus cold-blue complementary colour contrast, heavy vignette, the face and the book are the two brightest areas.
+BACKGROUND: a dark old library at night: towering bookshelves of muted coloured spines, strongly blurred, deep blue-black shadows, one faint warm lamp pool, and a blurred wall clock with no hands as a subtle "something is wrong" detail. Three depth layers: hero in the foreground, librarian in the midground, shelves in the background.
 
-COMPOSITION: one obvious subject; the face sits in the upper-middle; the book sits in the middle; keep the bottom 20% and the right edge free of important detail (the Shorts UI covers them); high contrast; readable at 1/6 size on a phone.
+COLOUR AND LIGHT: one complementary pair: warm gold/orange (the hero and the book) against cold teal-blue (the librarian and the shadows), plus the white heads and black outlines, and no other hues. Saturation is boosted for a mobile feed, with high contrast, a strong vignette and crisp edges. Face, book and librarian are arranged along a diagonal from the lower-left to the upper-right.
 
-NO text, NO letters, NO words, NO logos, NO watermark anywhere in the image. Crisp clean lines, polished, high detail, cinematic lighting.
+SAFE ZONES: keep every essential element inside the centre box x 60-940, y 200-1500. Keep the right 140 px, the top 200 px and the bottom 420 px free of faces, eyes, the book and important detail (the Shorts buttons and title cover them). It must read instantly as a tiny phone thumbnail and raise exactly one question: "What is she whispering to him?"
+
+NO text, NO letters, NO words, NO numbers, NO logos, NO watermark anywhere in the image. Clean, sharp, professional cartoon illustration, cinematic, tempting and impossible to scroll past.
 ```
 
-## Prompt: horizontal 16:9 (YouTube browse / long-form)
-
-```
-Same characters, same art style and same scene as the attached references, as a horizontal 16:9 YouTube thumbnail, 1920x1080. The shocked reader (huge eyes, pinprick pupils, giant "O" scream, hands on cheeks, sweat drops) is in extreme close-up on the LEFT third, lit from below by the glowing golden book he holds at the bottom-left, with golden ink writing itself across the blank pages. The pale silent librarian looms in the RIGHT third, leaning toward him as if whispering, cold blue rim light, glasses glinting, staring into the camera. Dark blurred library shelves behind. Warm gold versus cold blue contrast, strong vignette. Keep the bottom-right corner empty (the video timestamp covers it). No text, no letters, no logos, no watermark.
-```
-
-## If the first result is off, follow up with:
-- "Make his face bigger and closer to the lens; the expression must be more shocked: bigger eyes, smaller pupils, wider mouth."
-- "Make the book pages glow brighter and light his face from below."
-- "Move the librarian closer behind his shoulder, sharper, and make her stare straight at the viewer."
+## Follow-ups if needed
+- "Bigger eyes, smaller pupils, taller dark gasp mouth: make the shock more intense."
+- "Pull his face even closer to the lens and make it the brightest thing in the image."
+- "Make the book pages glow brighter, with golden ink visibly writing itself."
+- "Move the librarian closer behind his ear, show only half her face in the dark, calm smile, red glint in her glasses."
 - "Match the reference characters exactly: round white heads, dot pupils, thick black outlines."
-- "Remove all text and letters."
+- "Remove all text, letters and numbers."
+
+## Title (under 40 characters; adds the "why" without describing the image)
+1. Every Book Here Is Blank
+2. Nobody Leaves This Library Unchanged
+3. The Library That Reads You
+
+## Use it as frame 1
+Use the exact Gemini image as the first frame of the Short for about 0.3 s, then cut into the video (rule 137).
