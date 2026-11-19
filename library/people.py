@@ -25,7 +25,7 @@ def person(ctx, x, y, s=1.0, body=C('#7b5cc4'), hair='short', hair_col=C('#4a342
            mouth='flat', blink=0.0, brows=None, arms='down', sit=False, lean=0.0, tilt=0.0,
            glasses=False, coat=None, beard=0.0, tears=0.0, eyes='normal', lid=0.0, flip=False,
            hat=None, scarf=None, height=1.0, head_col=None, no_mouth=False, step=0.0,
-           hold=None, shadow=True, pale=False):
+           hold=None, shadow=True, pale=False, underlight=None, sweat=0):
     """Origin at the feet (or the seat when sit=True). ~270 units tall at s=1."""
     ctx.save()
     ctx.translate(x, y)
@@ -122,6 +122,7 @@ def person(ctx, x, y, s=1.0, body=C('#7b5cc4'), hair='short', hair_col=C('#4a342
         'face': [[sh_l, (-bw - 4, -bh * 0.6), (-24, -bh - 44)], [sh_r, (bw + 4, -bh * 0.6), (24, -bh - 44)]],
         'sneak': [[sh_l, (-bw - 14, -bh * 0.8), (-bw - 22, -bh * 0.5)], [sh_r, (bw + 26, -bh * 0.95), (bw + 50, -bh * 1.1)]],
         'up': [[sh_l, (-bw - 22, -bh * 0.9), (-bw - 26, -bh * 1.4)], [sh_r, (bw + 22, -bh * 0.9), (bw + 26, -bh * 1.4)]],
+        'cheeks': [[sh_l, (-bw - 30, -bh * 0.55), (-50, -bh - 34)], [sh_r, (bw + 30, -bh * 0.55), (50, -bh - 34)]],
     }
     arm_list = A[arms] if isinstance(arms, str) else arms
     if hold:
@@ -150,6 +151,9 @@ def person(ctx, x, y, s=1.0, body=C('#7b5cc4'), hair='short', hair_col=C('#4a342
         ellipse(ctx, 0, hy - 60, 22, 18)
         fill_stroke(ctx, hair_col, lw)
     form_shade(ctx, head, hcol, SKIN_HI, SKIN_SH if not pale else C('#bdbab4'), (-52, hy - 50, 52, hy + 36))
+    if underlight:
+        clipped(ctx, head, lambda: (soft_ellipse(ctx, 0, hy + 40, 70, 46, underlight, 0.75),
+                                    soft_ellipse(ctx, 0, hy + 30, 40, 24, (1, 1, 1), 0.35)))
     head()
     ctx.set_line_width(lw)
     src(ctx, INK)
@@ -205,10 +209,11 @@ def person(ctx, x, y, s=1.0, body=C('#7b5cc4'), hair='short', hair_col=C('#4a342
         fill_stroke(ctx, C('#8a8e98') if beard > 0.6 else C('#5a4030'), 4.4)
 
     # eyes (reference: two big touching discs)
-    er = {'normal': 15, 'wide': 18, 'small': 12}[eyes]
-    pr = {'normal': 5.4, 'wide': 3.4, 'small': 4.6}[eyes]
-    for sx in (-17, 17):
-        eye(ctx, sx, hy - 4, er, look, pupil=pr, blink=blink, lid=lid)
+    er = {'normal': 15, 'wide': 18, 'small': 12, 'huge': 22}[eyes]
+    pr = {'normal': 5.4, 'wide': 3.4, 'small': 4.6, 'huge': 3.0}[eyes]
+    ey = hy + (4 if eyes == 'huge' else -4)
+    for sx in ((-21, 21) if eyes == 'huge' else (-17, 17)):
+        eye(ctx, sx, ey, er, look, pupil=pr, blink=blink, lid=lid)
     if glasses:
         for sx in (-17, 17):
             ctx.new_path()
@@ -220,7 +225,9 @@ def person(ctx, x, y, s=1.0, body=C('#7b5cc4'), hair='short', hair_col=C('#4a342
         stick(ctx, [(-2, hy - 6), (2, hy - 6)], 3)
     if brows:
         for side in (-1, 1):
-            if brows == 'worried':
+            if brows == 'shock':
+                a, b = (side * 36, hy - 34), (side * 8, hy - 46)
+            elif brows == 'worried':
                 a, b = (side * 30, hy - 22), (side * 8, hy - 30)
             elif brows == 'angry':
                 a, b = (side * 30, hy - 30), (side * 8, hy - 22)
@@ -267,9 +274,26 @@ def person(ctx, x, y, s=1.0, body=C('#7b5cc4'), hair='short', hair_col=C('#4a342
             ctx.curve_to(-8, my + 12, 8, my + 12, 14, my - 4)
             ctx.close_path()
             fill_stroke(ctx, (1, 1, 1), 3.4)
+        elif mouth == 'scream':  # huge shocked O with tongue
+            def mo():
+                ellipse(ctx, 0, my + 8, 14, 21)
+            mo()
+            src(ctx, C('#4a1418'))
+            ctx.fill()
+            clipped(ctx, mo, lambda: (ellipse(ctx, 0, my + 26, 12, 9), src(ctx, C('#e0707a')), ctx.fill()))
+            mo()
+            ctx.set_line_width(4)
+            src(ctx, INK)
+            ctx.stroke()
         elif mouth == 'whisper':
             ellipse(ctx, 4, my, 4, 3)
             fill_stroke(ctx, C('#5a1f1f'), 2.8)
+    for k in range(int(sweat)):
+        sx, sy = (58, hy - 30) if k == 0 else (-60, hy - 18)
+        ctx.move_to(sx, sy)
+        ctx.curve_to(sx - 9, sy + 14, sx - 6, sy + 22, sx, sy + 22)
+        ctx.curve_to(sx + 6, sy + 22, sx + 9, sy + 14, sx, sy)
+        fill_stroke(ctx, C('#9fdcff'), 3)
     ctx.restore()  # head
     ctx.restore()  # lean
     ctx.restore()
