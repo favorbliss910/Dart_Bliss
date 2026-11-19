@@ -1,3 +1,4 @@
 # Voice recordings and the built voice stay local (not published)
 reference/*.wav
 voices/
+__pycache__/
