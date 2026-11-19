@@ -1,0 +1,5 @@
+__pycache__/
+out/stems/
+out/*.wav
+out/tmp*/
+out/preview_small.mp4

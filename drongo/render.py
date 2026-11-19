@@ -18,7 +18,16 @@ from chars import (C, INK, src, ellipse, stick, meerkat, meerkat_butt, drongo,
 import env
 from env import PALETTES, mix
 
-W, H = 640, 1136
+W, H = 640, 1136          # logical canvas; all drawing uses these units
+SS = 1.0                  # supersample: physical pixels per logical unit (2K = 2.25)
+
+
+def RW():
+    return int(round(W * SS))
+
+
+def RH():
+    return int(round(H * SS))
 PI = math.pi
 
 
@@ -100,13 +109,14 @@ class Frame:
     def _surface(self, blur):
         if self.layers and self.layers[-1][1] == blur:
             return self.layers[-1][0]
-        s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
+        s = cairo.ImageSurface(cairo.FORMAT_ARGB32, RW(), RH())
         self.layers.append((s, blur))
         return s
 
     def layer(self, p=1.0, blur=0.0, screen=False):
         s = self._surface(blur)
         ctx = cairo.Context(s)
+        ctx.scale(SS, SS)
         ctx.set_line_join(cairo.LINE_JOIN_ROUND)
         if screen:
             return ctx
@@ -124,10 +134,12 @@ class Frame:
         return H / 2 - self.cam.cy * self.cam.z
 
     def composite(self):
-        out = np.zeros((H, W, 4), np.float32)
+        h, w = RH(), RW()
+        out = np.zeros((h, w, 4), np.float32)
         for s, blur in self.layers:
             s.flush()
-            a = np.ndarray((H, W, 4), np.uint8, s.get_data()).astype(np.float32)
+            a = np.ndarray((h, w, 4), np.uint8, s.get_data()).astype(np.float32)
+            blur = blur * SS
             if blur > 0.3:
                 im = Image.fromarray(a.astype(np.uint8), 'RGBA')  # premultiplied BGRA
                 # blur each channel identically: premultiplied blur is correct
@@ -192,7 +204,15 @@ def perch_world(x, y, s):
     return x + PERCH[0] * s, y + PERCH[1] * s
 
 
-GRAIN = [np.random.default_rng(i).normal(0, 1, (H // 2, W // 2)).astype(np.float32) for i in range(4)]
+_GRAIN = {}
+
+
+def grain(k):
+    key = (RH(), RW())
+    if key not in _GRAIN:
+        _GRAIN[key] = [np.random.default_rng(i).normal(0, 1, (RH() // 2 + 1, RW() // 2 + 1)).astype(np.float32)
+                       for i in range(4)]
+    return _GRAIN[key][k % 4]
 
 
 def vignette(F, strength=0.32):
@@ -761,23 +781,35 @@ def render_frame(T, words, bounds):
             F = fn(T - t0, t1 - t0)
             break
     img = F.composite()
-    gr = GRAIN[int(T * 15) % 4]
-    gr = np.repeat(np.repeat(gr, 2, 0), 2, 1)[:H, :W, None]
+    post = getattr(F, 'post', None)
+    if post:
+        img = post(img, T)
+    h, w = RH(), RW()
+    gr = grain(int(T * 15))
+    gr = np.repeat(np.repeat(gr, 2, 0), 2, 1)[:h, :w, None]
     img[..., :3] += gr * 3.0
-    s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
-    buf = np.ndarray((H, W, 4), np.uint8, s.get_data())
+    s = cairo.ImageSurface(cairo.FORMAT_ARGB32, w, h)
+    buf = np.ndarray((h, w, 4), np.uint8, s.get_data())
     buf[:] = np.clip(img, 0, 255).astype(np.uint8)
     s.mark_dirty()
     ctx = cairo.Context(s)
+    ctx.scale(SS, SS)
     wd, age = word_at(words, T)
     if wd:
         caption(ctx, wd, age)
     s.flush()
-    arr = np.ndarray((H, W, 4), np.uint8, s.get_data())
+    arr = np.ndarray((h, w, 4), np.uint8, s.get_data())
     return arr[..., [2, 1, 0]].copy()
 
 
-def main():
+def save(arr, ow, oh, path):
+    im = Image.fromarray(arr)
+    if im.size != (ow, oh):
+        im = im.resize((ow, oh), Image.LANCZOS)
+    im.save(path, compress_level=1)
+
+
+def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument('out')
     ap.add_argument('--fps', type=float, default=15)
@@ -785,22 +817,24 @@ def main():
     ap.add_argument('--start', type=int, default=0)
     ap.add_argument('--step', type=int, default=1)
     ap.add_argument('--size', default='320x568')
-    a = ap.parse_args()
-    meta = json.load(open(os.path.join(os.path.dirname(__file__), 'words.json')))
+    ap.add_argument('--ss', type=float, default=1.0, help='supersample (2.25 = native 1440x2560)')
+    ap.add_argument('--words', default=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'words.json'))
+    a = ap.parse_args(argv)
+    global SS
+    SS = a.ss
+    meta = json.load(open(a.words))
     words, total = meta['words'], meta['duration']
     bounds = shot_bounds(words, total)
     os.makedirs(a.out, exist_ok=True)
     ow, oh = map(int, a.size.split('x'))
     if a.times:
         for T in map(float, a.times.split(',')):
-            Image.fromarray(render_frame(T, words, bounds)).resize((ow, oh), Image.LANCZOS).save(
-                os.path.join(a.out, f't{T:06.2f}.png'))
+            save(render_frame(T, words, bounds), ow, oh, os.path.join(a.out, f't{T:06.2f}.png'))
         return
     n = int(math.ceil(total * a.fps))
     for i in range(a.start, n, a.step):
         T = i / a.fps
-        Image.fromarray(render_frame(T, words, bounds)).resize((ow, oh), Image.LANCZOS).save(
-            os.path.join(a.out, f'f{i:05d}.png'))
+        save(render_frame(T, words, bounds), ow, oh, os.path.join(a.out, f'f{i:05d}.png'))
 
 
 if __name__ == '__main__':
