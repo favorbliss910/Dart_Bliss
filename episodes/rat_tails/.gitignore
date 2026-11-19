@@ -1,0 +1,6 @@
+__pycache__/
+out/stems/*.wav
+out/*.wav
+out/tmp*/
+out/render.log
+out/rat_tails_2k_master.mp4

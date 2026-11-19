@@ -1,0 +1,109 @@
+{
+ "report": {
+  "bed_vs_voice_during_speech_db": 25.0,
+  "bed_vs_voice_1_4k_db": 22.8,
+  "worst_1s_window_db": 11.9,
+  "bed_in_gaps_vs_speech_db": 17.3,
+  "limiter_gain_on_voice_min_db": 0.0,
+  "lufs": -14.0,
+  "peak_dbfs": -1.84
+ },
+ "hero_events": [
+  [
+   69.19,
+   "reverse swell"
+  ],
+  [
+   68.38,
+   "low boom"
+  ],
+  [
+   79.05,
+   "?! sting"
+  ],
+  [
+   93.92,
+   "register 30k"
+  ],
+  [
+   95.2,
+   "register 40k"
+  ],
+  [
+   115.95,
+   "reveal boom"
+  ],
+  [
+   115.95,
+   "reveal glitch"
+  ],
+  [
+   147.65,
+   "final register"
+  ],
+  [
+   147.65,
+   "final boom"
+  ],
+  [
+   2.42,
+   "snip"
+  ],
+  [
+   10.24,
+   "manhole"
+  ],
+  [
+   28.1,
+   "one cent"
+  ],
+  [
+   47.39,
+   "snip 2"
+  ],
+  [
+   57.17,
+   "register 0"
+  ],
+  [
+   59.14,
+   "register 1"
+  ],
+  [
+   60.97,
+   "fanfare cheer"
+  ],
+  [
+   102.36,
+   "scurry over shoe"
+  ],
+  [
+   103.3,
+   "! sting"
+  ],
+  [
+   104.45,
+   "fat boing"
+  ],
+  [
+   105.42,
+   "healthy sparkle"
+  ],
+  [
+   107.07,
+   "no tail sting"
+  ],
+  [
+   108.46,
+   "stampede"
+  ],
+  [
+   114.88,
+   "door creak"
+  ],
+  [
+   142.0,
+   "stamp"
+  ]
+ ]
+}

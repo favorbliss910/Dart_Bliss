@@ -6,6 +6,10 @@ Fully offline (pocketsphinx built-in US English acoustic model). Words in the
 script keep their original spelling/punctuation for captions; alignment runs on
 a normalised copy. Long files are aligned in sentence-sized chunks found by
 silence detection, which keeps the aligner robust over a 3-minute read.
+
+A script word can carry its spoken form in braces when the caption differs from
+what is said, e.g. `1902,{nineteen oh two}` or `20,000{twenty thousand}`: the
+spoken words are aligned, and the caption word spans from the first to the last.
 """
 import argparse
 import json
@@ -66,16 +70,26 @@ def main():
     ap.add_argument('--out', default='words.json')
     a = ap.parse_args()
     pcm = load(a.voice)
-    words = open(a.script).read().split()
+    # (caption, [spoken words]) per script token; `shown{said words}` overrides what is said
+    toks = []
+    for m in re.finditer(r'(\S+?)\{([^}]*)\}|(\S+)', open(a.script).read()):
+        shown = m.group(1) or m.group(3)
+        said = [x for x in (m.group(2).split() if m.group(1) else [shown]) if norm(x)]
+        if said:
+            toks.append((shown, said))
+    spoken = [x for _, said in toks for x in said]
     d = decoder()
-    for w in {norm(x) for x in words}:
+    for w in {norm(x) for x in spoken}:
         if w and d.lookup_word(w) is None:
             raise SystemExit(f'No pronunciation for "{w}": add it to EXTRA in align.py')
-    al = align_chunk(d, pcm, words)
-    toks = [w for w in words if norm(w)]
-    if len(al) != len(toks):
-        raise SystemExit(f'aligned {len(al)} of {len(toks)} words; check the script matches the read')
-    out = [{'w': w, 't0': round(t0, 3), 't1': round(t1, 3)} for w, (_, t0, t1) in zip(toks, al)]
+    al = align_chunk(d, pcm, spoken)
+    if len(al) != len(spoken):
+        raise SystemExit(f'aligned {len(al)} of {len(spoken)} words; check the script matches the read')
+    out, k = [], 0
+    for shown, said in toks:
+        seg = al[k:k + len(said)]
+        k += len(said)
+        out.append({'w': shown, 't0': round(seg[0][1], 3), 't1': round(seg[-1][2], 3)})
     json.dump({'duration': len(pcm) / SR, 'words': out}, open(a.out, 'w'), indent=1)
     print(f'aligned {len(out)} words, {len(pcm) / SR:.2f}s -> {a.out}')
 
