@@ -4,7 +4,7 @@ characters pop, like the reference videos."""
 import math
 import random
 import cairo
-from chars import C, src, ellipse, fill_stroke, stick, INK
+from chars import C, src, ellipse, fill_stroke, stick, INK, soft_ellipse, rim, clipped
 
 PI = math.pi
 
@@ -103,6 +103,9 @@ def acacia(ctx, x, y, s, pal, seed=1, outline=True):
     ctx.save()
     ctx.translate(x, y)
     ctx.scale(s, s)
+    # canopy shadow pooled on the sand
+    soft_ellipse(ctx, 40, 6, 230, 30, C('#5a3418'), 0.35, core=0.5)
+    soft_ellipse(ctx, 0, 2, 40, 8, C('#2a1608'), 0.5)
     trunk = C('#5b3d2a')
     lw = 5 if outline else 0
     # trunk and branches
@@ -118,6 +121,12 @@ def acacia(ctx, x, y, s, pal, seed=1, outline=True):
             ctx.set_line_width(w * (0.9 if a != (0, 0) else 1.15))
             src(ctx, col)
             ctx.stroke()
+    for a, b, c in branches[:1]:
+        ctx.move_to(a[0] - 3, a[1])
+        ctx.curve_to(b[0] - 3, b[1], b[0] - 3, b[1], c[0], c[1] + 4)
+        ctx.set_line_width(3)
+        src(ctx, (0.85, 0.65, 0.45, 0.5))
+        ctx.stroke()
     # canopy: flat umbrella of overlapping puffs
     puffs = []
     for i in range(13):
@@ -233,8 +242,12 @@ def burrow(ctx, x, y, s, pal, dark=C('#2b1a10')):
     g.add_color_stop_rgb(1, *pal['near2'])
     ctx.set_source(g)
     ctx.fill()
+    soft_ellipse(ctx, 6, -6, 110, 40, C('#6a3e1e'), 0.25)
     ellipse(ctx, 0, 0, 52, 17)
-    src(ctx, dark)
+    g2 = cairo.RadialGradient(0, 6, 4, 0, 0, 52)
+    g2.add_color_stop_rgb(0, 0.05, 0.03, 0.02)
+    g2.add_color_stop_rgb(1, *C('#4a2c18'))
+    ctx.set_source(g2)
     ctx.fill_preserve()
     ctx.set_line_width(4)
     src(ctx, C('#7a4e2c'))
@@ -271,6 +284,7 @@ def termite_mound(ctx, x, y, s, pal):
     ctx.save()
     ctx.translate(x, y)
     ctx.scale(s, s)
+    soft_ellipse(ctx, 50, 4, 200, 26, C('#4a2a12'), 0.4)
     ctx.move_to(-110, 0)
     ctx.curve_to(-90, -60, -60, -120, -40, -170)
     ctx.curve_to(-30, -200, 10, -206, 26, -176)
@@ -280,7 +294,19 @@ def termite_mound(ctx, x, y, s, pal):
     g.add_color_stop_rgb(0, *C('#d08a52'))
     g.add_color_stop_rgb(1, *C('#9c5c32'))
     ctx.set_source(g)
-    ctx.fill_preserve()
+    ctx.fill()
+
+    def mp():
+        ctx.move_to(-110, 0)
+        ctx.curve_to(-90, -60, -60, -120, -40, -170)
+        ctx.curve_to(-30, -200, 10, -206, 26, -176)
+        ctx.curve_to(50, -130, 90, -60, 110, 0)
+        ctx.close_path()
+    clipped(ctx, mp, lambda: (soft_ellipse(ctx, 80, -40, 70, 160, C('#5e3018'), 0.55),
+                              soft_ellipse(ctx, -50, -120, 30, 70, C('#f2b27a'), 0.5),
+                              soft_ellipse(ctx, 0, 0, 120, 16, C('#3a1c0c'), 0.45)))
+    rim(ctx, mp, C('#ffd9a8'), 5, 3, 5, 0.6)
+    mp()
     ctx.set_line_width(5)
     src(ctx, INK)
     ctx.stroke()

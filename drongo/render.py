@@ -192,8 +192,37 @@ def perch_world(x, y, s):
     return x + PERCH[0] * s, y + PERCH[1] * s
 
 
+GRAIN = [np.random.default_rng(i).normal(0, 1, (H // 2, W // 2)).astype(np.float32) for i in range(4)]
+
+
 def vignette(F, strength=0.32):
     c = F.layer(screen=True)
+    # warm sun bloom + soft god rays from the upper left
+    hy = F.horizon_y()
+    g = cairo.RadialGradient(W * 0.15, H * 0.12, 10, W * 0.15, H * 0.12, H * 0.8)
+    g.add_color_stop_rgba(0, 1, 0.93, 0.75, 0.28)
+    g.add_color_stop_rgba(1, 1, 0.9, 0.7, 0)
+    c.rectangle(0, 0, W, H)
+    c.set_source(g)
+    c.fill()
+    for i, (a, w) in enumerate(((0.55, 0.05), (0.75, 0.035), (0.95, 0.06), (1.15, 0.03))):
+        c.move_to(W * 0.12, H * 0.08)
+        c.line_to(W * 0.12 + math.cos(a - w) * H * 1.3, H * 0.08 + math.sin(a - w) * H * 1.3)
+        c.line_to(W * 0.12 + math.cos(a + w) * H * 1.3, H * 0.08 + math.sin(a + w) * H * 1.3)
+        c.close_path()
+        g = cairo.LinearGradient(W * 0.12, H * 0.08, W * 0.7, H * 0.8)
+        g.add_color_stop_rgba(0, 1, 0.97, 0.85, 0.16)
+        g.add_color_stop_rgba(1, 1, 0.97, 0.85, 0)
+        c.set_source(g)
+        c.fill()
+    # atmospheric haze band on the horizon
+    g = cairo.LinearGradient(0, hy - 120, 0, hy + 80)
+    g.add_color_stop_rgba(0, 1, 0.95, 0.85, 0)
+    g.add_color_stop_rgba(0.6, 1, 0.95, 0.85, 0.22)
+    g.add_color_stop_rgba(1, 1, 0.95, 0.85, 0)
+    c.rectangle(0, hy - 120, W, 200)
+    c.set_source(g)
+    c.fill()
     g = cairo.RadialGradient(W / 2, H * 0.48, W * 0.35, W / 2, H * 0.48, H * 0.75)
     g.add_color_stop_rgba(0, 0, 0, 0, 0)
     g.add_color_stop_rgba(1, 0.12, 0.05, 0.02, strength)
@@ -577,12 +606,100 @@ def s15_dive(t, d):
     return F
 
 
+def s16_new_guy(t, d):
+    pal = PALETTES['dawn']
+    u = t / d
+    tx, ty, ts = 170, 40, 1.0
+    px, py = perch_world(tx, ty, ts)
+    cam = cam_path(u, [(0, 40, -40, 1.6), (1, 20, -60, 1.75)], ease_io)
+    F = Frame(cam)
+    c = desert(F, pal, sun_xy=(-160, -260), sun_r=38, blur_far=3, blur_mid=2)
+    acacia_with_perch(c, tx, ty, ts, pal)
+    land = 0.55
+    if u < land:
+        k = ease_out(u / land)
+        bx, by = lerp(-420, px, k), lerp(-520, py, k) - 60 * math.sin(k * PI)
+        drongo(c, bx, by, 0.5, wing=0.6 + 0.6 * math.sin(t * 30), look=(0.6, 0.5), tilt=0.2)
+    else:
+        k = seg(u, land, land + 0.12)
+        drongo(c, px, py, 0.5, look=(0.2, 0.8), puff=0.4 * (1 - k), wing=0.4 * (1 - k), lid=0.2 * k)
+        env.dust(c, px, py, seg(u, land, land + 0.4), 0.25, seed=5, col=C('#d9c39a'))
+    noticed = u > land + 0.1
+    for i, (x, y) in enumerate(((-70, 205), (50, 235))):
+        meerkat(c, x, y, 0.8, look=(0.6, -0.9) if noticed else (0, 0.6), mouth='o' if noticed else 'smile',
+                tilt=0.15 if noticed else 0, brow='raised' if noticed else None,
+                arms='tucked' if noticed else 'dig', blink=blink_at(t, 2.2, i))
+    env.grass(c, 230, 260, 1.6, seed=12, sway=math.sin(t * 2))
+    vignette(F)
+    return F
+
+
+def s17_drongo_hero(t, d):
+    pal = PALETTES['dawn']
+    u = t / d
+    tx, ty, ts = 170, 40, 1.0
+    px, py = perch_world(tx, ty, ts)
+    # tilt down from head to the forked tail, then pull back for the name card
+    cam = cam_path(u, [(0, px + 12, py - 45, 5.2), (0.42, px - 4, py + 22, 5.0), (0.62, px, py - 10, 3.3),
+                       (1, px, py - 12, 3.5)], ease_io)
+    F = Frame(cam)
+    desert(F, pal, sun_xy=(-160, -200), sun_r=38, blur_far=9, blur_mid=9, ground_blur=8)
+    c = F.layer(p=1.0, blur=0)
+    acacia_with_perch(c, tx, ty, ts, pal)
+    drongo(c, px, py, 0.5, look=(-0.2, 0.3), lid=0.3, tilt=-0.1 + 0.05 * math.sin(t * 2),
+           blink=blink_at(t, 1.7, 0.3))
+    k = back_out(seg(u, 0.62, 0.78))
+    if k > 0:
+        cc = F.layer(screen=True)
+        cc.save()
+        cc.translate(W / 2, H * 0.22)
+        cc.scale(k, k)
+        cc.rotate(-0.04)
+        cc.rectangle(-170, -50, 340, 100)
+        src(cc, C('#fff6e2'))
+        cc.fill_preserve()
+        cc.set_line_width(6)
+        src(cc, INK)
+        cc.stroke()
+        cc.select_font_face('Poppins', cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+        cc.set_font_size(30)
+        e = cc.text_extents('FORK-TAILED')
+        cc.move_to(-e.x_advance / 2, -10)
+        src(cc, C('#b2262f'))
+        cc.show_text('FORK-TAILED')
+        cc.set_font_size(42)
+        e = cc.text_extents('DRONGO')
+        cc.move_to(-e.x_advance / 2, 34)
+        src(cc, INK)
+        cc.show_text('DRONGO')
+        cc.restore()
+    vignette(F)
+    return F
+
+
+def s18_no_dig(t, d):
+    pal = PALETTES['dawn']
+    tx, ty, ts = 170, 40, 1.0
+    px, py = perch_world(tx, ty, ts)
+    cam = cam_path(t / d, [(0, px - 40, py + 90, 2.3), (1, px - 40, py + 90, 2.45)], ease)
+    F = Frame(cam)
+    desert(F, pal, sun_xy=(-160, -260), sun_r=38, blur_far=5, blur_mid=4)
+    c = F.layer(p=1.0)
+    meerkat_butt(c, px - 70, py + 260, 0.85, wiggle=t * 9)
+    env.sand_spray(c, px - 110, py + 230, t, 0.8, seed=21)
+    acacia_with_perch(c, tx, ty, ts, pal)
+    drongo(c, px, py, 0.5, look=(-0.6, 0.8), lid=0.45, tilt=0.15, blink=blink_at(t, 1.5, 0.5))
+    vignette(F)
+    return F
+
+
 # shot list: (first word index, fn)
 SHOTS = [
     (0, s01_vista), (9, s02_drongo_idle), (12, s03_scream), (15, s04_drop_lunch),
     (21, s05_meet), (24, s06_all_day), (34, s07_beetle), (37, s08_scorpion),
     (38, s09_lizard), (44, s10_head_in_hole), (57, s11_hawks), (64, s12_guard),
     (70, s13_spots), (76, s14_bark), (80, s15_dive),
+    (84, s16_new_guy), (92, s17_drongo_hero), (103, s18_no_dig),
 ]
 
 
@@ -644,6 +761,9 @@ def render_frame(T, words, bounds):
             F = fn(T - t0, t1 - t0)
             break
     img = F.composite()
+    gr = GRAIN[int(T * 15) % 4]
+    gr = np.repeat(np.repeat(gr, 2, 0), 2, 1)[:H, :W, None]
+    img[..., :3] += gr * 3.0
     s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
     buf = np.ndarray((H, W, 4), np.uint8, s.get_data())
     buf[:] = np.clip(img, 0, 255).astype(np.uint8)

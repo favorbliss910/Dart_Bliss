@@ -66,6 +66,84 @@ def shade_clip(ctx, path_fn, shade, cx, cy, rx, ry, rot=0.0):
     ctx.restore()
 
 
+def soft_ellipse(ctx, cx, cy, rx, ry, col, a, rot=0.0, core=0.35):
+    """Ellipse with a soft feathered edge (for shadows, glows, occlusion)."""
+    ctx.save()
+    ctx.translate(cx, cy)
+    ctx.rotate(rot)
+    ctx.scale(max(rx, 0.1), max(ry, 0.1))
+    g = cairo.RadialGradient(0, 0, 0, 0, 0, 1)
+    g.add_color_stop_rgba(0, *col[:3], a)
+    g.add_color_stop_rgba(core, *col[:3], a * 0.85)
+    g.add_color_stop_rgba(1, *col[:3], 0)
+    ctx.arc(0, 0, 1, 0, 2 * PI)
+    ctx.set_source(g)
+    ctx.fill()
+    ctx.restore()
+
+
+def grad_fill(ctx, path_fn, c0, c1, x0, y0, x1, y1):
+    path_fn()
+    g = cairo.LinearGradient(x0, y0, x1, y1)
+    g.add_color_stop_rgb(0, *c0[:3])
+    g.add_color_stop_rgb(1, *c1[:3])
+    ctx.set_source(g)
+    ctx.fill()
+
+
+def clipped(ctx, path_fn, draw):
+    ctx.save()
+    path_fn()
+    ctx.clip()
+    draw()
+    ctx.restore()
+
+
+def rim(ctx, path_fn, col, dx, dy, w, a=0.8):
+    """Lit edge: stroke a shifted copy of the outline, clipped inside the shape."""
+    def d():
+        ctx.translate(dx, dy)
+        path_fn()
+        ctx.set_line_width(w)
+        src(ctx, (*col[:3], a))
+        ctx.stroke()
+    clipped(ctx, path_fn, d)
+
+
+def form_shade(ctx, path_fn, base, light, dark, bbox, core=None, ao=None):
+    """Painterly volume: key light from upper-left, soft core shadow lower-right,
+    bounce light on the shadow edge, ambient occlusion where shapes meet."""
+    x0, y0, x1, y1 = bbox
+    w, h = x1 - x0, y1 - y0
+    grad_fill(ctx, path_fn, light, dark, x0 + w * 0.15, y0, x1, y1)
+
+    def d():
+        cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+        soft_ellipse(ctx, x0 + w * 0.32, y0 + h * 0.3, w * 0.45, h * 0.42, light, 0.55)
+        cc = core or (x1 - w * 0.05, cy + h * 0.15, w * 0.42, h * 0.6)
+        soft_ellipse(ctx, *cc, dark, 0.75, core=0.5)
+        # bounce light just inside the shadow side
+        soft_ellipse(ctx, x1 - w * 0.02, y1 - h * 0.2, w * 0.12, h * 0.3, light, 0.25)
+        if ao:
+            for e in ao:
+                soft_ellipse(ctx, *e, INK, 0.28)
+    clipped(ctx, path_fn, d)
+
+
+def contact_shadow(ctx, x, y, rx, ry=None, a=0.38):
+    soft_ellipse(ctx, x, y, rx, ry or rx * 0.2, C('#3a2210'), a, core=0.25)
+
+
+def fur_strokes(ctx, pts, col, lw=2.0):
+    ctx.set_line_cap(cairo.LINE_CAP_ROUND)
+    for (x, y, dx, dy) in pts:
+        ctx.move_to(x, y)
+        ctx.curve_to(x + dx * 0.3, y + dy * 0.6, x + dx * 0.7, y + dy, x + dx, y + dy)
+        ctx.set_line_width(lw)
+        src(ctx, col)
+        ctx.stroke()
+
+
 def eye(ctx, x, y, r, look=(0, 0), pupil=None, blink=0.0, iris=None, lw=3.6, lid=0.0):
     """Reference-style eye: white disc, black outline, black dot pupil."""
     if blink > 0.85:
@@ -81,6 +159,8 @@ def eye(ctx, x, y, r, look=(0, 0), pupil=None, blink=0.0, iris=None, lw=3.6, lid
     ctx.fill_preserve()
     ctx.save()
     ctx.clip()
+    soft_ellipse(ctx, x + r * 0.25, y + r * 0.55, r * 1.1, r * 0.75, C('#9aa4b8'), 0.35)
+    soft_ellipse(ctx, x, y - r * 0.95, r * 1.2, r * 0.55, C('#6b6f80'), 0.45)
     pr = pupil if pupil is not None else r * 0.36
     px, py = x + look[0] * r * 0.42, y + look[1] * r * 0.42
     if iris:
@@ -92,6 +172,9 @@ def eye(ctx, x, y, r, look=(0, 0), pupil=None, blink=0.0, iris=None, lw=3.6, lid
     ctx.fill()
     ellipse(ctx, px - pr * 0.35, py - pr * 0.4, pr * 0.32, pr * 0.32)
     src(ctx, (1, 1, 1))
+    ctx.fill()
+    ellipse(ctx, px + pr * 0.4, py + pr * 0.35, pr * 0.14, pr * 0.14)
+    src(ctx, (1, 1, 1, 0.8))
     ctx.fill()
     if lid > 0:  # heavy lid (smug / suspicious)
         ctx.rectangle(x - r * 1.2, y - r * 1.2, r * 2.4, r * 1.2 * lid * 1.6)
@@ -158,6 +241,8 @@ def meerkat(ctx, x, y, s=1.0, look=(0, 0), mouth='smile', blink=0.0, lean=0.0,
     ctx.save()
     ctx.translate(x, y)
     ctx.scale(-s if flip else s, s)
+    contact_shadow(ctx, -20, 2, 95, 15)
+    contact_shadow(ctx, 0, 0, 46, 9, 0.45)
     # squash & stretch about the feet
     ctx.scale(1 + squash * 0.5, 1 - squash)
     lw = 5.0
@@ -175,6 +260,11 @@ def meerkat(ctx, x, y, s=1.0, look=(0, 0), mouth='smile', blink=0.0, lean=0.0,
     ctx.stroke_preserve()
     ctx.set_line_width(9)
     src(ctx, fur)
+    ctx.stroke()
+    ctx.move_to(-2, -2)
+    ctx.curve_to(-30, 4, -55, 27, -80, 30)
+    ctx.set_line_width(3)
+    src(ctx, (*FUR_HI, 0.8))
     ctx.stroke()
     ctx.move_to(-70, 33)
     ctx.line_to(-86, 34)
@@ -204,13 +294,18 @@ def meerkat(ctx, x, y, s=1.0, look=(0, 0), mouth='smile', blink=0.0, lean=0.0,
         ctx.curve_to(46, -64, 36, -112, 21, -150)
         ctx.close_path()
 
-    body_path()
-    src(ctx, fur)
-    ctx.fill()
-    shade_clip(ctx, body_path, FUR_SH, 34, -70, 22, 70)
-    ellipse(ctx, 0 + turn * 6, -80, 22, 40)
-    src(ctx, BELLY)
-    ctx.fill()
+    form_shade(ctx, body_path, fur, FUR_HI, FUR_SH, (-46, -150, 46, -20),
+               ao=[(0, -24, 40, 10)])
+
+    def belly():
+        soft_ellipse(ctx, turn * 6, -82, 26, 46, BELLY, 0.95, core=0.55)
+        soft_ellipse(ctx, 18 + turn * 6, -70, 14, 34, FUR_SH, 0.25)
+        # shadow cast by the head onto the chest
+        soft_ellipse(ctx, 6, -142, 46, 20, C('#5a3418'), 0.5)
+        fur_strokes(ctx, [(-30, -60, -4, 8), (-34, -80, -5, 9), (30, -58, 4, 9), (33, -88, 5, 9),
+                          (-6, -46, -2, 7), (8, -48, 2, 7)], (*FUR_SH, 0.8), 2.2)
+    clipped(ctx, body_path, belly)
+    rim(ctx, body_path, C('#fff1d6'), 5, 4, 5, 0.6)
     body_path()
     ctx.set_line_width(lw)
     src(ctx, INK)
@@ -247,15 +342,23 @@ def meerkat(ctx, x, y, s=1.0, look=(0, 0), mouth='smile', blink=0.0, lean=0.0,
     for side in (-1, 1):
         ellipse(ctx, side * 46 + hx * 0.3, -186, 11, 11)
         fill_stroke(ctx, EAR, 4.5)
+        soft_ellipse(ctx, side * 46 + hx * 0.3, -185, 6, 6, C('#1d120a'), 0.7)
 
     def head_path():
         ellipse(ctx, 0, -180, 52, 44)
 
-    head_path()
-    src(ctx, fur)
-    ctx.fill()
-    shade_clip(ctx, head_path, FUR_SH, 34 - turn * 10, -160, 36, 34)
-    shade_clip(ctx, head_path, FUR_HI, -20 + hx, -210, 30, 14)
+    form_shade(ctx, head_path, fur, FUR_HI, FUR_SH, (-52, -224, 52, -136),
+               core=(40 - turn * 10, -158, 40, 34))
+
+    def head_detail():
+        # darker crown, soft muzzle under-shadow, cheek warmth
+        soft_ellipse(ctx, hx * 0.5, -222, 40, 14, C('#a8784a'), 0.45)
+        soft_ellipse(ctx, hx * 1.3, -140, 34, 10, C('#6b4022'), 0.45)
+        for side in (-1, 1):
+            soft_ellipse(ctx, side * 36 + hx, -160, 10, 7, C('#e08f6a'), 0.35)
+        fur_strokes(ctx, [(-8, -224, -3, -6), (0, -225, 0, -7), (8, -224, 3, -6)], (*FUR_SH, 0.9), 2.2)
+    clipped(ctx, head_path, head_detail)
+    rim(ctx, head_path, C('#fff1d6'), 5, 5, 5, 0.55)
     head_path()
     ctx.set_line_width(lw)
     src(ctx, INK)
@@ -263,7 +366,8 @@ def meerkat(ctx, x, y, s=1.0, look=(0, 0), mouth='smile', blink=0.0, lean=0.0,
 
     # eye patches
     for side in (-1, 1):
-        ellipse(ctx, side * 22 + hx, -182, 22, 19, side * -0.35)
+        soft_ellipse(ctx, side * 22 + hx, -182, 27, 24, MASK, 0.55, side * -0.35, core=0.6)
+        ellipse(ctx, side * 22 + hx, -182, 21, 18, side * -0.35)
         src(ctx, MASK)
         ctx.fill()
     # eyes
@@ -281,9 +385,9 @@ def meerkat(ctx, x, y, s=1.0, look=(0, 0), mouth='smile', blink=0.0, lean=0.0,
                 a, b = (side * 32 + hx, -214), (side * 10 + hx, -216)
             stick(ctx, [a, b], 4.5)
     # snout
-    ellipse(ctx, hx * 1.3, -157, 22, 14)
-    src(ctx, BELLY)
-    ctx.fill()
+    soft_ellipse(ctx, hx * 1.3 + 3, -150, 26, 10, C('#6b4022'), 0.35)
+    snout = lambda: ellipse(ctx, hx * 1.3, -157, 22, 14)
+    grad_fill(ctx, snout, C('#fbf0d6'), C('#d9bc8c'), 0, -170, 0, -143)
     ellipse(ctx, hx * 1.5, -164, 9, 6)
     src(ctx, INK)
     ctx.fill()
@@ -353,6 +457,7 @@ def meerkat_butt(ctx, x, y, s=1.0, wiggle=0.0, flip=False):
     ctx.save()
     ctx.translate(x, y)
     ctx.scale(-s if flip else s, s)
+    contact_shadow(ctx, -10, 2, 80, 13)
     ctx.rotate(0.15 * math.sin(wiggle))
     # legs planted
     stick(ctx, [(-10, -54), (-22, -22), (-26, 0)], 5)
@@ -384,10 +489,8 @@ def meerkat_butt(ctx, x, y, s=1.0, wiggle=0.0, flip=False):
     def body_path():
         ellipse(ctx, 20, -48, 34, 50, 0.75)
 
-    body_path()
-    src(ctx, FUR)
-    ctx.fill()
-    shade_clip(ctx, body_path, FUR_SH, 34, -22, 26, 40, 0.75)
+    form_shade(ctx, body_path, FUR, FUR_HI, FUR_SH, (-20, -100, 60, 0))
+    rim(ctx, body_path, C('#fff1d6'), 5, 4, 5, 0.6)
     body_path()
     ctx.set_line_width(5)
     src(ctx, INK)
@@ -420,6 +523,7 @@ def drongo(ctx, x, y, s=1.0, look=(0.3, 0), beak=0.0, blink=0.0, tilt=0.0,
     ctx.translate(x, y)
     ctx.scale(-s if flip else s, s)
     lw = 4.6
+    soft_ellipse(ctx, 0, 6, 40, 8, INK, 0.3)
     ctx.set_line_join(cairo.LINE_JOIN_ROUND)
 
     # forked tail - two long prongs that flare outward at the tips
@@ -438,10 +542,10 @@ def drongo(ctx, x, y, s=1.0, look=(0.3, 0), beak=0.0, blink=0.0, tilt=0.0,
     def body():
         ellipse(ctx, 0, -42, 28 + puff * 6, 38 + puff * 4, -0.3)
 
-    body()
-    src(ctx, DR)
-    ctx.fill()
-    shade_clip(ctx, body, DR_HI, -12, -60, 12, 22, -0.3)
+    form_shade(ctx, body, DR, C('#34406a'), DR_SH, (-30, -82, 30, -4))
+    clipped(ctx, body, lambda: (soft_ellipse(ctx, -12, -60, 10, 22, C('#7f9be0'), 0.6, -0.3),
+                                soft_ellipse(ctx, -14, -66, 3, 9, (1, 1, 1), 0.7, -0.3)))
+    rim(ctx, body, C('#8fb0ff'), 4, 3, 4, 0.5)
     body()
     ctx.set_line_width(lw)
     src(ctx, INK)
@@ -475,10 +579,10 @@ def drongo(ctx, x, y, s=1.0, look=(0.3, 0), beak=0.0, blink=0.0, tilt=0.0,
     ctx.move_to(-8, -38)
     ctx.curve_to(-6, -52, 6, -50, 2, -40)
     fill_stroke(ctx, DR, 3.6)
-    head()
-    src(ctx, DR)
-    ctx.fill()
-    shade_clip(ctx, head, DR_HI, -10, -30, 18, 9)
+    form_shade(ctx, head, DR, C('#34406a'), DR_SH, (-26, -41, 34, 13))
+    clipped(ctx, head, lambda: (soft_ellipse(ctx, -8, -30, 14, 7, C('#8fb0ff'), 0.6),
+                                soft_ellipse(ctx, -10, -32, 6, 2.5, (1, 1, 1), 0.7)))
+    rim(ctx, head, C('#8fb0ff'), 3, 3, 4, 0.45)
     head()
     ctx.set_line_width(lw)
     src(ctx, INK)
