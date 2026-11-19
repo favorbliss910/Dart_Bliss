@@ -1,0 +1,60 @@
+{
+  "_about": "Sound style measured from 3 reference shorts (Scientists 40s, What If Humans 54s, The Town Built 66s). Each [min, max] pair is a range; every video picks values inside it (seeded), so videos sound like one channel without being identical. Single numbers are fixed targets.",
+
+  "voice": {
+    "words_per_minute": [215, 225],
+    "start_offset_s": [0.0, 0.03],
+    "gap_after_sentence_s": [0.2, 0.36],
+    "gap_after_question_s": [0.3, 0.4],
+    "tail_after_last_word_s": [0.2, 0.6],
+    "highpass_hz": 90,
+    "body_boost_db_at_200hz": [1.5, 2.5],
+    "mud_cut_db_at_500hz": [-1.0, -2.0],
+    "presence_boost_db_at_3500hz": [1.0, 2.0],
+    "air_shelf_db_at_9000hz": [1.0, 2.0],
+    "deesser_strength": 0.4,
+    "compressor": {"threshold_db": -22, "ratio": 3, "attack_ms": 8, "release_ms": 120, "makeup_db": 3},
+    "target_lufs": -14.5,
+    "stereo": "mono, centred"
+  },
+
+  "music": {
+    "present_from_first_frame": true,
+    "keys": ["D minor", "G minor"],
+    "bpm": [117, 121],
+    "loop_length_bars": 4,
+    "level_below_voice_db": [12, 18],
+    "ducking": "none: bed stays at a constant level under speech and in gaps",
+    "lowpass_hz": [1800, 2400],
+    "sub_drone_level_db": [-6, -2],
+    "pluck_level_db": [-8, -4],
+    "tick_level_db": [-22, -16],
+    "fade_in_s": 0.05,
+    "fade_out_s": [0.3, 0.6]
+  },
+
+  "sfx": {
+    "density_per_10s": [3, 5],
+    "level_below_voice_peak_db": [14, 26],
+    "on_sentence_start_whoosh_chance": 0.35,
+    "keyword_map": {
+      "pop": ["button", "press", "presses", "pressed", "click", "screen", "number", "numbers", "glass", "pod", "light", "two", "one", "bet"],
+      "impact": ["die", "died", "dead", "never", "nobody", "gone", "wall", "tall", "billions", "fell", "crash", "crashes", "terrifying", "dropped"],
+      "shimmer": ["glow", "brighter", "dimmer", "blue", "scan", "scans", "perfect", "memories", "magic"],
+      "glitch": ["glitch", "glitches", "deletes", "copy", "weird", "strange", "somehow"],
+      "tick": ["time", "seconds", "second", "minute", "morning", "night", "fast", "slow", "slows", "clock", "year"],
+      "whoosh": ["teleport", "teleportation", "flies", "falling", "fall", "step", "walks", "moved", "swaps", "imagine"],
+      "thud": ["landed", "lands", "statue", "founders", "guards", "crowd"]
+    },
+    "min_spacing_s": 1.2
+  },
+
+  "master": {
+    "integrated_lufs": -14.0,
+    "true_peak_dbtp": -2.0,
+    "sample_rate": 44100,
+    "channels": 2,
+    "stereo_correlation_target": 0.99,
+    "aac_bitrate": "128k"
+  }
+}
