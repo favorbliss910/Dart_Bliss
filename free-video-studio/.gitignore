@@ -1,0 +1,10 @@
+tools/
+.venv/
+start_comfyui.bat
+projects/*
+!projects/.gitkeep
+assets/fonts/*.ttf
+assets/sfx/*
+!assets/sfx/.gitkeep
+assets/music/*
+!assets/music/.gitkeep
