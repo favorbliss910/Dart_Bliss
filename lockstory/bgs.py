@@ -78,6 +78,66 @@ def desert(name, horizon, sky, sand, sun=None, tree=False, holes=False, blur=4, 
     return im
 
 
+def hills(name, horizon, sky, cols, sun=None, trees=True, blur=5, seed=2, bush=False, tree_big=False, dim=1.0):
+    if name in _cache: return _cache[name]
+    rnd = random.Random(seed)
+    im = Image.new("RGB", (BW, BH)); g = ImageDraw.Draw(im)
+    vgrad(g, 0, horizon + 80, sky[0], sky[1])
+    if sun:
+        sx, sy, sr = sun
+        glow = Image.new("RGBA", (BW, BH), (0, 0, 0, 0)); gg = ImageDraw.Draw(glow)
+        for k in range(8):
+            r = sr * (3.0 - k * 0.3); gg.ellipse([sx - r, sy - r, sx + r, sy + r], fill=(255, 236, 190, 22))
+        gg.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=(255, 250, 225, 255))
+        im = Image.alpha_composite(im.convert("RGBA"), glow.filter(ImageFilter.GaussianBlur(10))).convert("RGB"); g = ImageDraw.Draw(im)
+    for k, col in enumerate(cols):
+        base = horizon - 140 + k * 150; ph = rnd.uniform(0, 6)
+        pts = [(0, BH)] + [(x, base + 70 * math.sin(x / 330 + ph + k) + 30 * math.sin(x / 110 + k)) for x in range(0, BW + 40, 40)] + [(BW, BH)]
+        g.polygon(pts, fill=col)
+        if trees:
+            for _ in range(7 - k):
+                x = rnd.randint(40, BW - 40); y = base + 70 * math.sin(x / 330 + ph + k) + 60 + k * 30
+                r = 46 + k * 22
+                g.rectangle([x - 6, y - r * 0.4, x + 6, y + 8], fill=(80, 56, 40))
+                g.ellipse([x - r, y - r * 1.3, x + r, y - r * 0.1], fill=(96 + k * 8, 120 + k * 6, 70))
+    vgrad(g, int(BH * 0.78), BH, cols[-1], tuple(int(c * 0.78) for c in cols[-1]))
+    if tree_big:
+        tx = int(BW * 0.5)
+        g.polygon([(tx - 120, BH), (tx + 120, BH), (tx + 60, 900), (tx - 60, 900)], fill=(86, 60, 42))
+        for sgn, y in ((-1, 1250), (1, 1050), (-1, 880), (1, 1500)):
+            g.line([(tx, y), (tx + sgn * 520, y - 70)], fill=(86, 60, 42), width=54)
+        for _ in range(26):
+            x = tx + rnd.randint(-620, 620); y = rnd.randint(300, 1500)
+            g.ellipse([x - 120, y - 70, x + 120, y + 70], fill=(80 + rnd.randint(0, 30), 120 + rnd.randint(0, 30), 66))
+    if bush:
+        for _ in range(26):
+            x = rnd.randint(-100, BW); y = rnd.randint(int(BH * 0.55), BH)
+            r = rnd.randint(120, 260)
+            g.ellipse([x - r, y - r, x + r, y + r * 0.8], fill=(54 + rnd.randint(0, 30), 100 + rnd.randint(0, 40), 56))
+    im = im.filter(ImageFilter.GaussianBlur(blur))
+    if dim != 1.0: im = Image.eval(im, lambda v: int(v * dim))
+    im = vignette(im).convert("RGBA"); _cache[name] = im
+    return im
+
+
+def indoor(name):
+    if name in _cache: return _cache[name]
+    rnd = random.Random(4)
+    im = Image.new("RGB", (BW, BH), (214, 196, 160)); g = ImageDraw.Draw(im)
+    vgrad(g, 0, BH, (226, 208, 172), (188, 166, 128))
+    g.rectangle([0, int(BH * 0.66), BW, BH], fill=(120, 90, 66))
+    for i in range(10): g.line([(0, int(BH * 0.66) + i * 90), (BW, int(BH * 0.66) + i * 90)], fill=(96, 70, 50), width=5)
+    g.rounded_rectangle([140, 380, 560, 880], 14, fill=(255, 238, 190), outline=(70, 50, 40), width=14)       # window
+    g.line([(350, 380), (350, 880)], fill=(70, 50, 40), width=10); g.line([(140, 630), (560, 630)], fill=(70, 50, 40), width=10)
+    g.rectangle([BW * 0.52, 400, BW * 0.95, 900], fill=(170, 130, 90), outline=(70, 50, 40), width=12)          # cork board
+    for _ in range(14):
+        x = rnd.randint(int(BW * 0.55), int(BW * 0.92)); y = rnd.randint(430, 850)
+        g.rectangle([x, y, x + 90, y + 60], fill=(250, 250, 244), outline=(80, 80, 90), width=3); g.ellipse([x + 40, y - 6, x + 52, y + 6], fill=(220, 50, 50))
+    g.rectangle([0, int(BH * 0.60), BW, int(BH * 0.66)], fill=(150, 108, 72), outline=(70, 50, 40), width=6)    # desk edge
+    im = im.filter(ImageFilter.GaussianBlur(5)); im = vignette(im, 130).convert("RGBA"); _cache[name] = im
+    return im
+
+
 def get(name):
     if name in _cache: return _cache[name]
     if name == "wide":
@@ -129,6 +189,18 @@ def get(name):
             for y in range(0, BH, 70): g.ellipse([x - 3, y - 3, x + 3, y + 3], fill=(226, 208, 170))
         im = im.convert("RGBA"); _cache[name] = im
         return im
+    if name == "valley":
+        return hills(name, 1200, ((110, 170, 235), (255, 232, 178)), ((200, 176, 110), (176, 150, 84), (150, 126, 64)), sun=(BW * 0.25, 520, 90), seed=21)
+    if name == "dawn":
+        return hills(name, 1250, ((255, 150, 120), (255, 222, 160)), ((190, 140, 100), (160, 116, 80), (130, 96, 64)), sun=(BW * 0.5, 1180, 140), seed=22)
+    if name == "tree":
+        return hills(name, 1250, ((120, 180, 235), (255, 232, 178)), ((200, 176, 110), (176, 150, 84), (150, 126, 64)), trees=False, tree_big=True, seed=23, blur=7)
+    if name == "bush":
+        return hills(name, 1200, ((110, 170, 235), (255, 232, 178)), ((200, 176, 110), (176, 150, 84), (150, 126, 64)), bush=True, seed=24, blur=6)
+    if name == "gloom":
+        return hills(name, 1250, ((90, 70, 110), (230, 150, 110)), ((150, 110, 90), (120, 86, 70), (96, 66, 56)), sun=(BW * 0.7, 1150, 120), tree_big=True, trees=False, seed=25, blur=7, dim=0.85)
+    if name == "office":
+        return indoor(name)
     raise KeyError(name)
 
 

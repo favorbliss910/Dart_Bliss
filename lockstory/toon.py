@@ -132,7 +132,11 @@ def meerkat(pose, d=1, scale=1.5):
 # =========================================================== DRONGO
 def drongo(pose, d=1, scale=1.5):
     p = Pen(1100, 760, 550, 560, scale, d)
-    BK, SH = (24, 26, 38), (62, 86, 140)
+    sp = pose.get("sp", "drongo")
+    BK, SH = {"drongo": ((24, 26, 38), (62, 86, 140)), "cuckoo": ((126, 130, 148), (176, 182, 198)),
+              "magpie": ((24, 26, 38), (50, 150, 140)), "crow": ((30, 30, 40), (70, 70, 96))}[sp]
+    BELLY = {"cuckoo": (236, 226, 204), "magpie": (248, 248, 252)}.get(sp)
+    EYE = {"drongo": (210, 36, 40), "cuckoo": (240, 160, 40), "magpie": (250, 250, 250), "crow": (250, 250, 250)}[sp]
     bob = pose.get("bob", 0); rot = pose.get("rot", 0)          # body rotation (flight)
     wing = pose.get("wing", None)                               # None = folded
     fly = wing is not None
@@ -149,8 +153,14 @@ def drongo(pose, d=1, scale=1.5):
             p.line(T(fx, -100), T(fx + 30, -60), 12, (80, 70, 80), 5)
     # forked tail
     base = T(-100, -150)
-    p.poly([base, T(-380, -60 + tw), T(-330, -110 + tw * 0.5), T(-300, -140), T(-390, -230 + tw), T(-110, -190)], BK, 6)
-    p.poly([T(-325, -105 + tw), T(-372, -66 + tw), T(-338, -96)], SH, 0)
+    if sp in ("cuckoo", "magpie"):
+        p.poly([base, T(-470, -120 + tw), T(-480, -150 + tw), T(-120, -200)], BK, 6)
+        p.poly([T(-300, -150), T(-460, -128 + tw), T(-470, -146 + tw), T(-300, -176)], SH, 0)
+    elif sp == "crow":
+        p.poly([base, T(-260, -110 + tw), T(-250, -190 + tw), T(-110, -190)], BK, 6)
+    else:
+        p.poly([base, T(-380, -60 + tw), T(-330, -110 + tw * 0.5), T(-300, -140), T(-390, -230 + tw), T(-110, -190)], BK, 6)
+        p.poly([T(-325, -105 + tw), T(-372, -66 + tw), T(-338, -96)], SH, 0)
     # back wing in flight
     def wingshape(sign, a, col):
         sh = T(-10, -215); r = math.radians(a)
@@ -169,6 +179,10 @@ def drongo(pose, d=1, scale=1.5):
     # body
     p.ell(*T(-10, -170), 128, 80, BK, rot - 22, 7)
     p.ell(*T(-34, -198), 70, 26, SH, rot - 22, 0)
+    if BELLY:
+        p.ell(*T(18, -140), 92, 40, BELLY, rot - 12, 0)
+        if sp == "cuckoo":
+            for k in range(5): p.line(T(-40 + k * 26, -158), T(-30 + k * 26, -118), 7, (150, 140, 128), 0)
     if not fly:
         p.ell(*T(-40, -180), 72, 38, (14, 16, 26), rot - 30, 4)    # folded wing
     # head
@@ -177,6 +191,8 @@ def drongo(pose, d=1, scale=1.5):
     Hd = lambda x, y: rotp(T(x, y), neck, tilt)
     hc = Hd(100, -262)
     p.ell(hc[0], hc[1], 66, 64, BK, 0, 7)
+    if sp == "cuckoo": p.poly([Hd(60, -300), Hd(110, -360), Hd(130, -300)], BK, 5)
+    if sp == "magpie": p.ell(*Hd(80, -240), 40, 30, BELLY, 0, 0)
     # beak
     op = pose.get("open", 0)
     bt = Hd(160, -268); bb = Hd(160, -238)
@@ -190,7 +206,7 @@ def drongo(pose, d=1, scale=1.5):
         p.line((ex - 20, ey), (ex + 20, ey), 8, (255, 255, 255), 0)
     else:
         rr = 24 if eyes != "wide" else 30
-        p.ell(ex, ey, rr, rr, (210, 36, 40), 0, 4)
+        p.ell(ex, ey, rr, rr, EYE, 0, 4)
         p.ell(ex + 3, ey, 11, 11, OUT, 0, 0)
         p.ell(ex - 3, ey - 7, 4, 4, (255, 255, 255), 0, 0)
         if eyes == "squint":

@@ -3,8 +3,8 @@ VO chain (ffmpeg) + music bed + ambience + ~180 cue-synced SFX, sidechain-ducked
 the voice, then mastered to -14 LUFS / -1.5 dBTP for TikTok/Shorts.
   python3 sound.py <voiceover.wav> out_master.wav"""
 import subprocess, sys, math
-import numpy as np
-import cues
+import numpy as np, os, importlib
+cues = importlib.import_module(os.environ.get('CUES', 'cues'))
 
 SR = 48000
 RNG = np.random.default_rng(7)
@@ -55,7 +55,65 @@ def tone(d, f, shape="sin", fm=None):
 
 
 # ============================================================ SFX
+
+def sfx2(kind):
+    if kind == "crack":      # egg / shell smash
+        d = 0.5; t = t_(d)
+        return (bp(noise(d), 1500, 8000) * np.exp(-t * 40) * 0.9 + lp(noise(d), 600) * np.exp(-t * 25) * 0.7
+                + tone(d, lambda t: 200 * np.exp(-t * 30) + 90) * np.exp(-t * 20) * 0.5 + bp(noise(d), 3000, 9000) * np.exp(-(t - 0.07) ** 2 * 900) * 0.4)
+    if kind == "creak":
+        d = 1.6; t = t_(d)
+        f = lambda t: 180 + 90 * np.sin(2 * np.pi * 3.2 * t) + 40 * np.sin(2 * np.pi * 11 * t)
+        return tone(d, f, "sq") * (0.4 + 0.6 * np.abs(np.sin(2 * np.pi * 3.2 * t))) * 0.25 * np.minimum(1, t / 0.1) * np.minimum(1, (d - t) / 0.3)
+    if kind == "scribble":
+        d = 2.4; x = np.zeros(int(d * SR)); k = 0.0
+        while k < d - 0.2:
+            s = int(k * SR); n = RNG.uniform(0.05, 0.11)
+            c = bp(noise(n), 2500, 9000) * np.sin(np.pi * t_(n) / n) * RNG.uniform(0.3, 0.6)
+            x[s:s + len(c)] += c[:len(x) - s]; k += n + RNG.uniform(0.01, 0.05)
+        return x * np.minimum(1, (d - t_(d)) / 0.3)
+    if kind == "stamp":
+        d = 0.7; t = t_(d)
+        return tone(d, lambda t: 140 * np.exp(-t * 14) + 60) * np.exp(-t * 7) * 1.1 + lp(noise(d), 1500) * np.exp(-t * 40) * 0.8 + bp(noise(d), 2000, 7000) * np.exp(-t * 60) * 0.4
+    if kind == "applause":
+        d = 2.2; x = np.zeros(int(d * SR)); k = 0.0
+        while k < d - 0.1:
+            n = 0.03; s = int(k * SR)
+            c = bp(noise(n), 1200, 7000) * np.exp(-t_(n) * 80) * RNG.uniform(0.2, 0.7)
+            x[s:s + len(c)] += c[:len(x) - s]; k += RNG.uniform(0.02, 0.07)
+        return x * np.sin(np.pi * np.minimum(1, t_(d) / d)) ** 0.5 * 0.9
+    if kind == "tear":
+        d = 0.9; x = np.zeros(int(d * SR)); k = 0.0
+        while k < d - 0.1:
+            s = int(k * SR); n = 0.04
+            c = (bp(noise(n), 800, 4000) * np.exp(-t_(n) * 55) + tone(n, RNG.uniform(200, 500)) * np.exp(-t_(n) * 80) * 0.4) * RNG.uniform(0.5, 1.0)
+            x[s:s + len(c)] += c[:len(x) - s]; k += RNG.uniform(0.03, 0.08)
+        return x
+    if kind == "rustle":
+        d = 1.2; t = t_(d)
+        return bp(noise(d), 1500, 7000) * (0.4 + 0.6 * np.abs(np.sin(2 * np.pi * 9 * t))) * np.sin(np.pi * t / d) * 0.5
+    if kind == "slurp":
+        d = 0.9; t = t_(d)
+        return tone(d, lambda t: 500 + 900 * (t / d)) * 0.12 * np.sin(np.pi * t / d) + bp(noise(d), 1000, 5000) * np.sin(np.pi * t / d) ** 2 * 0.35
+    if kind == "cuckoo":     # classic two-note "cu-ckoo", falling third
+        d = 0.9; x = np.zeros(int(d * SR))
+        for off, f in ((0.0, 780.0), (0.3, 620.0)):
+            n = 0.24; tt = t_(n); s = int(off * SR)
+            c = (np.sin(2 * np.pi * f * tt) + 0.25 * np.sin(2 * np.pi * 2 * f * tt)) * np.sin(np.pi * tt / n) ** 0.7 * 0.7
+            x[s:s + len(c)] += c
+        return lp(x, 4500)
+    if kind == "shh":
+        d = 0.6; t = t_(d); return bp(noise(d), 3000, 9000) * np.sin(np.pi * t / d) ** 1.5 * 0.5
+    if kind == "feather":
+        d = 1.3; t = t_(d); return sweep_noise(d, 1200, 5000) * np.sin(np.pi * t / d) ** 2 * 0.3
+    if kind == "pluck":
+        d = 0.7; t = t_(d); return (tone(d, lambda t: 1500 * np.exp(-t * 25) + 400) * np.exp(-t * 14) * 0.6 + bp(noise(d), 1000, 6000) * np.exp(-t * 60) * 0.3)
+    return None
+
+
 def sfx(kind):
+    r = sfx2(kind)
+    if r is not None: return r
     if kind == "whoosh":
         d = 0.42; x = sweep_noise(d, 500, 4200) * np.sin(np.pi * np.linspace(0, 1, int(d * SR))) ** 1.6; return x * 0.7
     if kind == "swoop":
@@ -224,7 +282,47 @@ def marimba(f, d=0.6):
     return (np.sin(2 * np.pi * f * t) + 0.35 * np.sin(2 * np.pi * 4 * f * t) * np.exp(-t * 30)) * np.exp(-t * 9) * np.minimum(1, t / 0.003)
 
 
+def music_noir(total):
+    out = np.zeros(int((total + 2) * SR)); bpm = 92; beat = 60 / bpm
+    bass = [[73.4, 87.3, 110.0, 87.3], [98.0, 116.5, 146.8, 116.5], [110.0, 138.6, 164.8, 138.6], [73.4, 87.3, 110.0, 146.8]]
+    lead = [293.7, 349.2, 440, 392, 349.2, 329.6, 293.7, 261.6]
+    chord = [146.8, 174.6, 220.0, 293.7]
+    for b in range(int(total / beat) + 4):
+        t0 = b * beat
+        lv, it = next(((l, i) for a, e, l, i in cues.MUSIC if a <= t0 < e), (0.8, 1))
+        if lv <= 0: continue
+        bar = (b // 4) % 4; bt = b % 4
+        def put(sig, t, g):
+            s = int(t * SR); out[s:s + len(sig)] += sig[:len(out) - s] * g * lv
+        put(pluck(bass[bar][bt], 0.5, 1.2), t0, 0.55)                       # walking bass
+        if it >= 1 and bt in (1, 3):                                         # finger snaps on 2 and 4
+            put(bp(noise(0.05), 1800, 7000) * np.exp(-t_(0.05) * 70) + tone(0.05, 1400) * np.exp(-t_(0.05) * 120) * 0.4, t0, 0.5)
+        if it >= 2:                                                          # brushes on the off-beats
+            for h in (0.5,):
+                c = bp(noise(0.16), 3000, 9000) * np.sin(np.pi * t_(0.16) / 0.16) ** 1.5
+                put(c, t0 + h * beat, 0.16)
+        if it >= 1 and (b * 1) % 8 in (0, 3, 5):                             # sparse vibes line
+            n = lead[(b // 1) % len(lead)]
+            tt = t_(0.9)
+            v = (np.sin(2 * np.pi * n * tt) + 0.3 * np.sin(2 * np.pi * 4 * n * tt) * np.exp(-tt * 9)) * np.exp(-tt * 3.5) * (0.8 + 0.2 * np.sin(2 * np.pi * 5 * tt))
+            put(v, t0 + (0.5 * beat if b % 3 == 0 else 0), 0.2 + 0.05 * it)
+        if it >= 3 and bt == 0:                                              # muted stab on the one
+            tt = t_(0.35)
+            stab = sum(np.sign(np.sin(2 * np.pi * f * tt)) * 0.5 + np.sin(2 * np.pi * f * tt) * 0.5 for f in chord) / 3
+            put(lp_(stab * np.exp(-tt * 10)), t0, 0.35)
+        if it >= 4: put(tone(0.3, 55) * np.exp(-t_(0.3) * 6), t0, 0.7)
+    t = t_(total + 2)
+    pad = (np.sin(2 * np.pi * 73.4 * t) + 0.5 * np.sin(2 * np.pi * 110 * t)) * 0.04
+    lvl = np.interp(t, [a for a, *_ in cues.MUSIC] + [cues.MUSIC[-1][1]], [l for _, _, l, _ in cues.MUSIC] + [0.9])
+    out += pad * lvl
+    return out
+
+
+def lp_(x): return lp(x, 3200)
+
+
 def music(total):
+    if getattr(cues, "STYLE", "") == "noir": return music_noir(total)
     out = np.zeros(int((total + 2) * SR))
     bpm = 104; beat = 60 / bpm
     root = [110.0, 110.0, 130.8, 98.0]                       # Am  Am  C  G  (bass roots)

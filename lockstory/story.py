@@ -43,14 +43,15 @@ SEGS = [
 def clean(w): return w.strip(".,?!'\"").lower()
 
 
-def _align():
+def _align(segs=None, decfile="dec_words.json"):
     """Words get times from the audio's pauses (segment bounds) and are then snapped to
     words the speech-to-text pass actually heard (dec_words.json), interpolating in between."""
     import json, os
     import numpy as np
-    dec = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "dec_words.json")))
+    dec = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), decfile)))
+    SG = segs or SEGS
     words = []
-    for si, (a, b, text) in enumerate(SEGS):
+    for si, (a, b, text) in enumerate(SG):
         toks = text.split()
         wts, gaps = [], []
         for tk in toks:

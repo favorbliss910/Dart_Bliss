@@ -5,14 +5,15 @@
 import math, subprocess, sys
 from multiprocessing import Pool
 from PIL import Image, ImageDraw, ImageFont
-import story
-from story import SHOTS, WORDS, DW, DH, DURATION, ss
+import os, importlib
+story = importlib.import_module(os.environ.get('STORY', 'story'))
+SHOTS, WORDS, DW, DH, DURATION = story.SHOTS, story.WORDS, story.DW, story.DH, story.DURATION
+from story import ss
 from toon import FONT
 
 SHAKES = []        # (time, amplitude px) camera impacts, filled from sound cue list
 try:
-    import cues
-    SHAKES = cues.SHAKES
+    SHAKES = importlib.import_module(os.environ.get('CUES', 'cues')).SHAKES
 except Exception:
     pass
 
