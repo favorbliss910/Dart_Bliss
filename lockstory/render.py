@@ -41,10 +41,13 @@ def frame_at(t, caption=True):
     t_end = SHOTS[k + 1][0] if k + 1 < len(SHOTS) else DURATION
     cv = Image.new("RGBA", (DW, DH), (0, 0, 0, 255))
     fn(cv, t, t - t0)
-    z0, z1, fx, fy = cam
+    if len(cam) == 6:
+        z0, z1, fx0, fy0, fx1, fy1 = cam
+    else:
+        z0, z1, fx0, fy0 = cam; fx1, fy1 = fx0, fy0
     q = min(1.0, max(0.0, (t - t0) / max(0.1, t_end - t0)))
     p = ss(q) * 0.6 + 0.4 * q
-    z = max(1.0, z0 + (z1 - z0) * p)
+    z = max(1.0, z0 + (z1 - z0) * p); fx = fx0 + (fx1 - fx0) * p; fy = fy0 + (fy1 - fy0) * p
     sh = 0.0
     for ts, amp in SHAKES:
         if ts <= t < ts + 0.45:
