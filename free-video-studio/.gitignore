@@ -8,3 +8,5 @@ assets/sfx/*
 !assets/sfx/.gitkeep
 assets/music/*
 !assets/music/.gitkeep
+remotion/node_modules/
+remotion_install.log

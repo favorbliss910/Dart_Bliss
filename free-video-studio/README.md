@@ -59,3 +59,12 @@ free-video-studio/
 - Pixabay content: free for commercial use, no attribution required.
 - Wan 2.2: Apache 2.0. SD 1.5: CreativeML OpenRAIL-M. Stable Audio Open: Stability Community License.
 - Always check a model's page before using output commercially.
+
+## Animation engines (installed and tested)
+| Engine | Use | Render a test |
+|---|---|---|
+| **Manim** (Python, MIT) | 2D cartoon scenes drawn from shapes | `.venv/bin/manim -qm --fps 30 -r 1080,1920 manim_demo/bean_demo.py BeanDemo` |
+| **Remotion** (React, free for individuals/≤3-person teams) | 2.5D parallax scenes, pop captions, final assembly | `cd remotion && npm i && npx remotion render src/index.ts CaptionShort out.mp4` |
+
+Sample outputs are in `samples/`. Both run on CPU, so the laptop's Quadro P1000 is fine.
+Manim on Windows needs no extra system libraries (`pip install manim`); Remotion needs Node.js (`winget install OpenJS.NodeJS.LTS`).
