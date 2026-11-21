@@ -28,6 +28,7 @@ class Char:
         self.apron = kw.get("apron", None)
         self.long_coat = kw.get("long_coat", True)
         self.build = kw.get("build", 1.0)     # torso width scale
+        self.hat_style = kw.get("hat_style", "top")
 
     # ------------------------------------------------------------------
     def render(self, pose, d=1, scale=1.6):
@@ -197,9 +198,14 @@ class Char:
         # hat
         if self.hat:
             tilt_pts = lambda pts: [HL(*p) for p in pts]
-            poly(tilt_pts([(-170, -118), (170, -118), (170, -92), (-170, -92)]), self.hat, w=6)
-            poly(tilt_pts([(-100, -118), (100, -118), (92, -300), (-92, -300)]), self.hat, w=6)
-            poly(tilt_pts([(-100, -150), (100, -150), (100, -125), (-100, -125)]), (190, 50, 50), outline=False)
+            if self.hat_style == "hard":
+                poly(tilt_pts([(-175, -112), (175, -112), (175, -88), (-175, -88)]), self.hat, w=6)
+                poly(tilt_pts([(-135, -108), (-125, -190), (-75, -255), (0, -280), (75, -255), (125, -190), (135, -108)]), self.hat, w=6)
+                poly(tilt_pts([(-14, -112), (14, -112), (14, -275), (-14, -275)]), (230, 180, 40), outline=False)
+            else:
+                poly(tilt_pts([(-170, -118), (170, -118), (170, -92), (-170, -92)]), self.hat, w=6)
+                poly(tilt_pts([(-100, -118), (100, -118), (92, -300), (-92, -300)]), self.hat, w=6)
+                poly(tilt_pts([(-100, -150), (100, -150), (100, -125), (-100, -125)]), (190, 50, 50), outline=False)
 
         pts = {k: (P(*v)[0] / SS, P(*v)[1] / SS) for k, v in
                {"handF": hF, "handB": hB, "head": (hx, hy)}.items()}

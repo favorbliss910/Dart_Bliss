@@ -140,6 +140,9 @@ def indoor(name):
 
 def get(name):
     if name in _cache: return _cache[name]
+    if name.startswith("c_"):
+        import bgs2
+        _cache[name] = bgs2.get(name); return _cache[name]
     if name == "wide":
         return desert(name, 1250, ((90, 160, 230), (255, 224, 170)), ((236, 200, 140), (214, 168, 100)),
                       sun=(BW * 0.28, 520, 90), tree=True, holes=True, rocks=True, seed=3)
