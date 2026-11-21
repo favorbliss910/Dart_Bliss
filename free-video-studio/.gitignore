@@ -10,3 +10,4 @@ assets/music/*
 !assets/music/.gitkeep
 remotion/node_modules/
 remotion_install.log
+__pycache__/
