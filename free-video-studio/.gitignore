@@ -11,3 +11,8 @@ assets/music/*
 remotion/node_modules/
 remotion_install.log
 __pycache__/
+revideo/node_modules/
+motion-canvas/node_modules/
+motion-canvas/output/
+remotion/public/parts/
+revideo/output/

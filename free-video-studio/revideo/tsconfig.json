@@ -1,0 +1,1 @@
+{"compilerOptions": {"jsx": "react-jsx", "jsxImportSource": "@revideo/2d/lib", "strict": false, "skipLibCheck": true, "module": "esnext", "moduleResolution": "bundler", "target": "es2020", "resolveJsonModule": true}}

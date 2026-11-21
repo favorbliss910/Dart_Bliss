@@ -1,0 +1,139 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration": 16,
+ "scenes": [
+  {
+   "id": "counter",
+   "start": 0.0,
+   "end": 4.0,
+   "text": "Every day, a billion people teleport."
+  },
+  {
+   "id": "newyork",
+   "start": 4.0,
+   "end": 8.5,
+   "text": "You step inside... and vanish."
+  },
+  {
+   "id": "blueprint",
+   "start": 8.5,
+   "end": 12.5,
+   "text": "But nothing travels. Only data."
+  },
+  {
+   "id": "tokyo",
+   "start": 12.5,
+   "end": 16.0,
+   "text": "So... is that still you?"
+  }
+ ],
+ "words": [
+  {
+   "w": "Every",
+   "t": 0.2,
+   "d": 0.6
+  },
+  {
+   "w": "day,",
+   "t": 0.8,
+   "d": 0.6
+  },
+  {
+   "w": "a",
+   "t": 1.4,
+   "d": 0.6
+  },
+  {
+   "w": "billion",
+   "t": 2.0,
+   "d": 0.6
+  },
+  {
+   "w": "people",
+   "t": 2.6,
+   "d": 0.6
+  },
+  {
+   "w": "teleport.",
+   "t": 3.2,
+   "d": 0.6
+  },
+  {
+   "w": "You",
+   "t": 4.2,
+   "d": 0.82
+  },
+  {
+   "w": "step",
+   "t": 5.02,
+   "d": 0.82
+  },
+  {
+   "w": "inside...",
+   "t": 5.84,
+   "d": 0.82
+  },
+  {
+   "w": "and",
+   "t": 6.66,
+   "d": 0.82
+  },
+  {
+   "w": "vanish.",
+   "t": 7.48,
+   "d": 0.82
+  },
+  {
+   "w": "But",
+   "t": 8.7,
+   "d": 0.72
+  },
+  {
+   "w": "nothing",
+   "t": 9.42,
+   "d": 0.72
+  },
+  {
+   "w": "travels.",
+   "t": 10.14,
+   "d": 0.72
+  },
+  {
+   "w": "Only",
+   "t": 10.86,
+   "d": 0.72
+  },
+  {
+   "w": "data.",
+   "t": 11.58,
+   "d": 0.72
+  },
+  {
+   "w": "So...",
+   "t": 12.7,
+   "d": 0.62
+  },
+  {
+   "w": "is",
+   "t": 13.32,
+   "d": 0.62
+  },
+  {
+   "w": "that",
+   "t": 13.94,
+   "d": 0.62
+  },
+  {
+   "w": "still",
+   "t": 14.56,
+   "d": 0.62
+  },
+  {
+   "w": "you?",
+   "t": 15.18,
+   "d": 0.62
+  }
+ ]
+}

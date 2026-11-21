@@ -68,3 +68,18 @@ free-video-studio/
 
 Sample outputs are in `samples/`. Both run on CPU, so the laptop's Quadro P1000 is fine.
 Manim on Windows needs no extra system libraries (`pip install manim`); Remotion needs Node.js (`winget install OpenJS.NodeJS.LTS`).
+
+## Engine comparison (`compare/`)
+The same 16 s teleport scene (`compare/script.json` + `compare/soundtrack.m4a`) made with each engine:
+
+| File | Engine | Render time here | Notes |
+|---|---|---|---|
+| `1_Remotion.mp4` | Remotion | ~45 s | Richest look (gradients, blur, CSS). Best for final assembly. |
+| `2_Revideo.mp4` | Revideo | ~40 s | Same code as Motion Canvas, renders from a script (automatable). |
+| `3_MotionCanvas.mp4` | Motion Canvas | ~40 s | Renders only from its editor UI (automated here with Playwright). |
+| `4_Manim.mp4` | Manim | ~30 s | Python. Great for diagrams; cartoon styling takes more work. |
+| `5_Combined_All4.mp4` | All four | ~60 s | Counter = Motion Canvas, New York = Remotion, blueprint = Manim, Tokyo = Revideo; Remotion assembles + captions. |
+
+Re-render: Remotion `npx remotion render src/index.ts Teleport|Combined out.mp4`;
+Revideo `DISABLE_TELEMETRY=true node render.mjs`; Motion Canvas `npx vite` then click Render;
+Manim `.venv/bin/manim -qh --fps 30 -r 1080,1920 manim_demo/teleport.py Teleport` (`CAPS=0` = no captions).
