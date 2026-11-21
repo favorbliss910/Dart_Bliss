@@ -1,7 +1,7 @@
 tools/
 .venv/
 start_comfyui.bat
-projects/*
+projects/*/*.wav
 !projects/.gitkeep
 assets/fonts/*.ttf
 assets/sfx/*
@@ -16,3 +16,7 @@ motion-canvas/node_modules/
 motion-canvas/output/
 remotion/public/parts/
 revideo/output/
+projects/highway/*.wav
+projects/highway/*.mp3
+projects/highway/*.mp4
+remotion/public/highway/
